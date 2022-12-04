@@ -1,0 +1,4 @@
+baseURL = 'http://godot-jp.github.io/'
+languageCode = 'ja-jp'
+title = 'Godot Japan User Community'
+theme = 'godot-jp'

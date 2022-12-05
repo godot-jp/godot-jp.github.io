@@ -1,0 +1,91 @@
+{{ partial "header.html" . }}
+{{ partial "page/header.html" . }}
+
+<div class="jumbotron d-flex flex-column justify-content-center align-items-center bg-dark text-white" style="height:500px; margin-top:80px;">
+    <p class="text-center display-5">
+        Godot Engineで<br />
+        自由なゲーム開発をはじめましょう
+    </p>
+    <div class="my-3">
+        <a class="d-block text-center btn btn-primary p-4 fs-4" href="#">
+            Godot Engine最新版をダウンロード
+        </a>
+    </div>
+    <div class="text-white-50 fs-6">
+        <small>Godot Engine公式サイトのダウンロードページに飛びます。</small> 
+    </div>
+</div>
+
+
+<section class="container mt-5">
+    <h1 class="text-danger text-center">
+        Godot Engineとは？
+    </h1>
+    <div class="row gx-5 mt-3">
+        <div class="col-4 px-5">
+            <p class="display-1 text-center my-4">💰</p>
+            <h3 class="text-center text-gj-light-dark">ライセンス料など一切不要</h3>
+            <div class="lh-lg text-gj-light-dark">
+                Godot EngineはMITライセンスのもとオープンソースで開発されています。ライセンス料やロイヤリティの支払いはなく、ゲームやツールの販売を行うことができます。
+            </div>
+        </div>
+        <div class="col-4 px-5 flex-column">
+            <p class="display-1 text-center my-4">🎮</p>
+            <h3 class="text-center text-gj-light-dark">軽量なエンジン</h3>
+            <div class="lh-lg text-gj-light-dark">
+                ゲームエンジン自体のファイルサイズがかなり小さいことに加え、動作もかなり軽く、ビルド時間やプレビューの時間を大幅に削減できます。
+            </div>
+        </div>
+        <div class="col-4 px-5 flex-column">
+            <p class="display-1 text-center my-4">💡</p>
+            <h3 class="text-center text-gj-light-dark">多彩な機能</h3>
+            <div class="lh-lg text-gj-light-dark">
+                多彩な機能を持った数百の組み込みノードと、それらを継承して、ゲーム内の様々な新たな機能や、独自のカスタムツールを簡単に作成できます。
+            </div>
+        </div>
+        
+        <div class="my-3 justify-content-center align-items-center text-center">
+            <a class="d-block justify-content-center align-items-center text-center btn btn-primary mx-auto p-4 w-25" href="#">
+                Godot Engine最新版をダウンロード
+            </a>
+            
+            <small class="fs-6">Godot Engine公式サイトのダウンロードページに飛びます。</small> 
+        </div>
+    </div>
+</section>
+
+<section class="container my-5 col-8">
+    <h1 class="text-danger text-center">
+        Godot Japan User Community
+    </h1>
+    <div class="text-gj-light-gray lh-lg my-3">
+        本サイトはGodot Engineの日本国内での普及・知識共有を目的とした、<strong class="fw-bold">ユーザーコミュニティサイト</strong>です。<br/>
+GithubやDiscord・Twitterなどのサービスで散らばった日本コミュニティのポータルサイトとしての役割と、技術情報を集約しナレッジベースとしての役割を持ったサイトを目指して運営しています。<br />
+本サイトは、Godot Engineユーザーからの提案やディスカッション、プルリクエストによって運営されています。
+    </div>
+
+    <h2 class="text-gj-light-dark text-center mt-5">記事のリクエストや寄稿について</h2>
+    <div class="lh-lg mt-3">
+        <p>
+            <a href="">逆引きリファレンス</a>はGodot Engineユーザーのニーズに合った記事を更新するよう努めています。<br/>
+Issueとして記事のリクエストを立てていただければ、コミュニティが記事の掲載を検討しますので、お気軽にご連絡ください。<br/>
+ただし、すべてのニーズに応えられるわけではありませんし、特定のゲームの機能にフォーカスする内容はほとんどありません。<br/>
+できる限り幅広いユーザーの手助けになるように、総合的なリファレンスになります。
+        </p>
+    </div>
+    <a class="row d-flex shadow col-2 mx-auto my-5 btn bg-gj-light-dark text-center justify-content-center align-items-center">
+        <img src="{{"images/GithubIcon.svg"|relURL}}" class="col my-2 mx-auto" width="12px">
+        Githubで提案する
+    </a>
+    <div class="lh-lg mt-3">
+        <p>
+            本サイトはHugoで構築されていますので、どなたでも簡単にプルリクエストを作って簡単に寄稿することができます。<br/>
+            GithubリポジトリのReadmeに、寄稿方法や執筆における注意点などを詳しく記載しています。
+            メンテナーチームからレギュレーションに沿って執筆されているかなどのレビューを受け、マージされることで即時公開されます。
+        </p>
+    </div>
+    
+
+</section>
+
+{{ partial "footer.html" . }}

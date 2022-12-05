@@ -1,0 +1,58 @@
+body{
+    font-family: "M PLUS 1p", 'Noto Color Emoji';
+    font-size:16pt;
+    font-weight: 400;
+    line-height: 1.5em;
+    color:#4B5A64;
+}
+
+h1, h2, h3, h4{
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+
+.h2-primary{
+    color:rgb(255, 0, 0);
+    text-align: center; 
+}
+
+.bg-gj-dark{
+    background-color: #2D3337;
+    color:aliceblue;
+}
+
+.text-gj-light-dark{
+    color:#4B5A64;
+}
+
+.text-gj-dark{
+    background-color: #4c5458;
+}
+
+.bg-gj-light-dark{
+    background-color: #4B5A64;
+    color:aliceblue;
+}
+
+.bg-gj-light-dark:hover{
+    background-color: #637581;
+    color:white;
+}
+
+.rounded-5 {
+    border-radius: 0.5rem;
+}
+
+strong{
+    font-weight: 900 !important;
+}
+
+#footer,
+#footer a{
+    color:#8ba6b8;
+}
+
+#footer a:hover{
+    color: #a9cae0;
+}

@@ -1,0 +1,18 @@
+<div class="card">
+    <div class="card-header">
+        {{ .Title }}
+    </div>
+    <div class="card-body">
+        <p>{{ .Summary }}</p>
+        <div class="text-right">
+            <a href="{{ .Permalink }}" class="btn btn-primary ">続きをよむ</a>
+        </div>     
+    </div>
+    <div class="card-footer text-muted">
+        <ul class="card-footer-tags-ul">
+            {{ range .Params.tags }}
+                <li class="card-footer-tags-li"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">[ {{ . }} ]</a> </li>
+            {{ end }}
+        </ul>
+    </div>
+</div>

@@ -1,20 +1,8 @@
 {{ partial "header.html" . }}
 {{ partial "page/header.html" . }}
-<!--
-<div class="row">
-    <div class="col-md-9">
-        <div class="main-content">
-        {{ block "main" . }}{{ end }}
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="side-content">
-        {{ partial "side-content.html" . }}
-        </div>
-    </div>
-</div>
-<div class="row">
-    {{ partial "page/footer.html" . }}
-</div>
--->
+<section class="container-fluid py-3 posts">
+{{ block "main" . }}
+
+{{end}}
+</section>
 {{ partial "footer.html" . }}

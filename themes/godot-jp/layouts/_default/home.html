@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 {{ partial "page/header.html" . }}
 
-<div class="jumbotron column justify-content-center align-items-center bg-dark text-white py-5">
+<div class="jumbotron column justify-content-center align-items-center bg-dark text-white py-5 ">
     <p class="text-center display-5 col">
         Godot Engineで<br />
         自由なゲーム開発をはじめましょう
@@ -25,28 +25,29 @@
         <div class="col-4 px-3">
             <p class="display-1 text-center my-4">💰</p>
             <h3 class="text-center text-gj-light-dark">ライセンス料など一切不要</h3>
-            <div class="lh-lg text-gj-light-dark">
+            <div class="text-gj-light-dark">
                 MITライセンスのもとオープンソースで開発されています。ライセンス料やロイヤリティの支払いはなく、ゲームやツールの販売を行うことができます。
             </div>
         </div>
         <div class="col-4 px-3 flex-column">
             <p class="display-1 text-center my-4">🎮</p>
             <h3 class="text-center text-gj-light-dark">軽量なエンジン</h3>
-            <div class="lh-lg text-gj-light-dark">
+            <div class="text-gj-light-dark">
                 ゲームエンジン自体のファイルサイズがかなり小さいことに加え、動作もかなり軽く、ビルド時間やプレビューの時間を大幅に削減できます。
             </div>
         </div>
         <div class="col-4 px-3 flex-column">
             <p class="display-1 text-center my-4">💡</p>
             <h3 class="text-center text-gj-light-dark">多彩な機能</h3>
-            <div class="lh-lg text-gj-light-dark">
+            <div class="text-gj-light-dark">
                 多彩な機能を持った数百の組み込みノードと、それらを継承して、ゲーム内の様々な新たな機能や、独自のカスタムツールを簡単に作成できます。
             </div>
         </div>
         
         <div class="my-5 justify-content-center align-items-center text-center">
-            <a class="d-block justify-content-center align-items-center text-center btn btn-primary mx-auto p-4 w-25" href="#">
-                Godot Engine最新版をダウンロード
+            <a class="d-block justify-content-center align-items-center text-center btn btn-primary mx-auto p-3 w-25 fw-bold fs-5" href="#">
+                Godot Engine最新版を<br/>
+                ダウンロード
             </a>
             
             <small class="fs-6">Godot Engine公式サイトのダウンロードページに飛びます。</small> 
@@ -58,11 +59,16 @@
     <h1 class="h2-primary">
         Godot Japan User Community
     </h1>
-    <div class="text-gj-light-gray lh-lg my-3">
+    <div class="text-gj-light-dark lh-lg mt-3">
         Godot Engineの普及・知識共有を目的とした、<strong class="fw-bold">オープンソースユーザーコミュニティサイト</strong>です。<br/>
 GithubやDiscord・Twitterなどのサービスで散らばった日本コミュニティのポータルサイトとしての役割と、技術情報を集約しナレッジベースとしての役割を持ったサイトを目指しています。<br />
 本サイトは、Godot Engineユーザーからの提案やディスカッション、プルリクエストによって運営されています。
     </div>
+
+    <a href="https://github.com/godot-jp/godot-jp/issues" class="row d-flex shadow-sm mx-auto mt-2 py-3 btn btn-secondary text-center justify-content-center align-items-center h-100" 
+    style="width:240px">
+    <span class="col-auto">詳しくはこちら</span>
+    </a>
 
     <h2 class="text-gj-light-dark text-center mt-5">記事のリクエストや寄稿について</h2>
     <div class="lh-lg mt-3">
@@ -74,9 +80,9 @@ GithubやDiscord・Twitterなどのサービスで散らばった日本コミュ
         </p>
     </div>
 
-    <a class="row d-flex shadow-sm mx-auto my-5 btn bg-gj-light-dark text-center justify-content-center align-items-center h-100" 
+    <a href="https://github.com/godot-jp/godot-jp/issues" class="row d-flex shadow-sm mx-auto my-5 py-3 btn bg-gj-light-dark text-center justify-content-center align-items-center h-100" 
         style="width:240px">
-        <img src="{{"images/GithubIcon.svg"|relURL}}" class="col-auto my-2 mx-0 px-0" width="12px">
+        <img src="{{"images/Github-Icon.svg"|relURL}}" class="col-2 my-2 mx-0 px-0">
         <span class="col-auto">Githubで提案する</span>
     </a>
 
@@ -84,7 +90,7 @@ GithubやDiscord・Twitterなどのサービスで散らばった日本コミュ
         <p>
             本サイトはHugoで構築されていますので、どなたでも簡単に<a href="https://github.com/godot-jp/godot-jp/pulls">プルリクエスト</a>を作って簡単に寄稿することができます。<br/>
             <a href="https://github.com/godot-jp/godot-jp/blob/main/README.md">GithubリポジトリのReadme</a>に、寄稿方法や執筆における注意点などを詳しく記載しています。
-            メンテナーチームからのレビューを受け、マージされることで即時公開されます。
+            メンテナーからのレビューを受け、マージされることで即時公開されます。
         </p>
     </div>
     

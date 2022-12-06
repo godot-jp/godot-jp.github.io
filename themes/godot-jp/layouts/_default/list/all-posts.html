@@ -1,0 +1,22 @@
+
+<h2>{{.Title}}</h2>
+
+{{/* カテゴリセクション */}}
+{{ range .Pages.ByWeight }}
+<div>
+<h3>{{ .Title }}</h3>
+    <div class="row g-3">
+        {{ range .Pages.ByWeight }}
+        <div class="p-3 card col-6">
+            <h4>{{ .Title }}</h4>
+            <ul>
+                {{ range .Pages.ByWeight}}
+                <li><a href="{{ .RelPermalink }}">{{.Title}}</a></li>
+                {{end}}
+            </ul>
+        </div>
+        {{ end }}
+        
+    </div>
+</div>
+{{end}}

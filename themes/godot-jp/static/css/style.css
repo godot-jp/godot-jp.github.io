@@ -12,6 +12,14 @@ h1, h2, h3, h4{
     font-weight: 500;
 }
 
+.posts{
+    line-height: 1.5em;
+}
+
+.posts h2{
+    margin: 1em 0 .5em 0;
+}
+
 .posts p a{
     color:#22638f;
     text-decoration:none;
@@ -62,6 +70,17 @@ h1, h2, h3, h4{
     border-radius: 0.5rem;
 }
 
+.scroll-container{
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+.area {
+    scroll-snap-align: start;
+    height: 100vh;
+}
+
 strong{
     font-weight: 900 !important;
 }
@@ -73,4 +92,41 @@ strong{
 
 #footer a:hover{
     color: #a9cae0;
+}
+
+/*
+OVERRIDE
+*/
+
+.list-group-item{
+    border:0;
+    padding: 0;
+}
+
+.list-group-item a{
+    text-decoration: none;
+    color:#22638f;
+    display: block;
+    padding:0.25em 1.25em;
+}
+
+
+.list-group-item a:hover{
+    color: red;
+    background:whitesmoke;
+}
+
+.list-group-item .list-group-item a{
+    padding-left: 2rem;
+}
+
+.card-header a{
+    text-decoration: none;
+    color:#4B5A64;
+    font-weight: 600;
+    display: block;
+}
+
+.card-header a:hover{
+    color: #637581;
 }

@@ -16,13 +16,14 @@
             </section>
         </div>
         <div class="col-3 p-3 column sticky-top">
-
+            {{ if .Params.toc | eq .Params.toc "" }}
             {{ $toc := .TableOfContents | safeHTML}}
             <div class="mb-3">
                 <h4>目次</h4>
                 {{ $rep := replaceRE `<ul>\n(\s+)<li></li>\n(\s+)</ul>` "" $toc  }}
                 {{$rep | safeHTML}}
             </div>
+            {{ end }}
             <div>
                 文字の大きさ
                 <div class="row my-3 d-flex justify-content-center align-items-center align-items-end text-center">

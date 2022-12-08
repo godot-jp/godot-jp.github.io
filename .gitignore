@@ -8,4 +8,4 @@ export_presets.cfg
 .mono/
 data_*/
 .hugo_build.lock
-.vscode
+.vscode/

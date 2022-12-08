@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 {{ partial "page/header.html" . }}
 
-<div class="jumbotron column justify-content-center align-items-center bg-dark text-white py-5 ">
+<div class="jumbotron column justify-content-center align-items-center bg-dark text-white py-5 w-100">
     <p class="text-center display-5 col">
         Godot Engineで<br />
         自由なゲーム開発をはじめましょう
@@ -55,40 +55,40 @@
     </div>
 </section>
 
-<section class="container my-5 col-8">
+<section class="container w-100 my-5 col-8">
     <h1 class="h2-primary">
         Godot Japan User Community
     </h1>
-    <div class="text-gj-light-dark lh-lg mt-3">
+    <div class="text-gj-light-dark lh-lg mt-3 col-9 mx-auto">
         Godot Engineの普及・知識共有を目的とした、<strong class="fw-bold">オープンソースユーザーコミュニティサイト</strong>です。<br/>
 GithubやDiscord・Twitterなどのサービスで散らばった日本コミュニティのポータルサイトとしての役割と、技術情報を集約しナレッジベースとしての役割を持ったサイトを目指しています。<br />
 本サイトは、Godot Engineユーザーからの提案やディスカッション、プルリクエストによって運営されています。
     </div>
 
-    <a href="{{"about" | relURL}}" class="row d-flex shadow-sm mx-auto mt-2 py-3 btn btn-secondary text-center justify-content-center align-items-center h-100" 
+    <a href="{{"about" | relURL}}" class="row d-flex shadow-sm mx-auto mt-4 py-3 btn btn-secondary text-center justify-content-center align-items-center h-100" 
     style="width:240px">
     <span class="col-auto">詳しくはこちら</span>
     </a>
 
     <h2 class="text-gj-light-dark text-center mt-5">記事のリクエストや寄稿について</h2>
-    <div class="lh-lg mt-3">
+    <div class="lh-lg mt-3 col-9 mx-auto">
         <p>
             <a href="">逆引きリファレンス</a>はGodot Engineユーザーのニーズに合った記事を掲載に努めています。<br/>
-<a href="https://github.com/godot-jp/godot-jp/issues">Issue</a>として記事のリクエストを立てていただければ、コミュニティで検討いたしますので、お気軽にご連絡ください。<br/>
-ただし、すべてのニーズに応えられるわけではありませんし、特定のゲームの機能にフォーカスする内容はほとんどありません。<br/>
+<a href="https://github.com/godot-jp/godot-jp/issues">Issue</a>として記事のリクエストを立てていただければ、コミュニティで検討いたしますので、お気軽にご連絡ください。
+ただし、すべてのニーズに応えられるわけではありませんし、特定のゲームの機能にフォーカスする内容はほとんどありません。
 幅広いユーザーの手助けになるファレンス掲載のため、ご理解のほどお願いいたします。
         </p>
     </div>
 
-    <a href="https://github.com/godot-jp/godot-jp/issues" class="row d-flex shadow-sm mx-auto my-5 py-1 btn bg-gj-light-dark text-center justify-content-center align-items-center" 
+    <a href="https://github.com/godot-jp/godot-jp/issues" class="row d-flex shadow-sm mx-auto my-4 py-1 btn bg-gj-light-dark text-center justify-content-center align-items-center" 
         style="width:240px">
         <img src="{{"images/Github-Icon.svg"|relURL}}" class="col-2 my-2 mx-0 px-0">
         <span class="col-auto">Githubで提案する</span>
     </a>
 
-    <div class="lh-lg mt-3">
+    <div class="lh-lg mt-3 col-9 mx-auto">
         <p>
-            本サイトはHugoで構築されていますので、どなたでも簡単に<a href="https://github.com/godot-jp/godot-jp/pulls">プルリクエスト</a>を作って簡単に寄稿することができます。<br/>
+            本サイトはHugoで構築されていますので、どなたでも簡単に<a href="https://github.com/godot-jp/godot-jp/pulls">プルリクエスト</a>を作って簡単に寄稿することができます。
             <a href="https://github.com/godot-jp/godot-jp/blob/main/README.md">GithubリポジトリのReadme</a>に、寄稿方法や執筆における注意点などを詳しく記載しています。
             メンテナーからのレビューを受け、マージされることで即時公開されます。
         </p>

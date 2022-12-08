@@ -60,6 +60,8 @@ draft: false
 
 #### 記事の重み
 
+![](https://user-images.githubusercontent.com/186786/206571275-c769396d-2815-4386-97e0-1bde27545364.png)
+
 `weight`を設定すると、そのカテゴリの中で記事の並び順を変更できます。
 
 ルールとして`weight: 10000`を基準として、重み付けをします。  

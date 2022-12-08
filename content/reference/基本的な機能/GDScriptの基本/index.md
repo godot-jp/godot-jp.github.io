@@ -10,6 +10,8 @@ toc: true
 
 HTMLタグのテスト
 
+{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}
+
 <b style="color:red;">aaa</b>
 
 - list

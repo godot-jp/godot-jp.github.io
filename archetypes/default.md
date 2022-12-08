@@ -1,6 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: true
+emoji: "📝"
+toc: true
+weight: 0
+draft: false
 ---
 

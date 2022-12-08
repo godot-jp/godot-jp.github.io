@@ -96,6 +96,24 @@ strong{
     color: #a9cae0;
 }
 
+
+.single-container{
+    font-size: 100%;
+    line-height: 170%;
+}
+
+.single-container h2{
+    margin-top: 2rem;
+}
+
+.single-container pre,
+.single-container pre code{
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
 /*
 OVERRIDE
 */
@@ -177,6 +195,7 @@ OVERRIDE
 .markdown-body pre code{
     font-family: 'Roboto Mono', monospace;
     font-size: 85%;
+    color: aliceblue;
 }
 
 .markdown-body .highlight pre,
@@ -227,4 +246,13 @@ a.font-size-icons-active,
 a.font-size-icons:hover{
     color:#22638f !important;
     background-color: #f5fbff;
+}
+
+markdown-body a.btn{
+    color:#2D3337;
+}
+
+
+markdown-body a.btn:hover{
+    color:#fff;
 }

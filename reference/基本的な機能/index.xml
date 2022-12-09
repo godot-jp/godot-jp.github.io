@@ -16,4 +16,17 @@ float型の場合、エンジン内の関数などでは32bitの浮動小数点�
 これは10進数の6桁になりますので、大きな数字を表現する場合はint型として処理するほうが良いと思います。
 数値の作成方法 数値を作成するには数値リテラルを使用します。
 整数の作成 var value0 :int = 1 var value1 :int = -1 # 静的型付け var value2 = 1 実数の作成 var value0 :float = 1.0 var value1 :float = -1.0 # 静的型付け var value2 = 1.0 数値に変換する方法 別の型を数値に変換（キャスト）する関数が用意されています。
-intクラスメソッド メソッド名 説明 int(bool) bool型をint型に変換します。trueなら1に、falseなら0に変換します。 int(float) float型をint型に変換します。端数は切り捨てられますので、例えば2.7の場合は2に、-0.7の場合は0になります。 int(String) 有効なString型をint型に変換します。すべて無効な文字列は無視され0が返されます。例えば&amp;quot;test1&amp;quot;の場合は1に、&amp;quot;1e3&amp;quot;の場合は13になります。 floatクラスメソッド メソッド名 説明 float(bool) bool型をfloat型に変換します。trueなら1.0に、falseなら0.0に変換します。 float(int) int型をfloat型に変換します。1の場合は1.0に変換されます。 float(String) 有効なString型をfloat型に変換します。このメソッドはfloat文字列（&amp;quot;0.72&amp;quot;など）や指数表記文字列を受け入れるため、1e3の場合は1000.0になります。（1e3 = 1×10の3乗 = 1000）それまで解析した結果を返して処理を終了するため、1e3a2の場合は1000.0となり、後半のa2は無効となります。 特殊な数値の表し方 2進整数（int型） 0と1で表す2進数ですが、Godot Engineでは、最終的にint型として扱われます。</description></item></channel></rss>
+intクラスメソッド メソッド名 説明 int(bool) bool型をint型に変換します。trueなら1に、falseなら0に変換します。 int(float) float型をint型に変換します。端数は切り捨てられますので、例えば2.7の場合は2に、-0.7の場合は0になります。 int(String) 有効なString型をint型に変換します。すべて無効な文字列は無視され0が返されます。例えば&amp;quot;test1&amp;quot;の場合は1に、&amp;quot;1e3&amp;quot;の場合は13になります。 floatクラスメソッド メソッド名 説明 float(bool) bool型をfloat型に変換します。trueなら1.0に、falseなら0.0に変換します。 float(int) int型をfloat型に変換します。1の場合は1.0に変換されます。 float(String) 有効なString型をfloat型に変換します。このメソッドはfloat文字列（&amp;quot;0.72&amp;quot;など）や指数表記文字列を受け入れるため、1e3の場合は1000.0になります。（1e3 = 1×10の3乗 = 1000）それまで解析した結果を返して処理を終了するため、1e3a2の場合は1000.0となり、後半のa2は無効となります。 特殊な数値の表し方 2進整数（int型） 0と1で表す2進数ですが、Godot Engineでは、最終的にint型として扱われます。</description></item><item><title>文字列について</title><link>http://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid><description>文字列の基本 文字列は非常に単純なデータ型であり、コピーオンライトという方式が取られています。
+参照渡しができない型の場合、他の変数に渡すとすぐに複製されますが、Godot Engineの場合、渡された時点では参照渡しであり、変更があった場合に複製されます。
+つまり、変更がない場合は複製されないのでメモリの節約になります。
+また、Godot Engineでは文字列を加工するメソッドが多数用意されています。
+文字コードについて Godot EngineはUnicodeをサポートしています。
+文字列の作成方法 文字列を作成するには、文字列リテラルを使用し、ダブルクォーテーション&amp;quot;&amp;quot;でくくります。
+var value :String = &amp;#34;あいうえお&amp;#34; # あいうえお 文字列の中でダブルクォーテーションを使う 文字列リテラルでダブルクォーテーションを使用しているため、文字列内にダブルクォーテーションを使用することができません。
+その場合、エスケープ文字を使い、\&amp;quot;と記述します。
+var value :String = &amp;#34;\&amp;#34;かきくけこ\&amp;#34;&amp;#34; # &amp;#34;かきくけこ&amp;#34; 他の型を文字列に変換する ほとんどの型をStringに変換することができますが、Stringクラスで変換するわけではありません。
+String(100)などとするとエラーが出ます。
+str(100) var_to_str(100) 文字列の処理 文字列を連結する 連結演算子+または+=を使用して、複数の文字列を連結します。
+var value :String = &amp;#34;あいう&amp;#34; + &amp;#34;え&amp;#34; # あいうえ value += &amp;#34;お&amp;#34; # あいうえお 他の型と文字列を連結する 他の型と連結する場合は、どちらも文字列に揃える必要があります。
+var value :String = &amp;#34;あいうえお&amp;#34; value += str(100) print(value) # あいうえお100 文字列同士を比較する 文字列が同じかどうかを比較する場合、==等価演算子を使用することができます。
+var value = &amp;#34;あいう&amp;#34; == &amp;#34;あいう&amp;#34; # true また、文字コードの大小を、&amp;lt;または&amp;gt;の比較演算子を使用することで判別できます。</description></item></channel></rss>

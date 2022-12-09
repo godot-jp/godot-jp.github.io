@@ -216,6 +216,10 @@ div.markdown-body .highlight{
     box-sizing: content-box;
 }
 
+div.markdown-body strong{
+    font-weight: 700 !important;
+}
+
 .chroma .lntable{
     border-width:0;
     width: 100%;

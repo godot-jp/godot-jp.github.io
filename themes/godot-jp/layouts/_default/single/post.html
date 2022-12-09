@@ -15,50 +15,50 @@
                 {{ $raw_content | markdownify }}
             </section>
         </div>
-        <div class="col-3 p-3 column sticky-top">
-            {{ if .Params.toc | eq .Params.toc "" }}
-            {{ $toc := .TableOfContents | safeHTML}}
-            <div class="mb-3">
-                <h4>目次</h4>
-                {{ $rep := replaceRE `<ul>\n(\s+)<li></li>\n(\s+)</ul>` "" $toc  }}
-                {{$rep | safeHTML}}
-            </div>
-            {{ end }}
-            <div>
-                文字の大きさ
-                <div class="row my-3 d-flex justify-content-center align-items-center align-items-end text-center">
-                    <a href="javascript:togglesize(2)" class="font-size-icons col-auto fs-4">大</a>
-                    <a href="javascript:togglesize(1)" class="font-size-icons col-auto fs-5 font-size-icons-active">中</a>
-                    <a href="javascript:togglesize(0)" class="font-size-icons col-auto fs-6">小</a>
+        <div class="col-3 p-3 column">
+            <div class="sticky-top" style="top:100px">
+                {{ if .Params.toc | eq .Params.toc "" }}
+                {{ $toc := .TableOfContents | safeHTML}}
+                <div class="mb-3">
+                    <h4>目次</h4>
+                    {{ $rep := replaceRE `<ul>\n(\s+)<li></li>\n(\s+)</ul>` "" $toc  }}
+                    {{$rep | safeHTML}}
                 </div>
-            </div>
-
-            <div class="post-meta col text-center">
-                <div class="row justify-content-center align-items-center text-center">
-                    <div class="col-auto justify-content-center align-items-center text-center">
-                        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
-                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                {{ end }}
+                <div>
+                    文字の大きさ
+                    <div class="row my-3 d-flex justify-content-center align-items-center align-items-end text-center">
+                        <a href="javascript:togglesize(2)" class="font-size-icons col-auto fs-4">大</a>
+                        <a href="javascript:togglesize(1)" class="font-size-icons col-auto fs-5 font-size-icons-active">中</a>
+                        <a href="javascript:togglesize(0)" class="font-size-icons col-auto fs-6">小</a>
                     </div>
-                    <div class="col-auto text-center mt-2">
-                        <a href="https://github.com/godot-jp/godot-jp/issues"
-                        class="rounded-10 py-1 mb-3 btn bg-gj-light-dark 
-                        row justify-content-center align-items-center" 
-                        style="font-size:62%" target="_blank" rel="noopener noreferrer">
-                        <img src="{{"images/Github-Icon.svg"|relURL}}" class="col-auto" style="padding: 0 4px 3px 0; width:20px;">
-                        Issues
-                    </a>
+                </div>
+                
+                <div class="post-meta col text-center">
+                    <div class="row justify-content-center align-items-center text-center">
+                        <div class="col-auto justify-content-center align-items-center text-center">
+                            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                        <div class="col-auto text-center mt-2">
+                            <a href="https://github.com/godot-jp/godot-jp/issues"
+                            class="rounded-10 py-1 mb-3 btn bg-gj-light-dark 
+                            row justify-content-center align-items-center" 
+                            style="font-size:62%" target="_blank" rel="noopener noreferrer">
+                            <img src="{{"images/Github-Icon.svg"|relURL}}" class="col-auto" style="padding: 0 4px 3px 0; width:20px;">
+                            Issues
+                            </a>
+                        </div>
+                    </div>
+                {{with .GitInfo}}
+                <div class="fs-6 my-1 p-3 border border-2 border-black-50 rounded-5">
+                    <p class="m-0">😀 Written by <a href="https://github.com/godot-jp/godot-jp/commit/{{.GitInfo.Hash}}">{{.GitInfo.AuthorName}}</a></p>
+                    <p class="m-0">⏱ {{.PublishDate.Format "2006/01/02 15:04:05"}}</p>
+                    <p class="m-0">📝 {{.Lastmod.Format "2006/01/02 15:04:05"}}</p>
+                </div>
+                {{end}}
                 </div>
             </div>
-
-            </div>
-            {{with .GitInfo}}
-            <div class="fs-6 my-1 p-3 border border-2 border-black-50 rounded-5">
-                <p class="m-0">😀 Written by <a href="https://github.com/godot-jp/godot-jp/commit/{{.GitInfo.Hash}}">{{.GitInfo.AuthorName}}</a></p>
-                <p class="m-0">⏱ {{.PublishDate.Format "2006/01/02 15:04:05"}}</p>
-                <p class="m-0">📝 {{.Lastmod.Format "2006/01/02 15:04:05"}}</p>
-            </div>
-            {{end}}
-            
         </div>
     </div>
 </div>

@@ -24,7 +24,7 @@
                     {{else}} 
                     📝{{end}} {{ .Title }}</a></h4>
                 <!-- Table Of Contents -->
-                <div class="fs-6">
+                <div class="fs-5">
                     {{ $toc := .TableOfContents}}
                     {{ $toc := replace $toc "<nav id=\"TableOfContents\">" ""}}
                     {{ $toc := replace $toc "</nav>" ""}}

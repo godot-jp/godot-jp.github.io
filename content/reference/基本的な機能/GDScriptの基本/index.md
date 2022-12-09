@@ -2,7 +2,7 @@
 title: "GDScriptの基本"
 emoji: "🔰"
 toc: true
-weight: 0
+weight: 5000
 draft: false
 ---
 

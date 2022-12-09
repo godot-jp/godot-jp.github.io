@@ -1,0 +1,262 @@
+body{
+    font-family: "M PLUS 1p", 'Noto Color Emoji';
+    font-size:16pt;
+    font-weight: 400;
+    line-height: 1.5em;
+    color:#4B5A64;
+    padding-top: 80px;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+h1, h2, h3, h4{
+    line-height: 1.5em;
+}
+
+.posts{
+    line-height: 1.5em;
+    transform: rotate(0.03deg);
+}
+
+
+.posts p a{
+    color:#22638f;
+    text-decoration:none;
+    border-bottom: 1px dotted;
+}
+
+
+.posts p a:hover{
+    color:red;
+    text-decoration:none;
+    border-bottom: 1px dotted;
+}
+
+.posts h2{
+    font-weight: 800;
+}
+
+.h2-primary{
+    color:rgb(255, 0, 0);
+    text-align: center; 
+    font-weight: 800;
+}
+
+.bg-gj-dark{
+    background-color: #2D3337;
+    color:aliceblue;
+}
+
+.text-gj-light-dark{
+    color:#4B5A64;
+}
+
+.text-gj-dark{
+    background-color: #4c5458;
+}
+
+.bg-gj-light-dark{
+    background-color: #4B5A64;
+    color:aliceblue;
+}
+
+.bg-gj-light-dark:hover{
+    background-color: #637581;
+    color:white;
+}
+
+.rounded-5 {
+    border-radius: 0.5rem;
+}
+
+.rounded-10 {
+    border-radius: 1.0rem;
+}
+
+.scroll-container{
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+.area {
+    scroll-snap-align: start;
+    height: 100vh;
+}
+
+strong{
+    font-weight: 900 !important;
+}
+
+#footer,
+#footer a{
+    color:#8ba6b8;
+}
+
+#footer a:hover{
+    color: #a9cae0;
+}
+
+
+.single-container{
+    font-size: 100%;
+    line-height: 170%;
+}
+
+.single-container h2{
+    margin-top: 2rem;
+}
+
+.single-container pre,
+.single-container pre code{
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+/*
+OVERRIDE
+*/
+
+.list-group-item{
+    border:0;
+    padding: 0;
+}
+
+.list-group-item a{
+    text-decoration: none;
+    color:#22638f;
+    display: block;
+    padding:0.25em 1.25em;
+}
+
+
+.list-group-item a:hover{
+    color: red;
+    background:rgb(247, 248, 255);
+}
+
+.list-group-item .list-group-item a{
+    padding-left: 2rem;
+}
+
+#TableOfContents{
+    font-size: 80%;
+}
+
+#TableOfContents a{
+    text-decoration: none;
+    display: block;
+}
+
+#TableOfContents ul{
+    margin: 0;
+    padding-left: 1em;
+    font-size:100%;
+    font-weight: bold;
+}
+
+#TableOfContents ul li ul{
+    margin: 0;
+    padding-left:0;
+    font-weight:normal;
+}
+
+#TableOfContents li {
+    padding-inline-start: 4px;
+}
+
+#TableOfContents li::marker{
+    font-size:1rem;
+    white-space: pre-line;
+    content: "●";
+}
+#TableOfContents li ul li::marker{
+    color:#8ba6b8;
+    font-size:80%;
+    content: "●";
+}
+
+.card-header a{
+    text-decoration: none;
+    color:#4B5A64;
+    font-weight: 600;
+    display: block;
+}
+
+.card-header a:hover{
+    color: #637581;
+}
+
+.markdown-body{
+    font-family: "M PLUS 1p", 'Noto Color Emoji';
+}
+
+.markdown-body pre code{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 85%;
+    color: aliceblue;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.5em;
+    background-color:#2D3337;
+    border-radius: 0;
+    width: 100%;
+}
+
+div.chroma,
+div.markdown-body .highlight{
+    background-color: transparent;
+    width:100%;
+    box-sizing: content-box;
+}
+
+div.markdown-body strong{
+    font-weight: 700 !important;
+}
+
+.chroma .lntable{
+    border-width:0;
+    width: 100%;
+}
+
+.chroma .lntable tbody{
+    width:1000px
+}
+
+.chroma .lnt{
+    border-width:0;
+    display: block;
+}
+
+a.font-size-icons{
+    text-decoration: none;
+    width:50px;
+    padding:8px 0;
+    margin:0 4px;
+    border-radius:  10em;
+    border:2px solid;
+    vertical-align: middle;
+    color:#8ba6b8;
+    transform: scale(0.75);
+}
+
+a.font-size-icons-active,
+a.font-size-icons:hover{
+    color:#22638f !important;
+    background-color: #f5fbff;
+}
+
+markdown-body a.btn{
+    color:#2D3337;
+}
+
+
+markdown-body a.btn:hover{
+    color:#fff;
+}

@@ -57,12 +57,6 @@
                 <p class="m-0">⏱ {{.PublishDate.Format "2006/01/02 15:04:05"}}</p>
                 <p class="m-0">📝 {{.Lastmod.Format "2006/01/02 15:04:05"}}</p>
             </div>
-            {{else}}
-            <p class="text-danger rounded-5" style="border:1px solid; padding:8px; font-size:60%;">
-                <b>GitInfoが取得できませんでした。</b><br/>
-                記事をGitにコミット・プッシュし、再ビルドすることで情報取得ができるかもしれません。
-                上記の手順を踏んだ上で再度ご確認ください。
-            </p>
             {{end}}
             
         </div>

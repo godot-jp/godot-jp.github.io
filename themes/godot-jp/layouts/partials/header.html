@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html class="h-100" lang="ja">
 <head>
-<title>{{ block "title" . }} {{ .Site.Title }} {{ end }}</title>
+<title>{{ if ne .IsHome true}}
+    {{ .Title }} -
+    {{end}}
+    {{ .Site.Title }}
+</title>
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Cache-Control" content="no-cache">
 <meta http-equiv="Expires" content="0">

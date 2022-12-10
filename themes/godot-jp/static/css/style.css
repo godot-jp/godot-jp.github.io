@@ -1,11 +1,9 @@
 body{
     font-family: "M PLUS 1p", 'Noto Color Emoji';
-    /*font-size:16pt;*/
-    font-size: clamp(1rem, 1vw + .75rem, 1.25rem);
+    font-size: clamp(1rem, 1vw + 1rem, 1.25rem);
     font-weight: 400;
     line-height: 1.5em;
     color:#4B5A64;
-    padding-top: 80px;
     -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -191,6 +189,7 @@ OVERRIDE
 
 .markdown-body{
     font-family: "M PLUS 1p", 'Noto Color Emoji';
+    font-size: clamp(1rem, 1vw + 1rem, 1.25rem);
 }
 
 .markdown-body pre code{
@@ -258,7 +257,7 @@ a.font-size-icons:hover{
 }
 
 .markdown-body{
-    font-size: clamp(1rem, 1vw + 1rem, 1.25rem);;
+    font-size: clamp(1rem, 1vw + 1rem, 1.25rem);
 }
 .markdown-body a.btn:hover{
     color:#fff;

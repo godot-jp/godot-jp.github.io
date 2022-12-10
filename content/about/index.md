@@ -5,10 +5,10 @@ draft: false
 ---
 
 <div class="row">
-<div class="d-flex col-4 display-1 text-center justify-content-center  align-items-center">
+<div class="d-flex cpl col-lg-4 display-1 text-center justify-content-center  align-items-center">
 <p>😀</p>
 </div>
-<div class="col-8">
+<div class="col col-lg-8">
 
 Godot Japan User Communityはオープンソースのコミュニティサイトです。
 本コミュニティは、静的サイトジェネレーター [Hugo](https://gohugo.io/) と [Github Pages](https://github.com/godot-jp/godot-jp) でホスティングされており、コミュニティメンバー（コントリビューター、メンテナー、コミュニティリーダー）によって本コミュニティの運営を行っています。
@@ -21,7 +21,7 @@ Godot Engine公式のガバナンスに沿ったユーザーコミュニティ�
 ## コミュニティ
 
 <div class="row gx-2 d-flex justify-content-center align-items-stretch">
-<div class="card d-flex p-3 mx-1 col-5">
+<div class="card d-flex p-3 mx-1 col-12 col-lg-5">
 <h3 class="text-center">Github</h3>
 <img src="Github-Icon.png" width="97px" class="mx-auto my-3">
 <a href="https://github.com/godot-jp/godot-jp" class="btn btn-dark w-100 my-3 fw-bolder justify-content-center" style="border:1px solid;">Githubへ</a>
@@ -29,7 +29,7 @@ Godot Engine公式のガバナンスに沿ったユーザーコミュニティ�
 オープンソースとして本サイトのソースコードが公開され、どなたでも提案・ディスカッション、そしてプルリクエストで寄稿・参加することができます。
 </div>
 </div>
-<div class="card p-3 mx-1 col-5">
+<div class="card p-3 my-2 my-lg-0 mx-1 col-12 col-lg-5">
 <h3 class="text-center">Discordサーバー</h3>
 <img src="Discord-Icon.png" width="97px" class="mx-auto my-3">
 <a href="https://discord.gg/DyFvSJZ" class="btn btn-dark w-100 my-3 fw-bolder justify-content-center" style="border:1px solid;">Discordに参加する</a>

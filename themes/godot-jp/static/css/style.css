@@ -97,7 +97,7 @@ strong{
 
 
 .single-container{
-    font-size: 100%;
+    font-size: clamp(1rem, 1vw + .75rem, 1.5rem);;
     line-height: 170%;
 }
 
@@ -252,7 +252,7 @@ a.font-size-icons:hover{
     background-color: #f5fbff;
 }
 
-markdown-body a.btn{
+.markdown-body a.btn{
     color:#2D3337;
 }
 

@@ -1,8 +1,8 @@
 <div class="bg-light p-0 p-lg-3 m-0 m-lg-3">
     <div class="row">
-        <div id="post" class="col col-lg-9 p-3 markdown-body fs-5">
-            <div class="column">
-                <p class="display-1 text-center">{{with .Params.emoji}}
+        <div class="col col-lg-9 p-3">
+            <div class="column mt-5 pt-5">
+                <p class="display-1 text-center my-3">{{with .Params.emoji}}
                     {{.}}
                     {{else}}
                     📝
@@ -10,7 +10,7 @@
                 </p>
                 <h1 class="text-center fw-bolder border-bottom">{{ .Title }}</h1>
             </div>
-            <section>
+            <section id="post" class="markdown-body cfs-5">
                 {{$raw_content := .RawContent}}
                 {{ $raw_content | markdownify }}
             </section>
@@ -26,7 +26,7 @@
                 </div>
                 {{ end }}
                 <div>
-                    文字の大きさ
+                    <h4>文字の大きさ</h4>
                     <div class="row my-3 d-flex justify-content-center align-items-center align-items-end text-center">
                         <a href="javascript:togglesize(2)" class="font-size-icons col-auto fs-4">大</a>
                         <a href="javascript:togglesize(1)" class="font-size-icons col-auto fs-5 font-size-icons-active">中</a>
@@ -43,8 +43,7 @@
                         <div class="col-auto text-center mt-2">
                             <a href="https://github.com/godot-jp/godot-jp/issues"
                             class="rounded-10 py-1 mb-3 btn bg-gj-light-dark 
-                            row justify-content-center align-items-center" 
-                            style="font-size:62%" target="_blank" rel="noopener noreferrer">
+                            row justify-content-center align-items-center cfs-6" target="_blank" rel="noopener noreferrer">
                             <img src="{{"images/Github-Icon.svg"|relURL}}" class="col-auto" style="padding: 0 4px 3px 0; width:20px;">
                             Issues
                             </a>
@@ -66,8 +65,8 @@
     let elm = document.getElementById('post');
     let icons = document.getElementsByClassName('font-size-icons');
     function togglesize(_id){
-        var fsize = ["fs-6", "fs-5", "fs-4"]
-        elm.classList.remove("fs-6", "fs-5", "fs-4");
+        var fsize = ["cfs-6", "cfs-5", "cfs-4"]
+        elm.classList.remove("cfs-6", "cfs-5", "cfs-4");
         elm.classList.add(fsize[_id]);
 
         for(let obj of icons){

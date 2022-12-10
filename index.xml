@@ -9,7 +9,7 @@ Nodeクラスが持つ機能をそのままに、新しいクラスを作るこ�
 明示的な型付け var int_sample2 :int = 1 型を意識したい場合もありますので、上記のように明示的に型を指定することもできます。
 関数 func _ready(): pass GDScriptの関数はfuncにスペースを空けて関数名を記述します。
 多くの言語のように{ }でブロックを作るのではなく、:のあとのインデントでブロックを作る構文になります。
-関数にはクラスがもともと持っている組み込み関数と、ユーザーが作る独自関数の２種類があります。</description></item><item><title>Godot Japan User Communityについて</title><link>https://godot-jp.github.io/about/</link><pubDate>Tue, 06 Dec 2022 08:38:26 +0900</pubDate><guid>https://godot-jp.github.io/about/</guid><description>😀
+関数にはクラスがもともと持っている組み込み関数と、ユーザーが作る独自関数の２種類があります。</description></item><item><title>当サイトについて</title><link>https://godot-jp.github.io/about/</link><pubDate>Tue, 06 Dec 2022 08:38:26 +0900</pubDate><guid>https://godot-jp.github.io/about/</guid><description>😀
 Godot Japan User Communityはオープンソースのコミュニティサイトです。
 本コミュニティは、静的サイトジェネレーター Hugo と Github Pages でホスティングされており、コミュニティメンバー（コントリビューター、メンテナー、コミュニティリーダー）によって本コミュニティの運営を行っています。
 Godot Engine公式のガバナンスに沿ったユーザーコミュニティの一つとしてGodot Engineの認知度の向上・知識の共有を目的としており、金銭的な利益を目的としていません。

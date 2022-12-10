@@ -1,6 +1,7 @@
 body{
     font-family: "M PLUS 1p", 'Noto Color Emoji';
-    font-size:16pt;
+    /*font-size:16pt;*/
+    font-size: clamp(1rem, 1vw + .75rem, 1.25rem);
     font-weight: 400;
     line-height: 1.5em;
     color:#4B5A64;
@@ -98,7 +99,7 @@ strong{
 
 
 .single-container{
-    font-size: 100%;
+    font-size: clamp(1rem, 1vw + .75rem, 1.5rem);;
     line-height: 170%;
 }
 
@@ -252,11 +253,13 @@ a.font-size-icons:hover{
     background-color: #f5fbff;
 }
 
-markdown-body a.btn{
+.markdown-body a.btn{
     color:#2D3337;
 }
 
-
-markdown-body a.btn:hover{
+.markdown-body{
+    font-size: clamp(1rem, 1vw + 1rem, 1.25rem);;
+}
+.markdown-body a.btn:hover{
     color:#fff;
 }

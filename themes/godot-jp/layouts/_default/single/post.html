@@ -1,6 +1,6 @@
-<div class="bg-light p-3 m-3">
+<div class="bg-light p-0 p-lg-3 m-0 m-lg-3">
     <div class="row">
-        <div id="post" class="col-9 p-3 markdown-body fs-5">
+        <div id="post" class="col col-lg-9 p-3 markdown-body fs-5">
             <div class="column">
                 <p class="display-1 text-center">{{with .Params.emoji}}
                     {{.}}
@@ -15,7 +15,7 @@
                 {{ $raw_content | markdownify }}
             </section>
         </div>
-        <div class="col-3 p-3 column">
+        <div class="col-3 p-3 column d-none d-lg-block">
             <div class="sticky-top" style="top:100px">
                 {{ if .Params.toc | eq .Params.toc "" }}
                 {{ $toc := .TableOfContents | safeHTML}}

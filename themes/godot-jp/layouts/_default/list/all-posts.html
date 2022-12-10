@@ -1,12 +1,13 @@
 <div class="container-fluid pb-0 pt-3 pb-lg-3">
-
-    <h2>{{.Title}}</h2>
-    <div class="row col-12 col-lg-11 px-0 px-lg-3 py-0 py-lg-2 bg-light shadow-sm rounded-5 
-                mx-auto mb-5 mt-0 mt-lg-3">
-        <div class="col-12 col-lg-1 fs-1 pb-3 pb-lg-3
-                    h-100 my-auto text-center align-middle">💬</div>
-        <div class="col-12 col-lg-11 p-0 p-lg-2">
-            {{ .Content }}
+    <div class="w-75 mx-auto">
+        <h2>{{.Title}}</h2>
+        <div class="row col-12 col-lg-11 p-3 bg-light shadow-sm rounded-5 
+        mx-auto mb-5 mt-0 mt-lg-3">
+            <div class="col-12 col-lg-1 fs-1 pb-3 pb-lg-3
+            h-100 my-auto text-center align-middle">💬</div>
+            <section class="col-12 col-lg-11 p-0 p-lg-2 markdown-body cfs-5">
+                {{ .Content }}
+            </section>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>

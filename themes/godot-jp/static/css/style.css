@@ -255,6 +255,12 @@ a.font-size-icons:hover{
 
 section.markdown-body{
     font-family: "M PLUS 1p", 'Noto Color Emoji';
+    background-color: transparent;
+    line-height: 2rem;
+}
+
+section.markdown-body p{
+    margin-bottom: 1rem;
 }
 
 section.markdown-body.cfs-6{
@@ -267,4 +273,26 @@ section.markdown-body.cfs-5{
 
 section.markdown-body.cfs-4{
     font-size:clamp(1rem, 1vw + .75rem, 1.5rem) !important;
+}
+
+
+section.markdown-body > *:first-child,
+section.markdown-body h1,
+section.markdown-body h2,
+section.markdown-body h3,
+section.markdown-body h4,
+section.markdown-body h5,
+section.markdown-body h6{
+    margin-top:3rem !important;
+}
+
+section.markdown-body .comment{
+    background-color: #f9f7e6;
+    border-radius: 0.1rem;
+
+}
+
+section.markdown-body img[src*="#center"] {  
+    display: block;  
+    margin: auto;  
 }

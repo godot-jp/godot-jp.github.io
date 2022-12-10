@@ -1,30 +1,32 @@
 
-<h2>{{.Title}}</h2>
-<div class="row w-100 px-3 py-2 bg-light shadow-sm rounded-5 mx-auto mb-5 mt-3">
-    <div class="col-auto fs-2 h-100 my-auto align-middle">💬</div>
-    <div class="col-10">
-        {{ .Content }}
+    <h2>{{.Title}}</h2>
+    <div class="row col-12 col-lg-11 px-0 px-lg-3 py-0 py-lg-2 bg-light shadow-sm rounded-5 
+                mx-auto mb-5 mt-0 mt-lg-3">
+        <div class="col-12 col-lg-1 fs-1 pb-3 pb-lg-3
+                    h-100 my-auto text-center align-middle">💬</div>
+        <div class="col-12 col-lg-11 p-0 p-lg-2">
+            {{ .Content }}
+        </div>
     </div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
-
-{{ range .Pages.ByWeight }}
-<div class="mb-5 container">
-    {{/* カテゴリセクション */}}
-    <h3 class="text-danger fw-bolder">{{ .Title }}</h3>
-    <div class="row g-2" data-masonry='{"percentPosition": true }' >
-        {{ range .Pages.ByWeight }}
-        <div class="col-6">
-            <div class="card">
-                {{/* ページセクション */}}
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+    
+    {{ range .Pages.ByWeight }}
+    <div class="mb-5 container">
+        {{/* カテゴリセクション */}}
+        <h3 class="text-danger fw-bolder">{{ .Title }}</h3>
+        <div class="row g-2" data-masonry='{"percentPosition": true }' >
+            {{ range .Pages.ByWeight }}
+            <div class="col-12 col-lg-6">
+                <div class="card">
+                    {{/* ページセクション */}}
                 <h4 class="card-header">
                     <a href="{{ .RelPermalink }}">
                     {{ with .Params.emoji }}
                     {{ . }}
                     {{else}} 
                     📝{{end}} {{ .Title }}</a></h4>
-                <!-- Table Of Contents -->
-                <div class="fs-5">
+                    <!-- Table Of Contents -->
+                    <div style="font-size:clamp(1rem, 1vw + .75rem, 1.2rem);;">
                     {{ $toc := .TableOfContents}}
                     {{ $toc := replace $toc "<nav id=\"TableOfContents\">" ""}}
                     {{ $toc := replace $toc "</nav>" ""}}
@@ -32,14 +34,14 @@
                     {{ $toc := replace $toc "#" $url | safeHTML}}
                     {{ $toc := replace $toc "<ul>" "<ul class=\"toc list-group list-group-flush\">"}}
                     {{ with replace $toc "<li>" "<li class=\"list-group-item\">" | safeHTML}}
-                        {{.}}
+                    {{.}}
                     {{else}}
-                        <p class="p-2 m-0 text-black-50">表示するコンテンツがありません</p>
+                    <p class="p-2 m-0 text-black-50">表示するコンテンツがありません</p>
                     {{end}}
+                    </div>
                 </div>
             </div>
+            {{ end }}
         </div>
-        {{ end }}
     </div>
-</div>
-{{end}}
+    {{end}}

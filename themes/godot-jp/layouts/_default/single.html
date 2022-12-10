@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 {{ partial "page/header.html" . }}
-<section class="container mx-auto mt-2 w-100 posts">
+<section class="container mx-auto w-100 posts" style="margin-top:3rem;">
 
 {{ if eq .Section "reference"}}
     {{ .Render "single/post" }}

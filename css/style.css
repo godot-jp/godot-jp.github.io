@@ -289,5 +289,9 @@ section.markdown-body h6{
 section.markdown-body .comment{
     background-color: #f9f7e6;
     border-radius: 0.1rem;
+}
 
+section.markdown-body img[src*="#center"] {  
+    display: block;  
+    margin: auto;  
 }

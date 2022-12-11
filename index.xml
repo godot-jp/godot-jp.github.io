@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Godot Japan User Community</title><link>https://godot-jp.github.io/</link><description>Recent content on Godot Japan User Community</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>GDScriptの基本</title><link>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/</guid><description>Godot Engineの組み込みスクリプト言語であるGDScriptの基本的な使い方について記載します。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Godot Japan User Community</title><link>https://godot-jp.github.io/</link><description>Recent content on Godot Japan User Community</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sat, 10 Dec 2022 19:24:47 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>入力機能について</title><link>https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E9%96%A2%E9%80%A3/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link><pubDate>Sat, 10 Dec 2022 19:15:41 +0900</pubDate><guid>https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E9%96%A2%E9%80%A3/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid><description>プロジェクトの入力マップ設定 Godot Engineはインプットマップとしてプロジェクト毎に入力の管理ができます。
+インプットマップは、アクション名を設定し、そのアクションに、どの入力を割り当てるかという考え方になります。
+デバイスからの入力を設定する プロジェクト設定からインプットマップタブを開きます。
+デフォルトで設定されているアクションは非表示になっています。
+アクション名の設定 インプットマップタブの上部にあるテキストボックスに、アクション名を入力して「追加」ボタンを押します。
+今回はJumpと入力しました。
+アクション（Action）のリストの中に、作成したJumpが登録されます。
+アクションに入力を設定する 設定したアクションの項目の右側の「＋」ボタンを押します。
+キーを設定するEvent Configurationウィンドウがポップアップします。
+このウィンドウが開いた状態で、キーボードのキーやゲームパッドのボタンを押すと自動的に入力されます。
+ウィンドウ中央のリストから、マウス・キーボード・ゲームパッドなどのボタンを選択することも可能です。
+例えば、マウスはこのウィンドウの設定に使用するため、自動での入力は反応しないため、リストから選択する必要があります。
+開発段階でゲームパッドがつながっていなくても、リストから選択することで設定自体は可能です。
+一つのアクションに対して複数の入力を割り当てる事が可能なため、キーボードとゲームパッドの両方で対応する場合も、アクション名を参照することで、設定されたすべての入力の状態を調べることができます。
+すべてのアクションの登録が終わったら、プロジェクト設定ウィンドウを閉じます。
+デッドゾーンについて キーボードやマウスと異なり、ゲームパッドはスティックのアナログ入力があります。
+アナログ入力の利点は、スティックを倒す量を0.0~1.0の値で表現し、操作性が柔軟になることです。
+欠点は、デッドゾーンを設定しない場合、スティックの値が安定しないことです。
+これは物理的なスティックの倒す量を取っている事から、ブレが発生するためです。
+例えばデッドゾーンを0.2に設定すると、0.2未満の値はすべて0とみなされます。
+これにより、不安定なアナログ入力のブレを制限することができます。
+基本的な入力の取得方法 プロジェクトにアクションマップが登録されたので、実際に入力を処理するサンプルを記載します。
+インプットメソッドで入力を処理する func _input(_event): if _event.is_action_just_pressed(&amp;#34;Jump&amp;#34;): print(&amp;#34;ジャンプボタンが押された&amp;#34;) プロセスメソッドで入力を処理する func _proccess(_delta): if Input.is_action_just_pressed(&amp;#34;Jump&amp;#34;): print(&amp;#34;ジャンプボタンが押された&amp;#34;) InputEventの種類 イベント名 型インデックス 説明 InputEvent NONE 空の入力イベント InputEventKey KEY スキャンコードとUnicodeの値、および修飾子が含まれています。 InputEventMouseButton MOUSE_BUTTON ボタン、モディファイヤなどのクリック情報が含まれます。 InputEventMouseMotion MOUSE_MOTION 相対位置、絶対位置、速度などのモーション情報が含まれます。 InputEventJoypadMotion JOYSTICK_MOTION ジョイスティック/ジョイパッドのアナログ軸情報が含まれています。 InputEventJoypadButton JOYSTICK_BUTTON ジョイスティック/ジョイパッドのボタン情報が含まれます。 InputEventScreenTouch SCREEN_TOUCH マルチタッチのプレス/リリース情報が含まれています。(モバイルデバイスでのみ使用可能) InputEventScreenDrag SCREEN_DRAG マルチタッチドラッグ情報が含まれています。(モバイルデバイスでのみ使用可能) InputEventScreenAction SCREEN_ACTION 汎用アクションが含まれています。これらのイベントは多くの場合、フィードバックとしてプログラマーによって生成されます。(詳細は以下)</description></item><item><title>GDScriptの基本</title><link>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/</guid><description>Godot Engineの組み込みスクリプト言語であるGDScriptの基本的な使い方について記載します。
 基本的な記述方法 extends Node var int_sanple = 0 var text_sample = &amp;#34;文字列&amp;#34; var int_sample2 :int = 1 func _ready(): pass GDSCriptは、大まかに３種類の要素で読み書きすることができます。
 上記のサンプルを１行ずつ解説します。
 クラスの拡張 extends Node extends NodeはNodeというクラスの拡張という意味です。
@@ -9,7 +31,32 @@ Nodeクラスが持つ機能をそのままに、新しいクラスを作るこ�
 明示的な型付け var int_sample2 :int = 1 型を意識したい場合もありますので、上記のように明示的に型を指定することもできます。
 関数 func _ready(): pass GDScriptの関数はfuncにスペースを空けて関数名を記述します。
 多くの言語のように{ }でブロックを作るのではなく、:のあとのインデントでブロックを作る構文になります。
-関数にはクラスがもともと持っている組み込み関数と、ユーザーが作る独自関数の２種類があります。</description></item><item><title>当サイトについて</title><link>https://godot-jp.github.io/about/</link><pubDate>Tue, 06 Dec 2022 08:38:26 +0900</pubDate><guid>https://godot-jp.github.io/about/</guid><description>😀
+関数にはクラスがもともと持っている組み込み関数と、ユーザーが作る独自関数の２種類があります。</description></item><item><title>プロジェクトの作成方法</title><link>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/</link><pubDate>Sat, 10 Dec 2022 19:24:47 +0900</pubDate><guid>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/</guid><description>インストール方法 公式サイトからダウンロード Godot Engineの公式サイトのダウンロードページから安定版をダウンロードします。
+Zipファイルなので任意のパスに解凍し、godot_[バージョン]_stable_win.exeを起動します。
+! 当サイトではGodot Engine 4.xを基準にリファレンスを掲載しています。
+3.xをインストールした場合、若干内容に差異があるかもしれません。
+Issuesでご連絡いただけましたら、対応を検討いたしますので、お気軽にご連絡ください。 その他のプラットフォームからダウンロード Steam Godot Engineをインストールする方法はいくつかありますが、手軽なのはSteamからのダウンロード・インストールです。
+常に安定版を配信しており、自動的にアップデートを行うことができます。
+Steamの製品ページにアクセスし、無料でダウンロードしてください。
+以降は自分のライブラリから起動できます。
+itch.io itch.ioからも無料ダウンロードが可能です。
+itch.ioのデスクトップアプリを入れると、最新版の自動ダウンロードやアプリの管理も可能です。
+プロジェクトの作成 プロジェクトマネージャー 起動直後はプロジェクトマネージャーが開きます。
+新規プロジェクトの作成 プロジェクトマネージャーの右側にある、新規プロジェクトのボタンを押すとプロジェクト作成画面がポップアップします。
+設定 説明 プロジェクト名 プロジェクトの名前を入力します。隣の「フォルダーを作成」をクリックすると、プロジェクト名と同じフォルダが、プロジェクトパスに作成されます。 プロジェクトパス プロジェクトを作るファイルパスです。何らかのファイルが含まれていると警告が出ます。 レンダラー プロジェクトのレンダリング方式を選択します。PCなどはForward+、モバイルはMobileを選択します。 Version Control Metadata バージョン管理方法を選択します。バージョン管理しない場合はGitのままで問題ありません。 メインシーンの作成 メインシーンとは、作成したプロジェクトで最初に実行される画面のことです。
+3Dの空間や2Dの画面・GUIなども含めるため、Godot Engineではこれらをまとめてシーンと呼びます。
+シーンパネルから作成 画面左上にあるシーンと書かれたパネルから、ルートノードを生成します。
+ルートノードは、そのシーンの一番上の根幹となるノードです。
+作成したシーンは自動的にエディタで開かれますが、まだ保存されていません。
+シーンを作成した時点で保存しておくことをおすすめします。
+開いたシーンを保存する 「未保存」のシーンを開いている状態でCtrl+Sで保存パネルを開き、任意のフォルダに保存します。
+ファイルシステムパネルから作成 画面右下にあるファイルシステムと書かれたパネルは、プロジェクトのファイルやフォルダを表示しています。
+任意のフォルダ（ルートフォルダはres://）を右クリックすることで、シーンを作成することができます。
+ファイルシステムから作成した場合は、ファイルが保存されるだけで、自動的にシーンを開いてはくれません。
+作成したシーンファイル（.tscnファイル）をダブルクリックして開いてください。
+メインシーンの設定 作成したシーンをメインシーンとして設定します。
+保存したシーンファイル（.tscnファイル）を。ファイルシステムパネルから右クリックします。
+右クリックメニューの中から「メインシーンとして設定」をクリックすると、選んだシーンが最初に実行されるようになります。</description></item><item><title>当サイトについて</title><link>https://godot-jp.github.io/about/</link><pubDate>Tue, 06 Dec 2022 08:38:26 +0900</pubDate><guid>https://godot-jp.github.io/about/</guid><description>😀
 Godot Japan User Communityはオープンソースのコミュニティサイトです。
 本コミュニティは、静的サイトジェネレーター Hugo と Github Pages でホスティングされており、コミュニティメンバー（コントリビューター、メンテナー、コミュニティリーダー）によって本コミュニティの運営を行っています。
 Godot Engine公式のガバナンスに沿ったユーザーコミュニティの一つとしてGodot Engineの認知度の向上・知識の共有を目的としており、金銭的な利益を目的としていません。

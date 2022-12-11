@@ -2,6 +2,30 @@
 @setlocal enabledelayedexpansion
 
 set base_path=content/reference/
+
+echo [1] 記事を作る
+echo [2] カテゴリーを作る
+echo [0] 終了
+
+:SelectMenu
+set /p make_cat="メニューを選んでください。"
+
+echo %make_cat%
+
+IF 1 EQU %make_cat% (
+    echo 記事を作ります
+    goto MakePost
+) ELSE IF 2 EQU %make_cat% (
+    echo カテゴリーを作ります
+    goto MakeCategory
+) ELSE IF 0 EQU %make_cat% (
+    echo 終了します
+    goto End
+) ELSE (
+    goto SelectMenu
+)
+
+:MakePost
 set counter=0
 
 rem ディレクトリを取得して疑似配列に格納
@@ -46,6 +70,15 @@ echo;
 set /p title="記事のタイトルを入力してください。※入力文字列がファイル名になります。"
 
 hugo new %create_path%%title%/index.md
+goto End
 
+:MakeCategory
+set /p ctitle="カテゴリーのタイトルを入力してください。※入力文字列がカテゴリー名になります。"
 
-PAUSE
+hugo new %base_path%%ctitle%/_index.md
+goto End
+
+:End
+
+timeout 2
+exit

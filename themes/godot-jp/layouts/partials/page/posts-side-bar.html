@@ -1,0 +1,95 @@
+{{if and (eq .IsPage true) (eq .Section "reference")}}
+<div id="all-posts-side-bar" style="display: none;">
+{{ $reference := .Site.GetPage "/reference" }}
+<div id="posts-side-bar-container" class="bg-white p-3" style="width:400px; height:100%; overflow:auto; transform:rotate(0.03deg)">
+<div class="text-right position-absolute" style="right:10px;">
+    <a href="javascript:toggleMenu()" style="text-decoration:none; opacity:50%;" alt="ESCで閉じます">✖</a>
+</div>
+{{ $counter := 0}}
+{{ $currentTitle := .Title }}
+{{ $currentID := 0}}
+    {{ range $reference.Pages.ByWeight }}
+    <h3 class="text-danger fw-bolder mt-4">{{ .Title }}</h3>
+        {{ range .Pages.ByWeight }}
+        {{$counter = add $counter 1}}
+        <div class="card my-2">
+            <div class="card-header row">
+                <h4 class="col-auto"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+                <button class="btn btn-light fw-bold col-auto ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{$counter}}" aria-expanded="false" aria-controls="collapse{{$counter}}">
+                    +
+                </button>
+            </div>
+            <!-- Table Of Contents -->
+            <div id="collapse{{$counter}}" class="collapse{{if eq .Title $currentTitle}}{{$currentID = $counter}} show{{end}}">
+                <div class="card-body" style="font-size:clamp(1rem, 1vw + .75rem, 1.2rem);">
+                    {{ $toc := .TableOfContents}}
+                    {{ $toc := replace $toc "<nav id=\"TableOfContents\">" ""}}
+                    {{ $toc := replace $toc "</nav>" ""}}
+                    {{ $url := print .RelPermalink "#" }}
+                    {{ $toc := replace $toc "#" $url | safeHTML}}
+                    {{ with replace $toc "<li>" "<li class=\"\">" | safeHTML}}
+                        {{.}}
+                    {{else}}
+                        <p class="p-2 m-0 text-black-50">表示するコンテンツがありません</p>
+                    {{end}}
+                </div>
+            </div>
+        </div>
+        {{end}}
+    {{end}}
+    <script lang="javascript">
+        var container = document.getElementById("posts-side-bar-container");
+        var element = document.getElementById("collapse{{$currentID}}");
+        var elm_bbox = element.getBoundingClientRect();
+        container.scrollTo(0,elm_bbox.y);
+
+        var menu_button_label = document.getElementById("menu-button-label");
+        var parent_container = document.getElementById("all-posts-side-bar");
+        var is_hide = true
+        var move_x = 0;
+        var vel_x = 0.1;
+
+        function toggleMenu(){
+            is_hide = !is_hide
+        }
+
+        document.onkeydown = function(e){
+            if(e.which== 27 && !is_hide)
+            {
+                is_hide = true;
+            }
+        }
+        
+        const lerp = (x, y, p) => x + (y - x) * p; 
+        const clamp = (num, min, max) => Math.min(Math.max(num, min), max);
+        
+        const onEnterFrame = () => 
+        {
+            if(is_hide && move_x > 0)
+            {
+                move_x -= vel_x;
+                move_x = clamp(move_x,0.0,1.0);
+            }
+            else if(!is_hide && move_x < 1)
+            {
+                move_x += vel_x;
+                move_x = clamp(move_x,0.0,1.0);
+            }
+            if(move_x == 0){
+                parent_container.style.display = "none";
+            }
+            else
+            {
+                parent_container.style.display = "block";
+            }
+            var mx = lerp(-400, 0, move_x)
+            container.style.transform = `translateX(${mx}px)`;
+            parent_container.style.opacity = move_x;
+            requestAnimationFrame(onEnterFrame);
+        }
+
+        onEnterFrame();
+    </script>
+    </div>
+</div>
+{{end}}

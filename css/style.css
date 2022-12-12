@@ -1,3 +1,6 @@
+*{
+    -webkit-font-smoothing: subpixel-antialiased;
+}
 body{
     font-family: "M PLUS 1p", 'Noto Color Emoji';
     font-size: clamp(1rem, 1vw + .75rem, 1.2rem);
@@ -294,4 +297,62 @@ section.markdown-body .comment{
 section.markdown-body img[src*="#center"] {  
     display: block;  
     margin: auto;  
+}
+
+div#all-posts-side-bar{
+    width:100%;
+    height: 100%;
+    padding-top:75px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top:0px;
+    left: 0;
+}
+
+#posts-side-bar-container ul{
+    list-style-type: none;
+    margin: 0 0 0 1rem;
+    padding: 0;
+}
+
+#posts-side-bar-container ul li a{
+    font-size: 120%;
+    font-weight: bold;
+    color:#2D3337;
+    text-decoration: none;
+    display: block;
+    padding-left: .3rem;
+}
+#posts-side-bar-container ul li a:hover{
+    color: red;
+}
+
+#posts-side-bar-container ul li{
+    padding-top: .5rem;
+    margin-left: 0;
+}
+
+#posts-side-bar-container ul li::marker{
+    white-space: pre-line;
+    content:"●";
+}
+
+#posts-side-bar-container ul li ul{
+    margin-left: 0;
+    padding-top: .5rem;
+}
+
+#posts-side-bar-container ul li ul li{
+    padding-top: .5rem;
+}
+
+#posts-side-bar-container ul li ul li::marker{
+    color:#8ba6b8;
+    font-size: 80%;
+}
+
+#posts-side-bar-container ul li ul a{
+    font-size: 100%;
+    font-weight: normal;
+    color: #637581;
 }

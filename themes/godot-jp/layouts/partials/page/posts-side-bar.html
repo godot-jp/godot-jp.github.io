@@ -1,15 +1,18 @@
 {{if and (eq .IsPage true) (eq .Section "reference")}}
+<a href="#" class="d-block d-lg-none btn btn-dark position-fixed" 
+    style=" margin:auto; width:fit-content; height:fit-content;
+            border-radius:10rem; opacity:50%;
+            top: calc(100% - 70px); left: calc(100% - 70px);">▲</a>
+
 <div id="all-posts-side-bar" style="display: none;">
 {{ $reference := .Site.GetPage "/reference" }}
-<div id="posts-side-bar-container" class="bg-white p-3" style="width:400px; height:100%; overflow:auto; transform:rotate(0.03deg)">
-<div class="text-right position-absolute" style="right:10px;">
-    <a href="javascript:toggleMenu()" style="text-decoration:none; opacity:50%;" alt="ESCで閉じます">✖</a>
-</div>
+<div id="posts-side-bar-container" class="bg-white position-absolute" 
+style="left:0; width:500px; height:100%; overflow:auto; transform:rotate(0.03deg); padding:65px 1rem 2rem;">
 {{ $counter := 0}}
 {{ $currentTitle := .Title }}
 {{ $currentID := 0}}
     {{ range $reference.Pages.ByWeight }}
-    <h3 class="text-danger fw-bolder mt-4">{{ .Title }}</h3>
+    <h3 class="text-danger fw-bolder mt-5">{{ .Title }}</h3>
         {{ range .Pages.ByWeight }}
         {{$counter = add $counter 1}}
         <div class="card my-2">
@@ -38,6 +41,8 @@
         {{end}}
     {{end}}
     <script lang="javascript">
+        var header_menu = document.getElementById("header-menu");
+        var header_menu_height = header_menu.getBoundingClientRect().height;
         var container = document.getElementById("posts-side-bar-container");
         var element = document.getElementById("collapse{{$currentID}}");
         var elm_bbox = element.getBoundingClientRect();
@@ -49,8 +54,12 @@
         var move_x = 0;
         var vel_x = 0.1;
 
+        document.onload = function(e){
+            container.style.height -= header_menu_height;
+        }
+
         function toggleMenu(){
-            is_hide = !is_hide
+            is_hide = !is_hide;
         }
 
         document.onkeydown = function(e){
@@ -59,6 +68,12 @@
                 is_hide = true;
             }
         }
+        document.addEventListener('click', (e) => {
+            if(!e.target.closest('#posts-side-bar-container')) 
+            {
+                is_hide = true;
+            }
+        });
         
         const lerp = (x, y, p) => x + (y - x) * p; 
         const clamp = (num, min, max) => Math.min(Math.max(num, min), max);

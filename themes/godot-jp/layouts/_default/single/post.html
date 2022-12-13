@@ -1,16 +1,29 @@
-{{ partial "page/sidebar-button" . }}
-
 <div class="bg-light p-0 p-lg-3 m-0 m-lg-3">
     <div class="row">
         <div class="col col-lg-9 p-3">
             <div class="column">
-                <p class="display-1 text-center my-3">{{with .Params.emoji}}
+                <p class="display-1 text-center mb-3 mt-4">{{with .Params.emoji}}
                     {{.}}
                     {{else}}
                     📝
                     {{end}}
                 </p>
                 <h1 class="text-center">{{ .Title }}</h1>
+            </div>
+            <!-- mobile share buttons -->
+            <div class=" py-2 d-block d-lg-none">
+                <div class="row justify-content-center align-items-center text-center">
+                    <div class="col-auto justify-content-center align-items-center text-center">
+                        <button style="color:gray" class="btn btn-light border border-black-50" 
+                            onclick="location.href='https://twitter.com/share?ref_src=twsrc%5Etfw'">
+                            <img src="{{"images/Twitter-Icon.png" | relURL}}"> シェアする
+                        </button>
+                        <button style="color:gray" class="btn btn-light border border-black-50"
+                            onclick="location.href='https://github.com/godot-jp/godot-jp.github.io/issues'">
+                            <img src="{{"images/Github-Icon.png" | relURL}}"> 提案する
+                        </button>
+                    </div>
+                </div>
             </div>
             <section id="post" class="markdown-body cfs-5">
                 {{$raw_content := .RawContent}}
@@ -19,6 +32,7 @@
         </div>
         <div class="col-3 p-3 column d-none d-lg-block">
             <div class="sticky-top" style="top:100px">
+                {{ partial "page/sidebar-button" . }}
                 {{ if .Params.toc | eq .Params.toc "" }}
                 {{ $toc := .TableOfContents | safeHTML}}
                 <div class="mb-3">
@@ -63,6 +77,7 @@
         </div>
     </div>
 </div>
+
 <script lang="javascript">
     let elm = document.getElementById('post');
     let icons = document.getElementsByClassName('font-size-icons');

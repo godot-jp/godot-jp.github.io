@@ -38,6 +38,7 @@
                 <div class="mb-3">
                     <h4>目次</h4>
                     {{ $rep := replaceRE `<ul>\n(\s+)<li></li>\n(\s+)</ul>` "" $toc  }}
+                    {{ $rep := replaceRE `<nav id=\"TableOfContents\">` "<nav id=\"TableOfContents\" style=\" max-height:50vh; overflow:auto;\">" $rep  }}
                     {{$rep | safeHTML}}
                 </div>
                 {{ end }}

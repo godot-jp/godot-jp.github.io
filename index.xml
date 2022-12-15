@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Godot Japan User Community</title><link>https://godot-jp.github.io/</link><description>Recent content on Godot Japan User Community</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sat, 10 Dec 2022 19:24:47 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>入力機能について</title><link>https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E9%96%A2%E9%80%A3/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link><pubDate>Sat, 10 Dec 2022 19:15:41 +0900</pubDate><guid>https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E9%96%A2%E9%80%A3/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid><description>プロジェクトの入力マップ設定 Godot Engineはインプットマップとしてプロジェクト毎に入力の管理ができます。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Godot Japan User Community</title><link>https://godot-jp.github.io/</link><description>Recent content on Godot Japan User Community</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 14 Dec 2022 14:11:39 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>入力機能について</title><link>https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E9%96%A2%E9%80%A3/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link><pubDate>Sat, 10 Dec 2022 19:15:41 +0900</pubDate><guid>https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E9%96%A2%E9%80%A3/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid><description>プロジェクトの入力マップ設定 Godot Engineはインプットマップとしてプロジェクト毎に入力の管理ができます。
 インプットマップは、アクション名を設定し、そのアクションに、どの入力を割り当てるかという考え方になります。
 デバイスからの入力を設定する プロジェクト設定からインプットマップタブを開きます。
 デフォルトで設定されているアクションは非表示になっています。
@@ -31,7 +31,35 @@ Nodeクラスが持つ機能をそのままに、新しいクラスを作るこ�
 明示的な型付け var int_sample2 :int = 1 型を意識したい場合もありますので、上記のように明示的に型を指定することもできます。
 関数 func _ready(): pass GDScriptの関数はfuncにスペースを空けて関数名を記述します。
 多くの言語のように{ }でブロックを作るのではなく、:のあとのインデントでブロックを作る構文になります。
-関数にはクラスがもともと持っている組み込み関数と、ユーザーが作る独自関数の２種類があります。</description></item><item><title>プロジェクトの作成方法</title><link>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/</link><pubDate>Sat, 10 Dec 2022 19:24:47 +0900</pubDate><guid>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/</guid><description>インストール方法 公式サイトからダウンロード Godot Engineの公式サイトのダウンロードページから安定版をダウンロードします。
+関数にはクラスがもともと持っている組み込み関数と、ユーザーが作る独自関数の２種類があります。</description></item><item><title>画面レイアウトについて</title><link>https://godot-jp.github.io/reference/gui%E9%96%A2%E9%80%A3/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link><pubDate>Wed, 14 Dec 2022 14:11:39 +0900</pubDate><guid>https://godot-jp.github.io/reference/gui%E9%96%A2%E9%80%A3/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid><description>Containerノードの基本 Container（コンテナ）ノードは、子ノードとしてコンテンツを持つことを前提としたノードです。
+子ノードであるコンテンツを自動的にレイアウトすることを目的とした機能を持っています。
+継承元のContainerノード自体はControlノードとほとんど機能は変わりませんので、単体で使用することはありません。
+基本的にはContianerを継承している以下で紹介するノードの拡張のために準備された機能を持っています。
+コンテンツのレイアウト設定 基本的にContainerの子ノードであるコンテンツはそれぞれの機能に応じて、自動的に大きさが決定され配置されます。
+これは基本的に、コンテンツ自体のサイズやレイアウトを自由に決めることができないことを意味します。
+ただし、コンテンツごとのContainer Sizingで、コンテナ内でのサイズの設定を変更することができます。
+これらはControlノードのレイアウト設定なので、Controlノードについてを参照してください。
+単一コンテナ 単一コンテナはコンテンツを自動的にレイアウトしませんが、単一のコンテンツに対するレイアウトの設定を行うことができます。
+パネルを作る PanelContainerは目に見えてわかりやすいコンテナです。
+グラフィックが設定できるという以外は、基本のContainerノード（Controlノード）と同じ機能になります。
+panelのプロパティを持っていますので、テーマでスタイルを設定することができ、ウィンドウやヘッダー・フッターなどの下地に活用できます。
+テーマとスタイルについては、テーマとスタイルについてを参照してください。
+コンテンツのアスペクト比を固定する AspectContainerは、自身のサイズが変わっても、コンテンツの縦横比を変えずにコンテンツを拡大・縮小して表示します。
+その際、縦を基準とするか横を基準とするかを設定することができます。
+コンテンツのマージンを空ける MarginContainerはconstantsプロパティで、上下左右のマージンをピクセル単位で設定することができるコンテナです。
+コンテナ内のコンテンツに対し、それぞれのマージンを設定することができます。
+コンテンツをコンテナの縦横中央に配置する CenterContainerは、コンテンツを親であるCenterContainerの縦横中央に配置します。
+親コンテナはコンテンツの大きさが最小の大きさになります。
+整列コンテナ 整列コンテナは複数のコンテンツを自動的にレイアウトするコンテナです。
+例えば、ゲームのインベントリや、設定画面の項目を並べるような場合に活用できます。
+縦並び・横並びにする VBoxContainerまたはHBoxContainerは、複数のコンテンツを自動的に縦または横に並べて配置します。
+コンテナのサイズよりも、コンテンツの合計サイズが大きくなる場合ははみ出して表示されます。
+設定された個数分のコンテンツを順番に並べる GridContainerは、Columnsプロパティで設定された個数分のコンテンツを並べ、その個数を超えたら次の行に並べます。
+もしも並んだコンテンツの横幅が、親のコンテナであるGridContainerの横幅を超えた場合であっても、必ず並べるのが特徴です。
+コンテンツの大きさに応じて並べる FlowContainerは、コンテンツの大きさに応じて自動的に並べ、GridContainerのように詰めて表示します。
+親のコンテナであるFlowContainerの幅に応じて、収まりきらないコンテンツは次の行または列にカラム落ちします。
+My PR for implementing FlowContainers(H/V) got merged today! This type of container arranges its child nodes similar to text and autowraps the ones which don&amp;#39;t fit in a line.#GodotEngine pic.twitter.com/BJhORGiunm
+&amp;mdash; Geometror (@Hendrik_Brucker) January 18, 2022 コンテンツ同士のマージンを空ける 上記で紹介した整列コンテナのTheme OverrideにはConstantsプロパティが設定されており、複数配置されたコンテンツ同士の上下左右のマージンを設定することができます。</description></item><item><title>プロジェクトの作成方法</title><link>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/</link><pubDate>Sat, 10 Dec 2022 19:24:47 +0900</pubDate><guid>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/</guid><description>インストール方法 公式サイトからダウンロード Godot Engineの公式サイトのダウンロードページから安定版をダウンロードします。
 Zipファイルなので任意のパスに解凍し、godot_[バージョン]_stable_win.exeを起動します。
 ! 当サイトではGodot Engine 4.xを基準にリファレンスを掲載しています。
 3.xをインストールした場合、若干内容に差異があるかもしれません。

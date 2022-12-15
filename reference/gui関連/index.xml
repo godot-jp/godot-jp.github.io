@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GUI関連 on Godot Japan User Community</title><link>https://godot-jp.github.io/reference/gui%E9%96%A2%E9%80%A3/</link><description>Recent content in GUI関連 on Godot Japan User Community</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 14 Dec 2022 14:10:24 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/reference/gui%E9%96%A2%E9%80%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>画面レイアウトについて</title><link>https://godot-jp.github.io/reference/gui%E9%96%A2%E9%80%A3/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link><pubDate>Wed, 14 Dec 2022 14:11:39 +0900</pubDate><guid>https://godot-jp.github.io/reference/gui%E9%96%A2%E9%80%A3/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid><description>Containerノードの基本 Container（コンテナ）ノードは、子ノードとしてコンテンツを持つことを前提としたノードです。
+子ノードであるコンテンツを自動的にレイアウトすることを目的とした機能を持っています。
+継承元のContainerノード自体はControlノードとほとんど機能は変わりませんので、単体で使用することはありません。
+基本的にはContianerを継承している以下で紹介するノードの拡張のために準備された機能を持っています。
+コンテンツのレイアウト設定 基本的にContainerの子ノードであるコンテンツはそれぞれの機能に応じて、自動的に大きさが決定され配置されます。
+これは基本的に、コンテンツ自体のサイズやレイアウトを自由に決めることができないことを意味します。
+ただし、コンテンツごとのContainer Sizingで、コンテナ内でのサイズの設定を変更することができます。
+これらはControlノードのレイアウト設定なので、Controlノードについてを参照してください。
+単一コンテナ 単一コンテナはコンテンツを自動的にレイアウトしませんが、単一のコンテンツに対するレイアウトの設定を行うことができます。
+パネルを作る PanelContainerは目に見えてわかりやすいコンテナです。
+グラフィックが設定できるという以外は、基本のContainerノード（Controlノード）と同じ機能になります。
+panelのプロパティを持っていますので、テーマでスタイルを設定することができ、ウィンドウやヘッダー・フッターなどの下地に活用できます。
+テーマとスタイルについては、テーマとスタイルについてを参照してください。
+コンテンツのアスペクト比を固定する AspectContainerは、自身のサイズが変わっても、コンテンツの縦横比を変えずにコンテンツを拡大・縮小して表示します。
+その際、縦を基準とするか横を基準とするかを設定することができます。
+コンテンツのマージンを空ける MarginContainerはconstantsプロパティで、上下左右のマージンをピクセル単位で設定することができるコンテナです。
+コンテナ内のコンテンツに対し、それぞれのマージンを設定することができます。
+コンテンツをコンテナの縦横中央に配置する CenterContainerは、コンテンツを親であるCenterContainerの縦横中央に配置します。
+親コンテナはコンテンツの大きさが最小の大きさになります。
+整列コンテナ 整列コンテナは複数のコンテンツを自動的にレイアウトするコンテナです。
+例えば、ゲームのインベントリや、設定画面の項目を並べるような場合に活用できます。
+縦並び・横並びにする VBoxContainerまたはHBoxContainerは、複数のコンテンツを自動的に縦または横に並べて配置します。
+コンテナのサイズよりも、コンテンツの合計サイズが大きくなる場合ははみ出して表示されます。
+設定された個数分のコンテンツを順番に並べる GridContainerは、Columnsプロパティで設定された個数分のコンテンツを並べ、その個数を超えたら次の行に並べます。
+もしも並んだコンテンツの横幅が、親のコンテナであるGridContainerの横幅を超えた場合であっても、必ず並べるのが特徴です。
+コンテンツの大きさに応じて並べる FlowContainerは、コンテンツの大きさに応じて自動的に並べ、GridContainerのように詰めて表示します。
+親のコンテナであるFlowContainerの幅に応じて、収まりきらないコンテンツは次の行または列にカラム落ちします。
+My PR for implementing FlowContainers(H/V) got merged today! This type of container arranges its child nodes similar to text and autowraps the ones which don&amp;#39;t fit in a line.#GodotEngine pic.twitter.com/BJhORGiunm
+&amp;mdash; Geometror (@Hendrik_Brucker) January 18, 2022 コンテンツ同士のマージンを空ける 上記で紹介した整列コンテナのTheme OverrideにはConstantsプロパティが設定されており、複数配置されたコンテンツ同士の上下左右のマージンを設定することができます。</description></item></channel></rss>

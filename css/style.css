@@ -298,7 +298,20 @@ section.markdown-body table{
 
 section.markdown-body img[src*="#center"] {  
     display: block;  
-    margin: auto;  
+    margin: 4px auto;
+}
+
+
+section.markdown-body img[src*="#center-w50"] {  
+    display: block;  
+    margin: 4px auto;  
+    width:50%;
+}
+
+section.markdown-body img[src*="#center-w100"] {  
+    display: block;  
+    margin: 4px auto;  
+    width:75%;
 }
 
 div#all-posts-side-bar{
@@ -358,4 +371,30 @@ div#all-posts-side-bar{
     font-weight: normal;
     color: #637581;
     padding-top: 0;
+}
+
+section.markdown-body aside.msg {
+    display: flex;
+    align-items: flex-start;
+    margin: 1.5rem 0;
+    padding: 1.4em 1em;
+    border-radius: 1rem;
+    background: #fff6e4;
+    color: #000000a6;
+    font-size: .94em;
+    line-height: 1.6;
+}
+
+section.markdown-body .msg-content {
+
+}
+
+section.markdown-body .msg-symbol {
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 1.5rem;
+    border-radius: 30rem;
+    background-color: #ffb84c;
+    color: #fff;
 }

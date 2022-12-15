@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="h-100" lang="ja">
+<html class="h-100 w-100" lang="ja">
 <head>
 <title>{{ if ne .IsHome true}}
     {{ .Title }} -
@@ -28,4 +28,4 @@
 <link rel="stylesheet" href="{{ "css/syntax.css" | relURL }}">
 <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column h-100 w-100" style="overflow-x: hidden;">

@@ -57,6 +57,17 @@ function new_post(){
 
 function new_section(){
     echo カテゴリー名を入力してください。
+    read cat_name
+    echo 以下の内容でカテゴリーを作成します。
+    echo パス：$WORK_DIR$cat_name/_index.md
+    echo よろしいですか？（y/n）
+    read confirm
+    if [ $confirm = "y" ]; then
+        hugo new $WORK_DIR$cat_name/_index.md
+    else
+        echo 作成しないキャンセル
+        select_mode
+    fi
 }
 
 function select_mode(){

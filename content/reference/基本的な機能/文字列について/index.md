@@ -139,3 +139,41 @@ var value = "あいうえお"
 print(value.extends_with("あ")) # false
 print(value.extends_with("お")) # true
 ```
+
+## 文字列を加工する
+
+### フォーマットを設定する（簡易版）
+
+```gdscript
+var value1:String = "あいう%s"
+print(value1 % "えお") # あいうえお
+
+var value2:String = "%sいうえ%s"
+print(value2 % ["あ", "お"]) # あいうえお
+```
+
+### フォーマットを設定する（formatメソッド使用）
+
+```gdscript
+var value:String = "かきく{str}"
+print(value.format({"str": "けこ"})) # かきくけこ
+```
+
+`format()`を使用すると、辞書に定義されたキーとペアになった文字列に置換されます。
+例えば、リッチテキストを使用することを前提として、メッセージ内に画像を表示させるタグに置き換えることも可能です。
+
+```gdscript
+var dict :Dictionary = {"Aボタン画像","[img]{res://icon.png}[/img]"}
+var value :String = "{Aボタン画像}ボタン"
+
+$RichTextLabel.bbcode_text = value.format(value, dict) # 🅰️ボタン
+```
+
+### 指定の桁以下ならゼロで埋める
+
+最終的に文字列に変換されますが、変換元は数値を扱います。
+
+```gdscript
+print("%010d" % 555) # 0000000555
+print("%05d" % 555) # 00555
+```

@@ -1,0 +1,21 @@
+<nav id="global-menu" class="row{{if ne .IsHome true}} bg-primary{{end}}">
+    <span id="header-logo" class="col-auto justify-content-center d-flex">
+        <a href="/" class="m-auto">
+            <img src="{{ "images/Logo.svg" | relURL }}" class="w-100 px-2">
+        </a>
+    </span>
+    <ul class="row col-auto gx-0 fw-bold">
+        {{ range .Site.Pages }}
+            {{if and (eq .Parent .Site.Home) (ne .Title "Godot Engineについて" ) }}
+            {{if ne .Kind "taxonomy"}}
+            {{ $active := "" }}
+            {{ if eq $.Title .Title }}
+            {{ $active = " active" }}
+            {{ end }}
+            <li class="col-auto"><a href="{{.Permalink | relURL}}" class="{{$active}}">{{.Title}}</a></li>
+            {{ end }}
+            {{ end }}
+
+        {{ end }}
+    </ul>
+</nav>

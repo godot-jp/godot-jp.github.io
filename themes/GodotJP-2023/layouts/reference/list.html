@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+{{ partial "global-menu.html" . }}
+
+<section class="container row mx-auto my-3">
+    <div id="side-bar" class="col-3">
+        {{ partial "reference-side-menu.html" . }}
+    </div>
+    <div class="col-9 markdown py-3">
+        {{.Content}}
+    </div>
+</section>
+{{ partial "footer.html" . }}

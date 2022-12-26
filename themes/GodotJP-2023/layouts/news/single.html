@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+{{ partial "global-menu.html" . }}
+
+<section class="container py-3">
+    <h1 class="my-3 text-danger text-center">
+        {{.Title}}
+    </h1>
+    <div class="col-8 mx-auto">
+        {{ with .Params.tags }}
+            <ul class="tags row">
+                {{- range . -}}
+                <li class="col-auto"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="btn btn-light border border-black-50">{{ strings.FirstUpper . }}</a>
+                {{- end -}}
+            </ul>
+        {{ end }}
+    </div>
+    <div class="col-8 mx-auto text-center">
+        <img src="{{.Params.image}}" style="width:80%;" class="news-images">
+    </div>
+
+    <div class="my-3 text-center fw-bold" style="color:#999;">
+        by {{.GitInfo.AuthorName }} - {{dateFormat "2006/01/02 15:04:05" .GitInfo.AuthorDate}}
+    </div>
+    <div class="col-8 mx-auto markdown">
+        {{.Content}}
+    </div>
+    <div class="text-center my-4">
+        <a href="#" class="btn btn-light border border-black-50"> 
+            <span class="to-top-icon">↑</span>トップにもどる
+        </a>
+    </div>
+</section>
+{{ partial "footer.html" . }}

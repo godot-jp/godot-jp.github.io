@@ -22,6 +22,10 @@ jobs:
         with:
           hugo-version: 'latest'
           # extended: true
+          
+      - name: set git config
+        run: |
+          git config core.quotePath false
 
       - name: Build
         run: hugo --minify

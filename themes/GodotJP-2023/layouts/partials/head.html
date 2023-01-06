@@ -1,4 +1,23 @@
-<title>{{.Site.Title}}</title>
+<title>{{ if ne .IsHome true}}
+    {{ .Title }} -
+    {{end}}
+    {{ .Site.Title }}
+</title>
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "favicons/apple-touch-icon.png" | relURL }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "favicons/favicon-32x32.png" | relURL }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "favicons/favicon-16x16.png" | relURL }}">
+<link rel="manifest" href="{{ "favicons/site.webmanifest" | relURL }} ">
+<link rel="mask-icon" href="{{ "favicons/safari-pinned-tab.svg" | relURL }}" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- bootstrap5 -->
 {{ $style := resources.Get "scss/gjuc-bs.scss" | resources.ToCSS }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" />

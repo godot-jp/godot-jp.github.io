@@ -1,5 +1,55 @@
 <html lamg=ja><title>Controlノードについて -
-Godot Japan User Community</title><link rel=apple-touch-icon sizes=180x180 href=/favicons/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicons/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicons/favicon-16x16.png><link rel=manifest href=/favicons/site.webmanifest><link rel=mask-icon href=/favicons/safari-pinned-tab.svg color=#5bbad5><meta name=msapplication-TileColor content="#da532c"><meta name=theme-color content="#ffffff"><meta http-equiv=pragma content="no-cache"><meta http-equiv=cache-control content="no-cache"><meta http-equiv=expires content="0"><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=HandheldFriendly content="True"><meta name=MobileOptimized content="320"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=stylesheet href=https://godot-jp.github.io/scss/gjuc-bs.css><script src=https://godot-jp.github.io/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js></script>
+Godot Japan User Community</title><link rel=apple-touch-icon sizes=180x180 href=/favicons/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicons/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicons/favicon-16x16.png><link rel=manifest href=/favicons/site.webmanifest><link rel=mask-icon href=/favicons/safari-pinned-tab.svg color=#5bbad5><meta name=msapplication-TileColor content="#da532c"><meta name=theme-color content="#ffffff"><meta http-equiv=pragma content="no-cache"><meta http-equiv=cache-control content="no-cache"><meta http-equiv=expires content="0"><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=HandheldFriendly content="True"><meta name=MobileOptimized content="320"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=twitter:card content="summary"><meta name=twitter:title content="Godot Japan User Community"><meta property="og:title" content="Godot Japan User Community"><meta name=twitter:title content="Controlノードについて - Godot Japan User Community"><meta property="og:title" content="Controlノードについて - Godot Japan User Community"><meta name=twitter:description content="Godot EngineのControlノードはGUI（グラフィカルユーザーインターフェース）を作成する機能になります。
+もちろん、同じCanvasItemを継承するNode2DでもGUIを作ることは可能ですが、レスポンシブなレイアウト機能や自動的なフォーカス機能などを持っているため、独自のプログラムを組まずともGodot Engineのエディタで簡単にデザインができる事が特徴です。
+また、翻訳を設定していると自動的にノードに含まれたテキストを翻訳したり、テーマを設定することができます。
+概念 基点とアンカー まず、アンカーとは、画面または親のControlノードの基準となる位置です。
+アンカーには、上下左右の4点の設定があり、これらはあくまでも相対的な割合になります。
+例えば、左上にアンカーがある場合は、画面（または親のControlノード）の左上から0の相対的な位置を示します。
+上記の例で言うと、Left：0, Top：0と共にRight：0, Bottom：0になっているのがわかります。
+それぞれ、0~1の間で、画面または親のControlノードの左上を基準とした位置の割合になります。
+つまり、Left:0, Top:0, Right:1, Bottom:1は画面全体となります。
+アンカーの設定方法 Godot Engine 4.0からアンカーは自動的に設定しやすくなりました。
+Controlノードを選択して、エディタビューポートの上部のメニューから、アンカーの設定をワンクリックで設定できるようになっています。
+細かな調整をする場合は、前項までの設定を個別にする必要がありますが、多くの場合はプリセットで対応可能かと思います。
+機能 翻訳 ! 翻訳については別ページで詳しく説明しますが、この項目ではControlノードが持つ翻訳についての機能のみを取り上げます。 Controlノードを継承するノードすべてに翻訳するかどうかのプロパティが設定されています（デフォルトはauto_translate: true）
+例えば、ButtonやLabelなどのテキストが表示されているノードの文字を翻訳するかどうかのプロパティになります。
+翻訳データが無い場合は、デフォルトの言語が使われるため、基本的には意識しなくても問題ありません。
+ただし翻訳データが存在している場合、ノードに使用されている文言を翻訳すると自動的に置き換わりますので、翻訳キーには注意が必要です。
+フォーカス Controlノードは、tabキーや上下左右キー（対応するゲームパッドの方向キーなど）を押した際に自動的にフォーカスする機能を持っています。
+例えば、複数のボタンを方向キーで選択することができます。
+ただし、画面上のフォーカスができるすべてのノードを自動的に選んで選択するため、画面レイアウトによっては明示的にフォーカス機能を一時的にオフにする などの対応が必要になります。
+var btn:Button = $Button func _ready(): # フォーカスを無効にする btn.focus_mode = Control.FOCUS_NONE # フォーカスを有効にする btn.focus_mode = Control.FOCUS_ALL # マウスクリックのみのフォーカスを受け付ける btn.focus_mode = Control.FOCUS_CLICK マウスクリック制限とスルー Controlノードはレイアウトとして複数重なる事が多く起こります。
+例えば、ボタンとウィンドウはどちらもControlノードで重なっていることが多いですし、さらにそのウィンドウのうらには別のウィンドウが表示されている場合もあります。
+こういった場合に、ボタンをクリックすると、後ろにあるボタンも反応してしまう または、あえて反応させたい というシチュエーションがあります。
+これらの挙動もいくつかのプロパティが用意されています。
+クリックの深さ ControlノードのインスペクタからMouseセクションのFilterに設定があります。
+GDScriptでは以下のようになります。
+var btn:Button = $Button func _ready(): btn."><meta property="og:description" content="Godot EngineのControlノードはGUI（グラフィカルユーザーインターフェース）を作成する機能になります。
+もちろん、同じCanvasItemを継承するNode2DでもGUIを作ることは可能ですが、レスポンシブなレイアウト機能や自動的なフォーカス機能などを持っているため、独自のプログラムを組まずともGodot Engineのエディタで簡単にデザインができる事が特徴です。
+また、翻訳を設定していると自動的にノードに含まれたテキストを翻訳したり、テーマを設定することができます。
+概念 基点とアンカー まず、アンカーとは、画面または親のControlノードの基準となる位置です。
+アンカーには、上下左右の4点の設定があり、これらはあくまでも相対的な割合になります。
+例えば、左上にアンカーがある場合は、画面（または親のControlノード）の左上から0の相対的な位置を示します。
+上記の例で言うと、Left：0, Top：0と共にRight：0, Bottom：0になっているのがわかります。
+それぞれ、0~1の間で、画面または親のControlノードの左上を基準とした位置の割合になります。
+つまり、Left:0, Top:0, Right:1, Bottom:1は画面全体となります。
+アンカーの設定方法 Godot Engine 4.0からアンカーは自動的に設定しやすくなりました。
+Controlノードを選択して、エディタビューポートの上部のメニューから、アンカーの設定をワンクリックで設定できるようになっています。
+細かな調整をする場合は、前項までの設定を個別にする必要がありますが、多くの場合はプリセットで対応可能かと思います。
+機能 翻訳 ! 翻訳については別ページで詳しく説明しますが、この項目ではControlノードが持つ翻訳についての機能のみを取り上げます。 Controlノードを継承するノードすべてに翻訳するかどうかのプロパティが設定されています（デフォルトはauto_translate: true）
+例えば、ButtonやLabelなどのテキストが表示されているノードの文字を翻訳するかどうかのプロパティになります。
+翻訳データが無い場合は、デフォルトの言語が使われるため、基本的には意識しなくても問題ありません。
+ただし翻訳データが存在している場合、ノードに使用されている文言を翻訳すると自動的に置き換わりますので、翻訳キーには注意が必要です。
+フォーカス Controlノードは、tabキーや上下左右キー（対応するゲームパッドの方向キーなど）を押した際に自動的にフォーカスする機能を持っています。
+例えば、複数のボタンを方向キーで選択することができます。
+ただし、画面上のフォーカスができるすべてのノードを自動的に選んで選択するため、画面レイアウトによっては明示的にフォーカス機能を一時的にオフにする などの対応が必要になります。
+var btn:Button = $Button func _ready(): # フォーカスを無効にする btn.focus_mode = Control.FOCUS_NONE # フォーカスを有効にする btn.focus_mode = Control.FOCUS_ALL # マウスクリックのみのフォーカスを受け付ける btn.focus_mode = Control.FOCUS_CLICK マウスクリック制限とスルー Controlノードはレイアウトとして複数重なる事が多く起こります。
+例えば、ボタンとウィンドウはどちらもControlノードで重なっていることが多いですし、さらにそのウィンドウのうらには別のウィンドウが表示されている場合もあります。
+こういった場合に、ボタンをクリックすると、後ろにあるボタンも反応してしまう または、あえて反応させたい というシチュエーションがあります。
+これらの挙動もいくつかのプロパティが用意されています。
+クリックの深さ ControlノードのインスペクタからMouseセクションのFilterに設定があります。
+GDScriptでは以下のようになります。
+var btn:Button = $Button func _ready(): btn."><meta name=twitter:image content="https://godot-jp.github.io/images/TwitterCard.png"><meta property="og:type" content="website"><meta property="og:url" content="https://godot-jp.github.io/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"><meta property="og:site_name" content="Godot Japan User Community"><meta property="og:image" content="https://godot-jp.github.io/images/TwitterCard.png"><link rel=stylesheet href=https://godot-jp.github.io/scss/gjuc-bs.css><script src=https://godot-jp.github.io/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js></script>
 <link href=/css/gjuc.base.style.css rel=stylesheet><link href=/css/gjuc.posts.style.css rel=stylesheet><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.11.0/css/all.css><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel=stylesheet><script async src="https://www.googletagmanager.com/gtag/js?id=G-0KGV6JPV5X"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-0KGV6JPV5X")</script><body class=bg-light><nav id=global-menu class="row bg-primary"><span id=header-logo class="col-auto justify-content-center d-flex"><a href=/ class=m-auto><img src=/images/Logo.svg class="w-100 px-2"></a></span><ul class="row col-auto gx-0 fw-bold"><li class=col-auto><a href=/news/>ニュース</a></li><li class=col-auto><a href=/about/>当サイトについて</a></li><li class=col-auto><a href=/reference/>逆引きリファレンス</a></li></ul></nav><section class="container row mx-auto my-3"><div id=side-bar class=col-3><div class=position-sticky style=top:0><span class="d-block py-2 text-center fs-5 fw-bold" style="border-bottom:rgba(25,25,25,.3)thick double">Menu</span><ul id=all-toc class=my-3><li class=icon-basic><a href data-bs-toggle=collapse data-bs-target=#基本的な使い方 aria-expanded=false aria-controls=基本的な使い方>基本的な使い方</a><ul class=collapse id=基本的な使い方><li class=row><a href=#%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90%e6%96%b9%e6%b3%95 class="col-auto toggle-icon collapsed" data-bs-toggle=collapse data-bs-target=#プロジェクトの作成方法 aria-expanded=false aria-controls=プロジェクトの作成方法><span class=target>></span></a>
 <a href=/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/ class="col my-auto">プロジェクトの作成方法</a><nav class="toc collapse" id=プロジェクトの作成方法><ul><li><a href=/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#インストール方法>インストール方法</a><ul><li><a href=/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#公式サイトからダウンロード>公式サイトからダウンロード</a></li><li><a href=/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#その他のプラットフォームからダウンロード>その他のプラットフォームからダウンロード</a></li></ul></li><li><a href=/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#プロジェクトの作成>プロジェクトの作成</a><ul><li><a href=/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#プロジェクトマネージャー>プロジェクトマネージャー</a></li><li><a href=/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#新規プロジェクトの作成>新規プロジェクトの作成</a></li><li><a href=/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#メインシーンの作成>メインシーンの作成</a></li><li><a href=/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#メインシーンの設定>メインシーンの設定</a></li></ul></li></ul></nav></li></ul></li><li class=icon-gdscript><a href data-bs-toggle=collapse data-bs-target=#GDScriptについて aria-expanded=false aria-controls=GDScriptについて>GDScriptについて</a><ul class=collapse id=GDScriptについて><li class=row><a href=#GDScript%e3%81%ae%e5%9f%ba%e6%9c%ac class="col-auto toggle-icon collapsed" data-bs-toggle=collapse data-bs-target=#GDScriptの基本 aria-expanded=false aria-controls=GDScriptの基本><span class=target>></span></a>

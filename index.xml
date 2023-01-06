@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Godot Japan User Community</title><link>https://godot-jp.github.io/</link><description>Recent content on Godot Japan User Community</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 20 Dec 2022 14:12:47 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Controlノードについて</title><link>https://godot-jp.github.io/reference/gui%E9%96%A2%E9%80%A3/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link><pubDate>Thu, 15 Dec 2022 13:50:29 +0900</pubDate><guid>https://godot-jp.github.io/reference/gui%E9%96%A2%E9%80%A3/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid><description>Godot EngineのControlノードはGUI（グラフィカルユーザーインターフェース）を作成する機能になります。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Godot Japan User Community</title><link>https://godot-jp.github.io/</link><description>Recent content on Godot Japan User Community</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Thu, 05 Jan 2023 14:08:07 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Controlノードについて</title><link>https://godot-jp.github.io/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link><pubDate>Thu, 15 Dec 2022 13:50:29 +0900</pubDate><guid>https://godot-jp.github.io/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid><description>Godot EngineのControlノードはGUI（グラフィカルユーザーインターフェース）を作成する機能になります。
 もちろん、同じCanvasItemを継承するNode2DでもGUIを作ることは可能ですが、レスポンシブなレイアウト機能や自動的なフォーカス機能などを持っているため、独自のプログラムを組まずともGodot Engineのエディタで簡単にデザインができる事が特徴です。
 また、翻訳を設定していると自動的にノードに含まれたテキストを翻訳したり、テーマを設定することができます。
 概念 基点とアンカー まず、アンカーとは、画面または親のControlノードの基準となる位置です。
@@ -23,7 +23,7 @@ var btn:Button = $Button func _ready(): # フォーカスを無効にする btn.
 これらの挙動もいくつかのプロパティが用意されています。
 クリックの深さ ControlノードのインスペクタからMouseセクションのFilterに設定があります。
 GDScriptでは以下のようになります。
-var btn:Button = $Button func _ready(): btn.</description></item><item><title>入力機能について</title><link>https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E9%96%A2%E9%80%A3/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link><pubDate>Sat, 10 Dec 2022 19:15:41 +0900</pubDate><guid>https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E9%96%A2%E9%80%A3/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid><description>プロジェクトの入力マップ設定 Godot Engineはインプットマップとしてプロジェクト毎に入力の管理ができます。
+var btn:Button = $Button func _ready(): btn.</description></item><item><title>入力機能について</title><link>https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/</link><pubDate>Sat, 10 Dec 2022 19:15:41 +0900</pubDate><guid>https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/</guid><description>プロジェクトの入力マップ設定 Godot Engineはインプットマップとしてプロジェクト毎に入力の管理ができます。
 インプットマップは、アクション名を設定し、そのアクションに、どの入力を割り当てるかという考え方になります。
 デバイスからの入力を設定する プロジェクト設定からインプットマップタブを開きます。
 デフォルトで設定されているアクションは非表示になっています。
@@ -45,7 +45,7 @@ var btn:Button = $Button func _ready(): btn.</description></item><item><title>�
 例えばデッドゾーンを0.2に設定すると、0.2未満の値はすべて0とみなされます。
 これにより、不安定なアナログ入力のブレを制限することができます。
 基本的な入力の取得方法 プロジェクトにアクションマップが登録されたので、実際に入力を処理するサンプルを記載します。
-インプットメソッドで入力を処理する func _input(_event): if _event.is_action_just_pressed(&amp;#34;Jump&amp;#34;): print(&amp;#34;ジャンプボタンが押された&amp;#34;) プロセスメソッドで入力を処理する func _proccess(_delta): if Input.is_action_just_pressed(&amp;#34;Jump&amp;#34;): print(&amp;#34;ジャンプボタンが押された&amp;#34;) InputEventの種類 イベント名 型インデックス 説明 InputEvent NONE 空の入力イベント InputEventKey KEY スキャンコードとUnicodeの値、および修飾子が含まれています。 InputEventMouseButton MOUSE_BUTTON ボタン、モディファイヤなどのクリック情報が含まれます。 InputEventMouseMotion MOUSE_MOTION 相対位置、絶対位置、速度などのモーション情報が含まれます。 InputEventJoypadMotion JOYSTICK_MOTION ジョイスティック/ジョイパッドのアナログ軸情報が含まれています。 InputEventJoypadButton JOYSTICK_BUTTON ジョイスティック/ジョイパッドのボタン情報が含まれます。 InputEventScreenTouch SCREEN_TOUCH マルチタッチのプレス/リリース情報が含まれています。(モバイルデバイスでのみ使用可能) InputEventScreenDrag SCREEN_DRAG マルチタッチドラッグ情報が含まれています。(モバイルデバイスでのみ使用可能) InputEventScreenAction SCREEN_ACTION 汎用アクションが含まれています。これらのイベントは多くの場合、フィードバックとしてプログラマーによって生成されます。(詳細は以下)</description></item><item><title>GDScriptの基本</title><link>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/</guid><description>Godot Engineの組み込みスクリプト言語であるGDScriptの基本的な使い方について記載します。
+インプットメソッドで入力を処理する func _input(_event): if _event.is_action_just_pressed(&amp;#34;Jump&amp;#34;): print(&amp;#34;ジャンプボタンが押された&amp;#34;) プロセスメソッドで入力を処理する func _proccess(_delta): if Input.is_action_just_pressed(&amp;#34;Jump&amp;#34;): print(&amp;#34;ジャンプボタンが押された&amp;#34;) InputEventの種類 イベント名 型インデックス 説明 InputEvent NONE 空の入力イベント InputEventKey KEY スキャンコードとUnicodeの値、および修飾子が含まれています。 InputEventMouseButton MOUSE_BUTTON ボタン、モディファイヤなどのクリック情報が含まれます。 InputEventMouseMotion MOUSE_MOTION 相対位置、絶対位置、速度などのモーション情報が含まれます。 InputEventJoypadMotion JOYSTICK_MOTION ジョイスティック/ジョイパッドのアナログ軸情報が含まれています。 InputEventJoypadButton JOYSTICK_BUTTON ジョイスティック/ジョイパッドのボタン情報が含まれます。 InputEventScreenTouch SCREEN_TOUCH マルチタッチのプレス/リリース情報が含まれています。(モバイルデバイスでのみ使用可能) InputEventScreenDrag SCREEN_DRAG マルチタッチドラッグ情報が含まれています。(モバイルデバイスでのみ使用可能) InputEventScreenAction SCREEN_ACTION 汎用アクションが含まれています。これらのイベントは多くの場合、フィードバックとしてプログラマーによって生成されます。(詳細は以下)</description></item><item><title>GDScriptの基本</title><link>https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/</guid><description>Godot Engineの組み込みスクリプト言語であるGDScriptの基本的な使い方について記載します。
 基本的な記述方法 extends Node var int_sanple = 0 var text_sample = &amp;#34;文字列&amp;#34; var int_sample2 :int = 1 func _ready(): pass GDSCriptは、大まかに３種類の要素で読み書きすることができます。
 上記のサンプルを１行ずつ解説します。
 クラスの拡張 extends Node extends NodeはNodeというクラスの拡張という意味です。
@@ -56,7 +56,43 @@ Nodeクラスが持つ機能をそのままに、新しいクラスを作るこ�
 明示的な型付け var int_sample2 :int = 1 型を意識したい場合もありますので、上記のように明示的に型を指定することもできます。
 関数 func _ready(): pass GDScriptの関数はfuncにスペースを空けて関数名を記述します。
 多くの言語のように{ }でブロックを作るのではなく、:のあとのインデントでブロックを作る構文になります。
-関数にはクラスがもともと持っている組み込み関数と、ユーザーが作る独自関数の２種類があります。</description></item><item><title>ゲームパッド入力について</title><link>https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E9%96%A2%E9%80%A3/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link><pubDate>Tue, 20 Dec 2022 14:12:47 +0900</pubDate><guid>https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E9%96%A2%E9%80%A3/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid><description>ゲームパッドとアクションの登録 入力機能についてで解説している通り、Godot Engineではアクションに対して複数の入力を登録することができます。
+関数にはクラスがもともと持っている組み込み関数と、ユーザーが作る独自関数の２種類があります。</description></item><item><title>Godot Japan User Community リリース</title><link>https://godot-jp.github.io/news/release2023-1-10/</link><pubDate>Thu, 05 Jan 2023 14:08:07 +0900</pubDate><guid>https://godot-jp.github.io/news/release2023-1-10/</guid><description>Godot Japan User Communityの公式サイトをリリースしました。
+サイトの説明については当サイトについてをご覧ください。
+この記事では、当サイトの今後、成り立ちについて書きたいと思います。
+サイト開設の経緯 私は2019年からGodot Engineを触り始め、様々なプロトタイプを作り、試してきました。
+2020年には、日本Discordコミュニティを開設し、日本語での情報交換がしやすい場所を作りました。
+様々な方が日本語での情報を部分的にまとめられていますが、2023年現在まで、Blenderのような日本語の非公式ポータルサイトのようなものは存在していません。
+そこで私は自身のブログで情報をまとめようとしましたが、私一人では情報提供に限りがあることに気づきました。
+いつか、こういった専用サイトを作ることを考えていましたが、どういった形が良いか悩んでいました。
+日本のDiscordサーバーで、トカゲ氏と会話をした中で、私自身が参考にしていたFlashゲームプログラミング講座の話題が出ました。
+トカゲ氏も同じくこのサイトを参考にゲーム開発やプログラムを学んだ時期があることで盛り上がりました。
+現在はFlash Playerはなくなってしまったため、直接的には参考にならないかもしれませんが、間接的にアルゴリズムやプログラムの考え方においては参考になるサイトです。
+私達が出した結論は 「Godot Engine版のサイトがあればいいのに」 でした。
+オープンソースの魅力 Godot EngineのGithubやDiscordなどのコミュニティでは様々な情報やサイト・ドキュメントに関する議論が常に行われています。
+これはオープンソースだからこそのコミュニケーションであり、Godot Engineそのものもライセンス料などがなく非営利のエンジンだからこそ魅力であると考えています。
+非営利でオープンソースなコミュニティサイトを作ることで、煩わしい広告や宣伝に悩まされることなく、欲しい情報を常に手に入れることができるサイトを目指しました。
+今後も広告の掲載などは一切なく、非営利のサイト運営となります。
+寄付について 現在Github Sponsorsの申請中でまだ認可されていませんが、今後は寄付を募る予定です。
+私は多くの日を生活のための仕事をしているので、本サイトへの貢献がまだ少ない状態です。
+サイト及びコミュニティ運営にかかる費用はすべて私が負担しています。誤解のないようにお伝えしますが、これはコミュニティへの貢献として好きでやっていることです。
+しかし、私一人の力では、無限に続くわけではありません。
+非営利ではありますが、今後のビジョンを実現するために、寄付を募ります。
+今後 当サイトはどなたでも寄稿・議論・課題の提案などができるコミュニティです。
+どんな要望も受け付けていますので、当サイトのリポジトリのIssuesやDiscussionに投稿してください。
+現在私が考えているコミュニティのコンテンツは以下です。
+チュートリアル記事シリーズ Tips＆チュートリアル動画シリーズ Godot Engine用のオープンソースアセット提供 Godot Engine プラグイン提供 本コミュニティ主催ゲームジャム その他イベント さいごに 私はGodot Engineのファンであると同時に、ゲーム開発者を応援しています。
+少しでもゲーム開発の役に立つような情報発信と、サポートができるように活動していきますので、今後ともよろしくおねがいします。</description></item><item><title>Godot Engineについて</title><link>https://godot-jp.github.io/feature/</link><pubDate>Thu, 05 Jan 2023 12:01:20 +0900</pubDate><guid>https://godot-jp.github.io/feature/</guid><description>Godot Engineは、オープンソースのマルチプラットフォーム向けのWindows・Mac・Linuxで動作するゲームエンジンです。
+エンジン自体のファイルサイズも動作も非常に軽く、ある程度低いスペックであってもプロジェクトを開始することができます。
+バージョン管理ツールにも対応しやすく、プロジェクトファイルはシンプルなアスキーファイルで構成されており、差分の管理がしやすいのも特徴です。
+C++で書かれたエンジンそのものを改変することも可能ですが、GDExtensionやアドオンを自作してプロジェクトに読み込むことで、エンジンを拡張することも可能です。
+2Dでは、タイルマップやボーンアニメーションや2Dライトや拡張性の高いカメラなどが用意されており、プロトタイプの開発速度に驚くかもしれません。
+3Dでは、Vulkan1を使用し美しい表現が可能になり、物理エンジンで物理計算に基づいた物体の動きを再現することも可能です。
+どなたでも簡単に始めることができ、エディタの言語の多くの部分が日本語に翻訳されています。
+当サイトの活用方法 Godot Engineはもともと英語で開発されており、多言語化されたことで日本でのシェアを伸ばしてきました。
+しかし、2022年現在では日本のユーザーはまだまだ少ないため、他のゲームエンジンに比べると日本語の情報が少ないのが課題と言えます。
+当サイトはGodot Engineに関するナレッジベースとして、日本語の情報を取り扱うポータルサイトを目指しています。
+オープンソースなサイトとすることで、情報をどなたでも更新できるように運営しています。
+Vulkanのレンダリングエンジンを使用できるのはGodot Engine4.0からです。&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description></item><item><title>ゲームパッド入力について</title><link>https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link><pubDate>Tue, 20 Dec 2022 14:12:47 +0900</pubDate><guid>https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid><description>ゲームパッドとアクションの登録 入力機能についてで解説している通り、Godot Engineではアクションに対して複数の入力を登録することができます。
 これにより、コードからはキーボードとゲームパッドの操作を、どちらも同じアクションで参照することができます。
 このページでは、ゲームパッドに関連する操作やコードを解説していきます。
 ゲームパッドの状態取得 ゲームパッドが認識されているか取得 ゲームパッドがシステムに認識されているかどうかを判別します。
@@ -66,7 +102,7 @@ func _ready(): Input.joy_connection_changed.connect(_on_joy_connection_changed) 
 var value :Vector2 = Input.get_vector(&amp;#34;move_right&amp;#34;, &amp;#34;move_left&amp;#34;, &amp;#34;move_up&amp;#34;, &amp;#34;move_down&amp;#34;) print(str(value)) # [-1.0, -1.0] ~ [0, 0] ~ [1.0, 1.0] ボタン入力を取得 通常はis_action_pressed()などを使用してアクションでの入力判定を行うことがほとんどですが、ゲームパッドのボタン入力を個別に取得したい場合は以下のように取得できます。
 if Input.is_joy_button_pressed(0, JOY_DS_A): print(&amp;#34;Nintendo規格のAボタンに値するボタンが押されている&amp;#34;) グローバルスコープのJoystickListに定義されたゲームパッドの入力の値を第2引数に指定します。
 ジャイロスコープセンサーの取得 ! 現在標準のエンジンの機能として、iOS・Android以外のジャイロスコープセンサーの取得はできないようです。
-GDExtensionなどの拡張で取得することは可能です。 ゲームパッドへの命令 バイブレーションの設定 start_joy_vibration(デバイス, 弱振動値, 強振動値, 振動時間)で設定します。</description></item><item><title>画面レイアウトについて</title><link>https://godot-jp.github.io/reference/gui%E9%96%A2%E9%80%A3/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link><pubDate>Wed, 14 Dec 2022 14:11:39 +0900</pubDate><guid>https://godot-jp.github.io/reference/gui%E9%96%A2%E9%80%A3/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid><description>Containerノードの基本 Container（コンテナ）ノードは、子ノードとしてコンテンツを持つことを前提としたノードです。
+GDExtensionなどの拡張で取得することは可能です。 ゲームパッドへの命令 バイブレーションの設定 start_joy_vibration(デバイス, 弱振動値, 強振動値, 振動時間)で設定します。</description></item><item><title>画面レイアウトについて</title><link>https://godot-jp.github.io/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link><pubDate>Wed, 14 Dec 2022 14:11:39 +0900</pubDate><guid>https://godot-jp.github.io/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid><description>Containerノードの基本 Container（コンテナ）ノードは、子ノードとしてコンテンツを持つことを前提としたノードです。
 子ノードであるコンテンツを自動的にレイアウトすることを目的とした機能を持っています。
 継承元のContainerノード自体はControlノードとほとんど機能は変わりませんので、単体で使用することはありません。
 基本的にはContianerを継承している以下で紹介するノードの拡張のために準備された機能を持っています。
@@ -95,7 +131,7 @@ panelのプロパティを持っていますので、テーマでスタイルを
 もしも並んだコンテンツの横幅が、親のコンテナであるGridContainerの横幅を超えた場合であっても、必ず並べるのが特徴です。
 コンテンツの大きさに応じて並べる FlowContainerは、コンテンツの大きさに応じて自動的に並べ、GridContainerのように詰めて表示します。
 親のコンテナであるFlowContainerの幅に応じて、収まりきらないコンテンツは次の行または列にカラム落ちします。
-My PR for implementing FlowContainers(H/V) got merged today! This type of container arranges its child nodes similar to text and autowraps the ones which don&amp;#39;t fit in a line.</description></item><item><title>プロジェクトの作成方法</title><link>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/</link><pubDate>Sat, 10 Dec 2022 19:24:47 +0900</pubDate><guid>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/</guid><description>インストール方法 公式サイトからダウンロード Godot Engineの公式サイトのダウンロードページから安定版をダウンロードします。
+My PR for implementing FlowContainers(H/V) got merged today! This type of container arranges its child nodes similar to text and autowraps the ones which don&amp;#39;t fit in a line.</description></item><item><title>プロジェクトの作成方法</title><link>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/</link><pubDate>Sat, 10 Dec 2022 19:24:47 +0900</pubDate><guid>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/</guid><description>インストール方法 公式サイトからダウンロード Godot Engineの公式サイトのダウンロードページから安定版をダウンロードします。
 Zipファイルなので任意のパスに解凍し、godot_[バージョン]_stable_win.exeを起動します。
 ! 当サイトではGodot Engine 4.xを基準にリファレンスを掲載しています。
 3.xをインストールした場合、若干内容に差異があるかもしれません。
@@ -120,8 +156,7 @@ itch.ioのデスクトップアプリを入れると、最新版の自動ダウ�
 作成したシーンファイル（.tscnファイル）をダブルクリックして開いてください。
 メインシーンの設定 作成したシーンをメインシーンとして設定します。
 保存したシーンファイル（.tscnファイル）を。ファイルシステムパネルから右クリックします。
-右クリックメニューの中から「メインシーンとして設定」をクリックすると、選んだシーンが最初に実行されるようになります。</description></item><item><title>当サイトについて</title><link>https://godot-jp.github.io/about/</link><pubDate>Tue, 06 Dec 2022 08:38:26 +0900</pubDate><guid>https://godot-jp.github.io/about/</guid><description>😀
-Godot Japan User Communityはオープンソースのコミュニティサイトです。
+右クリックメニューの中から「メインシーンとして設定」をクリックすると、選んだシーンが最初に実行されるようになります。</description></item><item><title>当サイトについて</title><link>https://godot-jp.github.io/about/</link><pubDate>Tue, 06 Dec 2022 08:38:26 +0900</pubDate><guid>https://godot-jp.github.io/about/</guid><description>Godot Japan User Communityはオープンソースのコミュニティサイトです。
 本コミュニティは、静的サイトジェネレーター Hugo と Github Pages でホスティングされており、コミュニティメンバー（コントリビューター、メンテナー、コミュニティリーダー）によって本コミュニティの運営を行っています。
 Godot Engine公式のガバナンスに沿ったユーザーコミュニティの一つとしてGodot Engineの認知度の向上・知識の共有を目的としており、金銭的な利益を目的としていません。
 そのため、本サイトは広告・宣伝などの掲載は一切なく、すべてのGodot Engineユーザーのための運営に努めます。
@@ -133,14 +168,14 @@ Webサイトのホスティングおよび関連サービスへの支払い 各�
 本サイトに掲載されている情報・デザイン・アセットなど（以下、ソフトウェア）のライセンスは一部を除きMITライセンスのもと公開されています。
 複製の利用・配布・改変・商用利用など、どなたでも自由にお使い頂くことができます。
 以下のライセンスの全文を、ソースコードやソースコードに同梱したライセンス表示用の別ファイルなどに掲載してください。
-Copyright (c) 2022 Godot Japan User Community Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;#34;Software&amp;#34;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</description></item><item><title>数値について</title><link>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid><description>数値の基本 数値の型は、主にint型とfloat型になります。
+ライセンス全文 Copyright (c) 2022 Godot Japan User Community Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;#34;Software&amp;#34;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</description></item><item><title>数値について</title><link>https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid><description>数値の基本 数値の型は、主にint型とfloat型になります。
 単純に言えば、intは整数で、floatは小数点のある数字（実数）です。
 int型の場合、64bitの数値として、-9223372036854775807 〜 9223372036854775807までの数値を扱う事ができます。
 float型の場合、エンジン内の関数などでは32bitの浮動小数点値を使用しています。
 これは10進数の6桁になりますので、大きな数字を表現する場合はint型として処理するほうが良いと思います。
 数値の作成方法 数値を作成するには数値リテラルを使用します。
 整数の作成 var value0 :int = 1 var value1 :int = -1 # 静的型付け var value2 = 1 実数の作成 var value0 :float = 1.0 var value1 :float = -1.0 # 静的型付け var value2 = 1.0 数値に変換する方法 別の型を数値に変換（キャスト）する関数が用意されています。
-intクラスメソッド メソッド名 説明 int(bool) bool型をint型に変換します。trueなら1に、falseなら0に変換します。 int(float) float型をint型に変換します。端数は切り捨てられますので、例えば2.7の場合は2に、-0.7の場合は0になります。 int(String) 有効なString型をint型に変換します。すべて無効な文字列は無視され0が返されます。例えば&amp;quot;test1&amp;quot;の場合は1に、&amp;quot;1e3&amp;quot;の場合は13になります。 floatクラスメソッド メソッド名 説明 float(bool) bool型をfloat型に変換します。trueなら1.0に、falseなら0.0に変換します。 float(int) int型をfloat型に変換します。1の場合は1.0に変換されます。 float(String) 有効なString型をfloat型に変換します。このメソッドはfloat文字列（&amp;quot;0.72&amp;quot;など）や指数表記文字列を受け入れるため、1e3の場合は1000.0になります。（1e3 = 1×10の3乗 = 1000）それまで解析した結果を返して処理を終了するため、1e3a2の場合は1000.0となり、後半のa2は無効となります。 特殊な数値の表し方 2進整数（int型） 0と1で表す2進数ですが、Godot Engineでは、最終的にint型として扱われます。</description></item><item><title>文字列について</title><link>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E6%A9%9F%E8%83%BD/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid><description>文字列の基本 文字列は非常に単純なデータ型であり、コピーオンライトという方式が取られています。
+intクラスメソッド メソッド名 説明 int(bool) bool型をint型に変換します。trueなら1に、falseなら0に変換します。 int(float) float型をint型に変換します。端数は切り捨てられますので、例えば2.7の場合は2に、-0.7の場合は0になります。 int(String) 有効なString型をint型に変換します。すべて無効な文字列は無視され0が返されます。例えば&amp;quot;test1&amp;quot;の場合は1に、&amp;quot;1e3&amp;quot;の場合は13になります。 floatクラスメソッド メソッド名 説明 float(bool) bool型をfloat型に変換します。trueなら1.0に、falseなら0.0に変換します。 float(int) int型をfloat型に変換します。1の場合は1.0に変換されます。 float(String) 有効なString型をfloat型に変換します。このメソッドはfloat文字列（&amp;quot;0.72&amp;quot;など）や指数表記文字列を受け入れるため、1e3の場合は1000.0になります。（1e3 = 1×10の3乗 = 1000）それまで解析した結果を返して処理を終了するため、1e3a2の場合は1000.0となり、後半のa2は無効となります。 特殊な数値の表し方 2進整数（int型） 0と1で表す2進数ですが、Godot Engineでは、最終的にint型として扱われます。</description></item><item><title>文字列について</title><link>https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid><description>文字列の基本 文字列は非常に単純なデータ型であり、コピーオンライトという方式が取られています。
 参照渡しができない型の場合、他の変数に渡すとすぐに複製されますが、Godot Engineの場合、渡された時点では参照渡しであり、変更があった場合に複製されます。
 つまり、変更がない場合は複製されないのでメモリの節約になります。
 また、Godot Engineでは文字列を加工するメソッドが多数用意されています。

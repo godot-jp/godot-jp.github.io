@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ニュース on Godot Japan User Community</title><link>https://godot-jp.github.io/news/</link><description>Recent content in ニュース on Godot Japan User Community</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Thu, 05 Jan 2023 12:41:13 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/news/index.xml" rel="self" type="application/rss+xml"/><item><title>Godot Japan User Community リリース</title><link>https://godot-jp.github.io/news/release2023-1-10/</link><pubDate>Thu, 05 Jan 2023 14:08:07 +0900</pubDate><guid>https://godot-jp.github.io/news/release2023-1-10/</guid><description>Godot Japan User Communityの公式サイトをリリースしました。
+サイトの説明については当サイトについてをご覧ください。
+この記事では、当サイトの今後、成り立ちについて書きたいと思います。
+サイト開設の経緯 私は2019年からGodot Engineを触り始め、様々なプロトタイプを作り、試してきました。
+2020年には、日本Discordコミュニティを開設し、日本語での情報交換がしやすい場所を作りました。
+様々な方が日本語での情報を部分的にまとめられていますが、2023年現在まで、Blenderのような日本語の非公式ポータルサイトのようなものは存在していません。
+そこで私は自身のブログで情報をまとめようとしましたが、私一人では情報提供に限りがあることに気づきました。
+いつか、こういった専用サイトを作ることを考えていましたが、どういった形が良いか悩んでいました。
+日本のDiscordサーバーで、トカゲ氏と会話をした中で、私自身が参考にしていたFlashゲームプログラミング講座の話題が出ました。
+トカゲ氏も同じくこのサイトを参考にゲーム開発やプログラムを学んだ時期があることで盛り上がりました。
+現在はFlash Playerはなくなってしまったため、直接的には参考にならないかもしれませんが、間接的にアルゴリズムやプログラムの考え方においては参考になるサイトです。
+私達が出した結論は 「Godot Engine版のサイトがあればいいのに」 でした。
+オープンソースの魅力 Godot EngineのGithubやDiscordなどのコミュニティでは様々な情報やサイト・ドキュメントに関する議論が常に行われています。
+これはオープンソースだからこそのコミュニケーションであり、Godot Engineそのものもライセンス料などがなく非営利のエンジンだからこそ魅力であると考えています。
+非営利でオープンソースなコミュニティサイトを作ることで、煩わしい広告や宣伝に悩まされることなく、欲しい情報を常に手に入れることができるサイトを目指しました。
+今後も広告の掲載などは一切なく、非営利のサイト運営となります。
+寄付について 現在Github Sponsorsの申請中でまだ認可されていませんが、今後は寄付を募る予定です。
+私は多くの日を生活のための仕事をしているので、本サイトへの貢献がまだ少ない状態です。
+サイト及びコミュニティ運営にかかる費用はすべて私が負担しています。誤解のないようにお伝えしますが、これはコミュニティへの貢献として好きでやっていることです。
+しかし、私一人の力では、無限に続くわけではありません。
+非営利ではありますが、今後のビジョンを実現するために、寄付を募ります。
+今後 当サイトはどなたでも寄稿・議論・課題の提案などができるコミュニティです。
+どんな要望も受け付けていますので、当サイトのリポジトリのIssuesやDiscussionに投稿してください。
+現在私が考えているコミュニティのコンテンツは以下です。
+チュートリアル記事シリーズ Tips＆チュートリアル動画シリーズ Godot Engine用のオープンソースアセット提供 Godot Engine プラグイン提供 本コミュニティ主催ゲームジャム その他イベント さいごに 私はGodot Engineのファンであると同時に、ゲーム開発者を応援しています。
+少しでもゲーム開発の役に立つような情報発信と、サポートができるように活動していきますので、今後ともよろしくおねがいします。</description></item></channel></rss>

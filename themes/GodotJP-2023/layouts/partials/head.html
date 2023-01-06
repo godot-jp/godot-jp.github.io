@@ -29,15 +29,16 @@
 <meta property="og:description" content="{{.Summary}}" />
 {{ end }}
 {{ if .Params.image }}
-<meta name="twitter:image" content="{{.Params.image}}" />
+<meta name="twitter:image" content="{{.Permalink}}{{.Params.image}}" />
+<meta property="og:image" content="{{.Permalink}}{{.Params.image}}" />
 {{else}}
 <meta name="twitter:image" content="{{ "images/TwitterCard.png" | absURL}}" />
+<meta property="og:image" content="{{ "images/TwitterCard.png" | absURL}}" />
 {{end}}
 <!-- OGPの設定 -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{.Permalink}}" />
 <meta property="og:site_name" content="{{.Site.Title}}" />
-<meta property="og:image" content="{{ "images/TwitterCard.png" | absURL}}" />
 <!-- bootstrap5 -->
 {{ $style := resources.Get "scss/gjuc-bs.scss" | resources.ToCSS }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" />

@@ -18,6 +18,26 @@
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="{{.Site.Title}}" />
+<meta property="og:title" content="{{.Site.Title}}" />
+{{ if .IsPage }}
+<meta name="twitter:title" content="{{.Title}} - {{.Site.Title}}" />
+<meta property="og:title" content="{{.Title}} - {{.Site.Title}}" />
+<meta name="twitter:description" content="{{.Summary}}" />
+<meta property="og:description" content="{{.Summary}}" />
+{{ end }}
+{{ if .Params.image }}
+<meta name="twitter:image" content="{{.Params.image}}" />
+{{else}}
+<meta name="twitter:image" content="{{ "images/TwitterCard.png" | absURL}}" />
+{{end}}
+<!-- OGPの設定 -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{.Permalink}}" />
+<meta property="og:site_name" content="{{.Site.Title}}" />
+<meta property="og:image" content="{{ "images/TwitterCard.png" | absURL}}" />
 <!-- bootstrap5 -->
 {{ $style := resources.Get "scss/gjuc-bs.scss" | resources.ToCSS }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" />

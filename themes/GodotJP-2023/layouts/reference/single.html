@@ -1,0 +1,54 @@
+{{ partial "header.html" . }}
+{{ partial "global-menu.html" . }}
+
+<section class="container row mx-auto my-3">
+    <div id="side-bar" class="col-3">
+        {{ partial "reference-side-menu.html" . }}
+    </div>
+    <div class="col-9 markdown">
+        <h1 class="text-center mb-5">
+            <span class="noto-color-emoji">{{.Page.Params.emoji}}</span> {{.Title}}
+        </h1>
+        {{.Content}}
+    </div>
+
+    <div id="post-footer" class="text-center my-5">
+        <div>
+            <a href="#" class="btn btn-light border border-black-50"> 
+                <span class="to-top-icon">↑</span>トップにもどる
+            </a>
+        </div>
+        <div class="p-3 mt-3 balloon" style="font-size: 80%; line-height:150%;">
+            お役に立てましたか？<br>
+            シェアしてGodot Engineを広げましょう！
+        </div>
+        <div class="">
+            <div class="d-flex row gx-2 text-center justify-content-center">
+                <a class="col-auto btn btn-info m-1 twitter-icon" style="font-size:80%;"
+                href="https://twitter.com/share?url={{.Permalink}}&text={{.Title}}%20-%20{{.Site.Title}}" 
+                rel="nofollow" 
+                target="_blank">シェア</a>
+                <a class="col-auto btn btn-dark m-1 github-icon" style="font-size:80%;" target="_blank"
+                href="https://github.com/godot-jp/godot-jp.github.io/issues/new?labels=bug&title=「{{.Title}}」について">Issue</a>
+            </div>
+            {{with .GitInfo}}
+            <table class="post-info">
+                <tbody>
+                    <tr>
+                        <th>😃 Author</th> <td><strong>{{.AuthorName}}</strong></td>
+                    </tr>
+                    <tr>
+                        <th>📔 Write Date</th> <td>{{ dateFormat "2006/1/2 15:04:05" .AuthorDate }}</td>
+                    </tr>
+                    <tr>
+                        <th>✏️ Modified Date</th> <td>{{ dateFormat "2006/1/2 15:04:05" $.Lastmod }}</td>
+                    </tr>
+                </tbody>
+            </table>
+            {{end}}
+        </div>
+    </div>
+</section>
+
+
+{{ partial "footer.html" . }}

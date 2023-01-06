@@ -1,0 +1,77 @@
+{{ partial "header.html" . }}
+<section id="home" class="container-fluid p-0 m-0">
+    
+    <div id="header-carousel" class="w-100 text-light bg-primary text-center">
+        {{ partial "global-menu.html" . }}
+        <h2 class="fs-1 fw-bold mt-3">
+            自由な開発を<br>Godot Engineではじめましょう
+        </h2>
+        <p class="text-light text-shadow" style="font-size: 90%;">Godot Japan User Communityでは無料のオープンソースソフトウェアを使用して<br>
+            プロフェッショナルなゲームの開発を開始できます。</p>
+        <a href="{{ "feature/" | relURL }}" class="btn btn-secondary mx-auto mb-5 p-3 fw-bold text-dark shadow-tooned">Godot Engineについて</a>
+    </div>
+    
+    <section id="content" class="container-md">
+        <div class="mx-auto mt-3 mb-5">
+            <h2 class="text-center text-danger">News</h2>
+            <div class="row justify-content-center gx-2">
+                {{with .Site.GetPage "news/"}}
+                {{range first 3 .Pages}}
+                {{ $info := .GitInfo}}
+                <div class="card col-4 news-column">
+                    <a href="{{ .Permalink | relURL}}">
+                        <img src="{{ .Permalink | relURL}}/{{.Params.image}}" class="card-img-top news-images">
+                        <div class="card-body">
+                            <p class="info">{{$info.AuthorName}} - {{dateFormat "2006/01/02 15:04:05" $info.AuthorDate}}</p>
+                            <h5 class="card-title">{{.Title}}</h5>
+                        </div>
+                    </a>
+                </div>
+                {{end}}
+                {{end}}
+            </div>
+            <div class="text-center my-2">
+                <a class="btn btn-info shadow-tooned">もっと見る</a>
+            </div>
+        </div>
+        <div class="card my-3 rounded col-12 col-lg-8 col-xl-7 col-xxl-8 mx-auto">
+            <div class="row">
+                <div class="col-4 bg-primary text-center d-flex justify-content-center 
+                align-items-stretch rounded-start">
+                    <p class="m-auto noto-color-emoji" style="font-size:800%;">🫠</p>
+                </div>
+                <div class="col-8">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-danger">当サイトについて</h5>
+                        <p class="card-text text-start mx-0 my-3">
+                            当サイトはGodot Engineの日本ユーザーコミュニティです。<br>
+                            日本でのGodot Engineのシェア拡大を目的として非営利でオープンソースのコミュニティサイトです。<br>
+                            どなたでも寄稿やサイトの企画・機能追加に貢献することができます。
+                        </p>
+                        <a href="{{ "about" | relURL }}" class="btn btn-info shadow-tooned">詳しく見る</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card my-3 rounded col-12 col-lg-8 col-xl-7 col-xxl-8 mx-auto">
+            <div class="row">
+                <div class="col-4 bg-primary text-center d-flex justify-content-center 
+                align-items-stretch rounded-start">
+                    <p class="m-auto noto-color-emoji" style="font-size:800%;">📚</p>
+                </div>
+                <div class="col-8">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-danger">逆引きリファレンス</h5>
+                        <p class="card-text text-start mx-0 my-3">
+                            すべて日本語で書かれたGodot Engineの逆引きリファレンスです。<br>
+                            GDScriptだけでなくエディタの使い方までの記事を掲載しています。<br>
+                            オープンソースなので、プルリクエストによる寄稿や、Issuesから記事や機能のリクエストをお待ちしています。
+                        </p>
+                        <a href="{{ "reference" | relURL }}" class="btn btn-info shadow-tooned">詳しく見る</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+{{ partial "footer.html" . }}

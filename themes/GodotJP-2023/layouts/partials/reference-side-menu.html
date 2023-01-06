@@ -1,0 +1,38 @@
+<div class="position-sticky" style="top:0;">
+    <span class="d-block py-2 text-center fs-5 fw-bold"
+        style="border-bottom: rgba(25,25,25,0.3) thick double;">
+        Menu
+    </span>
+    <ul id="all-toc" class="my-3">
+    {{ with .Site.GetPage "/reference"}}
+        {{ range .Pages.ByWeight }}
+        {{ if ne (len .Pages) 0 }}
+        <li class="icon-{{.Params.emoji}}">
+            <a href="" data-bs-toggle="collapse" data-bs-target="#{{.Title}}" aria-expanded="false" aria-controls="{{.Title}}">{{ .Title }}</a>
+            <ul class="collapse{{if eq $.Parent.Title .Title}} show{{end}}" id="{{.Title}}">
+                {{ range .Pages.ByWeight }}
+                    <li class="row">
+                        <a href="#{{.Title}}" class="col-auto toggle-icon collapsed" data-bs-toggle="collapse" data-bs-target="#{{.Title}}" aria-expanded="{{ print (eq .Title $.Title) }}" aria-controls="{{.Title}}">
+                            <span class="target">&gt;</span>
+                        </a>
+                        <a href="{{.Permalink | relURL}}" class="col my-auto{{ if eq .Title $.Title }} text-danger{{end}}">{{.Title}}</a>
+                        {{ $toc := .TableOfContents}}
+                        {{ $url := print .RelPermalink "#" }}
+                        {{ if ne .Title $.Title }}
+                        {{ $toc = replace $toc "#" $url | safeHTML}}
+                        {{ end }}
+                        {{ $class := printf "class=\"toc collapse\" id=\"%s\"" .Title}}
+                        {{ if eq .Title $.Title }}
+                            {{ $class = printf "class=\"toc collapse show\" id=\"%s\"" .Title}}
+                        {{ end }}
+                        {{ $toc := replace $toc "id=\"TableOfContents\"" $class | safeHTML}}
+                        {{ $toc | safeHTML}}
+                    </li>
+                {{ end }}
+            </ul>
+        </li>
+        {{ end }}
+        {{ end }}
+    {{ end }}
+    </ul>
+</div>

@@ -1,0 +1,21 @@
+<title>{{.Site.Title}}</title>
+<!-- bootstrap5 -->
+{{ $style := resources.Get "scss/gjuc-bs.scss" | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" />
+{{ $jscode := resources.Get "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" }}
+<script src="{{ $jscode.Permalink }}" ></script>
+<link href="{{ "css/gjuc.base.style.css" | relURL }}" rel="stylesheet">
+<link href="{{ "css/gjuc.posts.style.css" | relURL }}" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0KGV6JPV5X"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0KGV6JPV5X');
+</script>

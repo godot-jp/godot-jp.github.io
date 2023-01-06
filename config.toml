@@ -1,8 +1,7 @@
 baseURL = 'https://godot-jp.github.io/'
 languageCode = 'ja-jp'
 title = 'Godot Japan User Community'
-theme = 'godot-jp'
-disableKinds = ['taxonomy', 'term']
+theme = 'GodotJP-2023'
 enableGitInfo = true
 
 [markup]
@@ -10,6 +9,7 @@ enableGitInfo = true
     [markup.goldmark.renderer]
       hardWraps = true
       unsafe = true
+      block = true
   [markup.tableOfContents]
     endLevel = 2
     ordered = false

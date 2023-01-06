@@ -4,19 +4,11 @@ date: 2022-12-06T08:38:26+09:00
 draft: false
 ---
 
-<div class="row">
-<div class="d-flex cpl col-lg-4 display-1 text-center justify-content-center  align-items-center">
-<p>😀</p>
-</div>
-<div class="col col-lg-8">
-
 Godot Japan User Communityはオープンソースのコミュニティサイトです。
 本コミュニティは、静的サイトジェネレーター [Hugo](https://gohugo.io/) と [Github Pages](https://github.com/godot-jp/godot-jp) でホスティングされており、コミュニティメンバー（コントリビューター、メンテナー、コミュニティリーダー）によって本コミュニティの運営を行っています。
 Godot Engine公式のガバナンスに沿ったユーザーコミュニティの一つとしてGodot Engineの認知度の向上・知識の共有を目的としており、金銭的な利益を目的としていません。
 そのため、本サイトは広告・宣伝などの掲載は一切なく、すべてのGodot Engineユーザーのための運営に努めます。
 
-</div>
-</div>
 
 ## コミュニティ
 
@@ -59,6 +51,11 @@ Godot Engine公式のガバナンスに沿ったユーザーコミュニティ�
 複製の利用・配布・改変・商用利用など、どなたでも自由にお使い頂くことができます。
 以下のライセンスの全文を、ソースコードやソースコードに同梱したライセンス表示用の別ファイルなどに掲載してください。
 
+
+<details>
+
+<summary>ライセンス全文</summary>
+
 ```
 Copyright (c) 2022 Godot Japan User Community
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -66,18 +63,17 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
+</details>
+
 このソフトウェアには保証はついていません。このソフトウェアを利用し発生した問題に対し、本コミュニティおよびコミュニティメンバー（コミュニティリーダー・コントリビューター・メンテナーなどの関係者）は一切の責任を負いません。
 
-本サイトで使用されているフォントは「M Plus 2」「M Plus 1 Code Latin」です。
-Copyright 2021 The M+ FONTS Project Authors (https://github.com/coz-m/MPLUS_FONTS)
-
-## コミュニティリーダー
+## コミュニティリーダーについて
 
 本コミュニティが実現しているのは、コントリビューター・メンテナー・コミュニティリーダーを中心としたコミュニティメンバーの提案・ディスカッション・プルリクエストを信頼しているためです。
 そのため、本コミュニティの全体的な方向性を決定することはコミュニティに任せるように努めています。
 
-<ul class="rounded-5" style="background-color:#f1f1f1; padding:1em; list-style:inside; border-rounded:10px; display:block;">
-<li>Saitos - コミュニティサイト及びDiscordサーバー管理者</li>
+<ul class="rounded-2 bg-light" style="padding:1em; list-style:inside; border-rounded:10px; display:block;">
+<li>Saitos - ファウンダー・コミュニティサイト及びDiscordサーバー管理者</li>
 </ul>
 
 コミュニティリーダーは、すべてのプルリクエストのマージ権限を持っています。

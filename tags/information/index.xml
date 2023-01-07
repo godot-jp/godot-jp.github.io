@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Information on Godot Japan User Community</title><link>https://godot-jp.github.io/tags/information/</link><description>Recent content in Information on Godot Japan User Community</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Thu, 05 Jan 2023 14:08:07 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/tags/information/index.xml" rel="self" type="application/rss+xml"/><item><title>Godot Japan User Community リリース</title><link>https://godot-jp.github.io/news/release2023-1-10/</link><pubDate>Thu, 05 Jan 2023 14:08:07 +0900</pubDate><guid>https://godot-jp.github.io/news/release2023-1-10/</guid><description>Godot Japan User Communityの公式サイトをリリースしました。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Information on Godot Japan User Community</title>
+    <link>https://godot-jp.github.io/tags/information/</link>
+    <description>Recent content in Information on Godot Japan User Community</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 05 Jan 2023 14:08:07 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/tags/information/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Godot Japan User Community リリース</title>
+      <link>https://godot-jp.github.io/news/release2023-1-10/</link>
+      <pubDate>Thu, 05 Jan 2023 14:08:07 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/release2023-1-10/</guid>
+      <description>Godot Japan User Communityの公式サイトをリリースしました。
 サイトの説明については当サイトについてをご覧ください。
 この記事では、当サイトの今後、成り立ちについて書きたいと思います。
 サイト開設の経緯 私は2019年からGodot Engineを触り始め、様々なプロトタイプを作り、試してきました。
@@ -23,4 +38,8 @@
 どんな要望も受け付けていますので、当サイトのリポジトリのIssuesやDiscussionに投稿してください。
 現在私が考えているコミュニティのコンテンツは以下です。
 チュートリアル記事シリーズ Tips＆チュートリアル動画シリーズ Godot Engine用のオープンソースアセット提供 Godot Engine プラグイン提供 本コミュニティ主催ゲームジャム その他イベント さいごに 私はGodot Engineのファンであると同時に、ゲーム開発者を応援しています。
-少しでもゲーム開発の役に立つような情報発信と、サポートができるように活動していきますので、今後ともよろしくおねがいします。</description></item></channel></rss>
+少しでもゲーム開発の役に立つような情報発信と、サポートができるように活動していきますので、今後ともよろしくおねがいします。</description>
+    </item>
+    
+  </channel>
+</rss>

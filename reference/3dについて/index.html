@@ -1,12 +1,525 @@
-<html lamg=ja><title>3Dについて -
-Godot Japan User Community</title><link rel=apple-touch-icon sizes=180x180 href=/favicons/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicons/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicons/favicon-16x16.png><link rel=manifest href=/favicons/site.webmanifest><link rel=mask-icon href=/favicons/safari-pinned-tab.svg color=#5bbad5><meta name=msapplication-TileColor content="#da532c"><meta name=theme-color content="#ffffff"><meta http-equiv=pragma content="no-cache"><meta http-equiv=cache-control content="no-cache"><meta http-equiv=expires content="0"><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=HandheldFriendly content="True"><meta name=MobileOptimized content="320"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=twitter:card content="summary"><meta name=twitter:title content="Godot Japan User Community"><meta property="og:title" content="Godot Japan User Community"><meta name=twitter:image content="https://godot-jp.github.io/images/TwitterCard.png"><meta property="og:image" content="https://godot-jp.github.io/images/TwitterCard.png"><meta property="og:type" content="website"><meta property="og:url" content="https://godot-jp.github.io/reference/3d%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"><meta property="og:site_name" content="Godot Japan User Community"><link rel=stylesheet href=https://godot-jp.github.io/scss/gjuc-bs.css><script src=https://godot-jp.github.io/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js></script>
-<link href=/css/gjuc.base.style.css rel=stylesheet><link href=/css/gjuc.posts.style.css rel=stylesheet><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.11.0/css/all.css><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel=stylesheet><script async src="https://www.googletagmanager.com/gtag/js?id=G-0KGV6JPV5X"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-0KGV6JPV5X")</script><body class=bg-light><nav id=global-menu class="row bg-primary"><span id=header-logo class="col-auto justify-content-center d-flex"><a href=/ class=m-auto><img src=/images/Logo.svg class="w-100 px-2"></a></span><ul class="row col-auto gx-0 fw-bold"><li class=col-auto><a href=/news/>ニュース</a></li><li class=col-auto><a href=/about/>当サイトについて</a></li><li class=col-auto><a href=/reference/>逆引きリファレンス</a></li></ul></nav><section class="container row mx-auto my-3"><div id=side-bar class=col-3><div class=position-sticky style=top:0><span class="d-block py-2 text-center fs-5 fw-bold" style="border-bottom:rgba(25,25,25,.3)thick double">Menu</span><ul id=all-toc class=my-3><li class=icon-basic><a href data-bs-toggle=collapse data-bs-target=#基本的な使い方 aria-expanded=false aria-controls=基本的な使い方>基本的な使い方</a><ul class=collapse id=基本的な使い方><li class=row><a href=#%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90%e6%96%b9%e6%b3%95 class="col-auto toggle-icon collapsed" data-bs-toggle=collapse data-bs-target=#プロジェクトの作成方法 aria-expanded=false aria-controls=プロジェクトの作成方法><span class=target>></span></a>
-<a href=/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/ class="col my-auto">プロジェクトの作成方法</a><nav class="toc collapse" id=プロジェクトの作成方法><ul><li><a href=/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#インストール方法>インストール方法</a><ul><li><a href=/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#公式サイトからダウンロード>公式サイトからダウンロード</a></li><li><a href=/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#その他のプラットフォームからダウンロード>その他のプラットフォームからダウンロード</a></li></ul></li><li><a href=/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#プロジェクトの作成>プロジェクトの作成</a><ul><li><a href=/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#プロジェクトマネージャー>プロジェクトマネージャー</a></li><li><a href=/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#新規プロジェクトの作成>新規プロジェクトの作成</a></li><li><a href=/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#メインシーンの作成>メインシーンの作成</a></li><li><a href=/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#メインシーンの設定>メインシーンの設定</a></li></ul></li></ul></nav></li></ul></li><li class=icon-gdscript><a href data-bs-toggle=collapse data-bs-target=#GDScriptについて aria-expanded=false aria-controls=GDScriptについて>GDScriptについて</a><ul class=collapse id=GDScriptについて><li class=row><a href=#GDScript%e3%81%ae%e5%9f%ba%e6%9c%ac class="col-auto toggle-icon collapsed" data-bs-toggle=collapse data-bs-target=#GDScriptの基本 aria-expanded=false aria-controls=GDScriptの基本><span class=target>></span></a>
-<a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/ class="col my-auto">GDScriptの基本</a><nav class="toc collapse" id=GDScriptの基本><ul><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/#基本的な記述方法>基本的な記述方法</a><ul><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/#クラスの拡張>クラスの拡張</a></li><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/#変数>変数</a></li><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/#関数>関数</a></li></ul></li></ul></nav></li><li class=row><a href=#%e6%95%b0%e5%80%a4%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6 class="col-auto toggle-icon collapsed" data-bs-toggle=collapse data-bs-target=#数値について aria-expanded=false aria-controls=数値について><span class=target>></span></a>
-<a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/ class="col my-auto">数値について</a><nav class="toc collapse" id=数値について><ul><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#数値の基本>数値の基本</a><ul><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#数値の作成方法>数値の作成方法</a></li><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#数値に変換する方法>数値に変換する方法</a></li></ul></li><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#特殊な数値の表し方>特殊な数値の表し方</a><ul><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#2進整数int型>2進整数（int型）</a></li><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#16進整数int型>16進整数（int型）</a></li></ul></li><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#数値の計算>数値の計算</a><ul><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#算術演算子>算術演算子</a></li><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#複合代入演算子>複合代入演算子</a></li></ul></li></ul></nav></li><li class=row><a href=#%e6%96%87%e5%ad%97%e5%88%97%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6 class="col-auto toggle-icon collapsed" data-bs-toggle=collapse data-bs-target=#文字列について aria-expanded=false aria-controls=文字列について><span class=target>></span></a>
-<a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/ class="col my-auto">文字列について</a><nav class="toc collapse" id=文字列について><ul><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列の基本>文字列の基本</a><ul><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字コードについて>文字コードについて</a></li></ul></li><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列の作成方法>文字列の作成方法</a><ul><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列の中でダブルクォーテーションを使う>文字列の中でダブルクォーテーションを使う</a></li><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#他の型を文字列に変換する>他の型を文字列に変換する</a></li></ul></li><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列の処理>文字列の処理</a><ul><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列を連結する>文字列を連結する</a></li><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列同士を比較する>文字列同士を比較する</a></li><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列を数える>文字列を数える</a></li><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列を調べる>文字列を調べる</a></li><li><a href=/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列を加工する>文字列を加工する</a></li></ul></li></ul></nav></li></ul></li><li class=icon-input><a href data-bs-toggle=collapse data-bs-target=#入力について aria-expanded=false aria-controls=入力について>入力について</a><ul class=collapse id=入力について><li class=row><a href=#%e5%85%a5%e5%8a%9b%e6%a9%9f%e8%83%bd%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6 class="col-auto toggle-icon collapsed" data-bs-toggle=collapse data-bs-target=#入力機能について aria-expanded=false aria-controls=入力機能について><span class=target>></span></a>
-<a href=/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/ class="col my-auto">入力機能について</a><nav class="toc collapse" id=入力機能について><ul><li><a href=/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/#プロジェクトの入力マップ設定>プロジェクトの入力マップ設定</a><ul><li><a href=/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/#デバイスからの入力を設定する>デバイスからの入力を設定する</a></li></ul></li><li><a href=/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/#基本的な入力の取得方法>基本的な入力の取得方法</a><ul><li><a href=/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/#インプットメソッドで入力を処理する>インプットメソッドで入力を処理する</a></li><li><a href=/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/#プロセスメソッドで入力を処理する>プロセスメソッドで入力を処理する</a></li></ul></li></ul></nav></li><li class=row><a href=#%e3%82%b2%e3%83%bc%e3%83%a0%e3%83%91%e3%83%83%e3%83%89%e5%85%a5%e5%8a%9b%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6 class="col-auto toggle-icon collapsed" data-bs-toggle=collapse data-bs-target=#ゲームパッド入力について aria-expanded=false aria-controls=ゲームパッド入力について><span class=target>></span></a>
-<a href=/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/ class="col my-auto">ゲームパッド入力について</a><nav class="toc collapse" id=ゲームパッド入力について><ul><li><a href=/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#ゲームパッドとアクションの登録>ゲームパッドとアクションの登録</a></li><li><a href=/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#ゲームパッドの状態取得>ゲームパッドの状態取得</a><ul><li><a href=/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#ゲームパッドが認識されているか取得>ゲームパッドが認識されているか取得</a></li><li><a href=/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#切断接続の状態を取得する>切断・接続の状態を取得する</a></li></ul></li><li><a href=/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#ゲームパッドの入力取得>ゲームパッドの入力取得</a><ul><li><a href=/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#スティックの傾きを取得>スティックの傾きを取得</a></li><li><a href=/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#ボタン入力を取得>ボタン入力を取得</a></li><li><a href=/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#ジャイロスコープセンサーの取得>ジャイロスコープセンサーの取得</a></li></ul></li><li><a href=/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#ゲームパッドへの命令>ゲームパッドへの命令</a><ul><li><a href=/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#バイブレーションの設定>バイブレーションの設定</a></li></ul></li></ul></nav></li></ul></li><li class=icon-gui><a href data-bs-toggle=collapse data-bs-target=#GUIについて aria-expanded=false aria-controls=GUIについて>GUIについて</a><ul class=collapse id=GUIについて><li class=row><a href=#Control%e3%83%8e%e3%83%bc%e3%83%89%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6 class="col-auto toggle-icon collapsed" data-bs-toggle=collapse data-bs-target=#Controlノードについて aria-expanded=false aria-controls=Controlノードについて><span class=target>></span></a>
-<a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/ class="col my-auto">Controlノードについて</a><nav class="toc collapse" id=Controlノードについて><ul><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#概念>概念</a><ul><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#基点とアンカー>基点とアンカー</a></li><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#アンカーの設定方法>アンカーの設定方法</a></li></ul></li><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#機能>機能</a><ul><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#翻訳>翻訳</a></li><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#フォーカス>フォーカス</a></li><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#マウスクリック制限とスルー>マウスクリック制限とスルー</a></li><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#テーマ>テーマ</a></li></ul></li></ul></nav></li><li class=row><a href=#%e7%94%bb%e9%9d%a2%e3%83%ac%e3%82%a4%e3%82%a2%e3%82%a6%e3%83%88%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6 class="col-auto toggle-icon collapsed" data-bs-toggle=collapse data-bs-target=#画面レイアウトについて aria-expanded=false aria-controls=画面レイアウトについて><span class=target>></span></a>
-<a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/ class="col my-auto">画面レイアウトについて</a><nav class="toc collapse" id=画面レイアウトについて><ul><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#containerノードの基本>Containerノードの基本</a><ul><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#コンテンツのレイアウト設定>コンテンツのレイアウト設定</a></li></ul></li><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#単一コンテナ>単一コンテナ</a><ul><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#パネルを作る>パネルを作る</a></li><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#コンテンツのアスペクト比を固定する>コンテンツのアスペクト比を固定する</a></li><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#コンテンツのマージンを空ける>コンテンツのマージンを空ける</a></li><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#コンテンツをコンテナの縦横中央に配置する>コンテンツをコンテナの縦横中央に配置する</a></li><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#コンテンツをスクロールする>コンテンツをスクロールする</a></li></ul></li><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#整列コンテナ>整列コンテナ</a><ul><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#縦並び横並びにする>縦並び・横並びにする</a></li><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#設定された個数分のコンテンツを順番に並べる>設定された個数分のコンテンツを順番に並べる</a></li><li><a href=/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#コンテンツの大きさに応じて並べる>コンテンツの大きさに応じて並べる</a></li></ul></li></ul></nav></li></ul></li></ul></div></div><div class="col-9 markdown py-3"></div></section><footer class="bg-primary text-light footer navbar fixed-bottom"><p class="text-center w-100">© 2022 Saitos and Contributors.</p></footer></body></html>
+<html lamg="ja">
+<title>
+    3Dについて -
+    
+    Godot Japan User Community
+</title>
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+<link rel="manifest" href="/favicons/site.webmanifest ">
+<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Godot Japan User Community" />
+<meta property="og:title" content="Godot Japan User Community" />
+
+
+<meta name="twitter:image" content="https://godot-jp.github.io/images/TwitterCard.png" />
+<meta property="og:image" content="https://godot-jp.github.io/images/TwitterCard.png" />
+
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://godot-jp.github.io/reference/3d%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/" />
+<meta property="og:site_name" content="Godot Japan User Community" />
+
+
+<link rel="stylesheet" href="https://godot-jp.github.io/scss/gjuc-bs.css" />
+
+<script src="https://godot-jp.github.io/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" ></script>
+<link href="/css/gjuc.base.style.css" rel="stylesheet">
+<link href="/css/gjuc.posts.style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0KGV6JPV5X"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0KGV6JPV5X');
+</script>
+<body class="bg-light">
+<nav id="global-menu" class="row bg-primary">
+    <span id="header-logo" class="col-auto justify-content-center d-flex">
+        <a href="/" class="m-auto">
+            <img src="/images/Logo.svg" class="w-100 px-2">
+        </a>
+    </span>
+    <ul class="row col-auto gx-0 fw-bold">
+        
+            
+
+        
+            
+
+        
+            
+
+        
+            
+
+        
+            
+
+        
+            
+
+        
+            
+
+        
+            
+
+        
+            
+
+        
+            
+
+        
+            
+
+        
+            
+
+        
+            
+
+        
+            
+
+        
+            
+
+        
+            
+
+        
+            
+
+        
+            
+            
+            
+
+        
+            
+            
+            
+            
+            <li class="col-auto"><a href="/news/" class="">ニュース</a></li>
+            
+            
+
+        
+            
+
+        
+            
+
+        
+            
+
+        
+            
+
+        
+            
+            
+            
+            
+            <li class="col-auto"><a href="/about/" class="">当サイトについて</a></li>
+            
+            
+
+        
+            
+            
+            
+
+        
+            
+
+        
+            
+
+        
+            
+            
+            
+            
+            <li class="col-auto"><a href="/reference/" class="">逆引きリファレンス</a></li>
+            
+            
+
+        
+    </ul>
+</nav>
+
+<section class="container row mx-auto my-3">
+    <div id="side-bar" class="col-3">
+        <div class="position-sticky" style="top:0;">
+    <span class="d-block py-2 text-center fs-5 fw-bold"
+        style="border-bottom: rgba(25,25,25,0.3) thick double;">
+        Menu
+    </span>
+    <ul id="all-toc" class="my-3">
+    
+        
+        
+        <li class="icon-basic">
+            <a href="" data-bs-toggle="collapse" data-bs-target="#基本的な使い方" aria-expanded="false" aria-controls="基本的な使い方">基本的な使い方</a>
+            <ul class="collapse" id="基本的な使い方">
+                
+                    <li class="row">
+                        <a href="#%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90%e6%96%b9%e6%b3%95" class="col-auto toggle-icon collapsed" data-bs-toggle="collapse" data-bs-target="#プロジェクトの作成方法" aria-expanded="false" aria-controls="プロジェクトの作成方法">
+                            <span class="target">&gt;</span>
+                        </a>
+                        <a href="/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/" class="col my-auto">プロジェクトの作成方法</a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <nav class="toc collapse" id="プロジェクトの作成方法">
+  <ul>
+    <li><a href="/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#インストール方法">インストール方法</a>
+      <ul>
+        <li><a href="/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#公式サイトからダウンロード">公式サイトからダウンロード</a></li>
+        <li><a href="/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#その他のプラットフォームからダウンロード">その他のプラットフォームからダウンロード</a></li>
+      </ul>
+    </li>
+    <li><a href="/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#プロジェクトの作成">プロジェクトの作成</a>
+      <ul>
+        <li><a href="/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#プロジェクトマネージャー">プロジェクトマネージャー</a></li>
+        <li><a href="/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#新規プロジェクトの作成">新規プロジェクトの作成</a></li>
+        <li><a href="/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#メインシーンの作成">メインシーンの作成</a></li>
+        <li><a href="/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/#メインシーンの設定">メインシーンの設定</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                    </li>
+                
+            </ul>
+        </li>
+        
+        
+        
+        <li class="icon-gdscript">
+            <a href="" data-bs-toggle="collapse" data-bs-target="#GDScriptについて" aria-expanded="false" aria-controls="GDScriptについて">GDScriptについて</a>
+            <ul class="collapse" id="GDScriptについて">
+                
+                    <li class="row">
+                        <a href="#GDScript%e3%81%ae%e5%9f%ba%e6%9c%ac" class="col-auto toggle-icon collapsed" data-bs-toggle="collapse" data-bs-target="#GDScriptの基本" aria-expanded="false" aria-controls="GDScriptの基本">
+                            <span class="target">&gt;</span>
+                        </a>
+                        <a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/" class="col my-auto">GDScriptの基本</a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <nav class="toc collapse" id="GDScriptの基本">
+  <ul>
+    <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/#基本的な記述方法">基本的な記述方法</a>
+      <ul>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/#クラスの拡張">クラスの拡張</a></li>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/#変数">変数</a></li>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/#関数">関数</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                    </li>
+                
+                    <li class="row">
+                        <a href="#%e6%95%b0%e5%80%a4%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" class="col-auto toggle-icon collapsed" data-bs-toggle="collapse" data-bs-target="#数値について" aria-expanded="false" aria-controls="数値について">
+                            <span class="target">&gt;</span>
+                        </a>
+                        <a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/" class="col my-auto">数値について</a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <nav class="toc collapse" id="数値について">
+  <ul>
+    <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#数値の基本">数値の基本</a>
+      <ul>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#数値の作成方法">数値の作成方法</a></li>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#数値に変換する方法">数値に変換する方法</a></li>
+      </ul>
+    </li>
+    <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#特殊な数値の表し方">特殊な数値の表し方</a>
+      <ul>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#2進整数int型">2進整数（int型）</a></li>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#16進整数int型">16進整数（int型）</a></li>
+      </ul>
+    </li>
+    <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#数値の計算">数値の計算</a>
+      <ul>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#算術演算子">算術演算子</a></li>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#複合代入演算子">複合代入演算子</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                    </li>
+                
+                    <li class="row">
+                        <a href="#%e6%96%87%e5%ad%97%e5%88%97%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" class="col-auto toggle-icon collapsed" data-bs-toggle="collapse" data-bs-target="#文字列について" aria-expanded="false" aria-controls="文字列について">
+                            <span class="target">&gt;</span>
+                        </a>
+                        <a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/" class="col my-auto">文字列について</a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <nav class="toc collapse" id="文字列について">
+  <ul>
+    <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列の基本">文字列の基本</a>
+      <ul>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字コードについて">文字コードについて</a></li>
+      </ul>
+    </li>
+    <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列の作成方法">文字列の作成方法</a>
+      <ul>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列の中でダブルクォーテーションを使う">文字列の中でダブルクォーテーションを使う</a></li>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#他の型を文字列に変換する">他の型を文字列に変換する</a></li>
+      </ul>
+    </li>
+    <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列の処理">文字列の処理</a>
+      <ul>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列を連結する">文字列を連結する</a></li>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列同士を比較する">文字列同士を比較する</a></li>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列を数える">文字列を数える</a></li>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列を調べる">文字列を調べる</a></li>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列を加工する">文字列を加工する</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                    </li>
+                
+            </ul>
+        </li>
+        
+        
+        
+        <li class="icon-input">
+            <a href="" data-bs-toggle="collapse" data-bs-target="#入力について" aria-expanded="false" aria-controls="入力について">入力について</a>
+            <ul class="collapse" id="入力について">
+                
+                    <li class="row">
+                        <a href="#%e5%85%a5%e5%8a%9b%e6%a9%9f%e8%83%bd%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" class="col-auto toggle-icon collapsed" data-bs-toggle="collapse" data-bs-target="#入力機能について" aria-expanded="false" aria-controls="入力機能について">
+                            <span class="target">&gt;</span>
+                        </a>
+                        <a href="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/" class="col my-auto">入力機能について</a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <nav class="toc collapse" id="入力機能について">
+  <ul>
+    <li><a href="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/#プロジェクトの入力マップ設定">プロジェクトの入力マップ設定</a>
+      <ul>
+        <li><a href="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/#デバイスからの入力を設定する">デバイスからの入力を設定する</a></li>
+      </ul>
+    </li>
+    <li><a href="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/#基本的な入力の取得方法">基本的な入力の取得方法</a>
+      <ul>
+        <li><a href="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/#インプットメソッドで入力を処理する">インプットメソッドで入力を処理する</a></li>
+        <li><a href="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/#プロセスメソッドで入力を処理する">プロセスメソッドで入力を処理する</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                    </li>
+                
+                    <li class="row">
+                        <a href="#%e3%82%b2%e3%83%bc%e3%83%a0%e3%83%91%e3%83%83%e3%83%89%e5%85%a5%e5%8a%9b%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" class="col-auto toggle-icon collapsed" data-bs-toggle="collapse" data-bs-target="#ゲームパッド入力について" aria-expanded="false" aria-controls="ゲームパッド入力について">
+                            <span class="target">&gt;</span>
+                        </a>
+                        <a href="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/" class="col my-auto">ゲームパッド入力について</a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <nav class="toc collapse" id="ゲームパッド入力について">
+  <ul>
+    <li><a href="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#ゲームパッドとアクションの登録">ゲームパッドとアクションの登録</a></li>
+    <li><a href="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#ゲームパッドの状態取得">ゲームパッドの状態取得</a>
+      <ul>
+        <li><a href="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#ゲームパッドが認識されているか取得">ゲームパッドが認識されているか取得</a></li>
+        <li><a href="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#切断接続の状態を取得する">切断・接続の状態を取得する</a></li>
+      </ul>
+    </li>
+    <li><a href="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#ゲームパッドの入力取得">ゲームパッドの入力取得</a>
+      <ul>
+        <li><a href="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#スティックの傾きを取得">スティックの傾きを取得</a></li>
+        <li><a href="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#ボタン入力を取得">ボタン入力を取得</a></li>
+        <li><a href="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#ジャイロスコープセンサーの取得">ジャイロスコープセンサーの取得</a></li>
+      </ul>
+    </li>
+    <li><a href="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#ゲームパッドへの命令">ゲームパッドへの命令</a>
+      <ul>
+        <li><a href="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#バイブレーションの設定">バイブレーションの設定</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                    </li>
+                
+            </ul>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="icon-gui">
+            <a href="" data-bs-toggle="collapse" data-bs-target="#GUIについて" aria-expanded="false" aria-controls="GUIについて">GUIについて</a>
+            <ul class="collapse" id="GUIについて">
+                
+                    <li class="row">
+                        <a href="#Control%e3%83%8e%e3%83%bc%e3%83%89%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" class="col-auto toggle-icon collapsed" data-bs-toggle="collapse" data-bs-target="#Controlノードについて" aria-expanded="false" aria-controls="Controlノードについて">
+                            <span class="target">&gt;</span>
+                        </a>
+                        <a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/" class="col my-auto">Controlノードについて</a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <nav class="toc collapse" id="Controlノードについて">
+  <ul>
+    <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#概念">概念</a>
+      <ul>
+        <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#基点とアンカー">基点とアンカー</a></li>
+        <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#アンカーの設定方法">アンカーの設定方法</a></li>
+      </ul>
+    </li>
+    <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#機能">機能</a>
+      <ul>
+        <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#翻訳">翻訳</a></li>
+        <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#フォーカス">フォーカス</a></li>
+        <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#マウスクリック制限とスルー">マウスクリック制限とスルー</a></li>
+        <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#テーマ">テーマ</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                    </li>
+                
+                    <li class="row">
+                        <a href="#%e7%94%bb%e9%9d%a2%e3%83%ac%e3%82%a4%e3%82%a2%e3%82%a6%e3%83%88%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" class="col-auto toggle-icon collapsed" data-bs-toggle="collapse" data-bs-target="#画面レイアウトについて" aria-expanded="false" aria-controls="画面レイアウトについて">
+                            <span class="target">&gt;</span>
+                        </a>
+                        <a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/" class="col my-auto">画面レイアウトについて</a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <nav class="toc collapse" id="画面レイアウトについて">
+  <ul>
+    <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#containerノードの基本">Containerノードの基本</a>
+      <ul>
+        <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#コンテンツのレイアウト設定">コンテンツのレイアウト設定</a></li>
+      </ul>
+    </li>
+    <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#単一コンテナ">単一コンテナ</a>
+      <ul>
+        <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#パネルを作る">パネルを作る</a></li>
+        <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#コンテンツのアスペクト比を固定する">コンテンツのアスペクト比を固定する</a></li>
+        <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#コンテンツのマージンを空ける">コンテンツのマージンを空ける</a></li>
+        <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#コンテンツをコンテナの縦横中央に配置する">コンテンツをコンテナの縦横中央に配置する</a></li>
+        <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#コンテンツをスクロールする">コンテンツをスクロールする</a></li>
+      </ul>
+    </li>
+    <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#整列コンテナ">整列コンテナ</a>
+      <ul>
+        <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#縦並び横並びにする">縦並び・横並びにする</a></li>
+        <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#設定された個数分のコンテンツを順番に並べる">設定された個数分のコンテンツを順番に並べる</a></li>
+        <li><a href="/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#コンテンツの大きさに応じて並べる">コンテンツの大きさに応じて並べる</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                    </li>
+                
+            </ul>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    </ul>
+</div>
+
+    </div>
+    <div class="col-9 markdown py-3">
+        
+    </div>
+</section>
+<footer class="bg-primary text-light footer navbar fixed-bottom">
+    <p class="text-center w-100">
+        © 2022 Saitos and Contributors.
+    </p>
+</footer>
+
+</body>
+</html>

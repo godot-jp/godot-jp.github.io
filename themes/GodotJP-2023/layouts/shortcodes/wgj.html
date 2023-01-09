@@ -1,0 +1,67 @@
+
+{{/* 引数から起点となる日付を取得 */}}
+{{$today := .Get 0 | time.AsTime }}
+
+今週（{{$today.AddDate 0 0 -7 | time.Format "2006年1月2日" }}〜{{$today | time.Format "2006年1月2日"}}）のGodot Engineに関するニュースをお届けします。<br>
+このニュースは<a href="https://raindrop.io" target="_blank">raindrop.io</a>のブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。<br>
+おすすめやアイディアがある場合は、<a href="https://github.com/godot-jp/godot-jp.github.io/discussions/59">Discussionのスレッド</a>にコメントをいただければ反映します。
+
+
+{{$today = substr $today 0 10 }}
+
+{{/* JSON読み込み */}}
+{{$data := index $.Site.Data.wgj "items" }}
+
+
+{{/* 新しいマップを作る */}}
+{{ $dict := dict}}
+{{/* JSONの要素の数だけrangeで回す */}}
+{{range $data}}
+    {{ $date := substr .created 0 10}}
+    {{ $item := .}}
+    {{range $count := seq 7}}
+        {{ $check_date := $today | time.AsTime}}
+        {{ $check_date = $check_date.AddDate 0 0 (int (mul (sub $count 1) -1))}}
+        {{ if eq ($check_date) ($date | time.AsTime) }}
+            {{$tag := (index $item.tags 0)}}
+            {{ if eq (index $dict $tag) nil}}
+                {{ $dict = merge $dict (dict $tag (slice $tag))}}
+            {{ end }}
+            {{$t := (index $dict $tag)}}
+            {{ $t = $t | append $item}}
+            {{ $dict = merge $dict (dict $tag $t)}}
+        {{end}}
+    {{end}}
+{{end}}
+{{/* カテゴリ毎の仕分けが完了 */}}
+
+{{range  $dict }}
+    <h3 class="fs-2 text-center mt-4">{{ index . 0 }}</h3>
+    {{range after 1 .}}
+    <a href="{{.link}}" class="no-icon text-dark" target="_blank">
+        <div class="card my-2">
+            {{$media := .cover}}
+            {{$ext := path.Ext .cover}}
+            {{ if or (eq $ext ".png") (eq $ext ".jpg") (eq $ext ".webp") }}
+                {{ with $result := resources.GetRemote $media}}
+                    {{with $result.Err}}
+                        {{- warnf "%s" . -}}
+                    {{else}}
+                        <img src="{{$media}}" class="card-img-top" style="object-fit:cover; max-height:200px;">
+                    {{end}}
+                {{end}}
+            {{end}}
+            <div class="card-body">
+                <h4 class="card-title mt-0">
+                    {{.title}}
+                </h4>
+                <div class="card-text">
+                    {{.excerpt}}
+                </div>
+            </div>
+        </div>
+    </a>
+    {{end}}
+{{end}}
+
+<p class="text-end"><a href="https://raindrop.io/" target="_blank" class="text-black-50 no-icon">Powerd by Raindrop.io</a></p>

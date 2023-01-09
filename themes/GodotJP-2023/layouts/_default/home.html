@@ -14,15 +14,23 @@
     <section id="content" class="container-md">
         <div class="mx-auto mt-3 mb-5">
             <h2 class="text-center text-danger">News</h2>
-            <div class="row justify-content-center gx-2">
+            <div class="row justify-content-center">
                 {{with .Site.GetPage "news/"}}
                 {{range first 3 .Pages}}
                 {{ $info := .GitInfo}}
-                <div class="card col-4 news-column">
+                <div class="card col-12 col-md-5 col-lg-3 mx-1 news-column">
                     <a href="{{ .Permalink | relURL}}">
-                        <img src="{{ .Permalink | relURL}}/{{.Params.image}}" class="card-img-top news-images">
+                        {{ $cover_path := "" }}
+                        {{ if eq (path.Dir .Params.image) "."}}
+                            {{$cover_path = print .Permalink "/" .Params.image}}
+                        {{else}}
+                            {{$cover_path = .Params.image}}
+                        {{end}}
+                        <img src="{{$cover_path}}" class="card-img-top news-images">
                         <div class="card-body">
+                            {{ if .GitInfo }}
                             <p class="info">{{$info.AuthorName}} - {{dateFormat "2006/01/02 15:04:05" $info.AuthorDate}}</p>
+                            {{end}}
                             <h5 class="card-title">{{.Title}}</h5>
                         </div>
                     </a>

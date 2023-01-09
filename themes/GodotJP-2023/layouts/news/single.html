@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 {{ partial "global-menu.html" . }}
 
-<section class="container py-3">
+<section class="container-fluid container-lg py-3">
     <h1 class="my-3 text-danger text-center">
         {{.Title}}
     </h1>
@@ -14,14 +14,18 @@
             </ul>
         {{ end }}
     </div>
-    <div class="col-8 mx-auto text-center">
+    {{if .Params.image }}
+    <div class="col-12 col-md-8 mx-auto text-center">
         <img src="{{.Params.image}}" style="width:80%;" class="news-images">
     </div>
+    {{end}}
 
     <div class="my-3 text-center fw-bold" style="color:#999;">
+        {{ if .GitInfo }}
         by {{.GitInfo.AuthorName }} - {{dateFormat "2006/01/02 15:04:05" .GitInfo.AuthorDate}}
+        {{ end }}
     </div>
-    <div class="col-8 mx-auto markdown">
+    <div class="col-12 col-md-8 mx-auto markdown">
         {{.Content}}
     </div>
     <div class="text-center my-4">

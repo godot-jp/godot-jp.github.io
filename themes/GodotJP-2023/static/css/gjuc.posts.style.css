@@ -108,6 +108,11 @@ a[href^="//"]:after {
     text-decoration: none;
 }
 
+.markdown a[href^="http"].no-icon:after {
+    margin: 0;
+    content: '';
+}
+
 .markdown img[src*="#center"] {  
     display: block;  
     margin: 4px auto;

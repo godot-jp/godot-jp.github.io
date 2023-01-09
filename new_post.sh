@@ -70,6 +70,19 @@ function new_section(){
     fi
 }
 
+function new_news(){
+    echo 以下の内容でニュース記事を作成します。
+    today=`date "+%Y%m%d%H%M%S"`
+    echo パス：news/news-$today/index.md
+    read confirm
+    if [ $confirm = "y" ]; then
+        hugo new news/news-$today/index.md
+    else
+        echo 作成しないキャンセル
+        select_mode
+    fi
+}
+
 function select_mode(){
     clear
     for dir in `find $WORK_DIR* -maxdepth 0 -type d`;
@@ -82,6 +95,7 @@ function select_mode(){
     echo メニューを選んでください。
     color green "[1] 記事を作成"
     color green "[2] セクションを作成"
+    color green "[3] ニュース記事を作成"
     color red "[0] 終了"
 
     read menu
@@ -97,6 +111,10 @@ function select_mode(){
             clear
             echo セクションを作成します
             new_section;;
+        3)
+            clear
+            echo ニュース記事を作成します
+            new_news;;
         *)
             echo 入力エラーです。
             sleep 2

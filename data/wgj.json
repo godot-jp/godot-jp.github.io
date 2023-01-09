@@ -1,0 +1,541 @@
+{
+    "result": true,
+    "items": [
+        {
+            "excerpt": "GameSpot is the world's leading source for PS4, Xbox One, PS3, Xbox 360, Wii U, PS Vita, Wii, PC, 3DS, and DS video game news, reviews, previews, trailers, walkthroughs, and more.",
+            "note": "",
+            "type": "link",
+            "cover": "https://gamespot1.cbsistatic.com/bundles/gamespotsite/images/logo.png",
+            "tags": [
+                "Game-News"
+            ],
+            "removed": false,
+            "_id": 118750351,
+            "title": "Video Games Reviews & News",
+            "media": [
+                {
+                    "type": "image",
+                    "link": "https://gamespot1.cbsistatic.com/bundles/gamespotsite/images/logo.png"
+                }
+            ],
+            "link": "https://www.gamespot.com/",
+            "collection": {
+                "": "collections",
+                "": 8423988,
+                "": ""
+            },
+            "user": {
+                "": "users",
+                "": 385336,
+                "": ""
+            },
+            "lastUpdate": "2023-01-08T16:31:19.298Z",
+            "domain": "www.gamespot.com",
+            "creatorRef": {
+                "avatar": "",
+                "_id": 385336,
+                "name": "purifyzombie",
+                "email": ""
+            },
+            "sort": 498287306,
+            "created": "2019-10-02T06:10:40.556Z",
+            "highlights": [],
+            "collectionId": 8423988
+        },
+        {
+            "excerpt": "Polygon is a gaming website in partnership with Vox Media. Our culture focused site covers games, their creators, the fans, trending stories and entertainment news.",
+            "note": "",
+            "type": "link",
+            "cover": "https://cdn1.vox-cdn.com/uploads/chorus_asset/file/8402075/941450_609208285758470_875871287_n.0.png",
+            "tags": [
+                "Game-News"
+            ],
+            "removed": false,
+            "_id": 118750362,
+            "title": "Polygon",
+            "media": [
+                {
+                    "type": "image",
+                    "link": "https://cdn1.vox-cdn.com/uploads/chorus_asset/file/8402075/941450_609208285758470_875871287_n.0.png"
+                }
+            ],
+            "link": "https://www.polygon.com/",
+            "collection": {
+                "": "collections",
+                "": 8423988,
+                "": ""
+            },
+            "user": {
+                "": "users",
+                "": 385336,
+                "": ""
+            },
+            "lastUpdate": "2023-01-08T16:00:31.268Z",
+            "domain": "www.polygon.com",
+            "creatorRef": {
+                "avatar": "",
+                "_id": 385336,
+                "name": "purifyzombie",
+                "email": ""
+            },
+            "sort": 498287305,
+            "created": "2019-10-02T06:11:32.373Z",
+            "highlights": [],
+            "collectionId": 8423988
+        },
+        {
+            "excerpt": "Bad puns and video games since 1999.",
+            "note": "",
+            "type": "link",
+            "cover": "https://www.eurogamer.net/favicon.ico",
+            "tags": [
+                "Game-News"
+            ],
+            "removed": false,
+            "_id": 118750357,
+            "title": "Eurogamer.net",
+            "media": [
+                {
+                    "type": "image",
+                    "link": "https://www.eurogamer.net/favicon.ico"
+                }
+            ],
+            "link": "https://www.eurogamer.net/",
+            "collection": {
+                "": "collections",
+                "": 8423988,
+                "": ""
+            },
+            "user": {
+                "": "users",
+                "": 385336,
+                "": ""
+            },
+            "lastUpdate": "2023-01-08T16:00:31.268Z",
+            "domain": "www.eurogamer.net",
+            "creatorRef": {
+                "avatar": "",
+                "_id": 385336,
+                "name": "purifyzombie",
+                "email": ""
+            },
+            "sort": 498287304,
+            "created": "2019-10-02T06:11:04.154Z",
+            "highlights": [],
+            "collectionId": 8423988
+        },
+        {
+            "excerpt": "Meeple Like Us is a board game review site with a focus on game accessibility. Persistantly controversial. Bad to the board.",
+            "note": "",
+            "type": "link",
+            "cover": "https://meeplelikeus.b-cdn.net/wp-content/uploads/2016/12/banner_blog-1.png",
+            "tags": [
+                "Game-News"
+            ],
+            "removed": false,
+            "_id": 119645049,
+            "title": "Board Game Reviews and Game Accessibility Analyses",
+            "media": [
+                {
+                    "type": "image",
+                    "link": "https://meeplelikeus.b-cdn.net/wp-content/uploads/2016/12/banner_blog-1.png"
+                }
+            ],
+            "link": "https://meeplelikeus.co.uk",
+            "collection": {
+                "": "collections",
+                "": 8423988,
+                "": ""
+            },
+            "user": {
+                "": "users",
+                "": 385336,
+                "": ""
+            },
+            "lastUpdate": "2023-01-08T16:00:31.268Z",
+            "domain": "meeplelikeus.co.uk",
+            "creatorRef": {
+                "avatar": "",
+                "_id": 385336,
+                "name": "purifyzombie",
+                "email": ""
+            },
+            "sort": 498287303,
+            "created": "2019-10-09T07:19:02.648Z",
+            "highlights": [],
+            "collectionId": 8423988
+        },
+        {
+            "excerpt": "Catch Phrase Against Humanity - a mobile party game for ios and android",
+            "note": "",
+            "type": "link",
+            "cover": "https://static1.squarespace.com/static/587d4c01f7e0ab0bf5d1f08f/t/5cbfe24fb208fc9c92f37dc8/favicon.ico",
+            "tags": [
+                "Game-News"
+            ],
+            "removed": false,
+            "_id": 119645039,
+            "title": "Lit A.F. Games",
+            "media": [
+                {
+                    "type": "image",
+                    "link": "https://static1.squarespace.com/static/587d4c01f7e0ab0bf5d1f08f/t/5cbfe24fb208fc9c92f37dc8/favicon.ico"
+                }
+            ],
+            "link": "https://litafgames.com/",
+            "collection": {
+                "": "collections",
+                "": 8423988,
+                "": ""
+            },
+            "user": {
+                "": "users",
+                "": 385336,
+                "": ""
+            },
+            "lastUpdate": "2023-01-08T16:00:31.268Z",
+            "domain": "litafgames.com",
+            "creatorRef": {
+                "avatar": "",
+                "_id": 385336,
+                "name": "purifyzombie",
+                "email": ""
+            },
+            "sort": 498287302,
+            "created": "2019-10-09T07:18:29.628Z",
+            "highlights": [],
+            "collectionId": 8423988
+        },
+        {
+            "excerpt": "",
+            "note": "",
+            "type": "link",
+            "cover": "https://www.gamefromscratch.com/themes/GFS/icons/android-icon-192x192.png",
+            "tags": [
+                "Game-News",
+                "Indie-Games"
+            ],
+            "removed": false,
+            "_id": 119643552,
+            "title": "Www",
+            "media": [
+                {
+                    "type": "image",
+                    "link": "https://www.gamefromscratch.com/themes/GFS/icons/android-icon-192x192.png"
+                }
+            ],
+            "link": "https://www.gamefromscratch.com/",
+            "collection": {
+                "": "collections",
+                "": 8423988,
+                "": ""
+            },
+            "user": {
+                "": "users",
+                "": 385336,
+                "": ""
+            },
+            "lastUpdate": "2023-01-08T16:00:31.268Z",
+            "domain": "www.gamefromscratch.com",
+            "creatorRef": {
+                "avatar": "",
+                "_id": 385336,
+                "name": "purifyzombie",
+                "email": ""
+            },
+            "sort": 498287301,
+            "important": true,
+            "created": "2019-10-09T06:29:59.824Z",
+            "highlights": [],
+            "collectionId": 8423988
+        },
+        {
+            "excerpt": "The resource for people who make and sell games.",
+            "note": "",
+            "type": "link",
+            "cover": "",
+            "tags": [],
+            "removed": false,
+            "_id": 124753909,
+            "title": "Home",
+            "media": [
+                {
+                    "type": "image",
+                    "link": "https://rdl.ink/render/https%3A%2F%2Fwww.gamesindustry.biz%2F",
+                    "screenshot": true
+                }
+            ],
+            "link": "https://www.gamesindustry.biz/",
+            "collection": {
+                "": "collections",
+                "": 8423988,
+                "": ""
+            },
+            "user": {
+                "": "users",
+                "": 385336,
+                "": ""
+            },
+            "lastUpdate": "2023-01-08T16:00:31.268Z",
+            "domain": "www.gamesindustry.biz",
+            "creatorRef": {
+                "avatar": "",
+                "_id": 385336,
+                "name": "purifyzombie",
+                "email": ""
+            },
+            "sort": 498287300,
+            "created": "2019-11-20T08:07:43.987Z",
+            "highlights": [],
+            "collectionId": 8423988
+        },
+        {
+            "excerpt": "Green Man Gaming コミュニティーに参加してすぐにゲームについて会話し始めましょう。全てのSteamゲームのステータス、ニュース、ブログコンテンツなど多数を得ましょう！",
+            "note": "",
+            "type": "link",
+            "cover": "https://images.greenmangaming.com/static/favicon.ico",
+            "tags": [],
+            "removed": false,
+            "_id": 121479556,
+            "title": "Green Man Gaming コミュニティー | ステータス | チャット | ブログ | ニュース",
+            "media": [
+                {
+                    "type": "image",
+                    "link": "https://images.greenmangaming.com/static/favicon.ico"
+                }
+            ],
+            "link": "https://www.greenmangaming.com/ja/",
+            "collection": {
+                "": "collections",
+                "": 8423988,
+                "": ""
+            },
+            "user": {
+                "": "users",
+                "": 385336,
+                "": ""
+            },
+            "lastUpdate": "2019-10-24T06:51:49.900Z",
+            "domain": "www.greenmangaming.com",
+            "creatorRef": {
+                "avatar": "",
+                "_id": 385336,
+                "name": "purifyzombie",
+                "email": ""
+            },
+            "sort": 121479556,
+            "created": "2019-10-24T06:51:49.900Z",
+            "highlights": [],
+            "collectionId": 8423988
+        },
+        {
+            "excerpt": "Discover all times top stories about Game Design on Medium.",
+            "note": "",
+            "type": "link",
+            "cover": "https://cdn-images-1.medium.com/fit/c/304/304/1*8I-HPL0bfoIzGied-dzOvA.png",
+            "tags": [
+                "😀Archive"
+            ],
+            "removed": false,
+            "_id": 119645653,
+            "title": "Archive of stories about Game Design – Medium",
+            "media": [
+                {
+                    "type": "image",
+                    "link": "https://cdn-images-1.medium.com/fit/c/304/304/1*8I-HPL0bfoIzGied-dzOvA.png"
+                }
+            ],
+            "link": "https://medium.com/tag/game-design/archive",
+            "collection": {
+                "": "collections",
+                "": 8423988,
+                "": ""
+            },
+            "user": {
+                "": "users",
+                "": 385336,
+                "": ""
+            },
+            "lastUpdate": "2019-10-09T07:36:19.506Z",
+            "domain": "medium.com",
+            "creatorRef": {
+                "avatar": "",
+                "_id": 385336,
+                "name": "purifyzombie",
+                "email": ""
+            },
+            "sort": 119645653,
+            "created": "2019-10-09T07:36:19.506Z",
+            "highlights": [],
+            "collectionId": 8423988
+        },
+        {
+            "excerpt": "",
+            "note": "",
+            "type": "link",
+            "cover": "https://i1.wp.com/indiegamesplus.com/wp-content/uploads/2018/08/Pb-KPqaL.jpg?fit=512%2C256&ssl=1",
+            "tags": [
+                "Game-News",
+                "Indie-Games"
+            ],
+            "removed": false,
+            "_id": 118750495,
+            "title": "Indie Games Plus - Creative, Personal, Passionate Digital Experiences",
+            "media": [
+                {
+                    "type": "image",
+                    "link": "https://i1.wp.com/indiegamesplus.com/wp-content/uploads/2018/08/Pb-KPqaL.jpg?fit=512%2C256&ssl=1"
+                }
+            ],
+            "link": "https://indiegamesplus.com/",
+            "collection": {
+                "": "collections",
+                "": 8423988,
+                "": ""
+            },
+            "user": {
+                "": "users",
+                "": 385336,
+                "": ""
+            },
+            "lastUpdate": "2019-10-02T06:19:44.743Z",
+            "domain": "indiegamesplus.com",
+            "creatorRef": {
+                "avatar": "",
+                "_id": 385336,
+                "name": "purifyzombie",
+                "email": ""
+            },
+            "sort": 118750495,
+            "created": "2019-10-02T06:19:44.743Z",
+            "highlights": [],
+            "collectionId": 8423988
+        },
+        {
+            "excerpt": "Welcome to The Indie Game Website - the premier resource on the web for indie game news, indie game reviews, and indie game features!",
+            "note": "",
+            "type": "link",
+            "cover": "http://www.indiegamewebsite.com/wp-content/uploads/2018/01/TIGW_Cover.jpg",
+            "tags": [
+                "Game-News",
+                "Indie-Games"
+            ],
+            "removed": false,
+            "_id": 118750480,
+            "title": "Indie Game News, Reviews & More",
+            "media": [
+                {
+                    "type": "image",
+                    "link": "http://www.indiegamewebsite.com/wp-content/uploads/2018/01/TIGW_Cover.jpg"
+                }
+            ],
+            "link": "https://www.indiegamewebsite.com/",
+            "collection": {
+                "": "collections",
+                "": 8423988,
+                "": ""
+            },
+            "user": {
+                "": "users",
+                "": 385336,
+                "": ""
+            },
+            "lastUpdate": "2019-10-02T06:18:40.149Z",
+            "domain": "www.indiegamewebsite.com",
+            "creatorRef": {
+                "avatar": "",
+                "_id": 385336,
+                "name": "purifyzombie",
+                "email": ""
+            },
+            "sort": 118750480,
+            "created": "2019-10-02T06:18:40.149Z",
+            "highlights": [],
+            "collectionId": 8423988
+        },
+        {
+            "excerpt": "All the latest and hottest game news and rumors.",
+            "note": "",
+            "type": "link",
+            "cover": "https://n4g.com/Content/apps/11/logo.png",
+            "tags": [
+                "Game-News"
+            ],
+            "removed": false,
+            "_id": 118750415,
+            "title": "Hottest Game News & Rumors | N4G",
+            "media": [
+                {
+                    "type": "image",
+                    "link": "https://n4g.com/Content/apps/11/logo.png"
+                }
+            ],
+            "link": "https://n4g.com/",
+            "collection": {
+                "": "collections",
+                "": 8423988,
+                "": ""
+            },
+            "user": {
+                "": "users",
+                "": 385336,
+                "": ""
+            },
+            "lastUpdate": "2019-10-02T06:14:43.265Z",
+            "domain": "n4g.com",
+            "creatorRef": {
+                "avatar": "",
+                "_id": 385336,
+                "name": "purifyzombie",
+                "email": ""
+            },
+            "sort": 118750415,
+            "created": "2019-10-02T06:14:43.265Z",
+            "highlights": [],
+            "collectionId": 8423988
+        },
+        {
+            "excerpt": "Gaming Reviews, News, Tips and More.",
+            "note": "",
+            "type": "link",
+            "cover": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_200,q_80,w_200/v4sckews2f3bzf0ztbkf.png",
+            "tags": [
+                "Game-News"
+            ],
+            "removed": false,
+            "_id": 118750368,
+            "title": "Kotaku | Gaming Reviews, News, Tips and More.",
+            "media": [
+                {
+                    "type": "image",
+                    "link": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_200,q_80,w_200/v4sckews2f3bzf0ztbkf.png"
+                }
+            ],
+            "link": "https://kotaku.com/",
+            "collection": {
+                "": "collections",
+                "": 8423988,
+                "": ""
+            },
+            "user": {
+                "": "users",
+                "": 385336,
+                "": ""
+            },
+            "lastUpdate": "2019-10-02T06:11:52.318Z",
+            "domain": "kotaku.com",
+            "creatorRef": {
+                "avatar": "",
+                "_id": 385336,
+                "name": "purifyzombie",
+                "email": ""
+            },
+            "sort": 118750368,
+            "created": "2019-10-02T06:11:52.318Z",
+            "highlights": [],
+            "collectionId": 8423988
+        }
+    ],
+    "count": 13,
+    "collectionId": 8423988
+}

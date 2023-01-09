@@ -1,14 +1,14 @@
-<html lamg="ja">
+<html lang="ja">
 <title>
     GDScriptの基本 -
     
     Godot Japan User Community
 </title>
-<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-<link rel="manifest" href="/favicons/site.webmanifest ">
-<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="apple-touch-icon" sizes="180x180" href="https://godot-jp.github.io/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://godot-jp.github.io/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://godot-jp.github.io/favicons/favicon-16x16.png">
+<link rel="manifest" href="https://godot-jp.github.io/favicons/site.webmanifest ">
+<link rel="mask-icon" href="https://godot-jp.github.io/favicons/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 <meta http-equiv="Pragma" content="no-cache">
@@ -20,48 +20,21 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Godot Japan User Community" />
-<meta property="og:title" content="Godot Japan User Community" />
+<meta name="twitter:card" content="summary" >
 
-<meta name="twitter:title" content="GDScriptの基本 - Godot Japan User Community" />
-<meta property="og:title" content="GDScriptの基本 - Godot Japan User Community" />
-<meta name="twitter:description" content="Godot Engineの組み込みスクリプト言語であるGDScriptの基本的な使い方について記載します。
-基本的な記述方法 extends Node var int_sanple = 0 var text_sample = &#34;文字列&#34; var int_sample2 :int = 1 func _ready(): pass GDSCriptは、大まかに３種類の要素で読み書きすることができます。
-上記のサンプルを１行ずつ解説します。
-クラスの拡張 extends Node extends NodeはNodeというクラスの拡張という意味です。
-Nodeクラスが持つ機能をそのままに、新しいクラスを作ることになります。
-変数 var int_sample = 0 var text_sample = &#34;文字列&#34; GDScriptは静的型付けの機能を持っています。
-多くの言語は型を明示的に指定する必要がありますが、GDScriptは自動的に型を割り付けます。
-これによりユーザーは型をあまり意識せずにプログラムを書くことができます。
-明示的な型付け var int_sample2 :int = 1 型を意識したい場合もありますので、上記のように明示的に型を指定することもできます。
-関数 func _ready(): pass GDScriptの関数はfuncにスペースを空けて関数名を記述します。
-多くの言語のように{ }でブロックを作るのではなく、:のあとのインデントでブロックを作る構文になります。
-関数にはクラスがもともと持っている組み込み関数と、ユーザーが作る独自関数の２種類があります。" />
-<meta property="og:description" content="Godot Engineの組み込みスクリプト言語であるGDScriptの基本的な使い方について記載します。
-基本的な記述方法 extends Node var int_sanple = 0 var text_sample = &#34;文字列&#34; var int_sample2 :int = 1 func _ready(): pass GDSCriptは、大まかに３種類の要素で読み書きすることができます。
-上記のサンプルを１行ずつ解説します。
-クラスの拡張 extends Node extends NodeはNodeというクラスの拡張という意味です。
-Nodeクラスが持つ機能をそのままに、新しいクラスを作ることになります。
-変数 var int_sample = 0 var text_sample = &#34;文字列&#34; GDScriptは静的型付けの機能を持っています。
-多くの言語は型を明示的に指定する必要がありますが、GDScriptは自動的に型を割り付けます。
-これによりユーザーは型をあまり意識せずにプログラムを書くことができます。
-明示的な型付け var int_sample2 :int = 1 型を意識したい場合もありますので、上記のように明示的に型を指定することもできます。
-関数 func _ready(): pass GDScriptの関数はfuncにスペースを空けて関数名を記述します。
-多くの言語のように{ }でブロックを作るのではなく、:のあとのインデントでブロックを作る構文になります。
-関数にはクラスがもともと持っている組み込み関数と、ユーザーが作る独自関数の２種類があります。" />
+<meta name="twitter:title" property="og:title" content="GDScriptの基本" >
+<meta property="og:description" name="twitter:description" content="Godot Engineの組み込みスクリプト言語であるGDScriptの基本的な使い方について記載します。 基本的な記述方法 extends Node var int_sanple = 0 var text_sample = &#34;文字列&#34; var int_sample2 :int = 1 func _ready(): pass GDSCriptは、大まかに３種類の要素で読み書きすることができます。 上記のサンプルを１行ずつ解説します。 ク" >
 
 
-<meta name="twitter:image" content="https://godot-jp.github.io/images/TwitterCard.png" />
-<meta property="og:image" content="https://godot-jp.github.io/images/TwitterCard.png" />
+<meta property="og:image" name="twitter:image" content="https://godot-jp.github.io/images/TwitterCard.png" >
 
 
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/" />
-<meta property="og:site_name" content="Godot Japan User Community" />
+<meta property="og:type" content="website" >
+<meta property="og:url" content="https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/" >
+<meta property="og:site_name" content="Godot Japan User Community" >
 
 
-<link rel="stylesheet" href="https://godot-jp.github.io/scss/gjuc-bs.css" />
+<link rel="stylesheet" href="https://godot-jp.github.io/scss/gjuc-bs.css" >
 
 <script src="https://godot-jp.github.io/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" ></script>
 <link href="/css/gjuc.base.style.css" rel="stylesheet">

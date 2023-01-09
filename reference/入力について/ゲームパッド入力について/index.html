@@ -1,14 +1,14 @@
-<html lamg="ja">
+<html lang="ja">
 <title>
     ゲームパッド入力について -
     
     Godot Japan User Community
 </title>
-<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-<link rel="manifest" href="/favicons/site.webmanifest ">
-<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="apple-touch-icon" sizes="180x180" href="https://godot-jp.github.io/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://godot-jp.github.io/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://godot-jp.github.io/favicons/favicon-16x16.png">
+<link rel="manifest" href="https://godot-jp.github.io/favicons/site.webmanifest ">
+<link rel="mask-icon" href="https://godot-jp.github.io/favicons/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 <meta http-equiv="Pragma" content="no-cache">
@@ -20,46 +20,21 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Godot Japan User Community" />
-<meta property="og:title" content="Godot Japan User Community" />
+<meta name="twitter:card" content="summary" >
 
-<meta name="twitter:title" content="ゲームパッド入力について - Godot Japan User Community" />
-<meta property="og:title" content="ゲームパッド入力について - Godot Japan User Community" />
-<meta name="twitter:description" content="ゲームパッドとアクションの登録 入力機能についてで解説している通り、Godot Engineではアクションに対して複数の入力を登録することができます。
-これにより、コードからはキーボードとゲームパッドの操作を、どちらも同じアクションで参照することができます。
-このページでは、ゲームパッドに関連する操作やコードを解説していきます。
-ゲームパッドの状態取得 ゲームパッドが認識されているか取得 ゲームパッドがシステムに認識されているかどうかを判別します。
-if is_joy_known(0): print(&#34;デバイス0のゲームパッドが正常に認識されています。&#34;) システムが認識している状態であれば、グローバルスコープのJoystickListに定義されたゲームパッドの入力の値を正常に取得できます。
-切断・接続の状態を取得する ゲームパッドの接続状態が変わったことを通知するシグナルがあります。
-func _ready(): Input.joy_connection_changed.connect(_on_joy_connection_changed) func _on_joy_connection_changed(device:int, connected:bool): if not connected: print(&#34;デバイス%sのゲームパッドが切断されました&#34; % str(device)) elif connected: print(&#34;デバイス%sのゲームパッドが接続されました&#34; % str(device)) ゲームパッドの入力取得 スティックの傾きを取得 各アクションにゲームパッドの左スティックの上下左右方向をmove_right, move_left, move_up, move_downとして定義し、以下のようにアクションから方向を取得します。
-var value :Vector2 = Input.get_vector(&#34;move_right&#34;, &#34;move_left&#34;, &#34;move_up&#34;, &#34;move_down&#34;) print(str(value)) # [-1.0, -1.0] ~ [0, 0] ~ [1.0, 1.0] ボタン入力を取得 通常はis_action_pressed()などを使用してアクションでの入力判定を行うことがほとんどですが、ゲームパッドのボタン入力を個別に取得したい場合は以下のように取得できます。
-if Input.is_joy_button_pressed(0, JOY_DS_A): print(&#34;Nintendo規格のAボタンに値するボタンが押されている&#34;) グローバルスコープのJoystickListに定義されたゲームパッドの入力の値を第2引数に指定します。
-ジャイロスコープセンサーの取得 ! 現在標準のエンジンの機能として、iOS・Android以外のジャイロスコープセンサーの取得はできないようです。
-GDExtensionなどの拡張で取得することは可能です。 ゲームパッドへの命令 バイブレーションの設定 start_joy_vibration(デバイス, 弱振動値, 強振動値, 振動時間)で設定します。" />
-<meta property="og:description" content="ゲームパッドとアクションの登録 入力機能についてで解説している通り、Godot Engineではアクションに対して複数の入力を登録することができます。
-これにより、コードからはキーボードとゲームパッドの操作を、どちらも同じアクションで参照することができます。
-このページでは、ゲームパッドに関連する操作やコードを解説していきます。
-ゲームパッドの状態取得 ゲームパッドが認識されているか取得 ゲームパッドがシステムに認識されているかどうかを判別します。
-if is_joy_known(0): print(&#34;デバイス0のゲームパッドが正常に認識されています。&#34;) システムが認識している状態であれば、グローバルスコープのJoystickListに定義されたゲームパッドの入力の値を正常に取得できます。
-切断・接続の状態を取得する ゲームパッドの接続状態が変わったことを通知するシグナルがあります。
-func _ready(): Input.joy_connection_changed.connect(_on_joy_connection_changed) func _on_joy_connection_changed(device:int, connected:bool): if not connected: print(&#34;デバイス%sのゲームパッドが切断されました&#34; % str(device)) elif connected: print(&#34;デバイス%sのゲームパッドが接続されました&#34; % str(device)) ゲームパッドの入力取得 スティックの傾きを取得 各アクションにゲームパッドの左スティックの上下左右方向をmove_right, move_left, move_up, move_downとして定義し、以下のようにアクションから方向を取得します。
-var value :Vector2 = Input.get_vector(&#34;move_right&#34;, &#34;move_left&#34;, &#34;move_up&#34;, &#34;move_down&#34;) print(str(value)) # [-1.0, -1.0] ~ [0, 0] ~ [1.0, 1.0] ボタン入力を取得 通常はis_action_pressed()などを使用してアクションでの入力判定を行うことがほとんどですが、ゲームパッドのボタン入力を個別に取得したい場合は以下のように取得できます。
-if Input.is_joy_button_pressed(0, JOY_DS_A): print(&#34;Nintendo規格のAボタンに値するボタンが押されている&#34;) グローバルスコープのJoystickListに定義されたゲームパッドの入力の値を第2引数に指定します。
-ジャイロスコープセンサーの取得 ! 現在標準のエンジンの機能として、iOS・Android以外のジャイロスコープセンサーの取得はできないようです。
-GDExtensionなどの拡張で取得することは可能です。 ゲームパッドへの命令 バイブレーションの設定 start_joy_vibration(デバイス, 弱振動値, 強振動値, 振動時間)で設定します。" />
+<meta name="twitter:title" property="og:title" content="ゲームパッド入力について" >
+<meta property="og:description" name="twitter:description" content="ゲームパッドとアクションの登録 入力機能についてで解説している通り、Godot Engineではアクションに対して複数の入力を登録することができます。 これにより、コードからはキーボードとゲームパッドの操作を、どちらも同じアクションで参照することができます。 このページでは、ゲームパッド" >
 
 
-<meta name="twitter:image" content="https://godot-jp.github.io/images/TwitterCard.png" />
-<meta property="og:image" content="https://godot-jp.github.io/images/TwitterCard.png" />
+<meta property="og:image" name="twitter:image" content="https://godot-jp.github.io/images/TwitterCard.png" >
 
 
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/" />
-<meta property="og:site_name" content="Godot Japan User Community" />
+<meta property="og:type" content="website" >
+<meta property="og:url" content="https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/" >
+<meta property="og:site_name" content="Godot Japan User Community" >
 
 
-<link rel="stylesheet" href="https://godot-jp.github.io/scss/gjuc-bs.css" />
+<link rel="stylesheet" href="https://godot-jp.github.io/scss/gjuc-bs.css" >
 
 <script src="https://godot-jp.github.io/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" ></script>
 <link href="/css/gjuc.base.style.css" rel="stylesheet">

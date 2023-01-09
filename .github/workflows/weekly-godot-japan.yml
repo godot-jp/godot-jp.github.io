@@ -63,14 +63,7 @@ jobs:
         run: |
           hugo version
           hugo new news/weekly-godot-japan/wgj-$(date '+%F')/index.md
-          echo \
-          "---
-          title: Weekly Godot Japan $(date '+%F')
-          image: /images/WGJ-Header.png
-          draft: false
-          date:$(date +%Y-%m-%dT%H:%M:%S)+09:00
-          ---
-          {{< wgj \""$(date '+%F')"\" >}}" > news/weekly-godot-japan/wgj-$(date '+%F')/index.md
+          echo -e "---\ntitle: Weekly Godot Japan $(date '+%F')\nimage: /images/WGJ-Header.png\ndraft: false\ndate:$(date +%Y-%m-%dT%H:%M:%S)+09:\n---\n {{< wgj \""$(date '+%F')"\" >}}"
 
       - name: git setting
         run: |

@@ -1,0 +1,83 @@
+name: Update Bookmark JSON
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 4'
+
+env:
+  file_path: "./data"
+  file_name: "wgj.json"
+  collection_id: "30341431"
+#  collection_id: "8423988"
+  
+jobs:
+  get-raindrop-bookmark:
+    runs-on: self-hosted
+    #runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+      # Raindrop.ioからJSON取得
+      - name: Connect to raindrop.io
+        id: connet_raindrop
+        uses: fjogeleit/http-request-action@master
+        with:
+          url: 'https://api.raindrop.io/rest/v1/raindrops/${{env.collection_id}}'
+          method: 'GET'
+          bearerToken: ${{ secrets.RAINDROP_TEST_TOKEN }}
+          
+      # ディレクトリに移動
+      - name: Move to json directory
+        continue-on-error: true
+        id: move_directory
+        run: cd ${{ env.file_path }}
+        
+      # ディレクトリがなければ作る           
+      - name: Make directory
+        if: ${{ steps.move_directory.outcome == 'failure' }}
+        run: |
+          mkdir ${{env.file_path}}
+          cd ${{env.file_path}}
+      
+      # 取得したJSONをdata/wgj.jsonとして保存
+      - name: Output json
+        run: |
+          echo ${{ toJson(steps.connet_raindrop.outputs.response) }} > ${{env.file_path}}/${{env.file_name}}
+          
+      - name: commit json file
+        run: |
+          git add ${{env.file_path}}/${{env.file_name}}
+          git commit -m "update wgj.json"
+          exit 0
+      
+      # Hugoをセットアップ
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.109.0'
+      
+      # Markdownを作成（サイトがないとエラーが出る）
+      - name: Make Markdown
+        run: |
+          hugo version
+          hugo new news/weekly-godot-japan/wgj-$(date '+%F')/index.md
+          echo \
+          "---"
+          "title: Weekly Godot Japan "$(date '+%F')
+          "image: /images/WGJ-Header.png"
+          "draft: false"
+          "date:$(date +%Y-%m-%dT%H:%M:%S)+09:00"
+          "---"
+          "\n{{< wgj \""$(date '+%F')"\" >}}" > news/weekly-godot-japan/wgj-$(date '+%F')/index.md
+
+      - name: git setting
+        run: |
+          git config --local user.email "saitos@ahead-studio.com"
+          git config --local user.name "Godot Japan Bot"
+          
+      - name: Commit files
+        run: |
+          git add .
+          git commit -m "Add Weekly Godot Japan post" -a

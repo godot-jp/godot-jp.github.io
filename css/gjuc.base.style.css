@@ -55,7 +55,6 @@ nav#global-menu ul li a{
     display: block;
     color: aliceblue;
     text-decoration: none;
-    padding:1.5rem;
 }
 
 nav#global-menu ul li a:hover,

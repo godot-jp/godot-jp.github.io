@@ -53,126 +53,105 @@
 <section id="home" class="container-fluid p-0 m-0">
     
     <div id="header-carousel" class="w-100 text-light bg-primary text-center">
-        <nav id="global-menu" class="row">
-    <span id="header-logo" class="col-auto justify-content-center d-flex">
-        <a href="/" class="m-auto">
-            <img src="/images/Logo.svg" class="w-100 px-2">
-        </a>
-    </span>
-    <ul class="row col-auto gx-0 fw-bold">
-        
-            
-
-        
-            
-
-        
-            
-
-        
-            
-
-        
-            
-
-        
-            
-
-        
-            
-
-        
-            
-
-        
-            
-
-        
-            
-
-        
-            
-
-        
-            
-
-        
-            
-
-        
-            
-
-        
-            
-
-        
-            
-
-        
-            
-
-        
-            
-            
-            
-
-        
-            
-            
-            
-            
-            <li class="col-auto"><a href="/news/" class="">ニュース</a></li>
-            
-            
-
-        
-            
-
-        
-            
-
-        
-            
-
-        
-            
-
-        
-            
-            
-            
-            
-            <li class="col-auto"><a href="/about/" class="">当サイトについて</a></li>
-            
-            
-
-        
-            
-            
-            
-
-        
-            
-
-        
-            
-
-        
-            
-            
-            
-            
-            <li class="col-auto"><a href="/reference/" class="">逆引きリファレンス</a></li>
-            
-            
-
-        
-    </ul>
+        <nav id="global-menu" class="navbar navbar-expand-lg navbar-dark row">
+    <div class="container-fluid p-0 m-0">
+        <span id="header-logo" class="navbar-brand">
+            <a href="/" class="m-auto">
+                <img src="/images/Logo.svg" class="w-100">
+            </a>
+        </span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="row col-auto gx-0 fw-bold">
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            <li class="col-12 col-lg-auto nav-item text-start"><a href="/news/" class="nav-link  p-2 p-lg-4">ニュース</a></li>
+                        
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            <li class="col-12 col-lg-auto nav-item text-start"><a href="/about/" class="nav-link  p-2 p-lg-4">当サイトについて</a></li>
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            <li class="col-12 col-lg-auto nav-item text-start"><a href="/reference/" class="nav-link  p-2 p-lg-4">逆引きリファレンス</a></li>
+                        
+                    
+                
+            </ul>
+        </div>
+    </div>
 </nav>
-        <h2 class="fs-1 fw-bold mt-3">
+        <h2 class="fs-1 fw-bold mt-3 container-fluid container-lg">
             自由な開発を<br>Godot Engineではじめましょう
         </h2>
-        <p class="text-light text-shadow" style="font-size: 90%;">Godot Japan User Communityでは無料のオープンソースソフトウェアを使用して<br>
+        <p class="text-light text-shadow container-fluid container-lg" style="font-size: 90%;">Godot Japan User Communityでは無料のオープンソースソフトウェアを使用して<br>
             プロフェッショナルなゲームの開発を開始できます。</p>
         <a href="/feature/" class="btn btn-secondary mx-auto mb-5 p-3 fw-bold text-dark shadow-tooned">Godot Engineについて</a>
     </div>
@@ -203,16 +182,16 @@
                 
             </div>
             <div class="text-center my-2">
-                <a class="btn btn-info shadow-tooned">もっと見る</a>
+                <a class="btn btn-info shadow-tooned" href="/news/">もっと見る</a>
             </div>
         </div>
         <div class="card my-3 rounded col-12 col-lg-8 col-xl-7 col-xxl-8 mx-auto">
             <div class="row">
-                <div class="col-4 bg-primary text-center d-flex justify-content-center 
+                <div class="d-none d-lg-block col-4 bg-primary text-center d-flex justify-content-center 
                 align-items-stretch rounded-start">
                     <p class="m-auto noto-color-emoji" style="font-size:800%;">🫠</p>
                 </div>
-                <div class="col-8">
+                <div class="col-12 col-lg-8">
                     <div class="card-body text-center">
                         <h5 class="card-title text-danger">当サイトについて</h5>
                         <p class="card-text text-start mx-0 my-3">
@@ -227,11 +206,11 @@
         </div>
         <div class="card my-3 rounded col-12 col-lg-8 col-xl-7 col-xxl-8 mx-auto">
             <div class="row">
-                <div class="col-4 bg-primary text-center d-flex justify-content-center 
+                <div class="d-none d-lg-block col-4 bg-primary text-center d-flex justify-content-center 
                 align-items-stretch rounded-start">
                     <p class="m-auto noto-color-emoji" style="font-size:800%;">📚</p>
                 </div>
-                <div class="col-8">
+                <div class="col-12 col-lg-8">
                     <div class="card-body text-center">
                         <h5 class="card-title text-danger">逆引きリファレンス</h5>
                         <p class="card-text text-start mx-0 my-3">
@@ -248,7 +227,7 @@
 </section>
 <footer class="bg-primary text-light footer navbar fixed-bottom">
     <p class="text-center w-100">
-        © 2022 Saitos and Contributors.
+        © 2022 - 2023 Saitos and Contributors.
     </p>
 </footer>
 

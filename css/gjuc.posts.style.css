@@ -130,3 +130,20 @@ a[href^="//"]:after {
     margin: 4px auto;  
     width:75%;
 }
+
+div.modal-header{
+    display: block !important;
+}
+
+div.modal-footer{
+    justify-content: center;
+}
+
+.markdown details{
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+    border :1px solid rgba(0,0,0,0.30);
+    border-radius: 0.5rem;
+    background-color: #000000a6;
+    color:#fff;
+}

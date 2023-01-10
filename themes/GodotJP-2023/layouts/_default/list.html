@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 {{ partial "global-menu.html" . }}
 
-<section class="container row mx-auto my-3">
+<section class="container-fluid container-lg row mx-auto my-3">
     <h1 class="my-3 text-danger text-center">
     {{.Title}}
     </h1>
@@ -15,7 +15,7 @@
     {{ range $paginator.Pages }}
     {{ if .GitInfo}}
     {{ $info := .GitInfo}}
-    <div class="card col-4 news-column">
+    <div class="card col-12 col-lg-4 news-column">
         <a href="{{ .Permalink | relURL}}">
             <img src="{{ .Permalink | relURL}}/{{.Params.image}}" class="card-img-top news-images">
             <div class="card-body">

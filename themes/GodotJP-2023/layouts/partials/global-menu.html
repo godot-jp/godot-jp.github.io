@@ -1,21 +1,27 @@
-<nav id="global-menu" class="row{{if ne .IsHome true}} bg-primary{{end}}">
-    <span id="header-logo" class="col-auto justify-content-center d-flex">
-        <a href="/" class="m-auto">
-            <img src="{{ "images/Logo.svg" | relURL }}" class="w-100 px-2">
-        </a>
-    </span>
-    <ul class="row col-auto gx-0 fw-bold">
-        {{ range .Site.Pages }}
-            {{if and (eq .Parent .Site.Home) (ne .Title "Godot Engineについて" ) }}
-            {{if ne .Kind "taxonomy"}}
-            {{ $active := "" }}
-            {{ if eq $.Title .Title }}
-            {{ $active = " active" }}
-            {{ end }}
-            <li class="col-auto"><a href="{{.Permalink | relURL}}" class="{{$active}}">{{.Title}}</a></li>
-            {{ end }}
-            {{ end }}
-
-        {{ end }}
-    </ul>
+<nav id="global-menu" class="navbar navbar-expand-lg navbar-dark row{{if ne .IsHome true}} bg-primary{{end}}">
+    <div class="container-fluid p-0 m-0">
+        <span id="header-logo" class="navbar-brand">
+            <a href="/" class="m-auto">
+                <img src="{{ "images/Logo.svg" | relURL }}" class="w-100">
+            </a>
+        </span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="row col-auto gx-0 fw-bold">
+                {{ range .Site.Pages }}
+                    {{if and (eq .Parent .Site.Home) (ne .Title "Godot Engineについて" ) }}
+                        {{if ne .Kind "taxonomy"}}
+                            {{ $active := "" }}
+                            {{ if eq $.Title .Title }}
+                                {{ $active = " active" }}
+                            {{ end }}
+                            <li class="col-12 col-lg-auto nav-item text-start"><a href="{{.Permalink | relURL}}" class="nav-link {{$active}} p-2 p-lg-4">{{.Title}}</a></li>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            </ul>
+        </div>
+    </div>
 </nav>

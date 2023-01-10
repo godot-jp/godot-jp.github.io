@@ -1,11 +1,30 @@
 {{ partial "header.html" . }}
 {{ partial "global-menu.html" . }}
 
-<section class="container row mx-auto my-3">
-    <div id="side-bar" class="col-3">
+<section class="container-fluid container-lg row mx-auto my-3">
+    <button type="button" class="btn btn-primary d-md-none " 
+    data-bs-toggle="modal" 
+    data-bs-target="#Modal">
+    リファレンス一覧
+    </button>
+    
+    <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header border-0 position-absolute w-100 my-0" style="z-index:100;">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="side-bar" class="modal-body col-12 col-lg-3">
+                    {{ partial "reference-side-menu.html" . }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="side-bar" class="d-none d-md-block col-12 col-md-4 col-lg-3">
         {{ partial "reference-side-menu.html" . }}
     </div>
-    <div class="col-9 markdown">
+    <div class="col-12 col-md-8 col-lg-9 markdown mt-3 mt-lg-0">
         <h1 class="text-center mb-5">
             <span class="noto-color-emoji">{{.Page.Params.emoji}}</span> {{.Title}}
         </h1>

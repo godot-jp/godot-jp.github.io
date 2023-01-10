@@ -3,10 +3,10 @@
     
     <div id="header-carousel" class="w-100 text-light bg-primary text-center">
         {{ partial "global-menu.html" . }}
-        <h2 class="fs-1 fw-bold mt-3">
+        <h2 class="fs-1 fw-bold mt-3 container-fluid container-lg">
             自由な開発を<br>Godot Engineではじめましょう
         </h2>
-        <p class="text-light text-shadow" style="font-size: 90%;">Godot Japan User Communityでは無料のオープンソースソフトウェアを使用して<br>
+        <p class="text-light text-shadow container-fluid container-lg" style="font-size: 90%;">Godot Japan User Communityでは無料のオープンソースソフトウェアを使用して<br>
             プロフェッショナルなゲームの開発を開始できます。</p>
         <a href="{{ "feature/" | relURL }}" class="btn btn-secondary mx-auto mb-5 p-3 fw-bold text-dark shadow-tooned">Godot Engineについて</a>
     </div>
@@ -39,16 +39,16 @@
                 {{end}}
             </div>
             <div class="text-center my-2">
-                <a class="btn btn-info shadow-tooned">もっと見る</a>
+                <a class="btn btn-info shadow-tooned" href="/news/">もっと見る</a>
             </div>
         </div>
         <div class="card my-3 rounded col-12 col-lg-8 col-xl-7 col-xxl-8 mx-auto">
             <div class="row">
-                <div class="col-4 bg-primary text-center d-flex justify-content-center 
+                <div class="d-none d-lg-block col-4 bg-primary text-center d-flex justify-content-center 
                 align-items-stretch rounded-start">
                     <p class="m-auto noto-color-emoji" style="font-size:800%;">🫠</p>
                 </div>
-                <div class="col-8">
+                <div class="col-12 col-lg-8">
                     <div class="card-body text-center">
                         <h5 class="card-title text-danger">当サイトについて</h5>
                         <p class="card-text text-start mx-0 my-3">
@@ -63,11 +63,11 @@
         </div>
         <div class="card my-3 rounded col-12 col-lg-8 col-xl-7 col-xxl-8 mx-auto">
             <div class="row">
-                <div class="col-4 bg-primary text-center d-flex justify-content-center 
+                <div class="d-none d-lg-block col-4 bg-primary text-center d-flex justify-content-center 
                 align-items-stretch rounded-start">
                     <p class="m-auto noto-color-emoji" style="font-size:800%;">📚</p>
                 </div>
-                <div class="col-8">
+                <div class="col-12 col-lg-8">
                     <div class="card-body text-center">
                         <h5 class="card-title text-danger">逆引きリファレンス</h5>
                         <p class="card-text text-start mx-0 my-3">

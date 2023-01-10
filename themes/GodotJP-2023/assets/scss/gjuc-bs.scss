@@ -64,3 +64,5 @@ $theme-colors: map-merge($theme-colors, $custom-theme-colors);
 @import "../node_modules/bootstrap/scss/carousel";
 @import "../node_modules/bootstrap/scss/buttons";
 @import "../node_modules/bootstrap/scss/card";
+@import "../node_modules/bootstrap/scss/modal";
+@import "../node_modules/bootstrap/scss/close";

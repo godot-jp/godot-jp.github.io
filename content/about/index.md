@@ -40,6 +40,13 @@ Godot Engine公式のガバナンスに沿ったユーザーコミュニティ�
 - 各コミュニティサービスへの支払い
 - いくつかの業界イベントへの参加費および旅費
 
+#### codocでサポートする
+
+<script src="https://codoc.jp/js/cms.js" data-css="blue" data-usercode="rbXdsXVgzQ" charset="UTF-8" defer></script>
+ <div id="codoc-entry-5jBAHIwpDA" class="codoc-entries" data-without-body="1" data-show-like="0" data-support-message="Godot Japan User Communityでは、運営資金のための寄付を受け付けております。"></div>
+
+
+
 ## 免責事項・ライセンスについて
 
 本コミュニティは個人が集まったGodot Engineの日本のユーザーコミュニティであり、Godot Engineプロジェクトおよび本家のコミュニティに直接的な関係はありません。

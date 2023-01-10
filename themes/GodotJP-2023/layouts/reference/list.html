@@ -2,10 +2,10 @@
 {{ partial "global-menu.html" . }}
 
 <section class="container row mx-auto my-3">
-    <div id="side-bar" class="col-3">
+    <div id="side-bar" class="col-12 col-lg-3">
         {{ partial "reference-side-menu.html" . }}
     </div>
-    <div class="col-9 markdown py-3">
+    <div class="d-12 col-lg-9 markdown py-3">
         {{.Content}}
     </div>
 </section>

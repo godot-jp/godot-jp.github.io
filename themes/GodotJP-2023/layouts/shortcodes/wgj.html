@@ -4,7 +4,7 @@
 
 今週（{{$today.AddDate 0 0 -7 | time.Format "2006年1月2日" }}〜{{$today | time.Format "2006年1月2日"}}）のGodot Engineに関するニュースをお届けします。<br>
 このニュースは<a href="https://raindrop.io" target="_blank">raindrop.io</a>のブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。<br>
-おすすめやアイディアがある場合は、<a href="https://github.com/godot-jp/godot-jp.github.io/discussions/59">Discussionのスレッド</a>にコメントをいただければ反映します。
+おすすめやアイディアがある場合は、<a href="https://github.com/godot-jp/godot-jp.github.io/discussions/59">Discussionのスレッド</a>または<a href="https://discord.gg/DyFvSJZ">Godot Japan Discordサーバー</a>>にコメントをいただければ反映します。
 
 
 {{$today = substr $today 0 10 }}
@@ -38,29 +38,42 @@
 {{range  $dict }}
     <h3 class="fs-2 text-center mt-4">{{ index . 0 }}</h3>
     {{range after 1 .}}
-    <a href="{{.link}}" class="no-icon text-dark" target="_blank">
-        <div class="card my-2">
-            {{$media := .cover}}
-            {{$ext := path.Ext .cover}}
-            {{ if or (eq $ext ".png") (eq $ext ".jpg") (eq $ext ".webp") }}
-                {{ with $result := resources.GetRemote $media}}
-                    {{with $result.Err}}
-                        {{- warnf "%s" . -}}
-                    {{else}}
-                        <img src="{{$media}}" class="card-img-top" style="object-fit:cover; max-height:200px;">
+        {{if eq ($url := urls.Parse .link).Host "twitter.com"}}
+            {{$query := print "https://publish.twitter.com/oembed?url=" (urlquery $url)}}
+            {{ $tweet := getJSON $query }}
+            {{ $tweet.html | safeHTML }}
+        {{else if eq ($url := urls.Parse .link ).Host "mastodon.gamedev.place"}}
+            {{ $toot_user := index (split $url.Path "/") 1 }}
+            {{ $toot_id := index (split $url.Path "/") 2 }}
+            <div class="text-center my-2 mx-auto col-12 col-lg-8">
+                <iframe src="https://mastodon.gamedev.place/{{ $toot_user }}/{{$toot_id}}/embed" class="mastodon-embed mx-auto" style="width:100%; max-width: 100%; border: 0;"allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.gamedev.place/embed.js" async="async"></script>
+                <a href="https://mastodon.gamedev.place/" style="display:block; text-align:right; font-size:80%;">Mastodon | Game Dev place</a>
+            </div>
+        {{else}}
+        <a href="{{.link}}" class="d-block col-12 col-lg-8 mx-auto no-icon text-dark" target="_blank">
+            <div class="card my-2">
+                {{$media := .cover}}
+                {{$ext := path.Ext .cover}}
+                {{ if or (eq $ext ".png") (eq $ext ".jpg") (eq $ext ".webp") }}
+                    {{ with $result := resources.GetRemote $media}}
+                        {{with $result.Err}}
+                            {{- warnf "%s" . -}}
+                        {{else}}
+                            <img src="{{$media}}" class="card-img-top" style="object-fit:cover; max-height:200px;">
+                        {{end}}
                     {{end}}
                 {{end}}
-            {{end}}
-            <div class="card-body">
-                <h4 class="card-title mt-0">
-                    {{.title}}
-                </h4>
-                <div class="card-text">
-                    {{.excerpt}}
+                <div class="card-body">
+                    <h4 class="card-title mt-0">
+                        {{.title}}
+                    </h4>
+                    <div class="card-text">
+                        {{.excerpt}}
+                    </div>
                 </div>
             </div>
-        </div>
-    </a>
+        </a>
+        {{end}}
     {{end}}
 {{end}}
 

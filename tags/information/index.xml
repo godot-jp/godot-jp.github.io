@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Information on Godot Japan User Community</title>
+    <title>information on Godot Japan User Community</title>
     <link>https://godot-jp.github.io/tags/information/</link>
-    <description>Recent content in Information on Godot Japan User Community</description>
+    <description>Recent content in information on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 05 Jan 2023 14:08:07 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/tags/information/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Jan 2023 22:09:30 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/tags/information/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>週刊Godot Japan！ニュースの自動配信を開始</title>
+      <link>https://godot-jp.github.io/news/news-20230111220920/</link>
+      <pubDate>Wed, 11 Jan 2023 22:09:30 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/news-20230111220920/</guid>
+      <description>Godotユーザーのみなさん、こんにちは。 2023年1月12日（木）15時頃から毎週更新される Weekly Godot Japan の記事配信が開始されます。 配信日が木曜日なのは 「日本でのパッケージゲームの発売日」 が基本的に木曜日だからです😋 約1年前に更新を止めてしまったThis Week in Godotからインスパイアさ</description>
+    </item>
+    
     <item>
       <title>Godot Japan User Community リリース</title>
       <link>https://godot-jp.github.io/news/release2023-1-10/</link>

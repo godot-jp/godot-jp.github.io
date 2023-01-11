@@ -6,7 +6,7 @@
     <description>Recent content on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 05 Jan 2023 14:08:07 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Jan 2023 22:09:30 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Controlノードについて</title>
       <link>https://godot-jp.github.io/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
@@ -32,6 +32,15 @@
       
       <guid>https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/</guid>
       <description>Godot Engineの組み込みスクリプト言語であるGDScriptの基本的な使い方について記載します。 基本的な記述方法 extends Node var int_sanple = 0 var text_sample = &amp;#34;文字列&amp;#34; var int_sample2 :int = 1 func _ready(): pass GDSCriptは、大まかに３種類の要素で読み書きすることができます。 上記のサンプルを１行ずつ解説します。 ク</description>
+    </item>
+    
+    <item>
+      <title>週刊Godot Japan！ニュースの自動配信を開始</title>
+      <link>https://godot-jp.github.io/news/news-20230111220920/</link>
+      <pubDate>Wed, 11 Jan 2023 22:09:30 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/news-20230111220920/</guid>
+      <description>Godotユーザーのみなさん、こんにちは。 2023年1月12日（木）15時頃から毎週更新される Weekly Godot Japan の記事配信が開始されます。 配信日が木曜日なのは 「日本でのパッケージゲームの発売日」 が基本的に木曜日だからです😋 約1年前に更新を止めてしまったThis Week in Godotからインスパイアさ</description>
     </item>
     
     <item>

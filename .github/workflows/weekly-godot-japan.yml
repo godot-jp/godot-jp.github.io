@@ -1,7 +1,6 @@
 name: Update Bookmark JSON
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: '0 0 * * 4'
 
@@ -49,7 +48,7 @@ jobs:
 
       - name: Commit files
         run: |
-          git config user.name Godot-Japan-Bot
+          git config user.name Godot-Japan
           git config user.email github-actions@github.com
           git add .
           git commit -m "Add Weekly Godot Japan post" -a

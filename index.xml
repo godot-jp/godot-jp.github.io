@@ -6,7 +6,7 @@
     <description>Recent content on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 11 Jan 2023 22:09:30 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Jan 2023 06:00:15 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Controlノードについて</title>
       <link>https://godot-jp.github.io/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
@@ -32,6 +32,18 @@
       
       <guid>https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/</guid>
       <description>Godot Engineの組み込みスクリプト言語であるGDScriptの基本的な使い方について記載します。 基本的な記述方法 extends Node var int_sanple = 0 var text_sample = &amp;#34;文字列&amp;#34; var int_sample2 :int = 1 func _ready(): pass GDSCriptは、大まかに３種類の要素で読み書きすることができます。 上記のサンプルを１行ずつ解説します。 ク</description>
+    </item>
+    
+    <item>
+      <title>Weekly Godot Japan 2023-01-12</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-01-12/</link>
+      <pubDate>Thu, 12 Jan 2023 06:00:15 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/wgj-2023-01-12/</guid>
+      <description>今週（2023年1月5日〜2023年1月12日）のGodot Engineに関するニュースをお届けします。
+このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバー&gt;にコメントをいただければ反映します。 🎨チュートリアル &amp;#34;How to make Breath Of The Wild style Climbing in Godot!&amp;#34; を YouTube で見る In this video, I try an recreate the climbing system from the legend of Zelda: Breath of the wild in the Godot game engine! We go over my character controller and then the iterative design process I used to create the system in Godot! Source code for the project: https://github.com/LeonStansfield/Climbing_tutorial Follow me on Twitter: https://twitter.com/Leonstansfield0 And check out the game on Itch.io: https://leon-stansfield.itch.io/ Using particle shaders in #GodotEngine a pixel perfect disintegration effect can be created, here&amp;#39;s an overview of how to create an Undertale like death effect#gamedev #tutorial #pixelart pic.twitter.com/XBpx6yjmSC
+&amp;mdash; Astridson💧 (@byastridson) January 6, 2023 👮公式 Dev snapshot: Godot 4.0 beta 11 First snapshot of the year, Godot 4.0 beta 11! We took a bit longer to prepare this beta as there were a number of fairly big GDScript refactoring PRs (needed to fix many bugs), which we wanted to merge all at once.</description>
     </item>
     
     <item>

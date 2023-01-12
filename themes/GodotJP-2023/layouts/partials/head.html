@@ -19,15 +19,21 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Twitter Card -->
-<meta name="twitter:card" content="summary" >
+<meta name="twitter:card" content="summary_large_image" >
 {{ if .IsPage }}
 <meta name="twitter:title" property="og:title" content="{{.Title}}" >
-<meta property="og:description" name="twitter:description" content="{{.Summary}}" >
+<meta property="og:description" name="twitter:description" content="{{ substr .Summary 0 120 }}" >
 {{ else }}
 <meta name="twitter:title" property="og:title" content="{{.Site.Title}}" >
 {{ end }}
 {{ if .Params.image }}
-<meta property="og:image" name="twitter:image" content="{{.Permalink}}{{.Params.image}}" >
+{{ $cover_path := "" }}
+{{ if eq (path.Dir .Params.image) "."}}
+    {{$cover_path = print .Permalink "/" .Params.image}}
+{{else}}
+    {{$cover_path = .Params.image}}
+{{end}}
+<meta property="og:image" name="twitter:image" content="{{$cover_path}}" >
 {{else}}
 <meta property="og:image" name="twitter:image" content="{{ "images/TwitterCard.png" | absURL}}" >
 {{end}}

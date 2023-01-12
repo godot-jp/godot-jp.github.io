@@ -7,7 +7,7 @@
     </h1>
     <div class="col-8 mx-auto">
         {{ with .Params.tags }}
-            <ul class="tags row">
+            <ul class="tags row mx-0 px-0">
                 {{- range . -}}
                 <li class="col-auto"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="btn btn-light border border-black-50">{{ strings.FirstUpper . }}</a>
                 {{- end -}}
@@ -19,11 +19,18 @@
         <img src="{{.Params.image}}" style="width:80%;" class="news-images">
     </div>
     {{end}}
-
     <div class="my-3 text-center fw-bold" style="color:#999;">
         {{ if .GitInfo }}
-        by {{.GitInfo.AuthorName }} - {{dateFormat "2006/01/02 15:04:05" .GitInfo.AuthorDate}}
+        by {{.GitInfo.AuthorName | humanize}} - {{dateFormat "2006/01/02 15:04:05" .GitInfo.AuthorDate}}
         {{ end }}
+    </div>
+    <div class="mb-3">
+        <div class="d-flex row gx-2 text-center justify-content-center">
+            <a class="col-auto btn btn-info m-1 twitter-icon py-1" style="font-size:70%;"
+            href="https://twitter.com/share?url={{.Permalink}}&text={{.Title}}%20-%20{{.Site.Title}}" 
+            rel="nofollow" 
+            target="_blank">シェア</a>
+        </div>
     </div>
     <div class="col-12 col-md-8 mx-auto markdown">
         {{.Content}}

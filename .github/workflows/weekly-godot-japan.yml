@@ -3,7 +3,7 @@ name: Update Bookmark JSON
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 4'
+    - cron: '0 9 * * 4'
 
 env:
   file_path: "./data"

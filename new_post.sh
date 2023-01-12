@@ -72,6 +72,7 @@ function new_section(){
 
 function new_news(){
     echo 以下の内容でニュース記事を作成します。
+    echo よろしいですか？(y/n)
     today=`date "+%Y%m%d%H%M%S"`
     echo パス：news/news-$today/index.md
     read confirm

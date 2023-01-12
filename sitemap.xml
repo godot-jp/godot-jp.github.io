@@ -45,7 +45,7 @@
     <lastmod>2022-12-26T11:59:10+09:00</lastmod>
   </url><url>
     <loc>https://godot-jp.github.io/</loc>
-    <lastmod>2023-01-12T10:20:47+00:00</lastmod>
+    <lastmod>2023-01-13T04:35:01+09:00</lastmod>
   </url><url>
     <loc>https://godot-jp.github.io/tags/</loc>
     <lastmod>2023-01-12T10:20:47+00:00</lastmod>
@@ -83,7 +83,13 @@
     <loc>https://godot-jp.github.io/about/</loc>
     <lastmod>2023-01-10T13:29:50+09:00</lastmod>
   </url><url>
+    <loc>https://godot-jp.github.io/search/data.js</loc>
+    <lastmod>2023-01-13T04:35:01+09:00</lastmod>
+  </url><url>
     <loc>https://godot-jp.github.io/categories/</loc>
+  </url><url>
+    <loc>https://godot-jp.github.io/search/</loc>
+    <lastmod>2023-01-13T04:35:01+09:00</lastmod>
   </url><url>
     <loc>https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
     <lastmod>2022-12-26T11:59:10+09:00</lastmod>

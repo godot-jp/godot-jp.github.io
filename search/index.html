@@ -1,6 +1,6 @@
 <html lang="ja">
 <title>
-    Godot Engineについて -
+    Searches -
     
     Godot Japan User Community
 </title>
@@ -22,16 +22,14 @@
 
 <meta name="twitter:card" content="summary_large_image" >
 
-<meta name="twitter:title" property="og:title" content="Godot Engineについて" >
-<meta property="og:description" name="twitter:description" content="Godot Engineは、オープンソースのマルチプラットフォーム向けのWindows・Mac・Linuxで動作するゲームエンジンです。
-エンジン自体のファイルサイズも動作も非常に軽く、ある程度低いスペックであってもプロジェクトを開始するこ" >
+<meta name="twitter:title" property="og:title" content="Godot Japan User Community" >
 
 
 <meta property="og:image" name="twitter:image" content="https://godot-jp.github.io/images/TwitterCard.png" >
 
 
 <meta property="og:type" content="website" >
-<meta property="og:url" content="https://godot-jp.github.io/feature/" >
+<meta property="og:url" content="https://godot-jp.github.io/search/" >
 <meta property="og:site_name" content="Godot Japan User Community" >
 
 
@@ -159,35 +157,103 @@
         </div>
     </div>
 </nav>
+<script src="./data.js"></script>
 
-<section class="container-fluid container-lg py-3">
+<section class="container-fluid container-lg row mx-auto my-3">
     <h1 class="my-3 text-danger text-center">
-        Godot Engineについて
+    Searches
     </h1>
-    
-    <div class="col-12 col-md-8 mx-auto markdown">
-        <p><a href="https://godotengine.org/">Godot Engine</a>は、オープンソースのマルチプラットフォーム向けのWindows・Mac・Linuxで動作するゲームエンジンです。</p>
-<p>エンジン自体のファイルサイズも動作も非常に軽く、ある程度低いスペックであってもプロジェクトを開始することができます。</p>
-<p>バージョン管理ツールにも対応しやすく、プロジェクトファイルはシンプルなアスキーファイルで構成されており、差分の管理がしやすいのも特徴です。</p>
-<p>C++で書かれたエンジンそのものを改変することも可能ですが、GDExtensionやアドオンを自作してプロジェクトに読み込むことで、エンジンを拡張することも可能です。</p>
-<p>2Dでは、タイルマップやボーンアニメーションや2Dライトや拡張性の高いカメラなどが用意されており、プロトタイプの開発速度に驚くかもしれません。</p>
-<p>3Dでは、Vulkan<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>を使用し美しい表現が可能になり、物理エンジンで物理計算に基づいた物体の動きを再現することも可能です。</p>
-<p>どなたでも簡単に始めることができ、エディタの言語の多くの部分が日本語に翻訳されています。</p>
-<h2 id="当サイトの活用方法">当サイトの活用方法</h2>
-<p>Godot Engineはもともと英語で開発されており、多言語化されたことで日本でのシェアを伸ばしてきました。<br>
-しかし、2022年現在では日本のユーザーはまだまだ少ないため、他のゲームエンジンに比べると日本語の情報が少ないのが課題と言えます。</p>
-<p>当サイトはGodot Engineに関するナレッジベースとして、日本語の情報を取り扱うポータルサイトを目指しています。</p>
-<p>オープンソースなサイトとすることで、情報をどなたでも更新できるように運営しています。</p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>Vulkanのレンダリングエンジンを使用できるのはGodot Engine4.0からです。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
-
+    <div class="col-12 col-sm-8 col-md-5 col-lg-4 mx-auto">
+        <input id="query" onkeyup="location.replace('#' + this.value)" autocomplete="off" autofocus
+        placeholder="検索ワード" class="form-control" />
+        <span id="inputWord"></span> <span id="resultCount"></span>
     </div>
+    <div id="result"></div>
+
+    <script>
+        function search(query) {
+            var result = searchData(query);
+            var html = createHtml(result);
+            showResult(html);
+            
+        }
+
+        function searchData(query) {
+            
+            
+            var result = [];
+
+            query = query.trim();
+            if (query.length < 1) {
+                return result;
+            }
+            var re = new RegExp(query, 'i');
+            for (var i = 0; i < data.length; ++i) {
+                var pos = data[i].body.search(re);
+                if (pos != -1) {
+                    result.push([i, pos, pos + query.length]);
+                }
+            }
+            return result;
+        }
+
+        function createHtml(result) {
+            var htmls = [];
+            for (var i = 0; i < result.length; ++i) {
+                var dataIndex = result[i][0];
+                var startPos = result[i][1];
+                var endPos = result[i][2];
+                var url = data[dataIndex].url;
+                var title = data[dataIndex].title;
+                var body = data[dataIndex].body;
+                htmls.push(createEntry(url, title, body, startPos, endPos));
+            }
+            return htmls.join('');
+        }
+
+        function createEntry(url, title, body, startPos, endPos) {
+            return '<a href="' + url + '#:~:text=' + encodeURIComponent(body.substring(startPos, endPos)) +'">' + 
+                '<div class="item m-3 col-12 col-lg-8 mx-auto">' +
+                '<span class="item_title fs-3">'+ title +'</span>' +
+                '<div class="item_excerpt px-3 text-dark">' + excerpt(body, startPos, endPos) + '</div>' +
+                '</div>' + '</a>';
+        }
+
+        function excerpt(body, startPos, endPos) {
+            return [
+                body.substring(startPos - 30, startPos),
+                '<mark style="background-color:yellow;">', body.substring(startPos, endPos), '</mark>',
+                body.substring(endPos, endPos + 200)
+            ].join('');
+        }
+
+        function showResult(html) {
+            var el = document.getElementById('result');
+            el.innerHTML = html;
+        }
+
+        function showResultCount(count, total) {
+            var el = document.getElementById('resultCount');
+            el.innerHTML = '<b>' + count + '</b> 件見つかりました（' + total + '件中）';
+        }
+        
+        function searchWithHash() {
+            const hash = decodeURI(location.hash.substring(1));
+            search(hash);
+
+            
+            const queryElem = document.getElementById('query');
+            if (queryElem.value !== hash) {
+                queryElem.value = hash;
+            }
+        }
+
+        
+        window.addEventListener('DOMContentLoaded', searchWithHash);
+
+        
+        window.addEventListener('hashchange', searchWithHash);
+    </script>
 </section>
 <footer class="bg-primary text-light footer navbar fixed-bottom">
     <p class="text-center w-100">

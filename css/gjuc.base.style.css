@@ -72,97 +72,97 @@ nav#global-menu ul li a.active{
     text-shadow: 0 2px 1px #000;
 }
 
-#side-bar{
+.side-bar{
     position: relative;
 }
 
-#side-bar ul li{
+.side-bar ul li{
     list-style: none;
     margin: 0.5rem 0;
 }
 
-#side-bar ul li ul {
+.side-bar ul li ul {
     padding-left: 1rem;
 }
 
-#side-bar ul li ul li ul {
+.side-bar ul li ul li ul {
     font-size: 90%;
     padding-left:1.5rem;
     margin-left: 0;
     border-left:3px solid #ccc;
 }
 
-#side-bar ul li ul li ul li ul{
+.side-bar ul li ul li ul li ul{
     margin-left: 0;
     padding-left: 1rem;
     border:none;
 }
-#side-bar ul li ul li ul li ul a{
+.side-bar ul li ul li ul li ul a{
     color:#666;
 }
-#side-bar ul li ul li ul li ul a:hover{
+.side-bar ul li ul li ul li ul a:hover{
     color:#999;
 }
 
-#side-bar ul li a{
+.side-bar ul li a{
     color:#333;
     text-decoration: none;
 }
 
-#side-bar ul li a:hover{
+.side-bar ul li a:hover{
     color:#666;
 }
 
-#side-bar ul li.icon-basic::before {
+.side-bar ul li.icon-basic::before {
     content: url(../images/basic_icon.svg);
     vertical-align: middle;
 }
-#side-bar ul li.icon-gdscript::before {
+.side-bar ul li.icon-gdscript::before {
     content: url(../images/gdscript_icon.svg);
     vertical-align: middle;
 }
-#side-bar ul li.icon-input::before {
+.side-bar ul li.icon-input::before {
     content: url(../images/input_icon.svg);
     vertical-align: middle;
 }
-#side-bar ul li.icon-particle::before {
+.side-bar ul li.icon-particle::before {
     content: url(../images/particle_icon.svg);
     vertical-align: middle;
 }
-#side-bar ul li.icon-audio::before {
+.side-bar ul li.icon-audio::before {
     content: url(../images/audio_icon.svg);
     vertical-align: middle;
 }
-#side-bar ul li.icon-shader::before {
+.side-bar ul li.icon-shader::before {
     content: url(../images/shader_icon.svg);
     vertical-align: middle;
 }
-#side-bar ul li.icon-gui::before {
+.side-bar ul li.icon-gui::before {
     content: url(../images/gui_icon.svg);
     vertical-align: middle;
 }
-#side-bar ul li.icon-2d::before {
+.side-bar ul li.icon-2d::before {
     content: url(../images/2d_icon.svg);
     vertical-align: middle;
 }
-#side-bar ul li.icon-3d::before {
+.side-bar ul li.icon-3d::before {
     content: url(../images/3d_icon.svg);
     vertical-align: middle;
 }
-#side-bar ul li.icon-file::before {
+.side-bar ul li.icon-file::before {
     content: url(../images/file_icon.svg);
     vertical-align: middle;
 }
-#side-bar ul li.icon-algo::before {
+.side-bar ul li.icon-algo::before {
     content: url(../images/algo_icon.svg);
     vertical-align: middle;
 }
-#side-bar ul li.icon-network::before {
+.side-bar ul li.icon-network::before {
     content: url(../images/network_icon.svg);
     vertical-align: middle;
 }
 
-#side-bar a.toggle-icon{
+.side-bar a.toggle-icon{
     display: flex;
     width:24px;
     height:24px;
@@ -177,21 +177,21 @@ nav#global-menu ul li a.active{
     position: relative;
 }
 
-#side-bar a.toggle-icon[aria-expanded="true"],
-#side-bar a.toggle-icon:hover{
+.side-bar a.toggle-icon[aria-expanded="true"],
+.side-bar a.toggle-icon:hover{
     transition: .5s ;
     box-shadow: rgba(0,0,0,1) 0 0 5px;
 }
 
-#side-bar a.toggle-icon[aria-expanded="false"] .target,
-#side-bar a.toggle-icon .target {
+.side-bar a.toggle-icon[aria-expanded="false"] .target,
+.side-bar a.toggle-icon .target {
     transition: .2s ;
     transform: rotateZ( 360deg ) ;
     display: block;
 }
 
-#side-bar a.toggle-icon[aria-expanded="true"] .target,
-#side-bar a.toggle-icon:hover .target {
+.side-bar a.toggle-icon[aria-expanded="true"] .target,
+.side-bar a.toggle-icon:hover .target {
 	transform: rotateZ( 90deg ) ;
 }
 

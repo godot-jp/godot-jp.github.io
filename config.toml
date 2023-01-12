@@ -3,8 +3,6 @@ languageCode = 'ja-jp'
 title = 'Godot Japan User Community'
 theme = 'GodotJP-2023'
 enableGitInfo = true
-summaryLength = 140
-hasCJKLanguage = true
 
 [markup]
   [markup.goldmark]

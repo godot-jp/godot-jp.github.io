@@ -8,7 +8,7 @@
     <ul class="tag-list row g-2">
         <li class="col-auto"><a href="/news/" class="btn btn-light">All</a>
         {{- range $termName, $entries := .Site.Taxonomies.tags }}
-        <li class="col-auto"><a href="{{ "/tags/" | relLangURL }}{{ $termName | urlize }}" class="btn btn-light">{{ strings.FirstUpper $termName }}</a>
+        <li class="col-auto" style="text-transform: capitalize;"><a href="{{ "/tags/" | relLangURL }}{{ $termName | urlize }}" class="btn btn-light">{{ strings.FirstUpper $termName | humanize }}</a>
         {{- end }}
     </ul>
     <div class="row container-fluid g-2">
@@ -27,7 +27,7 @@
                     {{end}}
                     <img src="{{ $cover_path }}" class="card-img-top news-images">
                     <div class="card-body">
-                        <p class="info">{{$info.AuthorName | humanize }} - {{dateFormat "2006/01/02 15:04:05" $info.AuthorDate}}</p>
+                        <p class="info" style="text-transform: capitalize;">{{$info.AuthorName | humanize }} - {{dateFormat "2006/01/02 15:04:05" $info.AuthorDate}}</p>
                         <h5 class="card-title">{{.Title}}</h5>
                     </div>
                 </a>

@@ -30,7 +30,7 @@
                         <img src="{{$cover_path}}" class="card-img-top news-images">
                         <div class="card-body">
                             {{ if .GitInfo }}
-                            <p class="info">{{$info.AuthorName | humanize }} - {{dateFormat "2006/01/02 15:04:05" $info.AuthorDate}}</p>
+                            <p class="info" style="text-transform: capitalize;">{{$info.AuthorName | humanize }} - {{dateFormat "2006/01/02 15:04:05" $info.AuthorDate}}</p>
                             {{end}}
                             <h5 class="card-title">{{.Title}}</h5>
                         </div>

@@ -9,14 +9,14 @@
         {{ with .Params.tags }}
             <ul class="tags row mx-0 px-0">
                 {{- range . -}}
-                <li class="col-auto"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="btn btn-light border border-black-50">{{ strings.FirstUpper . }}</a>
+                <li class="col-auto"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="btn btn-light border border-black-50">{{ strings.FirstUpper . | humanize }}</a>
                 {{- end -}}
             </ul>
         {{ end }}
     </div>
     {{if .Params.image }}
     <div class="col-12 col-md-8 mx-auto text-center">
-        <img src="{{.Params.image}}" style="width:80%;" class="news-images">
+        <img src="{{.Params.image}}" style="width:100%;" class="news-images">
     </div>
     {{end}}
     <div class="my-3 text-center fw-bold" style="color:#999;">
@@ -27,7 +27,7 @@
     <div class="mb-3">
         <div class="d-flex row gx-2 text-center justify-content-center">
             <a class="col-auto btn btn-info m-1 twitter-icon py-1" style="font-size:70%;"
-            href="https://twitter.com/share?url={{.Permalink}}&text={{.Title}}%20-%20{{.Site.Title}}" 
+            href="https://twitter.com/intent/tweet?text={{.Title}}%20%7C%20{{.Site.Title}}%0a&url={{.Permalink}}" 
             rel="nofollow" 
             target="_blank">シェア</a>
         </div>

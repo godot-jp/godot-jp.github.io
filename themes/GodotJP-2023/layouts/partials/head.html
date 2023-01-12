@@ -33,7 +33,7 @@
 {{else}}
     {{$cover_path = .Params.image}}
 {{end}}
-<meta property="og:image" name="twitter:image" content="{{$cover_path}}" >
+<meta property="og:image" name="twitter:image" content="{{$cover_path | absURL}}" >
 {{else}}
 <meta property="og:image" name="twitter:image" content="{{ "images/TwitterCard.png" | absURL}}" >
 {{end}}

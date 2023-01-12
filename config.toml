@@ -4,6 +4,10 @@ title = 'Godot Japan User Community'
 theme = 'GodotJP-2023'
 enableGitInfo = true
 
+[mediaTypes]
+  [mediaTypes.'text/json']
+    suffixes = ['json']
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

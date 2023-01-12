@@ -11,7 +11,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="row col-auto gx-0 fw-bold">
                 {{ range .Site.Pages }}
-                    {{if and (eq .Parent .Site.Home) (ne .Title "Godot Engineについて" ) }}
+                    {{if and (eq .Parent .Site.Home) (ne .Title "Godot Engineについて" ) (ne .Title "Searches" ) }}
                         {{if ne .Kind "taxonomy"}}
                             {{ $active := "" }}
                             {{ if eq $.Title .Title }}

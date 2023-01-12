@@ -51,6 +51,8 @@ jobs:
           
       # Markdownを作成（サイトがないとエラーが出る）
       - name: Make Markdown
+        env: 
+          TZ: "Asia/Tokyo" # タイムゾーンを指定
         run: |
           hugo version
           rm -f "content/news/wgj-$(date '+%F')/index.md"

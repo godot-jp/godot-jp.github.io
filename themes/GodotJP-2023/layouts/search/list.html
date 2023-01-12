@@ -1,0 +1,101 @@
+{{ partial "header.html" . }}
+{{ partial "global-menu.html" . }}
+<script src="./data.js"></script>
+
+<section class="container-fluid container-lg row mx-auto my-3">
+    <h1 class="my-3 text-danger text-center">
+    {{.Title}}
+    </h1>
+    <div class="col-12 col-sm-8 col-md-5 col-lg-4 mx-auto">
+        <input id="query" onkeyup="location.replace('#' + this.value)" autocomplete="off" autofocus
+        placeholder="検索ワード" class="form-control" />
+        <span id="inputWord"></span> <span id="resultCount"></span>
+    </div>
+    <div id="result"></div>
+
+    <script>
+        function search(query) {
+            var result = searchData(query);
+            var html = createHtml(result);
+            showResult(html);
+            //showResultCount(result.length, data.length);
+        }
+
+        function searchData(query) {
+            // 検索にヒットした情報を下記のような配列として格納していく
+            // [データのインデックス, 文字の開始位置, 文字の終了位置]
+            var result = [];
+
+            query = query.trim();
+            if (query.length < 1) {
+                return result;
+            }
+            var re = new RegExp(query, 'i');
+            for (var i = 0; i < data.length; ++i) {
+                var pos = data[i].body.search(re);
+                if (pos != -1) {
+                    result.push([i, pos, pos + query.length]);
+                }
+            }
+            return result;
+        }
+
+        function createHtml(result) {
+            var htmls = [];
+            for (var i = 0; i < result.length; ++i) {
+                var dataIndex = result[i][0];
+                var startPos = result[i][1];
+                var endPos = result[i][2];
+                var url = data[dataIndex].url;
+                var title = data[dataIndex].title;
+                var body = data[dataIndex].body;
+                htmls.push(createEntry(url, title, body, startPos, endPos));
+            }
+            return htmls.join('');
+        }
+
+        function createEntry(url, title, body, startPos, endPos) {
+            return '<a href="' + url + '#:~:text=' + encodeURIComponent(body.substring(startPos, endPos)) +'">' + 
+                '<div class="item m-3 col-12 col-lg-8 mx-auto">' +
+                '<span class="item_title fs-3">'+ title +'</span>' +
+                '<div class="item_excerpt px-3 text-dark">' + excerpt(body, startPos, endPos) + '</div>' +
+                '</div>' + '</a>';
+        }
+
+        function excerpt(body, startPos, endPos) {
+            return [
+                body.substring(startPos - 30, startPos),
+                '<mark style="background-color:yellow;">', body.substring(startPos, endPos), '</mark>',
+                body.substring(endPos, endPos + 200)
+            ].join('');
+        }
+
+        function showResult(html) {
+            var el = document.getElementById('result');
+            el.innerHTML = html;
+        }
+
+        function showResultCount(count, total) {
+            var el = document.getElementById('resultCount');
+            el.innerHTML = '<b>' + count + '</b> 件見つかりました（' + total + '件中）';
+        }
+        // ハッシュフラグメントの値で検索を実行
+        function searchWithHash() {
+            const hash = decodeURI(location.hash.substring(1));
+            search(hash);
+
+            // 必要があれば input 要素の値を更新
+            const queryElem = document.getElementById('query');
+            if (queryElem.value !== hash) {
+                queryElem.value = hash;
+            }
+        }
+
+        // ハッシュフラグメント付きの URL でページを開いたときに検索
+        window.addEventListener('DOMContentLoaded', searchWithHash);
+
+        // ページ表示後にハッシュフラグメントが変化したら検索
+        window.addEventListener('hashchange', searchWithHash);
+    </script>
+</section>
+{{ partial "footer.html" . }}

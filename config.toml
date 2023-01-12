@@ -6,6 +6,10 @@ enableGitInfo = true
 summaryLength = 140
 hasCJKLanguage = true
 
+[mediaTypes]
+  [mediaTypes.'text/json']
+    suffixes = ['json']
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

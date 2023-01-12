@@ -1,0 +1,16 @@
+{{ $sec := .Site.GetPage "reference/" -}}
+{{- define "escape" }}
+  {{- trim (replace . "\n" " ") " " | replaceRE " +" " " | jsonify -}}
+{{- end }}
+var data = [
+    {{- range $i, $cats := $sec.Pages }}
+      {{- range $n, $post := $cats.Pages }}
+        {
+          title: {{ $post.Title | jsonify}},
+          url: {{ $post.Permalink | jsonify }}, 
+          {{ $content := $post.Content | htmlUnescape | plainify -}}
+          body: {{ template "escape" (printf "%s %s" $post.Title $post.Plain) }}
+        },
+      {{- end }}
+    {{- end }}
+];

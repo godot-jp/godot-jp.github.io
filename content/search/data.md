@@ -1,0 +1,3 @@
+---
+url: "search/data.js"
+---

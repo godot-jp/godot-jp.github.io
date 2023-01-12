@@ -14,16 +14,36 @@
                 <div class="modal-header border-0 position-absolute w-100 my-0" style="z-index:100;">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div id="side-bar" class="modal-body col-12 col-lg-3">
-                    {{ partial "reference-side-menu.html" . }}
+                <div class="side-bar modal-body col-12 col-lg-3" data-media_query="sm">
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="side-bar" class="d-none d-md-block col-12 col-md-4 col-lg-3">
+    <div class="side-bar d-none d-md-block col-12 col-md-4 col-lg-3" data-media_query="lg">
         {{ partial "reference-side-menu.html" . }}
     </div>
+    <script>
+        var sideBar = document.querySelector("#reference-side-menu");
+        var lgSideBarParent = document.querySelector('[data-media_query="lg"]');
+        var smSideBarParent = document.querySelector('[data-media_query="sm"]');
+        const mediaQuery = window.matchMedia('(max-width: 768px)');
+        // ページが読み込まれた時に実行
+        handle(mediaQuery);
+        // ウィンドウサイズを変更しても実行（ブレイクポイントの監視）
+        mediaQuery.addListener(handle);
+
+        function handle(mm) {
+            if (mm.matches) {
+                // ウィンドウサイズ768px以下のときの処理
+                smSideBarParent.appendChild(sideBar);
+            } else {
+                // それ以外の処理
+                lgSideBarParent.appendChild(sideBar);
+            }
+        }
+    </script>
+
     <div class="col-12 col-md-8 col-lg-9 markdown mt-3 mt-lg-0">
         <h1 class="text-center mb-5">
             <span class="noto-color-emoji">{{.Page.Params.emoji}}</span> {{.Title}}
@@ -44,7 +64,7 @@
         <div class="">
             <div class="d-flex row gx-2 text-center justify-content-center">
                 <a class="col-auto btn btn-info m-1 twitter-icon" style="font-size:80%;"
-                href="https://twitter.com/intent/tweet?text={{.Title}}%20%7C%20{{.Site.Title}}%0a&url={{.Permalink}}" 
+                href="https://twitter.com/intent/tweet?text={{.Title}}%20%7C%20{{.Site.Title}}%0a&url={{.Permalink}}"   
                 rel="nofollow" 
                 target="_blank">シェア</a>
                 <a class="col-auto btn btn-dark m-1 github-icon" style="font-size:80%;" target="_blank"

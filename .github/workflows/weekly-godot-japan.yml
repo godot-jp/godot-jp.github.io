@@ -16,9 +16,17 @@ jobs:
     #runs-on: self-hosted
     runs-on: ubuntu-latest
     steps:
+      - name: Generate token
+        id: generate_token
+        uses: getsentry/action-github-app-token@v2
+        with:
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.APP_PRIVATE_KEY }}
+        
       - name: Checkout
         uses: actions/checkout@v3
         with:
+          token: ${{ steps.generate_token.outputs.token }}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
       
       # Hugoをセットアップ

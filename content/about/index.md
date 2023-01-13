@@ -42,7 +42,7 @@ Godot Engine公式のガバナンスに沿ったユーザーコミュニティ�
 
 #### Github Sponsorsでサポートする
 
-<iframe src="https://github.com/sponsors/godot-jp/card" title="Sponsor godot-jp" height="225" width="600" style="margin:auto; display:block; border: 1px solid #666; border-radius:0.5rem;"></iframe>
+<iframe src="https://github.com/sponsors/godot-jp/card" title="Sponsor godot-jp" height="225" style="max-with:100%; width:600px; margin:auto; display:block; border: 1px solid #666; border-radius:0.5rem;"></iframe>
 
 #### codocでサポートする
 

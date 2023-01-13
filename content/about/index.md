@@ -40,6 +40,10 @@ Godot Engine公式のガバナンスに沿ったユーザーコミュニティ�
 - 各コミュニティサービスへの支払い
 - いくつかの業界イベントへの参加費および旅費
 
+#### Github Sponsorsでサポートする
+
+<iframe src="https://github.com/sponsors/godot-jp/card" title="Sponsor godot-jp" height="225" width="600" style="margin:auto; display:block; border: 1px solid #666; border-radius:0.5rem;"></iframe>
+
 #### codocでサポートする
 
 <script src="https://codoc.jp/js/cms.js" data-css="blue" data-usercode="rbXdsXVgzQ" charset="UTF-8" defer></script>

@@ -91,8 +91,8 @@ var is_vibrate:bool = true
 
 func _process(_delta):
     if get_joy_vibration_duration(0) =< 0 and is_vibrate:
-        start_joy_vibration(0, 0.4, 0.2) # バイブレーション開始
+        Input.start_joy_vibration(0, 0.4, 0.2) # バイブレーション開始
     elif get_joy_vibration_duration(0) > 1000.0:
         is_vibrate = false
-        stop_joy_vibration(0) # バイブレーションを止める
+        Input.stop_joy_vibration(0) # バイブレーションを止める
 ```

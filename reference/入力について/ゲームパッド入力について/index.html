@@ -651,10 +651,10 @@ GDExtensionなどの拡張で取得することは可能です。
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> _process(_delta):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> get_joy_vibration_duration(<span style="color:#ae81ff">0</span>) <span style="color:#f92672">=&lt;</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">and</span> is_vibrate:
-</span></span><span style="display:flex;"><span>        start_joy_vibration(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0.4</span>, <span style="color:#ae81ff">0.2</span>) <span style="color:#75715e"># バイブレーション開始</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">Input</span><span style="color:#f92672">.</span>start_joy_vibration(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0.4</span>, <span style="color:#ae81ff">0.2</span>) <span style="color:#75715e"># バイブレーション開始</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">elif</span> get_joy_vibration_duration(<span style="color:#ae81ff">0</span>) <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1000.0</span>:
 </span></span><span style="display:flex;"><span>        is_vibrate <span style="color:#f92672">=</span> false
-</span></span><span style="display:flex;"><span>        stop_joy_vibration(<span style="color:#ae81ff">0</span>) <span style="color:#75715e"># バイブレーションを止める</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">Input</span><span style="color:#f92672">.</span>stop_joy_vibration(<span style="color:#ae81ff">0</span>) <span style="color:#75715e"># バイブレーションを止める</span>
 </span></span></code></pre></div>
     </div>
 
@@ -684,10 +684,10 @@ GDExtensionなどの拡張で取得することは可能です。
                         <th>😃 Author</th> <td><strong>Saitos</strong></td>
                     </tr>
                     <tr>
-                        <th>📔 Write Date</th> <td>2022/12/26 11:59:10</td>
+                        <th>📔 Write Date</th> <td>2023/1/14 13:38:08</td>
                     </tr>
                     <tr>
-                        <th>✏️ Modified Date</th> <td>2022/12/26 11:59:10</td>
+                        <th>✏️ Modified Date</th> <td>2023/1/14 13:38:08</td>
                     </tr>
                 </tbody>
             </table>

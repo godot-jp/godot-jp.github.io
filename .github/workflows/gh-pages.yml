@@ -13,8 +13,17 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
+      - name: Generate token
+        id: generate_token
+        uses: getsentry/action-github-app-token@v2
+        with:
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.APP_PRIVATE_KEY }}
+          
       - uses: actions/checkout@v3
         with:
+          token: ${{ steps.generate_token.outputs.token }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 

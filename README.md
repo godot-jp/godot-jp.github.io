@@ -8,6 +8,7 @@
 https://gohugo.io/installation/windows/
 
 Hugoのインストール方法は上記からご確認ください。
+拡張版じゃないとSCSS/SASSのコンパイルエラーが出ますので、エディションにご注意ください。
 
 ---
 

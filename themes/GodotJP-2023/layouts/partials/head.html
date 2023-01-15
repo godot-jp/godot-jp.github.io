@@ -1,63 +1,65 @@
-<title>{{ if ne .IsHome true}}
-    {{ .Title }} -
-    {{end}}
-    {{ .Site.Title }}
-</title>
-<link rel="apple-touch-icon" sizes="180x180" href="{{ "favicons/apple-touch-icon.png" | absURL }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ "favicons/favicon-32x32.png" | absURL }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ "favicons/favicon-16x16.png" | absURL }}">
-<link rel="manifest" href="{{ "favicons/site.webmanifest" | absURL }} ">
-<link rel="mask-icon" href="{{ "favicons/safari-pinned-tab.svg" | absURL }}" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Cache-Control" content="no-cache">
-<meta http-equiv="Expires" content="0">
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image" >
-{{ if .IsPage }}
-<meta name="twitter:title" property="og:title" content="{{.Title}}" >
-<meta property="og:description" name="twitter:description" content="{{ substr .Summary 0 120 }}" >
-{{ else }}
-<meta name="twitter:title" property="og:title" content="{{.Site.Title}}" >
-{{ end }}
-{{ if .Params.image }}
-{{ $cover_path := "" }}
-{{ if eq (path.Dir .Params.image) "."}}
+<head>
+    <title>{{ if ne .IsHome true}}
+        {{ .Title }} -
+        {{end}}
+        {{ .Site.Title }}
+    </title>
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "favicons/apple-touch-icon.png" | absURL }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicons/favicon-32x32.png" | absURL }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicons/favicon-16x16.png" | absURL }}">
+    <link rel="manifest" href="{{ "favicons/site.webmanifest" | absURL }} ">
+    <link rel="mask-icon" href="{{ "favicons/safari-pinned-tab.svg" | absURL }}" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" >
+    {{ if .IsPage }}
+    <meta name="twitter:title" property="og:title" content="{{.Title}}" >
+    <meta property="og:description" name="twitter:description" content="{{ substr .Summary 0 120 }}" >
+    {{ else }}
+    <meta name="twitter:title" property="og:title" content="{{.Site.Title}}" >
+    {{ end }}
+    {{ if .Params.image }}
+    {{ $cover_path := "" }}
+    {{ if eq (path.Dir .Params.image) "."}}
     {{$cover_path = print .Permalink "/" .Params.image}}
-{{else}}
+    {{else}}
     {{$cover_path = .Params.image}}
-{{end}}
-<meta property="og:image" name="twitter:image" content="{{$cover_path | absURL}}" >
-{{else}}
-<meta property="og:image" name="twitter:image" content="{{ "images/TwitterCard.png" | absURL}}" >
-{{end}}
-<!-- OGPの設定 -->
-<meta property="og:type" content="website" >
-<meta property="og:url" content="{{.Permalink}}" >
-<meta property="og:site_name" content="{{.Site.Title}}" >
-<!-- bootstrap5 -->
-{{ $style := resources.Get "scss/gjuc-bs.scss" | resources.ToCSS }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" >
-{{ $jscode := resources.Get "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" }}
-<script src="{{ $jscode.Permalink }}" ></script>
-<link href="{{ "css/gjuc.base.style.css" | relURL }}" rel="stylesheet">
-<link href="{{ "css/gjuc.posts.style.css" | relURL }}" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0KGV6JPV5X"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-0KGV6JPV5X');
-</script>
+    {{end}}
+    <meta property="og:image" name="twitter:image" content="{{$cover_path | absURL}}" >
+    {{else}}
+    <meta property="og:image" name="twitter:image" content="{{ "images/TwitterCard.png" | absURL}}" >
+    {{end}}
+    <!-- OGPの設定 -->
+    <meta property="og:type" content="website" >
+    <meta property="og:url" content="{{.Permalink}}" >
+    <meta property="og:site_name" content="{{.Site.Title}}" >
+    <!-- bootstrap5 -->
+    {{ $style := resources.Get "scss/gjuc-bs.scss" | resources.ToCSS }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}" >
+    {{ $jscode := resources.Get "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" }}
+    <script src="{{ $jscode.Permalink }}" ></script>
+    <link href="{{ "css/gjuc.base.style.css" | relURL }}" rel="stylesheet">
+    <link href="{{ "css/gjuc.posts.style.css" | relURL }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0KGV6JPV5X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'G-0KGV6JPV5X');
+    </script>
+</head>

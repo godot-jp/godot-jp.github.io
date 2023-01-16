@@ -1,7 +1,7 @@
 <html lang="ja">
 <head>
     <title>
-        文字列について -
+        ゲームで表示する文字列 -
         
         Godot Japan User Community
     </title>
@@ -23,16 +23,17 @@
     
     <meta name="twitter:card" content="summary_large_image" >
     
-    <meta name="twitter:title" property="og:title" content="文字列について" >
-    <meta property="og:description" name="twitter:description" content="文字列の基本 文字列は非常に単純なデータ型であり、コピーオンライトという方式が取られています。
-参照渡しができない型の場合、他の変数に渡すとすぐに複製されますが、Godot Engineの場合、渡された時点では参照渡しであり、変更があった場" >
+    <meta name="twitter:title" property="og:title" content="ゲームで表示する文字列" >
+    <meta property="og:description" name="twitter:description" content="特定の文字を置き換える ゲームの中で特定の文字を置き換えたいときがあります。
+例えば、入力されたプレイヤーの名前を置き換える場合などが当てはまります。
+replace関数 var message:String = &amp;#34;むかしむかし、@" >
     
     
     <meta property="og:image" name="twitter:image" content="https://godot-jp.github.io/images/TwitterCard.png" >
     
     
     <meta property="og:type" content="website" >
-    <meta property="og:url" content="https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/" >
+    <meta property="og:url" content="https://godot-jp.github.io/reference/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E9%96%A2%E9%80%A3/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A7%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97/" >
     <meta property="og:site_name" content="Godot Japan User Community" >
     
     
@@ -266,7 +267,7 @@
         <li class="icon-gdscript">
             <a href="" data-bs-toggle="collapse" data-bs-target="#GDScriptについて" aria-expanded="false"
                 aria-controls="GDScriptについて">GDScriptについて</a>
-            <ul class="collapse show" id="GDScriptについて">
+            <ul class="collapse" id="GDScriptについて">
                 
                 <li class="row">
                     <a href="#GDScript%e3%81%ae%e5%9f%ba%e6%9c%ac" class="col-auto toggle-icon collapsed" data-bs-toggle="collapse"
@@ -339,12 +340,12 @@
                 
                 <li class="row">
                     <a href="#%e6%96%87%e5%ad%97%e5%88%97%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" class="col-auto toggle-icon collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#文字列について" aria-expanded="true"
+                        data-bs-target="#文字列について" aria-expanded="false"
                         aria-controls="文字列について">
                         <span class="target">&gt;</span>
                     </a>
                     <a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"
-                        class="col my-auto text-danger">文字列について</a>
+                        class="col my-auto">文字列について</a>
                     
                     
                     
@@ -353,26 +354,26 @@
                     
                     
                     
-                    <nav class="toc collapse show" id="文字列について">
+                    <nav class="toc collapse" id="文字列について">
   <ul>
-    <li><a href="#文字列の基本">文字列の基本</a>
+    <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列の基本">文字列の基本</a>
       <ul>
-        <li><a href="#文字コードについて">文字コードについて</a></li>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字コードについて">文字コードについて</a></li>
       </ul>
     </li>
-    <li><a href="#文字列の作成方法">文字列の作成方法</a>
+    <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列の作成方法">文字列の作成方法</a>
       <ul>
-        <li><a href="#文字列の中でダブルクォーテーションを使う">文字列の中でダブルクォーテーションを使う</a></li>
-        <li><a href="#他の型を文字列に変換する">他の型を文字列に変換する</a></li>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列の中でダブルクォーテーションを使う">文字列の中でダブルクォーテーションを使う</a></li>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#他の型を文字列に変換する">他の型を文字列に変換する</a></li>
       </ul>
     </li>
-    <li><a href="#文字列の処理">文字列の処理</a>
+    <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列の処理">文字列の処理</a>
       <ul>
-        <li><a href="#文字列を連結する">文字列を連結する</a></li>
-        <li><a href="#文字列同士を比較する">文字列同士を比較する</a></li>
-        <li><a href="#文字列を数える">文字列を数える</a></li>
-        <li><a href="#文字列を調べる">文字列を調べる</a></li>
-        <li><a href="#文字列を加工する">文字列を加工する</a></li>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列を連結する">文字列を連結する</a></li>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列同士を比較する">文字列同士を比較する</a></li>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列を数える">文字列を数える</a></li>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列を調べる">文字列を調べる</a></li>
+        <li><a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#文字列を加工する">文字列を加工する</a></li>
       </ul>
     </li>
   </ul>
@@ -572,16 +573,16 @@
         <li class="icon-algo">
             <a href="" data-bs-toggle="collapse" data-bs-target="#アルゴリズム関連" aria-expanded="false"
                 aria-controls="アルゴリズム関連">アルゴリズム関連</a>
-            <ul class="collapse" id="アルゴリズム関連">
+            <ul class="collapse show" id="アルゴリズム関連">
                 
                 <li class="row">
                     <a href="#%e3%82%b2%e3%83%bc%e3%83%a0%e3%81%a7%e8%a1%a8%e7%a4%ba%e3%81%99%e3%82%8b%e6%96%87%e5%ad%97%e5%88%97" class="col-auto toggle-icon collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#ゲームで表示する文字列" aria-expanded="false"
+                        data-bs-target="#ゲームで表示する文字列" aria-expanded="true"
                         aria-controls="ゲームで表示する文字列">
                         <span class="target">&gt;</span>
                     </a>
                     <a href="/reference/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E9%96%A2%E9%80%A3/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A7%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97/"
-                        class="col my-auto">ゲームで表示する文字列</a>
+                        class="col my-auto text-danger">ゲームで表示する文字列</a>
                     
                     
                     
@@ -590,25 +591,25 @@
                     
                     
                     
-                    <nav class="toc collapse" id="ゲームで表示する文字列">
+                    <nav class="toc collapse show" id="ゲームで表示する文字列">
   <ul>
-    <li><a href="/reference/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E9%96%A2%E9%80%A3/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A7%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97/#特定の文字を置き換える">特定の文字を置き換える</a>
+    <li><a href="#特定の文字を置き換える">特定の文字を置き換える</a>
       <ul>
-        <li><a href="/reference/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E9%96%A2%E9%80%A3/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A7%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97/#replace関数">replace関数</a></li>
-        <li><a href="/reference/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E9%96%A2%E9%80%A3/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A7%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97/#format関数">format関数</a></li>
+        <li><a href="#replace関数">replace関数</a></li>
+        <li><a href="#format関数">format関数</a></li>
       </ul>
     </li>
-    <li><a href="/reference/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E9%96%A2%E9%80%A3/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A7%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97/#1文字ずつ表示する">1文字ずつ表示する</a>
+    <li><a href="#1文字ずつ表示する">1文字ずつ表示する</a>
       <ul>
-        <li><a href="/reference/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E9%96%A2%E9%80%A3/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A7%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97/#labelクラスのvisible_ratioの値を変更">Labelクラスのvisible_ratioの値を変更</a></li>
+        <li><a href="#labelクラスのvisible_ratioの値を変更">Labelクラスのvisible_ratioの値を変更</a></li>
       </ul>
     </li>
-    <li><a href="/reference/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E9%96%A2%E9%80%A3/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A7%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97/#文字にエフェクトをかける">文字にエフェクトをかける</a>
+    <li><a href="#文字にエフェクトをかける">文字にエフェクトをかける</a>
       <ul>
-        <li><a href="/reference/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E9%96%A2%E9%80%A3/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A7%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97/#主な組み込みエフェクト">主な組み込みエフェクト</a></li>
+        <li><a href="#主な組み込みエフェクト">主な組み込みエフェクト</a></li>
       </ul>
     </li>
-    <li><a href="/reference/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E9%96%A2%E9%80%A3/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A7%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97/#文字をフェードして表示させる">文字をフェードして表示させる</a></li>
+    <li><a href="#文字をフェードして表示させる">文字をフェードして表示させる</a></li>
   </ul>
 </nav>
                 </li>
@@ -644,92 +645,95 @@
 
     <div class="col-12 col-md-8 col-lg-9 markdown mt-3 mt-lg-0">
         <h1 class="text-center mb-5">
-            <span class="noto-color-emoji">✒</span> 文字列について
+            <span class="noto-color-emoji">🪪</span> ゲームで表示する文字列
         </h1>
-        <h1 id="文字列の基本">文字列の基本</h1>
-<p>文字列は非常に単純なデータ型であり、コピーオンライトという方式が取られています。<br>
-参照渡しができない型の場合、他の変数に渡すとすぐに複製されますが、Godot Engineの場合、渡された時点では参照渡しであり、変更があった場合に複製されます。<br>
-つまり、変更がない場合は複製されないのでメモリの節約になります。</p>
-<p>また、Godot Engineでは文字列を加工するメソッドが多数用意されています。</p>
-<h2 id="文字コードについて">文字コードについて</h2>
-<p>Godot EngineはUnicodeをサポートしています。</p>
-<h1 id="文字列の作成方法">文字列の作成方法</h1>
-<p>文字列を作成するには、文字列リテラルを使用し、ダブルクォーテーション<code>&quot;&quot;</code>でくくります。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value :<span style="color:#a6e22e">String</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;あいうえお&#34;</span> <span style="color:#75715e"># あいうえお</span>
-</span></span></code></pre></div><h2 id="文字列の中でダブルクォーテーションを使う">文字列の中でダブルクォーテーションを使う</h2>
-<p>文字列リテラルでダブルクォーテーションを使用しているため、文字列内にダブルクォーテーションを使用することができません。<br>
-その場合、エスケープ文字を使い、<code>\&quot;</code>と記述します。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value :<span style="color:#a6e22e">String</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">かきくけこ</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">&#34;</span> <span style="color:#75715e"># &#34;かきくけこ&#34;</span>
-</span></span></code></pre></div><h2 id="他の型を文字列に変換する">他の型を文字列に変換する</h2>
-<p>ほとんどの型を<code>String</code>に変換することができますが、<code>String</code>クラスで変換するわけではありません。<br>
-<code>String(100)</code>などとするとエラーが出ます。</p>
-<pre tabindex="0"><code>str(100)
-var_to_str(100)
-</code></pre><h1 id="文字列の処理">文字列の処理</h1>
-<h2 id="文字列を連結する">文字列を連結する</h2>
-<p>連結演算子<code>+</code>または<code>+=</code>を使用して、複数の文字列を連結します。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value :<span style="color:#a6e22e">String</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;あいう&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;え&#34;</span> <span style="color:#75715e"># あいうえ</span>
-</span></span><span style="display:flex;"><span>value <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;お&#34;</span> <span style="color:#75715e"># あいうえお</span>
-</span></span></code></pre></div><h3 id="他の型と文字列を連結する">他の型と文字列を連結する</h3>
-<p>他の型と連結する場合は、どちらも文字列に揃える必要があります。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value :<span style="color:#a6e22e">String</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;あいうえお&#34;</span>
-</span></span><span style="display:flex;"><span>value <span style="color:#f92672">+=</span> str(<span style="color:#ae81ff">100</span>)
+        <h1 id="特定の文字を置き換える">特定の文字を置き換える</h1>
+<p>ゲームの中で特定の文字を置き換えたいときがあります。<br>
+例えば、入力されたプレイヤーの名前を置き換える場合などが当てはまります。</p>
+<h2 id="replace関数">replace関数</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> message:<span style="color:#a6e22e">String</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;むかしむかし、@playerは鬼退治に行きました&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> player_name:<span style="color:#a6e22e">String</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;桃太郎&#34;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>print(value) <span style="color:#75715e"># あいうえお100</span>
-</span></span></code></pre></div><h2 id="文字列同士を比較する">文字列同士を比較する</h2>
-<p>文字列が同じかどうかを比較する場合、<code>==</code>等価演算子を使用することができます。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;あいう&#34;</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;あいう&#34;</span> <span style="color:#75715e"># true</span>
-</span></span></code></pre></div><p>また、文字コードの大小を、<code>&lt;</code>または<code>&gt;</code>の比較演算子を使用することで判別できます。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value1 <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;あ&#34;</span> <span style="color:#f92672">&lt;</span> <span style="color:#e6db74">&#34;い&#34;</span> <span style="color:#75715e"># true</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value2 <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;う&#34;</span> <span style="color:#f92672">&lt;</span> <span style="color:#e6db74">&#34;い&#34;</span> <span style="color:#75715e"># false</span>
-</span></span></code></pre></div><h2 id="文字列を数える">文字列を数える</h2>
-<p>文字列を数えるメソッドをご紹介します。</p>
-<h3 id="文字列の長さを数える">文字列の長さを数える</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;あいうえお&#34;</span>
-</span></span><span style="display:flex;"><span>print(value<span style="color:#f92672">.</span>length()) <span style="color:#75715e"># 5</span>
-</span></span></code></pre></div><h3 id="文字列の出現回数を数える">文字列の出現回数を数える</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;ねこねここねこ&#34;</span>
-</span></span><span style="display:flex;"><span>print(value<span style="color:#f92672">.</span>count(<span style="color:#e6db74">&#34;こ&#34;</span>)) <span style="color:#75715e"># 4</span>
-</span></span></code></pre></div><p>文字列の途中から、または途中までなどの範囲で探すことも可能です。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;ねこねここねこ&#34;</span>
-</span></span><span style="display:flex;"><span>print(value<span style="color:#f92672">.</span>count(<span style="color:#e6db74">&#34;こ&#34;</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">5</span>)) <span style="color:#75715e"># 2</span>
-</span></span></code></pre></div><p>上記の例だと、最初の「ね」は0文字目と扱い、2文字目から5文字目までなので、<br>
-「ねこ<span style="color:red">ねここ</span>ねこ」の範囲になります。</p>
-<h2 id="文字列を調べる">文字列を調べる</h2>
-<h3 id="文字列が空か調べる">文字列が空か調べる</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value1 <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;あいうえお&#34;</span>
-</span></span><span style="display:flex;"><span>print(value1<span style="color:#f92672">.</span>empty()) <span style="color:#75715e"># false</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> _ready():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> result:<span style="color:#a6e22e">String</span> <span style="color:#f92672">=</span> message<span style="color:#f92672">.</span>replace(<span style="color:#e6db74">&#34;@player&#34;</span>, player_name)
+</span></span><span style="display:flex;"><span>    print(result) <span style="color:#75715e">#むかしむかし、桃太郎は鬼退治に行きました</span>
+</span></span></code></pre></div><h2 id="format関数">format関数</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> message:<span style="color:#a6e22e">String</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;むかしむかし、{player}は鬼退治に行きました&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> player_name:<span style="color:#a6e22e">String</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;桃太郎&#34;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value2 <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>print(value2<span style="color:#f92672">.</span>empty()) <span style="color:#75715e"># true</span>
-</span></span></code></pre></div><h3 id="文字列が特定の文字で始まるか調べる">文字列が特定の文字で始まるか調べる</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;あいうえお&#34;</span>
-</span></span><span style="display:flex;"><span>print(value<span style="color:#f92672">.</span>begin_with(<span style="color:#e6db74">&#34;あ&#34;</span>)) <span style="color:#75715e"># true</span>
-</span></span><span style="display:flex;"><span>print(value<span style="color:#f92672">.</span>begin_with(<span style="color:#e6db74">&#34;お&#34;</span>)) <span style="color:#75715e"># false</span>
-</span></span></code></pre></div><h3 id="文字列が特定の文字で終わるか調べる">文字列が特定の文字で終わるか調べる</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;あいうえお&#34;</span>
-</span></span><span style="display:flex;"><span>print(value<span style="color:#f92672">.</span>extends_with(<span style="color:#e6db74">&#34;あ&#34;</span>)) <span style="color:#75715e"># false</span>
-</span></span><span style="display:flex;"><span>print(value<span style="color:#f92672">.</span>extends_with(<span style="color:#e6db74">&#34;お&#34;</span>)) <span style="color:#75715e"># true</span>
-</span></span></code></pre></div><h2 id="文字列を加工する">文字列を加工する</h2>
-<h3 id="フォーマットを設定する簡易版">フォーマットを設定する（簡易版）</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value1:<span style="color:#a6e22e">String</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;あいう</span><span style="color:#e6db74">%s</span><span style="color:#e6db74">&#34;</span>
-</span></span><span style="display:flex;"><span>print(value1 <span style="color:#f92672">%</span> <span style="color:#e6db74">&#34;えお&#34;</span>) <span style="color:#75715e"># あいうえお</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> _ready():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> result:<span style="color:#a6e22e">String</span> <span style="color:#f92672">=</span> message<span style="color:#f92672">.</span>format({<span style="color:#e6db74">&#34;player&#34;</span>: player_name})
+</span></span><span style="display:flex;"><span>    print(result) <span style="color:#75715e">#むかしむかし、桃太郎は鬼退治に行きました</span>
+</span></span></code></pre></div><h3 id="replaceとformatの違い">replaceとformatの違い</h3>
+<p><code>replace</code>は指定した文字列と一致するすべての文字を置換します。<br>
+仮に<strong>文中に偶然同じ文字列が出てきたとしても、機械的に置換します。</strong></p>
+<p><code>format</code>よりも<code>replace</code>の指定方法の方が単純なので手軽に使用することができますが、今回のケースのようにプレイヤー名を置換するだけの場合は<code>format</code>の方が確実に置換することができます。</p>
+<p>使用するケースによって使い分けるのが良いかと思います。</p>
+<p>また、<a href="/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/#%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8B%E7%B0%A1%E6%98%93%E7%89%88">フォーマットを設定する（簡易版）</a>で置換することも可能ですが、<code>%s</code>の数と配列の順番を揃える必要があり、実装で混乱しやすいため、上記いずれかの方法を取ることをお勧めします。</p>
+<h1 id="1文字ずつ表示する">1文字ずつ表示する</h1>
+<p>画面に表示する場合は<code>Label</code>クラスを使用します。</p>
+<p>メッセージウィンドウなどで1文字ずつ順番に表示したい場合があります。<br>
+<code>Label</code>クラスの<code>visible_ratio</code>変数の値を変更することで簡単に実装することができます。</p>
+<h2 id="labelクラスのvisible_ratioの値を変更">Labelクラスのvisible_ratioの値を変更</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">onready</span> <span style="color:#66d9ef">var</span> label <span style="color:#f92672">=</span> <span style="color:#f92672">$</span><span style="color:#a6e22e">Label</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value2:<span style="color:#a6e22e">String</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">%s</span><span style="color:#e6db74">いうえ</span><span style="color:#e6db74">%s</span><span style="color:#e6db74">&#34;</span>
-</span></span><span style="display:flex;"><span>print(value2 <span style="color:#f92672">%</span> [<span style="color:#e6db74">&#34;あ&#34;</span>, <span style="color:#e6db74">&#34;お&#34;</span>]) <span style="color:#75715e"># あいうえお</span>
-</span></span></code></pre></div><h3 id="フォーマットを設定するformatメソッド使用">フォーマットを設定する（formatメソッド使用）</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value:<span style="color:#a6e22e">String</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;かきく{str}&#34;</span>
-</span></span><span style="display:flex;"><span>print(value<span style="color:#f92672">.</span>format({<span style="color:#e6db74">&#34;str&#34;</span>: <span style="color:#e6db74">&#34;けこ&#34;</span>})) <span style="color:#75715e"># かきくけこ</span>
-</span></span></code></pre></div><p><code>format()</code>を使用すると、辞書に定義されたキーとペアになった文字列に置換されます。<br>
-例えば、リッチテキストを使用することを前提として、メッセージ内に画像を表示させるタグに置き換えることも可能です。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> dict :<span style="color:#a6e22e">Dictionary</span> <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;Aボタン画像&#34;</span>,<span style="color:#e6db74">&#34;[img]{res://icon.png}[/img]&#34;</span>}
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value :<span style="color:#a6e22e">String</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;{Aボタン画像}ボタン&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> _ready:
+</span></span><span style="display:flex;"><span>    label<span style="color:#f92672">.</span>text <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;むかしむかし、浦島はたすけた亀に連れられて&#34;</span>
+</span></span><span style="display:flex;"><span>    label<span style="color:#f92672">.</span>visible_ratio <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.5</span> <span style="color:#75715e">#むかしむかし、浦島は</span>
+</span></span></code></pre></div><p><code>Label</code>および<code>RichTextLabel</code>クラスには、割合でテキストを表示する機能が備わっています。</p>
+<h3 id="awaitを使用する場合">awaitを使用する場合</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">onready</span> <span style="color:#66d9ef">var</span> label <span style="color:#f92672">=</span> <span style="color:#f92672">$</span><span style="color:#a6e22e">Label</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> duration:<span style="color:#a6e22e">float</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.05</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">$</span><span style="color:#a6e22e">RichTextLabel</span><span style="color:#f92672">.</span>bbcode_text <span style="color:#f92672">=</span> value<span style="color:#f92672">.</span>format(value, dict) <span style="color:#75715e"># 🅰️ボタン</span>
-</span></span></code></pre></div><h3 id="指定の桁以下ならゼロで埋める">指定の桁以下ならゼロで埋める</h3>
-<p>最終的に文字列に変換されますが、変換元は数値を扱います。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">%010d</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">%</span> <span style="color:#ae81ff">555</span>) <span style="color:#75715e"># 0000000555</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">%05d</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">%</span> <span style="color:#ae81ff">555</span>) <span style="color:#75715e"># 00555</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> _ready():
+</span></span><span style="display:flex;"><span>	label<span style="color:#f92672">.</span>text <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;むかしむかし、浦島はたすけた亀に連れられて&#34;</span>
+</span></span><span style="display:flex;"><span>	label<span style="color:#f92672">.</span>visible_ratio <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>	message_play()
+</span></span><span style="display:flex;"><span>	
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> message_play():
+</span></span><span style="display:flex;"><span>	label<span style="color:#f92672">.</span>visible_ratio <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1.0</span> <span style="color:#f92672">/</span> label<span style="color:#f92672">.</span>text<span style="color:#f92672">.</span>length() 
+</span></span><span style="display:flex;"><span>	await get_tree()<span style="color:#f92672">.</span>create_timer(duration)<span style="color:#f92672">.</span>timeout
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> label<span style="color:#f92672">.</span>visible_ratio <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">1</span>: 
+</span></span><span style="display:flex;"><span>        _message_play()
+</span></span></code></pre></div><h3 id="_processを使用する場合">_process()を使用する場合</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">onready</span> <span style="color:#66d9ef">var</span> label <span style="color:#f92672">=</span> <span style="color:#f92672">$</span><span style="color:#a6e22e">Label</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> duration:<span style="color:#a6e22e">float</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.05</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> _ready():
+</span></span><span style="display:flex;"><span>	label<span style="color:#f92672">.</span>text <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;むかしむかし、浦島はたすけた亀に連れられて&#34;</span>
+</span></span><span style="display:flex;"><span>	label<span style="color:#f92672">.</span>visible_ratio <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>	
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> _process(_delta):
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> label<span style="color:#f92672">.</span>visible_ratio <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>		label<span style="color:#f92672">.</span>visible_ratio <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1.0</span> <span style="color:#f92672">/</span> label<span style="color:#f92672">.</span>text<span style="color:#f92672">.</span>length() <span style="color:#f92672">*</span> (<span style="color:#ae81ff">1.0</span> <span style="color:#f92672">-</span> duration)
+</span></span></code></pre></div><p><code>BBCode</code>を使用した<code>RichTextLabel</code>では、自動でBBタグを無視してくれるので、単純に<code>visible_ratio</code>の値を指定すれば実装できます。</p>
+<h1 id="文字にエフェクトをかける">文字にエフェクトをかける</h1>
+<p><code>RichTextLabel</code>でのみ動作します。<br>
+まずは、<code>bbcode_enable</code>を<code>true</code>にする必要があります。（インスペクタでも設定可能）</p>
+<h2 id="主な組み込みエフェクト">主な組み込みエフェクト</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">func</span>  _ready():
+</span></span><span style="display:flex;"><span>	rich_label<span style="color:#f92672">.</span>bbcode_enabled <span style="color:#f92672">=</span> true
+</span></span><span style="display:flex;"><span>	rich_label<span style="color:#f92672">.</span>text <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;[center]&#34;</span>
+</span></span><span style="display:flex;"><span>	rich_label<span style="color:#f92672">.</span>text <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;[color=#ff6666]文字色が赤[/color]な部分と[color=#6666ff]文字色が青[/color]な部分</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>	rich_label<span style="color:#f92672">.</span>text <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;[wave]ウェーブする文字列[/wave]</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>	rich_label<span style="color:#f92672">.</span>text <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;[tornado]トルネードする文字列[/tornado]</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>	rich_label<span style="color:#f92672">.</span>text <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;[shake]シェイクする文字列[/shake]</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>	rich_label<span style="color:#f92672">.</span>text <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;[fade start=0 length=9]フェードする文字列[/fade]</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>	rich_label<span style="color:#f92672">.</span>text <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;[rainbow]ゲーミング文字列[/rainbow]</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>	rich_label<span style="color:#f92672">.</span>text <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;[/center]&#34;</span>
+</span></span></code></pre></div><h1 id="文字をフェードして表示させる">文字をフェードして表示させる</h1>
+<p><a href="#%E6%96%87%E5%AD%97%E3%81%AB%E3%82%A8%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%82%92%E3%81%8B%E3%81%91%E3%82%8B">文字にエフェクトをかける</a>処理で<a href="#1%E6%96%87%E5%AD%97%E3%81%9A%E3%81%A4%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B">1文字ずつ表示する</a>に似た挙動を作ることも可能です。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> msg_count:<span style="color:#a6e22e">float</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> msg_text:<span style="color:#a6e22e">String</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;[fade start=</span><span style="color:#e6db74">%s</span><span style="color:#e6db74"> length=5]いろはにほへと ちりぬるを わかよたれそ つねならむ うゐのおくやま けふこえて あさきゆめみし ゑひもせすん[/fade]&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span>  _ready():
+</span></span><span style="display:flex;"><span>	rich_label<span style="color:#f92672">.</span>bbcode_enabled <span style="color:#f92672">=</span> true
+</span></span><span style="display:flex;"><span>	
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> _process(delta):
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">var</span> _msg_len:<span style="color:#a6e22e">int</span> <span style="color:#f92672">=</span> msg_text<span style="color:#f92672">.</span>length()
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> msg_count <span style="color:#f92672">&lt;</span> _msg_len:
+</span></span><span style="display:flex;"><span>		msg_count <span style="color:#f92672">+=</span> <span style="color:#ae81ff">0.3</span>
+</span></span><span style="display:flex;"><span>		rich_label<span style="color:#f92672">.</span>text <span style="color:#f92672">=</span> msg_text <span style="color:#f92672">%</span> <span style="color:#a6e22e">int</span>(msg_count)
 </span></span></code></pre></div>
     </div>
 
@@ -746,11 +750,11 @@ var_to_str(100)
         <div class="">
             <div class="d-flex row gx-2 text-center justify-content-center">
                 <a class="col-auto btn btn-info m-1 twitter-icon" style="font-size:80%;"
-                href="https://twitter.com/intent/tweet?text=%e6%96%87%e5%ad%97%e5%88%97%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%20%7C%20Godot%20Japan%20User%20Community%0a&url=https%3a%2f%2fgodot-jp.github.io%2freference%2fgdscript%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%2584%25E3%2581%25A6%2f%25E6%2596%2587%25E5%25AD%2597%25E5%2588%2597%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%2584%25E3%2581%25A6%2f"   
+                href="https://twitter.com/intent/tweet?text=%e3%82%b2%e3%83%bc%e3%83%a0%e3%81%a7%e8%a1%a8%e7%a4%ba%e3%81%99%e3%82%8b%e6%96%87%e5%ad%97%e5%88%97%20%7C%20Godot%20Japan%20User%20Community%0a&url=https%3a%2f%2fgodot-jp.github.io%2freference%2f%25E3%2582%25A2%25E3%2583%25AB%25E3%2582%25B4%25E3%2583%25AA%25E3%2582%25BA%25E3%2583%25A0%25E9%2596%25A2%25E9%2580%25A3%2f%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%25E3%2581%25A7%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2599%25E3%2582%258B%25E6%2596%2587%25E5%25AD%2597%25E5%2588%2597%2f"   
                 rel="nofollow" 
                 target="_blank">シェア</a>
                 <a class="col-auto btn btn-dark m-1 github-icon" style="font-size:80%;" target="_blank"
-                href="https://github.com/godot-jp/godot-jp.github.io/issues/new?labels=bug&title=「%e6%96%87%e5%ad%97%e5%88%97%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6」について">Issue</a>
+                href="https://github.com/godot-jp/godot-jp.github.io/issues/new?labels=bug&title=「%e3%82%b2%e3%83%bc%e3%83%a0%e3%81%a7%e8%a1%a8%e7%a4%ba%e3%81%99%e3%82%8b%e6%96%87%e5%ad%97%e5%88%97」について">Issue</a>
             </div>
             
             <table class="post-info">
@@ -759,10 +763,10 @@ var_to_str(100)
                         <th>😃 Author</th> <td><strong>Saitos</strong></td>
                     </tr>
                     <tr>
-                        <th>📔 Write Date</th> <td>2022/12/26 11:59:10</td>
+                        <th>📔 Write Date</th> <td>2023/1/17 02:24:23</td>
                     </tr>
                     <tr>
-                        <th>✏️ Modified Date</th> <td>2022/12/26 11:59:10</td>
+                        <th>✏️ Modified Date</th> <td>2023/1/17 02:24:23</td>
                     </tr>
                 </tbody>
             </table>

@@ -7,5 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Tue, 27 Dec 2022 12:18:25 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/reference/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E9%96%A2%E9%80%A3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ゲームで表示する文字列</title>
+      <link>https://godot-jp.github.io/reference/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E9%96%A2%E9%80%A3/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A7%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97/</link>
+      <pubDate>Mon, 16 Jan 2023 21:52:10 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/reference/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E9%96%A2%E9%80%A3/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A7%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97/</guid>
+      <description>特定の文字を置き換える ゲームの中で特定の文字を置き換えたいときがあります。
+例えば、入力されたプレイヤーの名前を置き換える場合などが当てはまります。
+replace関数 var message:String = &amp;#34;むかしむかし、@playerは鬼退治に行きました&amp;#34; var player_name:String = &amp;#34;桃太郎&amp;#34; func _ready(): var result:String = message.replace(&amp;#34;@player&amp;#34;, player_name) print(result) #むかしむかし、桃太郎は鬼退治に行きました format関数 var message:String = &amp;#34;むかしむかし、{player}は鬼退治に行きました&amp;#34; var player_name:String = &amp;#34;桃太郎&amp;#34; func _ready(): var result:String = message.format({&amp;#34;player&amp;#34;: player_name}) print(result) #むかしむかし、桃太郎は鬼退治に行きました replaceとformatの違い replaceは指定した文字列と一致するすべての文字を置換します。
+仮に文中に偶然同じ文字列が出てきたとしても、機械的に置換します。
+formatよりもreplaceの指定方法の方が単純なので手軽に使用することができますが、今回のケースのようにプレイヤー名を置換するだけの場合はformatの方が確実に置換することができます。
+使用するケースによって使い分けるのが良いかと思います。
+また、フォーマットを設定する（簡易版）で置換することも可能ですが、%sの数と配列の順番を揃える必要があり、実装で混乱しやすいため、上記いずれかの方法を取ることをお勧めします。
+1文字ずつ表示する 画面に表示する場合はLabelクラスを使用します。
+メッセージウィンドウなどで1文字ずつ順番に表示したい場合があります。
+Labelクラスのvisible_ratio変数の値を変更することで簡単に実装することができます。
+Labelクラスのvisible_ratioの値を変更 onready var label = $Label func _ready: label.text = &amp;#34;むかしむかし、浦島はたすけた亀に連れられて&amp;#34; label.visible_ratio = 0.5 #むかしむかし、浦島は LabelおよびRichTextLabelクラスには、割合でテキストを表示する機能が備わっています。
+awaitを使用する場合 onready var label = $Label var duration:float = 0.</description>
+    </item>
+    
   </channel>
 </rss>

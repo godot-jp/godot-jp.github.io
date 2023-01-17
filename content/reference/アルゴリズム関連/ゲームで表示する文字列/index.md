@@ -62,6 +62,7 @@ func _ready:
     label.text = "むかしむかし、浦島はたすけた亀に連れられて"
     label.visible_ratio = 0.5 #むかしむかし、浦島は
 ```
+{{< video "sample1.mp4" >}}
 
 `Label`および`RichTextLabel`クラスには、割合でテキストを表示する機能が備わっています。
 
@@ -107,6 +108,8 @@ func _process(_delta):
 
 ## 主な組み込みエフェクト
 
+{{< video "sample2.mp4" >}}
+
 ```gdscript
 func  _ready():
 	rich_label.bbcode_enabled = true
@@ -123,6 +126,8 @@ func  _ready():
 # 文字をフェードして表示させる
 
 [文字にエフェクトをかける](#文字にエフェクトをかける)処理で[1文字ずつ表示する](#1文字ずつ表示する)に似た挙動を作ることも可能です。
+
+{{< video "sample3.mp4" >}}
 
 ```gdscript
 var msg_count:float = 0

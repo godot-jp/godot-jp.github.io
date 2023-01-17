@@ -680,7 +680,15 @@ replace関数 var message:String = &amp;#34;むかしむかし、@" >
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> _ready:
 </span></span><span style="display:flex;"><span>    label<span style="color:#f92672">.</span>text <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;むかしむかし、浦島はたすけた亀に連れられて&#34;</span>
 </span></span><span style="display:flex;"><span>    label<span style="color:#f92672">.</span>visible_ratio <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.5</span> <span style="color:#75715e">#むかしむかし、浦島は</span>
-</span></span></code></pre></div><p><code>Label</code>および<code>RichTextLabel</code>クラスには、割合でテキストを表示する機能が備わっています。</p>
+</span></span></code></pre></div>
+
+<div class="w-100 my-3">
+    <video id="c2FtcGxlMS5tcDQ=" autoplay="" loop="" muted="" 
+    style="display:block; max-width:100%; width:100%; margin:auto; border-radius:0.5rem;">
+        <source src="sample1.mp4" type="video/mp4"/>
+    </video>
+</div>
+<p><code>Label</code>および<code>RichTextLabel</code>クラスには、割合でテキストを表示する機能が備わっています。</p>
 <h3 id="awaitを使用する場合">awaitを使用する場合</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">onready</span> <span style="color:#66d9ef">var</span> label <span style="color:#f92672">=</span> <span style="color:#f92672">$</span><span style="color:#a6e22e">Label</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> duration:<span style="color:#a6e22e">float</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.05</span>
@@ -711,6 +719,14 @@ replace関数 var message:String = &amp;#34;むかしむかし、@" >
 <p><code>RichTextLabel</code>でのみ動作します。<br>
 まずは、<code>bbcode_enable</code>を<code>true</code>にする必要があります。（インスペクタでも設定可能）</p>
 <h2 id="主な組み込みエフェクト">主な組み込みエフェクト</h2>
+
+
+<div class="w-100 my-3">
+    <video id="c2FtcGxlMi5tcDQ=" autoplay="" loop="" muted="" 
+    style="display:block; max-width:100%; width:100%; margin:auto; border-radius:0.5rem;">
+        <source src="sample2.mp4" type="video/mp4"/>
+    </video>
+</div>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">func</span>  _ready():
 </span></span><span style="display:flex;"><span>	rich_label<span style="color:#f92672">.</span>bbcode_enabled <span style="color:#f92672">=</span> true
 </span></span><span style="display:flex;"><span>	rich_label<span style="color:#f92672">.</span>text <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;[center]&#34;</span>
@@ -723,6 +739,14 @@ replace関数 var message:String = &amp;#34;むかしむかし、@" >
 </span></span><span style="display:flex;"><span>	rich_label<span style="color:#f92672">.</span>text <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;[/center]&#34;</span>
 </span></span></code></pre></div><h1 id="文字をフェードして表示させる">文字をフェードして表示させる</h1>
 <p><a href="#%E6%96%87%E5%AD%97%E3%81%AB%E3%82%A8%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%82%92%E3%81%8B%E3%81%91%E3%82%8B">文字にエフェクトをかける</a>処理で<a href="#1%E6%96%87%E5%AD%97%E3%81%9A%E3%81%A4%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B">1文字ずつ表示する</a>に似た挙動を作ることも可能です。</p>
+
+
+<div class="w-100 my-3">
+    <video id="c2FtcGxlMy5tcDQ=" autoplay="" loop="" muted="" 
+    style="display:block; max-width:100%; width:100%; margin:auto; border-radius:0.5rem;">
+        <source src="sample3.mp4" type="video/mp4"/>
+    </video>
+</div>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> msg_count:<span style="color:#a6e22e">float</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> msg_text:<span style="color:#a6e22e">String</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;[fade start=</span><span style="color:#e6db74">%s</span><span style="color:#e6db74"> length=5]いろはにほへと ちりぬるを わかよたれそ つねならむ うゐのおくやま けふこえて あさきゆめみし ゑひもせすん[/fade]&#34;</span>
 </span></span><span style="display:flex;"><span>
@@ -763,10 +787,10 @@ replace関数 var message:String = &amp;#34;むかしむかし、@" >
                         <th>😃 Author</th> <td><strong>Saitos</strong></td>
                     </tr>
                     <tr>
-                        <th>📔 Write Date</th> <td>2023/1/17 02:24:23</td>
+                        <th>📔 Write Date</th> <td>2023/1/17 11:16:48</td>
                     </tr>
                     <tr>
-                        <th>✏️ Modified Date</th> <td>2023/1/17 02:24:23</td>
+                        <th>✏️ Modified Date</th> <td>2023/1/17 11:16:48</td>
                     </tr>
                 </tbody>
             </table>

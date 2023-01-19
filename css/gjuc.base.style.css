@@ -184,6 +184,10 @@ a.donate-btn:hover{
     content: url(../images/network_icon.svg);
     vertical-align: middle;
 }
+.side-bar ul li.icon-tips::before {
+    content: url(../images/tips_icon.svg);
+    vertical-align: middle;
+}
 
 .side-bar a.toggle-icon{
     display: flex;

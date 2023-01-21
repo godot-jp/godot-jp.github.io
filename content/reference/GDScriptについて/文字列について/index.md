@@ -136,8 +136,8 @@ print(value.begin_with("お")) # false
 
 ```gdscript
 var value = "あいうえお"
-print(value.extends_with("あ")) # false
-print(value.extends_with("お")) # true
+print(value.ends_with("あ")) # false
+print(value.ends_with("お")) # true
 ```
 
 ## 文字列を加工する
@@ -163,10 +163,10 @@ print(value.format({"str": "けこ"})) # かきくけこ
 例えば、リッチテキストを使用することを前提として、メッセージ内に画像を表示させるタグに置き換えることも可能です。
 
 ```gdscript
-var dict :Dictionary = {"Aボタン画像","[img]{res://icon.png}[/img]"}
+var dict :Dictionary = {"Aボタン画像":"[img]res://icon.png[/img]"}
 var value :String = "{Aボタン画像}ボタン"
-
-$RichTextLabel.bbcode_text = value.format(value, dict) # 🅰️ボタン
+$RichTextLabel.bbcode_enabled = true
+$RichTextLabel.text = value.format(dict) # 🅰️ボタン
 ```
 
 ### 指定の桁以下ならゼロで埋める

@@ -714,8 +714,8 @@ var_to_str(100)
 </span></span><span style="display:flex;"><span>print(value<span style="color:#f92672">.</span>begin_with(<span style="color:#e6db74">&#34;お&#34;</span>)) <span style="color:#75715e"># false</span>
 </span></span></code></pre></div><h3 id="文字列が特定の文字で終わるか調べる">文字列が特定の文字で終わるか調べる</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;あいうえお&#34;</span>
-</span></span><span style="display:flex;"><span>print(value<span style="color:#f92672">.</span>extends_with(<span style="color:#e6db74">&#34;あ&#34;</span>)) <span style="color:#75715e"># false</span>
-</span></span><span style="display:flex;"><span>print(value<span style="color:#f92672">.</span>extends_with(<span style="color:#e6db74">&#34;お&#34;</span>)) <span style="color:#75715e"># true</span>
+</span></span><span style="display:flex;"><span>print(value<span style="color:#f92672">.</span>ends_with(<span style="color:#e6db74">&#34;あ&#34;</span>)) <span style="color:#75715e"># false</span>
+</span></span><span style="display:flex;"><span>print(value<span style="color:#f92672">.</span>ends_with(<span style="color:#e6db74">&#34;お&#34;</span>)) <span style="color:#75715e"># true</span>
 </span></span></code></pre></div><h2 id="文字列を加工する">文字列を加工する</h2>
 <h3 id="フォーマットを設定する簡易版">フォーマットを設定する（簡易版）</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value1:<span style="color:#a6e22e">String</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;あいう</span><span style="color:#e6db74">%s</span><span style="color:#e6db74">&#34;</span>
@@ -728,10 +728,10 @@ var_to_str(100)
 </span></span><span style="display:flex;"><span>print(value<span style="color:#f92672">.</span>format({<span style="color:#e6db74">&#34;str&#34;</span>: <span style="color:#e6db74">&#34;けこ&#34;</span>})) <span style="color:#75715e"># かきくけこ</span>
 </span></span></code></pre></div><p><code>format()</code>を使用すると、辞書に定義されたキーとペアになった文字列に置換されます。<br>
 例えば、リッチテキストを使用することを前提として、メッセージ内に画像を表示させるタグに置き換えることも可能です。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> dict :<span style="color:#a6e22e">Dictionary</span> <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;Aボタン画像&#34;</span>,<span style="color:#e6db74">&#34;[img]{res://icon.png}[/img]&#34;</span>}
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> dict :<span style="color:#a6e22e">Dictionary</span> <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;Aボタン画像&#34;</span>:<span style="color:#e6db74">&#34;[img]res://icon.png[/img]&#34;</span>}
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value :<span style="color:#a6e22e">String</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;{Aボタン画像}ボタン&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">$</span><span style="color:#a6e22e">RichTextLabel</span><span style="color:#f92672">.</span>bbcode_text <span style="color:#f92672">=</span> value<span style="color:#f92672">.</span>format(value, dict) <span style="color:#75715e"># 🅰️ボタン</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">$</span><span style="color:#a6e22e">RichTextLabel</span><span style="color:#f92672">.</span>bbcode_enabled <span style="color:#f92672">=</span> true
+</span></span><span style="display:flex;"><span><span style="color:#f92672">$</span><span style="color:#a6e22e">RichTextLabel</span><span style="color:#f92672">.</span>text <span style="color:#f92672">=</span> value<span style="color:#f92672">.</span>format(dict) <span style="color:#75715e"># 🅰️ボタン</span>
 </span></span></code></pre></div><h3 id="指定の桁以下ならゼロで埋める">指定の桁以下ならゼロで埋める</h3>
 <p>最終的に文字列に変換されますが、変換元は数値を扱います。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">%010d</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">%</span> <span style="color:#ae81ff">555</span>) <span style="color:#75715e"># 0000000555</span>
@@ -765,10 +765,10 @@ var_to_str(100)
                         <th>😃 Author</th> <td><strong>Saitos</strong></td>
                     </tr>
                     <tr>
-                        <th>📔 Write Date</th> <td>2022/12/26 11:59:10</td>
+                        <th>📔 Write Date</th> <td>2023/1/21 17:37:09</td>
                     </tr>
                     <tr>
-                        <th>✏️ Modified Date</th> <td>2022/12/26 11:59:10</td>
+                        <th>✏️ Modified Date</th> <td>2023/1/21 17:37:09</td>
                     </tr>
                 </tbody>
             </table>

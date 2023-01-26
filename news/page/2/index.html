@@ -1,7 +1,7 @@
 <html lang="ja">
 <head>
     <title>
-        Searches -
+        ニュース -
         
         Godot Japan User Community
     </title>
@@ -30,7 +30,7 @@
     
     
     <meta property="og:type" content="website" >
-    <meta property="og:url" content="https://godot-jp.github.io/search/" >
+    <meta property="og:url" content="https://godot-jp.github.io/news/" >
     <meta property="og:site_name" content="Godot Japan User Community" >
     
     
@@ -125,7 +125,9 @@
                         
                             
                             
-                            <li class="col-12 col-lg-auto nav-item text-start"><a href="/news/" class="nav-link  p-2 p-lg-4">ニュース</a></li>
+                                
+                            
+                            <li class="col-12 col-lg-auto nav-item text-start"><a href="/news/" class="nav-link  active p-2 p-lg-4">ニュース</a></li>
                         
                     
                 
@@ -172,103 +174,64 @@
         </div>
     </div>
 </nav>
-<script src="./data.js"></script>
 
 <section class="container-fluid container-lg row mx-auto my-3">
     <h1 class="my-3 text-danger text-center">
-    Searches
+    ニュース
     </h1>
-    <div class="col-12 col-sm-8 col-md-5 col-lg-4 mx-auto">
-        <input id="query" onkeyup="location.replace('#' + this.value)" autocomplete="off" autofocus
-        placeholder="検索ワード" class="form-control" />
-        <span id="inputWord"></span> <span id="resultCount"></span>
+    <ul class="tag-list row g-2">
+        <li class="col-auto"><a href="/news/" class="btn btn-light">All</a>
+        <li class="col-auto" style="text-transform: capitalize;"><a href="/tags/information" class="btn btn-light">Information</a>
+        <li class="col-auto" style="text-transform: capitalize;"><a href="/tags/weekly-godot-japan" class="btn btn-light">Weekly godot japan</a>
+    </ul>
+    <div class="row container-fluid g-2">
+        
+        
+        
+        
+        <div class="col-12 col-lg-4">
+            <div class="card news-column">
+                <a href="/news/release2023-1-10/">
+                    
+                    
+                    
+                    
+                    <img src="https://godot-jp.github.io/news/release2023-1-10//2023-01-06-00-33-53.png" class="card-img-top news-images">
+                    <div class="card-body">
+                        <p class="info" style="text-transform: capitalize;">Saitos - 2022/12/26 11:59:10</p>
+                        <h5 class="card-title">Godot Japan User Community リリース</h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        
+
+        <nav aria-label="Paginator" class="my-3">
+            <ul class="pagination justify-content-center">
+            <li class="page-item">
+                
+                <a href="" class="page-link">&laquo;</a>
+                
+            </li>
+            
+                <li class="page-item">
+                    <a href="/news/" class="page-link">1</a>
+                </li>
+            
+                <li class="page-item">
+                    <a href="/news/page/2/" class="page-link">2</a>
+                </li>
+            
+
+            <li class="page-item">
+                
+                <span class="page-link disabled">&raquo;</span>
+                
+            </li>
+            </ul>
+        </nav>
     </div>
-    <div id="result"></div>
-
-    <script>
-        function search(query) {
-            var result = searchData(query);
-            var html = createHtml(result);
-            showResult(html);
-            
-        }
-
-        function searchData(query) {
-            
-            
-            var result = [];
-
-            query = query.trim();
-            if (query.length < 1) {
-                return result;
-            }
-            var re = new RegExp(query, 'i');
-            for (var i = 0; i < data.length; ++i) {
-                var pos = data[i].body.search(re);
-                if (pos != -1) {
-                    result.push([i, pos, pos + query.length]);
-                }
-            }
-            return result;
-        }
-
-        function createHtml(result) {
-            var htmls = [];
-            for (var i = 0; i < result.length; ++i) {
-                var dataIndex = result[i][0];
-                var startPos = result[i][1];
-                var endPos = result[i][2];
-                var url = data[dataIndex].url;
-                var title = data[dataIndex].title;
-                var body = data[dataIndex].body;
-                htmls.push(createEntry(url, title, body, startPos, endPos));
-            }
-            return htmls.join('');
-        }
-
-        function createEntry(url, title, body, startPos, endPos) {
-            return '<a href="' + url + '#:~:text=' + encodeURIComponent(body.substring(startPos, endPos)) +'">' + 
-                '<div class="item m-3 col-12 col-lg-8 mx-auto">' +
-                '<span class="item_title fs-3">'+ title +'</span>' +
-                '<div class="item_excerpt px-3 text-dark">' + excerpt(body, startPos, endPos) + '</div>' +
-                '</div>' + '</a>';
-        }
-
-        function excerpt(body, startPos, endPos) {
-            return [
-                body.substring(startPos - 30, startPos),
-                '<mark style="background-color:yellow;">', body.substring(startPos, endPos), '</mark>',
-                body.substring(endPos, endPos + 200)
-            ].join('');
-        }
-
-        function showResult(html) {
-            var el = document.getElementById('result');
-            el.innerHTML = html;
-        }
-
-        function showResultCount(count, total) {
-            var el = document.getElementById('resultCount');
-            el.innerHTML = '<b>' + count + '</b> 件見つかりました（' + total + '件中）';
-        }
-        
-        function searchWithHash() {
-            const hash = decodeURI(location.hash.substring(1));
-            search(hash);
-
-            
-            const queryElem = document.getElementById('query');
-            if (queryElem.value !== hash) {
-                queryElem.value = hash;
-            }
-        }
-
-        
-        window.addEventListener('DOMContentLoaded', searchWithHash);
-
-        
-        window.addEventListener('hashchange', searchWithHash);
-    </script>
 </section>
 <footer class="bg-primary text-light footer navbar fixed-bottom">
     <p class="text-center w-100">

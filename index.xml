@@ -6,7 +6,7 @@
     <description>Recent content on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 26 Jan 2023 15:14:31 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Feb 2023 15:14:55 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ゲームで表示する文字列</title>
       <link>https://godot-jp.github.io/reference/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E9%96%A2%E9%80%A3/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A7%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97/</link>
@@ -113,6 +113,17 @@ Nodeクラスが持つ機能をそのままに、新しいクラスを作るこ�
     </item>
     
     <item>
+      <title>Weekly Godot Japan 2023-02-02</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-02-02/</link>
+      <pubDate>Thu, 02 Feb 2023 15:14:55 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/wgj-2023-02-02/</guid>
+      <description>今週（2023年1月26日〜2023年2月2日）のGodot Engineに関するニュースをお届けします。
+このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル 【Godot Engine】RichTextLabelのスクロール処理を自作する How To Code a Realistic Water Shader in Godot Engine 4 In this Godot 4 tutorial, you will learn how to create a high quality water shader script from scratch and apply it to a single plane mesh. I go through basic shader setup, albedo, roughness, and metallic settings, and normal map setup and animation. I also cover more advanced water shader features like vertex noise displacement, depth color, and edge detection.</description>
+    </item>
+    
+    <item>
       <title>Weekly Godot Japan 2023-01-26</title>
       <link>https://godot-jp.github.io/news/wgj-2023-01-26/</link>
       <pubDate>Thu, 26 Jan 2023 15:14:31 +0900</pubDate>
@@ -132,9 +143,7 @@ Nodeクラスが持つ機能をそのままに、新しいクラスを作るこ�
       <description>今週（2023年1月12日〜2023年1月19日）のGodot Engineに関するニュースをお届けします。
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
 おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル UIの動きを良くする 3つの方法 についてまとめてみました pic.twitter.com/1k9SmQfyBI
-&amp;mdash; しゅん (@2dgames_jp) January 18, 2023 Quick #GodotEngine tip: there are different ways of wrapping numbers, with 𝘄𝗿𝗮𝗽𝗳 and 𝘄𝗿𝗮𝗽𝗶 being the most popular. But have you heard of 𝗽𝗶𝗻𝗴𝗽𝗼𝗻𝗴 yet? 🏓😁
-In this gif, each wraps between 0 and 5. You can see the raw input in the bottom left#indiedev #gamedev pic.twitter.com/hbT4CTvpQP
-&amp;mdash; Sander Vanhove (@SanderVhove) January 10, 2023 🏆ゲームジャム Top five Godot games and source code from Game Off 2022 Game Off is a &amp;#34;game jam&amp;#34; or hackathon of sorts that has been running for a decade now.</description>
+&amp;mdash; しゅん (@2dgames_jp) January 18, 2023 🏆ゲームジャム Top five Godot games and source code from Game Off 2022 Game Off is a &amp;#34;game jam&amp;#34; or hackathon of sorts that has been running for a decade now. Participants... 👮公式 Dev snapshot: Godot 4.0 beta 13 Free and open source 2D and 3D game engine 🔌ツール・プラグイン GitHub - noidexe/godot-version-manager: Download, Instal and Manage any vesion of Godot Engine from a simple app.</description>
     </item>
     
     <item>

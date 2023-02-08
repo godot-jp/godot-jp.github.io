@@ -4,6 +4,10 @@ title = 'Godot Japan User Community'
 theme = 'GodotJP-2023'
 enableGitInfo = true
 
+[pramas]
+dafaultNoimage = "/images/m_e_other_501.png"
+imageQuality = 75
+
 [mediaTypes]
   [mediaTypes.'text/json']
     suffixes = ['json']

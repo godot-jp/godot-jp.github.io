@@ -8,6 +8,17 @@
     <language>ja-jp</language>
     <lastBuildDate>Thu, 05 Jan 2023 12:41:13 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Weekly Godot Japan 2023-02-09</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-02-09/</link>
+      <pubDate>Thu, 09 Feb 2023 15:15:36 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/wgj-2023-02-09/</guid>
+      <description>今週（2023年2月2日〜2023年2月9日）のGodot Engineに関するニュースをお届けします。
+このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル 13 Godot Engine Tricks You&amp;#39;ll WISH You Knew Sooner The Godot Engine is one of the easier game engines to learn but that doesn&amp;#39;t mean there aren&amp;#39;t some tips and tricks that are hard to know unless you deep-dive into the documentation. When working as a game developer, every tip and trick to save yourself time and make your life easier counts. So I briefly scoured the internet to find some great Godot Engine tricks (Godot 3.</description>
+    </item>
+    
+    <item>
       <title>Weekly Godot Japan 2023-02-02</title>
       <link>https://godot-jp.github.io/news/wgj-2023-02-02/</link>
       <pubDate>Thu, 02 Feb 2023 15:14:55 +0900</pubDate>
@@ -37,8 +48,7 @@
       <guid>https://godot-jp.github.io/news/wgj-2023-01-19/</guid>
       <description>今週（2023年1月12日〜2023年1月19日）のGodot Engineに関するニュースをお届けします。
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル UIの動きを良くする 3つの方法 についてまとめてみました pic.twitter.com/1k9SmQfyBI
-&amp;mdash; しゅん (@2dgames_jp) January 18, 2023 🏆ゲームジャム Top five Godot games and source code from Game Off 2022 Game Off is a &amp;#34;game jam&amp;#34; or hackathon of sorts that has been running for a decade now. Participants... 👮公式 Dev snapshot: Godot 4.0 beta 13 Free and open source 2D and 3D game engine 🔌ツール・プラグイン GitHub - noidexe/godot-version-manager: Download, Instal and Manage any vesion of Godot Engine from a simple app.</description>
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     
     <item>

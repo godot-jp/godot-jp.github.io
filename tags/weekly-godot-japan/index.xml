@@ -6,7 +6,20 @@
     <description>Recent content in weekly-godot-japan on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 09 Feb 2023 15:15:36 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/tags/weekly-godot-japan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Feb 2023 15:15:25 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/tags/weekly-godot-japan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weekly Godot Japan 2023-02-16</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-02-16/</link>
+      <pubDate>Thu, 16 Feb 2023 15:15:25 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/wgj-2023-02-16/</guid>
+      <description>今週（2023年2月9日〜2023年2月16日）のGodot Engineに関するニュースをお届けします。
+このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル Godot: Mesh Masks To See-through Other Objects Here&amp;#39;s a quick one for an technique I figured out while working on a buoyancy tutorial. The effect seemed useful enough to warrant it&amp;#39;s own short video! Hope you find this useful! 書きました！！！！#GodotEngine 【GodotEngine3.5】色が変わるゲージを作る https://t.co/YN1ZWIgi4U
+&amp;mdash; ニチカ・バーチ👾Skebやってます (@maou_2chica) February 14, 2023 🐦クールなツイート More! Mooore!! Mooooore!!! 🪲🪲🪲🔫
+(Working on a scoring system.)#indiedevhour #gamedev #pixelart #GodotEngine pic.twitter.com/rEtNizNEVd</description>
+    </item>
+    
     <item>
       <title>Weekly Godot Japan 2023-02-09</title>
       <link>https://godot-jp.github.io/news/wgj-2023-02-09/</link>
@@ -37,7 +50,7 @@
       <guid>https://godot-jp.github.io/news/wgj-2023-01-26/</guid>
       <description>今週（2023年1月19日〜2023年1月26日）のGodot Engineに関するニュースをお届けします。
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル &amp;#34;How to make 2D Platform game player movement and Animation | Godot Part 1&amp;#34; を YouTube で見る I would like to develop full game project with Godot engine. This is first video of this video series. I would like to tell how to make player movement in this video. _______________________________ Godot Engine : https://godotengine.org/ sprites : https://brullov.itch.io/oak-woods /------links------/ how to make show hide password using JavaScript ~ https://youtu.</description>
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     
     <item>

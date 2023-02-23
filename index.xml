@@ -6,7 +6,7 @@
     <description>Recent content on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 16 Feb 2023 15:15:25 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Feb 2023 15:15:36 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ゲームで表示する文字列</title>
       <link>https://godot-jp.github.io/reference/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E9%96%A2%E9%80%A3/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A7%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97/</link>
@@ -113,6 +113,17 @@ Nodeクラスが持つ機能をそのままに、新しいクラスを作るこ�
     </item>
     
     <item>
+      <title>Weekly Godot Japan 2023-02-23</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-02-23/</link>
+      <pubDate>Thu, 23 Feb 2023 15:15:36 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/wgj-2023-02-23/</guid>
+      <description>今週（2023年2月16日〜2023年2月23日）のGodot Engineに関するニュースをお届けします。
+このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル &amp;#34;Multiplayer Platformer Tutorial In Godot 4 | Synchronization #2&amp;#34; を YouTube で見る Hey Everyone! Thanks for waiting, but here is the part 2 of our multiplayer platformer series in Godot 4! I will continue to upload videos weekly! --links-- Part 1: https://www.youtube.com/watch?v=h5_eyycttgA Platformer Asset By Kenney : https://www.kenney.nl/assets/platformer-art-pixel-redux Godot : https://godotengine.org/ Platformer Basics In Godot 4: https://www.youtube.com/watch?v=BhBQhmtFUd8 &amp;#34;Y-Sort Vanishes From Godot 4.0 – What&amp;#39;s Going On?</description>
+    </item>
+    
+    <item>
       <title>Weekly Godot Japan 2023-02-16</title>
       <link>https://godot-jp.github.io/news/wgj-2023-02-16/</link>
       <pubDate>Thu, 16 Feb 2023 15:15:25 +0900</pubDate>
@@ -164,7 +175,7 @@ Godot 4 await構文 submaxさんによる記事</description>
       <guid>https://godot-jp.github.io/news/wgj-2023-02-02/</guid>
       <description>今週（2023年1月26日〜2023年2月2日）のGodot Engineに関するニュースをお届けします。
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル 【Godot Engine】RichTextLabelのスクロール処理を自作する How To Code a Realistic Water Shader in Godot Engine 4 In this Godot 4 tutorial, you will learn how to create a high quality water shader script from scratch and apply it to a single plane mesh. I go through basic shader setup, albedo, roughness, and metallic settings, and normal map setup and animation. I also cover more advanced water shader features like vertex noise displacement, depth color, and edge detection.</description>
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     
     <item>

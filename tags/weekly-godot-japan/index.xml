@@ -6,7 +6,18 @@
     <description>Recent content in weekly-godot-japan on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 23 Feb 2023 15:15:36 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/tags/weekly-godot-japan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Mar 2023 15:15:53 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/tags/weekly-godot-japan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weekly Godot Japan 2023-03-02</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-03-02/</link>
+      <pubDate>Thu, 02 Mar 2023 15:15:53 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/wgj-2023-03-02/</guid>
+      <description>今週（2023年2月23日〜2023年3月2日）のGodot Engineに関するニュースをお届けします。
+このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル Godot4のawaitを使って複数のシグナルを待つ &amp;#34;Godot 4.0 is here! Quality of Life Features and Workflow Enhancements&amp;#34; を YouTube で見る You can finally download Godot 4.0 stable! In this video, let&amp;#39;s check the fundamental workflow and quality of life changes, additions and enhancements brought to Godot 4.0. All links mentioned in the video: https://alfredbaudisch.com/blog/godot-4-0-is-here-release-overview-quality-of-life-features/ Get my Godot course on Itch (60% off to celebrate Godot 4.0): https://bit.ly/GodotUI or Skillshare: https://skl.</description>
+    </item>
+    
     <item>
       <title>Weekly Godot Japan 2023-02-23</title>
       <link>https://godot-jp.github.io/news/wgj-2023-02-23/</link>
@@ -26,9 +37,7 @@
       <guid>https://godot-jp.github.io/news/wgj-2023-02-16/</guid>
       <description>今週（2023年2月9日〜2023年2月16日）のGodot Engineに関するニュースをお届けします。
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル Godot: Mesh Masks To See-through Other Objects Here&amp;#39;s a quick one for an technique I figured out while working on a buoyancy tutorial. The effect seemed useful enough to warrant it&amp;#39;s own short video! Hope you find this useful! 書きました！！！！#GodotEngine 【GodotEngine3.5】色が変わるゲージを作る https://t.co/YN1ZWIgi4U
-&amp;mdash; ニチカ・バーチ👾Skebやってます (@maou_2chica) February 14, 2023 🐦クールなツイート More! Mooore!! Mooooore!!! 🪲🪲🪲🔫
-(Working on a scoring system.)#indiedevhour #gamedev #pixelart #GodotEngine pic.twitter.com/rEtNizNEVd</description>
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     
     <item>
@@ -39,7 +48,7 @@
       <guid>https://godot-jp.github.io/news/wgj-2023-02-09/</guid>
       <description>今週（2023年2月2日〜2023年2月9日）のGodot Engineに関するニュースをお届けします。
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル 13 Godot Engine Tricks You&amp;#39;ll WISH You Knew Sooner The Godot Engine is one of the easier game engines to learn but that doesn&amp;#39;t mean there aren&amp;#39;t some tips and tricks that are hard to know unless you deep-dive into the documentation. When working as a game developer, every tip and trick to save yourself time and make your life easier counts. So I briefly scoured the internet to find some great Godot Engine tricks (Godot 3.</description>
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     
     <item>

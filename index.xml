@@ -8,6 +8,47 @@
     <language>ja-jp</language>
     <lastBuildDate>Thu, 02 Mar 2023 15:15:53 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>当サイトについて</title>
+      <link>https://godot-jp.github.io/about/</link>
+      <pubDate>Tue, 06 Dec 2022 08:38:26 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/about/</guid>
+      <description>Godot Japan User Communityはオープンソースのコミュニティサイトです。
+本コミュニティは、静的サイトジェネレーター Hugo と Github Pages でホスティングされており、コミュニティメンバー（コントリビューター、メンテナー、コミュニティリーダー）によって本コミュニティの運営を行っています。
+Godot Engine公式のガバナンスに沿ったユーザーコミュニティの一つとしてGodot Engineの認知度の向上・知識の共有を目的としており、金銭的な利益を目的としていません。
+そのため、本サイトは広告・宣伝などの掲載は一切なく、すべてのGodot Engineユーザーのための運営に努めます。
+コミュニティ Github Githubへ オープンソースとして本サイトのソースコードが公開され、どなたでも提案・ディスカッション、そしてプルリクエストで寄稿・参加することができます。 Discordサーバー Discordに参加する テキストチャット・音声通話・ディスカッションボードで日本語を基本として交流しています。2022年現在、参加者は400名を超え、初心者から上級者・Godot Engineのコントリビューターも含め様々なメンバーが参加しています。 寄付について 本コミュニティは貢献者の自由な時間とコミュニティからの寄付によって維持されています。
+寄付は以下の目的のために使用されます。
+Webサイトのホスティングおよび関連サービスへの支払い 各コミュニティサービスへの支払い いくつかの業界イベントへの参加費および旅費 Github Sponsorsでサポートする codocでサポートする 免責事項・ライセンスについて 本コミュニティは個人が集まったGodot Engineの日本のユーザーコミュニティであり、Godot Engineプロジェクトおよび本家のコミュニティに直接的な関係はありません。
+本サイトに掲載されている情報は、実際にGodot Engineのユーザーであるコントリビューター・メンテナーおよびコミュニティリーダーからの寄稿に対し、コミュニティ全体でレビューを行い、MITライセンスとして公開しています。
+ただし、Godot Engineのバージョンと記事の内容の齟齬が発生する場合もありますので、動作を保証するものではないことをご注意ください。
+本サイトに掲載されている情報・デザイン・アセットなど（以下、ソフトウェア）のライセンスは一部を除きMITライセンスのもと公開されています。
+複製の利用・配布・改変・商用利用など、どなたでも自由にお使い頂くことができます。
+以下のライセンスの全文を、ソースコードやソースコードに同梱したライセンス表示用の別ファイルなどに掲載してください。
+ライセンス全文 Copyright (c) 2022 Godot Japan User Community Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;#34;Software&amp;#34;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</description>
+    </item>
+    
+    <item>
+      <title>Godot Engineについて</title>
+      <link>https://godot-jp.github.io/feature/</link>
+      <pubDate>Thu, 05 Jan 2023 12:01:20 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/feature/</guid>
+      <description>Godot Engineは、オープンソースのマルチプラットフォーム向けのWindows・Mac・Linuxで動作するゲームエンジンです。
+エンジン自体のファイルサイズも動作も非常に軽く、ある程度低いスペックであってもプロジェクトを開始することができます。
+バージョン管理ツールにも対応しやすく、プロジェクトファイルはシンプルなアスキーファイルで構成されており、差分の管理がしやすいのも特徴です。
+C++で書かれたエンジンそのものを改変することも可能ですが、GDExtensionやアドオンを自作してプロジェクトに読み込むことで、エンジンを拡張することも可能です。
+2Dでは、タイルマップやボーンアニメーションや2Dライトや拡張性の高いカメラなどが用意されており、プロトタイプの開発速度に驚くかもしれません。
+3Dでは、Vulkan1を使用し美しい表現が可能になり、物理エンジンで物理計算に基づいた物体の動きを再現することも可能です。
+どなたでも簡単に始めることができ、エディタの言語の多くの部分が日本語に翻訳されています。
+当サイトの活用方法 Godot Engineはもともと英語で開発されており、多言語化されたことで日本でのシェアを伸ばしてきました。
+しかし、2022年現在では日本のユーザーはまだまだ少ないため、他のゲームエンジンに比べると日本語の情報が少ないのが課題と言えます。
+当サイトはGodot Engineに関するナレッジベースとして、日本語の情報を取り扱うポータルサイトを目指しています。
+オープンソースなサイトとすることで、情報をどなたでも更新できるように運営しています。
+Vulkanのレンダリングエンジンを使用できるのはGodot Engine4.0からです。&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+    </item>
+    
+    <item>
       <title>ゲームで表示する文字列</title>
       <link>https://godot-jp.github.io/reference/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E9%96%A2%E9%80%A3/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A7%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97/</link>
       <pubDate>Mon, 16 Jan 2023 21:52:10 +0900</pubDate>
@@ -304,26 +345,6 @@ PCブラウザの拡張機能で簡単にリンクを追加できるだけでな
     </item>
     
     <item>
-      <title>Godot Engineについて</title>
-      <link>https://godot-jp.github.io/feature/</link>
-      <pubDate>Thu, 05 Jan 2023 12:01:20 +0900</pubDate>
-      
-      <guid>https://godot-jp.github.io/feature/</guid>
-      <description>Godot Engineは、オープンソースのマルチプラットフォーム向けのWindows・Mac・Linuxで動作するゲームエンジンです。
-エンジン自体のファイルサイズも動作も非常に軽く、ある程度低いスペックであってもプロジェクトを開始することができます。
-バージョン管理ツールにも対応しやすく、プロジェクトファイルはシンプルなアスキーファイルで構成されており、差分の管理がしやすいのも特徴です。
-C++で書かれたエンジンそのものを改変することも可能ですが、GDExtensionやアドオンを自作してプロジェクトに読み込むことで、エンジンを拡張することも可能です。
-2Dでは、タイルマップやボーンアニメーションや2Dライトや拡張性の高いカメラなどが用意されており、プロトタイプの開発速度に驚くかもしれません。
-3Dでは、Vulkan1を使用し美しい表現が可能になり、物理エンジンで物理計算に基づいた物体の動きを再現することも可能です。
-どなたでも簡単に始めることができ、エディタの言語の多くの部分が日本語に翻訳されています。
-当サイトの活用方法 Godot Engineはもともと英語で開発されており、多言語化されたことで日本でのシェアを伸ばしてきました。
-しかし、2022年現在では日本のユーザーはまだまだ少ないため、他のゲームエンジンに比べると日本語の情報が少ないのが課題と言えます。
-当サイトはGodot Engineに関するナレッジベースとして、日本語の情報を取り扱うポータルサイトを目指しています。
-オープンソースなサイトとすることで、情報をどなたでも更新できるように運営しています。
-Vulkanのレンダリングエンジンを使用できるのはGodot Engine4.0からです。&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
-    </item>
-    
-    <item>
       <title>ゲームパッド入力について</title>
       <link>https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
       <pubDate>Tue, 20 Dec 2022 14:12:47 +0900</pubDate>
@@ -415,32 +436,20 @@ itch.ioのデスクトップアプリを入れると、最新版の自動ダウ�
     </item>
     
     <item>
-      <title>当サイトについて</title>
-      <link>https://godot-jp.github.io/about/</link>
-      <pubDate>Tue, 06 Dec 2022 08:38:26 +0900</pubDate>
-      
-      <guid>https://godot-jp.github.io/about/</guid>
-      <description>Godot Japan User Communityはオープンソースのコミュニティサイトです。
-本コミュニティは、静的サイトジェネレーター Hugo と Github Pages でホスティングされており、コミュニティメンバー（コントリビューター、メンテナー、コミュニティリーダー）によって本コミュニティの運営を行っています。
-Godot Engine公式のガバナンスに沿ったユーザーコミュニティの一つとしてGodot Engineの認知度の向上・知識の共有を目的としており、金銭的な利益を目的としていません。
-そのため、本サイトは広告・宣伝などの掲載は一切なく、すべてのGodot Engineユーザーのための運営に努めます。
-コミュニティ Github Githubへ オープンソースとして本サイトのソースコードが公開され、どなたでも提案・ディスカッション、そしてプルリクエストで寄稿・参加することができます。 Discordサーバー Discordに参加する テキストチャット・音声通話・ディスカッションボードで日本語を基本として交流しています。2022年現在、参加者は400名を超え、初心者から上級者・Godot Engineのコントリビューターも含め様々なメンバーが参加しています。 寄付について 本コミュニティは貢献者の自由な時間とコミュニティからの寄付によって維持されています。
-寄付は以下の目的のために使用されます。
-Webサイトのホスティングおよび関連サービスへの支払い 各コミュニティサービスへの支払い いくつかの業界イベントへの参加費および旅費 Github Sponsorsでサポートする codocでサポートする 免責事項・ライセンスについて 本コミュニティは個人が集まったGodot Engineの日本のユーザーコミュニティであり、Godot Engineプロジェクトおよび本家のコミュニティに直接的な関係はありません。
-本サイトに掲載されている情報は、実際にGodot Engineのユーザーであるコントリビューター・メンテナーおよびコミュニティリーダーからの寄稿に対し、コミュニティ全体でレビューを行い、MITライセンスとして公開しています。
-ただし、Godot Engineのバージョンと記事の内容の齟齬が発生する場合もありますので、動作を保証するものではないことをご注意ください。
-本サイトに掲載されている情報・デザイン・アセットなど（以下、ソフトウェア）のライセンスは一部を除きMITライセンスのもと公開されています。
-複製の利用・配布・改変・商用利用など、どなたでも自由にお使い頂くことができます。
-以下のライセンスの全文を、ソースコードやソースコードに同梱したライセンス表示用の別ファイルなどに掲載してください。
-ライセンス全文 Copyright (c) 2022 Godot Japan User Community Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;#34;Software&amp;#34;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://godot-jp.github.io/search/data.js</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://godot-jp.github.io/search/data.js</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>リンク</title>
+      <link>https://godot-jp.github.io/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://godot-jp.github.io/links/</guid>
       <description></description>
     </item>
     

@@ -1,5 +1,5 @@
 ---
-title: "Godot日本ユーザーサイトリンク集"
+title: "ユーザーリンク集"
 weight: 0
 draft: false
 ---

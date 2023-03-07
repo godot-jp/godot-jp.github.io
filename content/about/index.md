@@ -1,5 +1,6 @@
 ---
 title: "当サイトについて"
+weight: 1
 date: 2022-12-06T08:38:26+09:00
 draft: false
 ---

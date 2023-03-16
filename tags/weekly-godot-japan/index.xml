@@ -6,7 +6,20 @@
     <description>Recent content in weekly-godot-japan on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 09 Mar 2023 15:16:27 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/tags/weekly-godot-japan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Mar 2023 15:15:03 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/tags/weekly-godot-japan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weekly Godot Japan 2023-03-16</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-03-16/</link>
+      <pubDate>Thu, 16 Mar 2023 15:15:03 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/wgj-2023-03-16/</guid>
+      <description>今週（2023年3月9日〜2023年3月16日）のGodot Engineに関するニュースをお届けします。
+このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート 既存の素材を使いまわしてヴァンサバみたいなゲームを #GodotEngine 4.0 でお試し実装中。 pic.twitter.com/1mIUVbnE8L
+&amp;mdash; SparkWingGames（すぱうい） (@sparklewing925) March 15, 2023 Icon.png lore (Loving the new shadows and fog in godot 4 btw!)#GodotEngine #Godot4 pic.twitter.com/wwCzCE8SiZ
+&amp;mdash; losfroger (@losfroger) March 12, 2023 👮公式 Release candidate: Godot 4.0.1 RC 1 Free and open source 2D and 3D game engine 📎その他 &amp;#34;Godot 4 Abandoned Spaceship Demo Scene&amp;#34; を YouTube で見る Open source Godot 4 Demo scene that I made: https://github.</description>
+    </item>
+    
     <item>
       <title>Weekly Godot Japan 2023-03-09</title>
       <link>https://godot-jp.github.io/news/wgj-2023-03-09/</link>
@@ -15,7 +28,10 @@
       <guid>https://godot-jp.github.io/news/wgj-2023-03-09/</guid>
       <description>今週（2023年3月2日〜2023年3月9日）のGodot Engineに関するニュースをお届けします。
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル Godot初学者向け「await って何や_基本編」 awaitって何や_基本編 Godot3ではyieldでしたが、Godot4よりawaitというしくみに変わりました。 この記事では、await 🔌ツール・プラグイン GitHub - Fractural/GodotNakamaWebRTCMono: C# port of Snopek Games&amp;#39; godot-nakama-webrtc addon. 🕸 C# port of Snopek Games&amp;#39; godot-nakama-webrtc addon. 🕸 - GitHub - Fractural/GodotNakamaWebRTCMono: C# port of Snopek Games&amp;#39; godot-nakama-webrtc addon. 🕸 GitHub - zfoo-project/zfoo: 💡Extremely fast enterprise server framework, can be used in RPC, web server framework, game server framework.（极致性能的Java服务器框架，RPC，游戏服务器框架，web应用服务器框架。） 💡Extremely fast enterprise server framework, can be used in RPC, web server framework, game server framework.</description>
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル Godot初学者向け「await って何や_基本編」 awaitって何や_基本編 Godot3ではyieldでしたが、Godot4よりawaitというしくみに変わりました。 この記事では、await 👮公式 We&amp;#39;ve released #Godot4 a week ago!
+While many are prototyping or starting ambitious projects with it, others are understandably sticking to the proven #GodotEngine 3.x version for their existing projects.
+So here&amp;#39;s 3.5.2 to fix a handful of 3.x bugs!https://t.co/81KCBsmjML
+&amp;mdash; Rémi Verschelde 🔜 GDC (@Akien) March 8, 2023 🔌ツール・プラグイン paddy-exe/ShaderFunction-Extras: An addon with a lot of helpful functions for Godot 4.</description>
     </item>
     
     <item>
@@ -37,10 +53,7 @@
       <guid>https://godot-jp.github.io/news/wgj-2023-02-23/</guid>
       <description>今週（2023年2月16日〜2023年2月23日）のGodot Engineに関するニュースをお届けします。
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート You shouldn&amp;#39;t judge a book by its cover. 🔊#gamedev #indiedev #GodotEngine #platformer pic.twitter.com/NgPUib1rSC
-&amp;mdash; BenjaTK - Pato: The Infinity Bread (@BenjaTKDev) February 22, 2023 だめーじテスト#GodotEngine pic.twitter.com/0fXn9pT7yU
-&amp;mdash; ふぉるた (@Faultun) February 21, 2023 Sky shaders in Godot 4.0 let you code custom skies, with all the features you want (clouds passing by, day and night cycle...).
-The best part? The scene&amp;#39;s lighting automatically updates accordingly.</description>
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     
     <item>

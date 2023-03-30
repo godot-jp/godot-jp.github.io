@@ -8,6 +8,21 @@
     <language>ja-jp</language>
     <lastBuildDate>Thu, 05 Jan 2023 12:41:13 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Weekly Godot Japan 2023-03-30</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-03-30/</link>
+      <pubDate>Thu, 30 Mar 2023 15:14:43 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/wgj-2023-03-30/</guid>
+      <description>今週（2023年3月23日〜2023年3月30日）のGodot Engineに関するニュースをお届けします。
+このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル Godot4 で新しくなったタイルマップの基本的な使い方について書きましたhttps://t.co/T7Q1A3YeSn#GodotEngine pic.twitter.com/XfKYUy7PqG
+&amp;mdash; しゅん (@2dgames_jp) March 29, 2023 🐦クールなツイート I finished my VTuber Overlay entirely made in Godot. 💀
+The model uses Godot&amp;#39;s Skeleton2D system and some fancy shaders and normal maps 🤓. I even got a fun little interactive phone.
+All are customizable to a T 🤩. pic.twitter.com/1wKRVrFGte
+&amp;mdash; byte 🕹️ arcade vtuber (@nme64_u) March 28, 2023 Powerd by Raindrop.io</description>
+    </item>
+    
+    <item>
       <title>Weekly Godot Japan 2023-03-23</title>
       <link>https://godot-jp.github.io/news/wgj-2023-03-23/</link>
       <pubDate>Thu, 23 Mar 2023 15:14:13 +0900</pubDate>
@@ -15,7 +30,12 @@
       <guid>https://godot-jp.github.io/news/wgj-2023-03-23/</guid>
       <description>今週（2023年3月16日〜2023年3月23日）のGodot Engineに関するニュースをお届けします。
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート このようなものを作っています
+Godotクラスリファレンスをまれによく読むので独断と偏見でまとめてみました。
+ざっくり翻訳かけて、修正したり追記したりタグづけしたりしてる！そのうち公開します
+いい感じにできてきたらWebサイトにしたいな～
+3Dあんまり触ってないのできつー#GodotEngine pic.twitter.com/QTB0GQfHqT
+&amp;mdash; ふぉるた (@Faultun) March 23, 2023 Powerd by Raindrop.io</description>
     </item>
     
     <item>
@@ -42,7 +62,7 @@
 おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル Godot初学者向け「await って何や_基本編」 awaitって何や_基本編 Godot3ではyieldでしたが、Godot4よりawaitというしくみに変わりました。 この記事では、await 👮公式 We&amp;#39;ve released #Godot4 a week ago!
 While many are prototyping or starting ambitious projects with it, others are understandably sticking to the proven #GodotEngine 3.x version for their existing projects.
 So here&amp;#39;s 3.5.2 to fix a handful of 3.x bugs!https://t.co/81KCBsmjML
-&amp;mdash; Rémi Verschelde 🔜 GDC (@Akien) March 8, 2023 🔌ツール・プラグイン paddy-exe/ShaderFunction-Extras: An addon with a lot of helpful functions for Godot 4.</description>
+&amp;mdash; Rémi Verschelde (@Akien) March 8, 2023 🔌ツール・プラグイン paddy-exe/ShaderFunction-Extras: An addon with a lot of helpful functions for Godot 4.</description>
     </item>
     
     <item>

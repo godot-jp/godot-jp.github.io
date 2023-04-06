@@ -6,7 +6,7 @@
     <description>Recent content on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 30 Mar 2023 15:14:43 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Apr 2023 15:13:42 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>当サイトについて</title>
       <link>https://godot-jp.github.io/about/</link>
@@ -154,6 +154,18 @@ Nodeクラスが持つ機能をそのままに、新しいクラスを作るこ�
     </item>
     
     <item>
+      <title>Weekly Godot Japan 2023-04-06</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-04-06/</link>
+      <pubDate>Thu, 06 Apr 2023 15:13:42 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/wgj-2023-04-06/</guid>
+      <description>今週（2023年3月30日〜2023年4月6日）のGodot Engineに関するニュースをお届けします。
+このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート Now that Godot 4.0 is out, here is a sneak peek to upcoming Godot 5.0 new revamped editor user interface! Godot 5.0 is built upon GPT, modern generative AI and brain-computer interfaces to make game development even easier than before! pic.twitter.com/sorHrwTkyS
+&amp;mdash; Juan Linietsky (@reduzio) April 1, 2023 👮公式 Maintenance release: Godot 4.0.2 Free and open source 2D and 3D game engine Powerd by Raindrop.</description>
+    </item>
+    
+    <item>
       <title>Weekly Godot Japan 2023-03-30</title>
       <link>https://godot-jp.github.io/news/wgj-2023-03-30/</link>
       <pubDate>Thu, 30 Mar 2023 15:14:43 +0900</pubDate>
@@ -161,11 +173,13 @@ Nodeクラスが持つ機能をそのままに、新しいクラスを作るこ�
       <guid>https://godot-jp.github.io/news/wgj-2023-03-30/</guid>
       <description>今週（2023年3月23日〜2023年3月30日）のGodot Engineに関するニュースをお届けします。
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル Godot4 で新しくなったタイルマップの基本的な使い方について書きましたhttps://t.co/T7Q1A3YeSn#GodotEngine pic.twitter.com/XfKYUy7PqG
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル 書きました
+Godot4でツクール・ウディタ形式の地形オートタイルつくりかたですhttps://t.co/SGi0gBGIIE
+&amp;mdash; ふぉるた (@Faultun) March 30, 2023 Godot4 で新しくなったタイルマップの基本的な使い方について書きましたhttps://t.co/T7Q1A3YeSn#GodotEngine pic.twitter.com/XfKYUy7PqG
 &amp;mdash; しゅん (@2dgames_jp) March 29, 2023 🐦クールなツイート I finished my VTuber Overlay entirely made in Godot. 💀
 The model uses Godot&amp;#39;s Skeleton2D system and some fancy shaders and normal maps 🤓. I even got a fun little interactive phone.
 All are customizable to a T 🤩. pic.twitter.com/1wKRVrFGte
-&amp;mdash; byte 🕹️ arcade vtuber (@nme64_u) March 28, 2023 Powerd by Raindrop.io</description>
+&amp;mdash; byte 🕹️ arcade vtuber (@nme64_u) March 28, 2023 Powerd by Raindrop.</description>
     </item>
     
     <item>

@@ -8,6 +8,17 @@
     <language>ja-jp</language>
     <lastBuildDate>Thu, 05 Jan 2023 12:41:13 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Weekly Godot Japan 2023-04-20</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-04-20/</link>
+      <pubDate>Thu, 20 Apr 2023 15:14:15 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/wgj-2023-04-20/</guid>
+      <description>今週（2023年4月13日〜2023年4月20日）のGodot Engineに関するニュースをお届けします。
+このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    
+    <item>
       <title>Weekly Godot Japan 2023-04-13</title>
       <link>https://godot-jp.github.io/news/wgj-2023-04-13/</link>
       <pubDate>Thu, 13 Apr 2023 15:13:49 +0900</pubDate>
@@ -16,8 +27,8 @@
       <description>今週（2023年4月6日〜2023年4月13日）のGodot Engineに関するニュースをお届けします。
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
 おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル darkstarrd的个人空间-darkstarrd个人主页-哔哩哔哩视频 哔哩哔哩darkstarrd的个人空间，提供darkstarrd分享的视频、音频、文章、动态、收藏等内容，关注darkstarrd账号，第一时间了解UP注动态。hard work beats talent until talent works hard 🐦クールなツイート New YT video next week, showing many technical insights about this scene in #Godot4.#gamedev #soulslike pic.twitter.com/u87cHztqp5
-&amp;mdash; Kmitt (@kmitt91) April 6, 2023 🔌ツール・プラグイン asset is livehttps://t.co/6nOmkZu01k pic.twitter.com/UJrPYgNB0m
-&amp;mdash; Ivy Sly (@ivy_sly_) April 11, 2023 Powerd by Raindrop.io</description>
+&amp;mdash; Kmitt (@kmitt91) April 6, 2023 🔌ツール・プラグイン Been adding some new features to the Phantom Camera #GodotEngine plugin and upgraded the Wiki page with a bunch of video examples and icons.
+Quite happy with the additions in this release.</description>
     </item>
     
     <item>
@@ -100,7 +111,7 @@ So here&amp;#39;s 3.5.2 to fix a handful of 3.x bugs!https://t.co/81KCBsmjML
       <guid>https://godot-jp.github.io/news/wgj-2023-03-02/</guid>
       <description>今週（2023年2月23日〜2023年3月2日）のGodot Engineに関するニュースをお届けします。
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル Godot4のawaitを使って複数のシグナルを待つ &amp;#34;Godot 4.0 is here! Quality of Life Features and Workflow Enhancements&amp;#34; を YouTube で見る You can finally download Godot 4.0 stable! In this video, let&amp;#39;s check the fundamental workflow and quality of life changes, additions and enhancements brought to Godot 4.0. All links mentioned in the video: https://alfredbaudisch.com/blog/godot-4-0-is-here-release-overview-quality-of-life-features/ Get my Godot course on Itch (60% off to celebrate Godot 4.0): https://bit.ly/GodotUI or Skillshare: https://skl.</description>
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル Godot4のawaitを使って複数のシグナルを待つ 📎その他 &amp;#34;Godot 4 Is Here!&amp;#34; を YouTube で見る The long process of waiting for Godot is... over! The open source Godot game engine just released Godot 4! In this video we look at the key new features including SDFGI and Voxel Global Illumination, the new Vulkan Render, the new 2D Tilemap editor, Occlusion culling and much more! The graphics used in this video are part of the current Synty Humble Bundle available here: https://www.</description>
     </item>
     
     <item>

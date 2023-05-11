@@ -8,6 +8,20 @@
     <language>ja-jp</language>
     <lastBuildDate>Thu, 05 Jan 2023 12:41:13 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Weekly Godot Japan 2023-05-11</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-05-11/</link>
+      <pubDate>Thu, 11 May 2023 15:13:38 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/wgj-2023-05-11/</guid>
+      <description>今週（2023年5月4日〜2023年5月11日）のGodot Engineに関するニュースをお届けします。
+このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート Got the new tileset working with the auto-tiling script. :)
+Now, gonna make use of the #Godot4 migration to refractor all the movement and attacking code! That should be fun lol#screenshotsaturday #godotengine #IndieDevs pic.twitter.com/1Ki3lkWGmu
+&amp;mdash; Du (@salgueiroAzul) May 6, 2023 最近開発を再開した侍カジュアルゲームですが、フラッピーバード的なタイトルに無理やりしてみたものの、英語ネイティブの感覚がわからないので(仮)ということにしておきますです。#godotengine #gamedev #indiedev pic.twitter.com/0S4A8WkKgW
+&amp;mdash; Gobo🐺 (@peanuts_code) May 9, 2023 🔌ツール・プラグイン imjp94/gd-blender-3d-shortcuts: Blender 3D Shortcuts in Godot Blender 3D Shortcuts in Godot. Contribute to imjp94/gd-blender-3d-shortcuts development by creating an account on GitHub.</description>
+    </item>
+    
+    <item>
       <title>Weekly Godot Japan 2023-05-04</title>
       <link>https://godot-jp.github.io/news/wgj-2023-05-04/</link>
       <pubDate>Thu, 04 May 2023 15:13:43 +0900</pubDate>
@@ -133,7 +147,7 @@ So here&amp;#39;s 3.5.2 to fix a handful of 3.x bugs!https://t.co/81KCBsmjML
       <guid>https://godot-jp.github.io/news/wgj-2023-03-02/</guid>
       <description>今週（2023年2月23日〜2023年3月2日）のGodot Engineに関するニュースをお届けします。
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル Godot4のawaitを使って複数のシグナルを待つ 📎その他 &amp;#34;Godot 4 Is Here!&amp;#34; を YouTube で見る The long process of waiting for Godot is... over! The open source Godot game engine just released Godot 4! In this video we look at the key new features including SDFGI and Voxel Global Illumination, the new Vulkan Render, the new 2D Tilemap editor, Occlusion culling and much more! The graphics used in this video are part of the current Synty Humble Bundle available here: https://www.</description>
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     
     <item>

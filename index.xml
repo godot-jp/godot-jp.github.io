@@ -6,7 +6,7 @@
     <description>Recent content on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 18 May 2023 15:14:23 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 May 2023 15:13:57 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>当サイトについて</title>
       <link>https://godot-jp.github.io/about/</link>
@@ -151,6 +151,17 @@ Nodeクラスが持つ機能をそのままに、新しいクラスを作るこ�
 関数 func _ready(): pass GDScriptの関数はfuncにスペースを空けて関数名を記述します。
 多くの言語のように{ }でブロックを作るのではなく、:のあとのインデントでブロックを作る構文になります。
 関数にはクラスがもともと持っている組み込み関数と、ユーザーが作る独自関数の２種類があります。</description>
+    </item>
+    
+    <item>
+      <title>Weekly Godot Japan 2023-05-25</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-05-25/</link>
+      <pubDate>Thu, 25 May 2023 15:13:57 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/wgj-2023-05-25/</guid>
+      <description>今週（2023年5月18日〜2023年5月25日）のGodot Engineに関するニュースをお届けします。
+このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     
     <item>

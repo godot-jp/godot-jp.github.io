@@ -6,7 +6,7 @@
     <description>Recent content on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 06 Jul 2023 15:16:24 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jul 2023 15:15:40 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>当サイトについて</title>
       <link>https://godot-jp.github.io/about/</link>
@@ -151,6 +151,19 @@ Nodeクラスが持つ機能をそのままに、新しいクラスを作るこ�
 関数 func _ready(): pass GDScriptの関数はfuncにスペースを空けて関数名を記述します。
 多くの言語のように{ }でブロックを作るのではなく、:のあとのインデントでブロックを作る構文になります。
 関数にはクラスがもともと持っている組み込み関数と、ユーザーが作る独自関数の２種類があります。</description>
+    </item>
+    
+    <item>
+      <title>Weekly Godot Japan 2023-07-13</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-07-13/</link>
+      <pubDate>Thu, 13 Jul 2023 15:15:40 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/wgj-2023-07-13/</guid>
+      <description>今週（2023年7月6日〜2023年7月13日）のGodot Engineに関するニュースをお届けします。
+このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル Navigation got a lot of love in Godot 4.1 with completely reworked obstacle avoidance. Agents can now have priority and push others away. It works great for groups of units or when NPCs need to cross paths.
+Free and open-source feature demos: https://t.co/V6YtWoReWf pic.twitter.com/4UjwQ36jVM
+&amp;mdash; GDQuest (@NathanGDQuest) July 8, 2023 🐦クールなツイート What&amp;#39;s up with that weird Las Vegas Sphere 😭 #GodotEngine https://t.co/DbT2KTxGTw pic.</description>
     </item>
     
     <item>
@@ -367,10 +380,7 @@ Godotクラスリファレンスをまれによく読むので独断と偏見で
       <guid>https://godot-jp.github.io/news/wgj-2023-03-09/</guid>
       <description>今週（2023年3月2日〜2023年3月9日）のGodot Engineに関するニュースをお届けします。
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル Godot初学者向け「await って何や_基本編」 awaitって何や_基本編 Godot3ではyieldでしたが、Godot4よりawaitというしくみに変わりました。 この記事では、await 👮公式 We&amp;#39;ve released #Godot4 a week ago!
-While many are prototyping or starting ambitious projects with it, others are understandably sticking to the proven #GodotEngine 3.x version for their existing projects.
-So here&amp;#39;s 3.5.2 to fix a handful of 3.x bugs!https://t.co/81KCBsmjML
-&amp;mdash; Rémi Verschelde (@Akien) March 8, 2023 🔌ツール・プラグイン paddy-exe/ShaderFunction-Extras: An addon with a lot of helpful functions for Godot 4.</description>
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     
     <item>

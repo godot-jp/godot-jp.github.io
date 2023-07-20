@@ -6,7 +6,21 @@
     <description>Recent content in weekly-godot-japan on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 13 Jul 2023 15:15:40 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/tags/weekly-godot-japan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Jul 2023 15:14:03 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/tags/weekly-godot-japan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weekly Godot Japan 2023-07-20</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-07-20/</link>
+      <pubDate>Thu, 20 Jul 2023 15:14:03 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/wgj-2023-07-20/</guid>
+      <description>今週（2023年7月13日〜2023年7月20日）のGodot Engineに関するニュースをお届けします。
+このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート Conveniently placed crates...#GunmetalGothic #screenshotsaturday #madewithgodot #indiedev pic.twitter.com/xtVebCaeaS
+&amp;mdash; ynoham (@ynoham) July 16, 2023 Love to see Godot strongly growing year over year! All the other technologies appear to be shrinking.. https://t.co/8EwH3P8ACX
+&amp;mdash; Juan Linietsky (@reduzio) July 18, 2023 🔌ツール・プラグイン Terrain3D is a new C++ based GDExtension for #GodotEngine 4.x that adds the much requested Terrain editing tools to the game engine.
+Highly performant, capable and easy to use, if you want to work with Terrain in Godot, check it out!</description>
+    </item>
+    
     <item>
       <title>Weekly Godot Japan 2023-07-13</title>
       <link>https://godot-jp.github.io/news/wgj-2023-07-13/</link>
@@ -221,9 +235,7 @@ Godotクラスリファレンスをまれによく読むので独断と偏見で
       <guid>https://godot-jp.github.io/news/wgj-2023-03-16/</guid>
       <description>今週（2023年3月9日〜2023年3月16日）のGodot Engineに関するニュースをお届けします。
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート 既存の素材を使いまわしてヴァンサバみたいなゲームを #GodotEngine 4.0 でお試し実装中。 pic.twitter.com/1mIUVbnE8L
-&amp;mdash; SparkWingGames（すぱうい） (@sparklewing925) March 15, 2023 Icon.png lore (Loving the new shadows and fog in godot 4 btw!)#GodotEngine #Godot4 pic.twitter.com/wwCzCE8SiZ
-&amp;mdash; losfroger (@losfroger) March 12, 2023 👮公式 Release candidate: Godot 4.0.1 RC 1 Free and open source 2D and 3D game engine 📎その他 &amp;#34;Godot 4 Abandoned Spaceship Demo Scene&amp;#34; を YouTube で見る Open source Godot 4 Demo scene that I made: https://github.</description>
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 👮公式 Release candidate: Godot 4.0.1 RC 1 Free and open source 2D and 3D game engine 📎その他 &amp;#34;Godot 4 Abandoned Spaceship Demo Scene&amp;#34; を YouTube で見る Open source Godot 4 Demo scene that I made: https://github.com/perfoon/Abandoned-Spaceship-Godot-Demo Also, check out my game, BLASTRONAUT: https://store.steampowered.com/app/1392650/BLASTRONAUT/ 🔌ツール・プラグイン GDCastleDB for Godot Engine 4.0 and later GDCastleDB for Godot Engine 4.0 and later A CastleDB loader for Godot Engine 4.</description>
     </item>
     
     <item>

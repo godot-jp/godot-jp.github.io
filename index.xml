@@ -6,7 +6,7 @@
     <description>Recent content on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 20 Jul 2023 15:14:03 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jul 2023 15:13:32 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>当サイトについて</title>
       <link>https://godot-jp.github.io/about/</link>
@@ -151,6 +151,18 @@ Nodeクラスが持つ機能をそのままに、新しいクラスを作るこ�
 関数 func _ready(): pass GDScriptの関数はfuncにスペースを空けて関数名を記述します。
 多くの言語のように{ }でブロックを作るのではなく、:のあとのインデントでブロックを作る構文になります。
 関数にはクラスがもともと持っている組み込み関数と、ユーザーが作る独自関数の２種類があります。</description>
+    </item>
+    
+    <item>
+      <title>Weekly Godot Japan 2023-07-27</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-07-27/</link>
+      <pubDate>Thu, 27 Jul 2023 15:13:32 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/wgj-2023-07-27/</guid>
+      <description>今週（2023年7月20日〜2023年7月27日）のGodot Engineに関するニュースをお届けします。
+このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート アクションゲーム試作をver4.1で作り直した。だいたいやりたいことはできたけど、物理周りとかがもうちょっと安定してから本格的に作り始めよう…。#GodotEngine pic.twitter.com/DZON6EIGd0
+&amp;mdash; ばななはんまー (@VananaHammer) July 26, 2023 🔌ツール・プラグイン D2klaas/Godot-4-VectorFieldNavigation: Vector-Field-Navigation(Pathfinding) for Godot 4 Vector-Field-Navigation(Pathfinding) for Godot 4. Contribute to D2klaas/Godot-4-VectorFieldNavigation development by creating an account on GitHub. Powerd by Raindrop.io</description>
     </item>
     
     <item>
@@ -381,7 +393,7 @@ Godotクラスリファレンスをまれによく読むので独断と偏見で
       <guid>https://godot-jp.github.io/news/wgj-2023-03-16/</guid>
       <description>今週（2023年3月9日〜2023年3月16日）のGodot Engineに関するニュースをお届けします。
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 👮公式 Release candidate: Godot 4.0.1 RC 1 Free and open source 2D and 3D game engine 📎その他 &amp;#34;Godot 4 Abandoned Spaceship Demo Scene&amp;#34; を YouTube で見る Open source Godot 4 Demo scene that I made: https://github.com/perfoon/Abandoned-Spaceship-Godot-Demo Also, check out my game, BLASTRONAUT: https://store.steampowered.com/app/1392650/BLASTRONAUT/ 🔌ツール・プラグイン GDCastleDB for Godot Engine 4.0 and later GDCastleDB for Godot Engine 4.0 and later A CastleDB loader for Godot Engine 4.</description>
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 📎その他 &amp;#34;Godot 4 Abandoned Spaceship Demo Scene&amp;#34; を YouTube で見る Open source Godot 4 Demo scene that I made: https://github.com/perfoon/Abandoned-Spaceship-Godot-Demo Also, check out my game, BLASTRONAUT: https://store.steampowered.com/app/1392650/BLASTRONAUT/ Powerd by Raindrop.io</description>
     </item>
     
     <item>

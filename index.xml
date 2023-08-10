@@ -6,7 +6,7 @@
     <description>Recent content on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 03 Aug 2023 15:13:28 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Aug 2023 15:13:59 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>当サイトについて</title>
       <link>https://godot-jp.github.io/about/</link>
@@ -154,6 +154,17 @@ Nodeクラスが持つ機能をそのままに、新しいクラスを作るこ�
     </item>
     
     <item>
+      <title>Weekly Godot Japan 2023-08-10</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-08-10/</link>
+      <pubDate>Thu, 10 Aug 2023 15:13:59 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/wgj-2023-08-10/</guid>
+      <description>今週（2023年8月3日〜2023年8月10日）のGodot Engineに関するニュースをお届けします。
+このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    
+    <item>
       <title>Weekly Godot Japan 2023-08-03</title>
       <link>https://godot-jp.github.io/news/wgj-2023-08-03/</link>
       <pubDate>Thu, 03 Aug 2023 15:13:28 +0900</pubDate>
@@ -200,7 +211,7 @@ Highly performant, capable and easy to use, if you want to work with Terrain in 
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
 おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル Navigation got a lot of love in Godot 4.1 with completely reworked obstacle avoidance. Agents can now have priority and push others away. It works great for groups of units or when NPCs need to cross paths.
 Free and open-source feature demos: https://t.co/V6YtWoReWf pic.twitter.com/4UjwQ36jVM
-&amp;mdash; GDQuest (@NathanGDQuest) July 8, 2023 🐦クールなツイート What&amp;#39;s up with that weird Las Vegas Sphere 😭 #GodotEngine https://t.co/DbT2KTxGTw pic.</description>
+&amp;mdash; GDQuest 🔜 gamescom (@NathanGDQuest) July 8, 2023 🐦クールなツイート What&amp;#39;s up with that weird Las Vegas Sphere 😭 #GodotEngine https://t.</description>
     </item>
     
     <item>

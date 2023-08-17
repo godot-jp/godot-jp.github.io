@@ -6,7 +6,18 @@
     <description>Recent content in weekly-godot-japan on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 10 Aug 2023 15:13:59 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/tags/weekly-godot-japan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Aug 2023 15:13:11 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/tags/weekly-godot-japan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weekly Godot Japan 2023-08-17</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-08-17/</link>
+      <pubDate>Thu, 17 Aug 2023 15:13:11 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/wgj-2023-08-17/</guid>
+      <description>今週（2023年8月10日〜2023年8月17日）のGodot Engineに関するニュースをお届けします。
+このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🔌ツール・プラグイン dreadpon/godot_spatial_gardener: A Godot plugin for painting plants and props on arbitrary 3D surfaces implemented in GDScript A Godot plugin for painting plants and props on arbitrary 3D surfaces implemented in GDScript - GitHub - dreadpon/godot_spatial_gardener: A Godot plugin for painting plants and props on arbitrary 3... ueshita/ADXLE-GodotPlugin: A plugin of ADX2LE for GodotEngine A plugin of ADX2LE for GodotEngine. Contribute to ueshita/ADXLE-GodotPlugin development by creating an account on GitHub.</description>
+    </item>
+    
     <item>
       <title>Weekly Godot Japan 2023-08-10</title>
       <link>https://godot-jp.github.io/news/wgj-2023-08-10/</link>
@@ -238,11 +249,10 @@ Quite happy with the additions in this release.</description>
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
 おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル 書きました
 Godot4でツクール・ウディタ形式の地形オートタイルつくりかたですhttps://t.co/SGi0gBGIIE
-&amp;mdash; ふぉるた (@Faultun) March 30, 2023 Godot4 で新しくなったタイルマップの基本的な使い方について書きましたhttps://t.co/T7Q1A3YeSn#GodotEngine pic.twitter.com/XfKYUy7PqG
-&amp;mdash; しゅん (@2dgames_jp) March 29, 2023 🐦クールなツイート I finished my VTuber Overlay entirely made in Godot. 💀
+&amp;mdash; ふぉるた (@Faultun) March 30, 2023 🐦クールなツイート I finished my VTuber Overlay entirely made in Godot. 💀
 The model uses Godot&amp;#39;s Skeleton2D system and some fancy shaders and normal maps 🤓. I even got a fun little interactive phone.
 All are customizable to a T 🤩. pic.twitter.com/1wKRVrFGte
-&amp;mdash; byte 🕹️ arcade vtuber (@nme64_u) March 28, 2023 Powerd by Raindrop.</description>
+&amp;mdash; byte 🕹️ arcade vtuber (@nme64_u) March 28, 2023 Powerd by Raindrop.io</description>
     </item>
     
     <item>
@@ -253,12 +263,7 @@ All are customizable to a T 🤩. pic.twitter.com/1wKRVrFGte
       <guid>https://godot-jp.github.io/news/wgj-2023-03-23/</guid>
       <description>今週（2023年3月16日〜2023年3月23日）のGodot Engineに関するニュースをお届けします。
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート このようなものを作っています
-Godotクラスリファレンスをまれによく読むので独断と偏見でまとめてみました。
-ざっくり翻訳かけて、修正したり追記したりタグづけしたりしてる！そのうち公開します
-いい感じにできてきたらWebサイトにしたいな～
-3Dあんまり触ってないのできつー#GodotEngine pic.twitter.com/QTB0GQfHqT
-&amp;mdash; ふぉるた (@Faultun) March 23, 2023 Powerd by Raindrop.io</description>
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     
     <item>
@@ -269,7 +274,7 @@ Godotクラスリファレンスをまれによく読むので独断と偏見で
       <guid>https://godot-jp.github.io/news/wgj-2023-03-16/</guid>
       <description>今週（2023年3月9日〜2023年3月16日）のGodot Engineに関するニュースをお届けします。
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 📎その他 &amp;#34;Godot 4 Abandoned Spaceship Demo Scene&amp;#34; を YouTube で見る Open source Godot 4 Demo scene that I made: https://github.com/perfoon/Abandoned-Spaceship-Godot-Demo Also, check out my game, BLASTRONAUT: https://store.steampowered.com/app/1392650/BLASTRONAUT/ Powerd by Raindrop.io</description>
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     
     <item>

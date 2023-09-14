@@ -6,7 +6,20 @@
     <description>Recent content in weekly-godot-japan on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 07 Sep 2023 15:13:31 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/tags/weekly-godot-japan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Sep 2023 15:14:07 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/tags/weekly-godot-japan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weekly Godot Japan 2023-09-14</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-09-14/</link>
+      <pubDate>Thu, 14 Sep 2023 15:14:07 +0900</pubDate>
+      
+      <guid>https://godot-jp.github.io/news/wgj-2023-09-14/</guid>
+      <description>今週（2023年9月7日〜2023年9月14日）のGodot Engineに関するニュースをお届けします。
+このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🔌ツール・プラグイン 仕切り直してGodot Engine 4.1上でLive2Dを再生するためのGDExtensionを作成しました。まだ幾つか不具合（主に表示の差異）があるのですけどWindows, macOS, Linux向けにビルド可能です。
+Godot EngineのEditorからLive2Dモデルの制御も出来る様になっています。#GodotEngine #Live2D pic.twitter.com/kv5VwUMJJb
+&amp;mdash; 水凪工房 (@MizunagiKB) September 9, 2023 Powerd by Raindrop.io</description>
+    </item>
+    
     <item>
       <title>Weekly Godot Japan 2023-09-07</title>
       <link>https://godot-jp.github.io/news/wgj-2023-09-07/</link>
@@ -109,7 +122,7 @@ Highly performant, capable and easy to use, if you want to work with Terrain in 
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
 おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル Navigation got a lot of love in Godot 4.1 with completely reworked obstacle avoidance. Agents can now have priority and push others away. It works great for groups of units or when NPCs need to cross paths.
 Free and open-source feature demos: https://t.co/V6YtWoReWf pic.twitter.com/4UjwQ36jVM
-&amp;mdash; GDQuest 🔜 gamescom (@NathanGDQuest) July 8, 2023 🐦クールなツイート What&amp;#39;s up with that weird Las Vegas Sphere 😭 #GodotEngine https://t.</description>
+&amp;mdash; GDQuest (@NathanGDQuest) July 8, 2023 🐦クールなツイート What&amp;#39;s up with that weird Las Vegas Sphere 😭 #GodotEngine https://t.co/DbT2KTxGTw pic.</description>
     </item>
     
     <item>
@@ -282,10 +295,7 @@ Quite happy with the additions in this release.</description>
 このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
 おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル 書きました
 Godot4でツクール・ウディタ形式の地形オートタイルつくりかたですhttps://t.co/SGi0gBGIIE
-&amp;mdash; ふぉるた (@Faultun) March 30, 2023 🐦クールなツイート I finished my VTuber Overlay entirely made in Godot. 💀
-The model uses Godot&amp;#39;s Skeleton2D system and some fancy shaders and normal maps 🤓. I even got a fun little interactive phone.
-All are customizable to a T 🤩. pic.twitter.com/1wKRVrFGte
-&amp;mdash; byte 🕹️ arcade vtuber (@nme64_u) March 28, 2023 Powerd by Raindrop.io</description>
+&amp;mdash; ふぉるた (@Faultun) March 30, 2023 Powerd by Raindrop.io</description>
     </item>
     
     <item>

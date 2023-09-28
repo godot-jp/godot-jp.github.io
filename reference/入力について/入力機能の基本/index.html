@@ -229,6 +229,8 @@
                     
                 
                     
+                
+                    
                         
                     
                 
@@ -792,12 +794,12 @@
 <h1 id="基本的な入力の取得方法">基本的な入力の取得方法</h1>
 <p>プロジェクトにアクションマップが登録されたので、実際に入力を処理するサンプルを記載します。</p>
 <h2 id="インプットメソッドで入力を処理する">インプットメソッドで入力を処理する</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> _input(_event):
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> _event<span style="color:#f92672">.</span>is_action_just_pressed(<span style="color:#e6db74">&#34;Jump&#34;</span>):
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">_input</span>(_event):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> _event<span style="color:#f92672">.</span><span style="color:#a6e22e">is_action_just_pressed</span>(<span style="color:#e6db74">&#34;Jump&#34;</span>):
 </span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;ジャンプボタンが押された&#34;</span>)
 </span></span></code></pre></div><h2 id="プロセスメソッドで入力を処理する">プロセスメソッドで入力を処理する</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> _proccess(_delta):
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">Input</span><span style="color:#f92672">.</span>is_action_just_pressed(<span style="color:#e6db74">&#34;Jump&#34;</span>):
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">_proccess</span>(_delta):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">Input</span><span style="color:#f92672">.</span><span style="color:#a6e22e">is_action_just_pressed</span>(<span style="color:#e6db74">&#34;Jump&#34;</span>):
 </span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;ジャンプボタンが押された&#34;</span>)
 </span></span></code></pre></div><h3 id="inputeventの種類">InputEventの種類</h3>
 <table>

@@ -229,6 +229,8 @@ int型の場合、64bitの数値として、-9223372036854775807 〜 92233720" >
                     
                 
                     
+                
+                    
                         
                     
                 
@@ -767,14 +769,14 @@ int型の場合、64bitの数値として、-9223372036854775807 〜 92233720" >
 <h2 id="数値の作成方法">数値の作成方法</h2>
 <p>数値を作成するには数値リテラルを使用します。</p>
 <h3 id="整数の作成">整数の作成</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value0 :<span style="color:#a6e22e">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value1 :<span style="color:#a6e22e">int</span> <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value0 :<span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value1 :<span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># 静的型付け</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value2 <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
 </span></span></code></pre></div><h3 id="実数の作成">実数の作成</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value0 :<span style="color:#a6e22e">float</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.0</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value1 :<span style="color:#a6e22e">float</span> <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1.0</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value0 :<span style="color:#66d9ef">float</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value1 :<span style="color:#66d9ef">float</span> <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1.0</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># 静的型付け</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value2 <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.0</span>
@@ -839,28 +841,28 @@ int型の場合、64bitの数値として、-9223372036854775807 〜 92233720" >
 <p>数値は演算子を使って計算することができます。</p>
 <h2 id="算術演算子">算術演算子</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#75715e"># 加算（足し算）</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value1:<span style="color:#a6e22e">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">2</span> <span style="color:#75715e"># value = 5</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value1:<span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">2</span> <span style="color:#75715e"># value = 5</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># 減算（引き算）</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value2:<span style="color:#a6e22e">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">2</span> <span style="color:#75715e"># value = 1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value2:<span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">2</span> <span style="color:#75715e"># value = 1</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># 乗算（掛け算）</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value2:<span style="color:#a6e22e">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">2</span> <span style="color:#75715e"># value = 6</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value2:<span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">2</span> <span style="color:#75715e"># value = 6</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># 除算（割り算）</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value2:<span style="color:#a6e22e">float</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.0</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">2.0</span> <span style="color:#75715e"># value = 1.5</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value2:<span style="color:#66d9ef">float</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.0</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">2.0</span> <span style="color:#75715e"># value = 1.5</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># 剰余（余り）</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value2:<span style="color:#a6e22e">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#75715e"># value = 1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value2:<span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#75715e"># value = 1</span>
 </span></span></code></pre></div><h2 id="複合代入演算子">複合代入演算子</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value:<span style="color:#a6e22e">float</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.0</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value:<span style="color:#66d9ef">float</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.0</span>
 </span></span><span style="display:flex;"><span>value <span style="color:#f92672">+=</span> <span style="color:#ae81ff">2.0</span> <span style="color:#75715e"># =5.0 加算</span>
 </span></span><span style="display:flex;"><span>value <span style="color:#f92672">-=</span> <span style="color:#ae81ff">2.0</span> <span style="color:#75715e"># =1.0 減算</span>
 </span></span><span style="display:flex;"><span>value <span style="color:#f92672">*=</span> <span style="color:#ae81ff">2.0</span> <span style="color:#75715e"># =6.0 乗算</span>
 </span></span><span style="display:flex;"><span>value <span style="color:#f92672">/=</span> <span style="color:#ae81ff">2.0</span> <span style="color:#75715e"># =1.5 除算</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># 以下はint型のみ</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value:<span style="color:#a6e22e">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value:<span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>
 </span></span><span style="display:flex;"><span>value <span style="color:#f92672">%=</span> <span style="color:#ae81ff">2</span> <span style="color:#75715e"># =1　剰余</span>
 </span></span></code></pre></div>
     </div>

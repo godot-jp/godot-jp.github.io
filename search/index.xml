@@ -5,15 +5,14 @@
     <link>https://godot-jp.github.io/search/</link>
     <description>Recent content in Searches on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language><atom:link href="https://godot-jp.github.io/search/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja-jp</language>
+    <atom:link href="https://godot-jp.github.io/search/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://godot-jp.github.io/search/data.js</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://godot-jp.github.io/search/data.js</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

@@ -6,12 +6,12 @@
     <description>Recent content in GUIについて on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 14 Dec 2022 14:10:24 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Dec 2022 14:10:24 +0900</lastBuildDate>
+    <atom:link href="https://godot-jp.github.io/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Controlノードについて</title>
       <link>https://godot-jp.github.io/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
       <pubDate>Thu, 15 Dec 2022 13:50:29 +0900</pubDate>
-      
       <guid>https://godot-jp.github.io/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
       <description>Godot EngineのControlノードはGUI（グラフィカルユーザーインターフェース）を作成する機能になります。
 もちろん、同じCanvasItemを継承するNode2DでもGUIを作ることは可能ですが、レスポンシブなレイアウト機能や自動的なフォーカス機能などを持っているため、独自のプログラムを組まずともGodot Engineのエディタで簡単にデザインができる事が特徴です。
@@ -40,12 +40,10 @@ var btn:Button = $Button func _ready(): # フォーカスを無効にする btn.
 GDScriptでは以下のようになります。
 var btn:Button = $Button func _ready(): btn.</description>
     </item>
-    
     <item>
       <title>画面レイアウトについて</title>
       <link>https://godot-jp.github.io/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
       <pubDate>Wed, 14 Dec 2022 14:11:39 +0900</pubDate>
-      
       <guid>https://godot-jp.github.io/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
       <description>Containerノードの基本 Container（コンテナ）ノードは、子ノードとしてコンテンツを持つことを前提としたノードです。
 子ノードであるコンテンツを自動的にレイアウトすることを目的とした機能を持っています。
@@ -78,6 +76,5 @@ panelのプロパティを持っていますので、テーマでスタイルを
 親のコンテナであるFlowContainerの幅に応じて、収まりきらないコンテンツは次の行または列にカラム落ちします。
 My PR for implementing FlowContainers(H/V) got merged today! This type of container arranges its child nodes similar to text and autowraps the ones which don&amp;#39;t fit in a line.</description>
     </item>
-    
   </channel>
 </rss>

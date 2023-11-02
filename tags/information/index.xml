@@ -6,12 +6,12 @@
     <description>Recent content in information on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 13 Jan 2023 12:41:16 +0900</lastBuildDate><atom:link href="https://godot-jp.github.io/tags/information/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Jan 2023 12:41:16 +0900</lastBuildDate>
+    <atom:link href="https://godot-jp.github.io/tags/information/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>寄付の開始とコミュニティのロードマップ</title>
       <link>https://godot-jp.github.io/news/news-20230113124107/</link>
       <pubDate>Fri, 13 Jan 2023 12:41:16 +0900</pubDate>
-      
       <guid>https://godot-jp.github.io/news/news-20230113124107/</guid>
       <description>本日からGithub Sponsorsに承認され、寄付が可能になりました。
 これまでもcodocで寄付が可能でしたが、様々な形で貢献をいただけるようになりました。
@@ -32,12 +32,10 @@
 すべて時期は未定ですが、2023年内に開始を目標に活動していきます。
 本コミュニティには、フルタイムの貢献者はいませんので、ぜひ寄付のご検討をお願いいたします🥳</description>
     </item>
-    
     <item>
       <title>週刊Godot Japan！ニュースの自動配信を開始</title>
       <link>https://godot-jp.github.io/news/news-20230111220920/</link>
       <pubDate>Wed, 11 Jan 2023 22:09:30 +0900</pubDate>
-      
       <guid>https://godot-jp.github.io/news/news-20230111220920/</guid>
       <description>Godotユーザーのみなさん、こんにちは。
 2023年1月12日（木）15時頃から毎週更新される Weekly Godot Japan の記事配信が開始されます。
@@ -55,12 +53,10 @@ PCブラウザの拡張機能で簡単にリンクを追加できるだけでな
 それでは、明日からのWeekly Godot Japanをお楽しみください。
 良いGodotライフをお過ごしください🥳</description>
     </item>
-    
     <item>
       <title>Godot Japan User Community リリース</title>
       <link>https://godot-jp.github.io/news/release2023-1-10/</link>
       <pubDate>Thu, 05 Jan 2023 14:08:07 +0900</pubDate>
-      
       <guid>https://godot-jp.github.io/news/release2023-1-10/</guid>
       <description>Godot Japan User Communityの公式サイトをリリースしました。
 サイトの説明については当サイトについてをご覧ください。
@@ -89,6 +85,5 @@ PCブラウザの拡張機能で簡単にリンクを追加できるだけでな
 チュートリアル記事シリーズ Tips＆チュートリアル動画シリーズ Godot Engine用のオープンソースアセット提供 Godot Engine プラグイン提供 本コミュニティ主催ゲームジャム その他イベント さいごに 私はGodot Engineのファンであると同時に、ゲーム開発者を応援しています。
 少しでもゲーム開発の役に立つような情報発信と、サポートができるように活動していきますので、今後ともよろしくおねがいします。</description>
     </item>
-    
   </channel>
 </rss>

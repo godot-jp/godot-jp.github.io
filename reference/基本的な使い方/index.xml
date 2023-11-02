@@ -5,12 +5,12 @@
     <link>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/</link>
     <description>Recent content in 基本的な使い方 on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language><atom:link href="https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja-jp</language>
+    <atom:link href="https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>プロジェクトの作成方法</title>
       <link>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/</link>
       <pubDate>Sat, 10 Dec 2022 19:24:47 +0900</pubDate>
-      
       <guid>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/</guid>
       <description>インストール方法 公式サイトからダウンロード Godot Engineの公式サイトのダウンロードページから安定版をダウンロードします。
 Zipファイルなので任意のパスに解凍し、godot_[バージョン]_stable_win.exeを起動します。
@@ -39,6 +39,5 @@ itch.ioのデスクトップアプリを入れると、最新版の自動ダウ�
 保存したシーンファイル（.tscnファイル）を。ファイルシステムパネルから右クリックします。
 右クリックメニューの中から「メインシーンとして設定」をクリックすると、選んだシーンが最初に実行されるようになります。</description>
     </item>
-    
   </channel>
 </rss>

@@ -6,8 +6,17 @@
     <description>Recent content in weekly-godot-japan on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 09 Nov 2023 15:13:58 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 16 Nov 2023 15:14:56 +0900</lastBuildDate>
     <atom:link href="https://godot-jp.github.io/tags/weekly-godot-japan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weekly Godot Japan 2023-11-16</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-11-16/</link>
+      <pubDate>Thu, 16 Nov 2023 15:14:56 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2023-11-16/</guid>
+      <description>今週（2023年11月9日〜2023年11月16日）のGodot Engineに関するニュースをお届けします。
+このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
+おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
     <item>
       <title>Weekly Godot Japan 2023-11-09</title>
       <link>https://godot-jp.github.io/news/wgj-2023-11-09/</link>

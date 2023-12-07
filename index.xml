@@ -6,760 +6,434 @@
     <description>Recent content on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 30 Nov 2023 15:14:43 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 07 Dec 2023 15:15:01 +0900</lastBuildDate>
     <atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>当サイトについて</title>
       <link>https://godot-jp.github.io/about/</link>
       <pubDate>Tue, 06 Dec 2022 08:38:26 +0900</pubDate>
       <guid>https://godot-jp.github.io/about/</guid>
-      <description>Godot Japan User Communityはオープンソースのコミュニティサイトです。
-本コミュニティは、静的サイトジェネレーター Hugo と Github Pages でホスティングされており、コミュニティメンバー（コントリビューター、メンテナー、コミュニティリーダー）によって本コミュニティの運営を行っています。
-Godot Engine公式のガバナンスに沿ったユーザーコミュニティの一つとしてGodot Engineの認知度の向上・知識の共有を目的としており、金銭的な利益を目的としていません。
-そのため、本サイトは広告・宣伝などの掲載は一切なく、すべてのGodot Engineユーザーのための運営に努めます。
-コミュニティ Github Githubへ オープンソースとして本サイトのソースコードが公開され、どなたでも提案・ディスカッション、そしてプルリクエストで寄稿・参加することができます。 Discordサーバー Discordに参加する テキストチャット・音声通話・ディスカッションボードで日本語を基本として交流しています。2022年現在、参加者は400名を超え、初心者から上級者・Godot Engineのコントリビューターも含め様々なメンバーが参加しています。 寄付について 本コミュニティは貢献者の自由な時間とコミュニティからの寄付によって維持されています。
-寄付は以下の目的のために使用されます。
-Webサイトのホスティングおよび関連サービスへの支払い 各コミュニティサービスへの支払い いくつかの業界イベントへの参加費および旅費 Github Sponsorsでサポートする codocでサポートする 免責事項・ライセンスについて 本コミュニティは個人が集まったGodot Engineの日本のユーザーコミュニティであり、Godot Engineプロジェクトおよび本家のコミュニティに直接的な関係はありません。
-本サイトに掲載されている情報は、実際にGodot Engineのユーザーであるコントリビューター・メンテナーおよびコミュニティリーダーからの寄稿に対し、コミュニティ全体でレビューを行い、MITライセンスとして公開しています。
-ただし、Godot Engineのバージョンと記事の内容の齟齬が発生する場合もありますので、動作を保証するものではないことをご注意ください。
-本サイトに掲載されている情報・デザイン・アセットなど（以下、ソフトウェア）のライセンスは一部を除きMITライセンスのもと公開されています。
-複製の利用・配布・改変・商用利用など、どなたでも自由にお使い頂くことができます。
-以下のライセンスの全文を、ソースコードやソースコードに同梱したライセンス表示用の別ファイルなどに掲載してください。
-ライセンス全文 Copyright (c) 2022 Godot Japan User Community Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;#34;Software&amp;#34;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</description>
+      <description>Godot Japan User Communityはオープンソースのコミュニティサイトです。&#xA;本コミュニティは、静的サイトジェネレーター Hugo と Github Pages でホスティングされており、コミュニティメンバー（コントリビューター、メンテナー、コミュニティリーダー）によって本コミュニティの運営を行っています。&#xA;Godot Engine公式のガバナンスに沿ったユーザーコミュニティの一つとしてGodot Engineの認知度の向上・知識の共有を目的としており、金銭的な利益を目的としていません。&#xA;そのため、本サイトは広告・宣伝などの掲載は一切なく、すべてのGodot Engineユーザーのための運営に努めます。&#xA;コミュニティ Github Githubへ オープンソースとして本サイトのソースコードが公開され、どなたでも提案・ディスカッション、そしてプルリクエストで寄稿・参加することができます。 Discordサーバー Discordに参加する テキストチャット・音声通話・ディスカッションボードで日本語を基本として交流しています。2022年現在、参加者は400名を超え、初心者から上級者・Godot Engineのコントリビューターも含め様々なメンバーが参加しています。 寄付について 本コミュニティは貢献者の自由な時間とコミュニティからの寄付によって維持されています。&#xA;寄付は以下の目的のために使用されます。&#xA;Webサイトのホスティングおよび関連サービスへの支払い 各コミュニティサービスへの支払い いくつかの業界イベントへの参加費および旅費 Github Sponsorsでサポートする codocでサポートする 免責事項・ライセンスについて 本コミュニティは個人が集まったGodot Engineの日本のユーザーコミュニティであり、Godot Engineプロジェクトおよび本家のコミュニティに直接的な関係はありません。&#xA;本サイトに掲載されている情報は、実際にGodot Engineのユーザーであるコントリビューター・メンテナーおよびコミュニティリーダーからの寄稿に対し、コミュニティ全体でレビューを行い、MITライセンスとして公開しています。&#xA;ただし、Godot Engineのバージョンと記事の内容の齟齬が発生する場合もありますので、動作を保証するものではないことをご注意ください。&#xA;本サイトに掲載されている情報・デザイン・アセットなど（以下、ソフトウェア）のライセンスは一部を除きMITライセンスのもと公開されています。&#xA;複製の利用・配布・改変・商用利用など、どなたでも自由にお使い頂くことができます。&#xA;以下のライセンスの全文を、ソースコードやソースコードに同梱したライセンス表示用の別ファイルなどに掲載してください。&#xA;ライセンス全文 Copyright (c) 2022 Godot Japan User Community Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;#34;Software&amp;#34;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</description>
     </item>
     <item>
       <title>Godot Engineについて</title>
       <link>https://godot-jp.github.io/feature/</link>
       <pubDate>Thu, 05 Jan 2023 12:01:20 +0900</pubDate>
       <guid>https://godot-jp.github.io/feature/</guid>
-      <description>Godot Engineは、オープンソースのマルチプラットフォーム向けのWindows・Mac・Linuxで動作するゲームエンジンです。
-エンジン自体のファイルサイズも動作も非常に軽く、ある程度低いスペックであってもプロジェクトを開始することができます。
-バージョン管理ツールにも対応しやすく、プロジェクトファイルはシンプルなアスキーファイルで構成されており、差分の管理がしやすいのも特徴です。
-C++で書かれたエンジンそのものを改変することも可能ですが、GDExtensionやアドオンを自作してプロジェクトに読み込むことで、エンジンを拡張することも可能です。
-2Dでは、タイルマップやボーンアニメーションや2Dライトや拡張性の高いカメラなどが用意されており、プロトタイプの開発速度に驚くかもしれません。
-3Dでは、Vulkan1を使用し美しい表現が可能になり、物理エンジンで物理計算に基づいた物体の動きを再現することも可能です。
-どなたでも簡単に始めることができ、エディタの言語の多くの部分が日本語に翻訳されています。
-当サイトの活用方法 Godot Engineはもともと英語で開発されており、多言語化されたことで日本でのシェアを伸ばしてきました。
-しかし、2022年現在では日本のユーザーはまだまだ少ないため、他のゲームエンジンに比べると日本語の情報が少ないのが課題と言えます。
-当サイトはGodot Engineに関するナレッジベースとして、日本語の情報を取り扱うポータルサイトを目指しています。
-オープンソースなサイトとすることで、情報をどなたでも更新できるように運営しています。
-Vulkanのレンダリングエンジンを使用できるのはGodot Engine4.0からです。&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+      <description>Godot Engineは、オープンソースのマルチプラットフォーム向けのWindows・Mac・Linuxで動作するゲームエンジンです。&#xA;エンジン自体のファイルサイズも動作も非常に軽く、ある程度低いスペックであってもプロジェクトを開始することができます。&#xA;バージョン管理ツールにも対応しやすく、プロジェクトファイルはシンプルなアスキーファイルで構成されており、差分の管理がしやすいのも特徴です。&#xA;C++で書かれたエンジンそのものを改変することも可能ですが、GDExtensionやアドオンを自作してプロジェクトに読み込むことで、エンジンを拡張することも可能です。&#xA;2Dでは、タイルマップやボーンアニメーションや2Dライトや拡張性の高いカメラなどが用意されており、プロトタイプの開発速度に驚くかもしれません。&#xA;3Dでは、Vulkan1を使用し美しい表現が可能になり、物理エンジンで物理計算に基づいた物体の動きを再現することも可能です。&#xA;どなたでも簡単に始めることができ、エディタの言語の多くの部分が日本語に翻訳されています。&#xA;当サイトの活用方法 Godot Engineはもともと英語で開発されており、多言語化されたことで日本でのシェアを伸ばしてきました。&#xA;しかし、2022年現在では日本のユーザーはまだまだ少ないため、他のゲームエンジンに比べると日本語の情報が少ないのが課題と言えます。&#xA;当サイトはGodot Engineに関するナレッジベースとして、日本語の情報を取り扱うポータルサイトを目指しています。&#xA;オープンソースなサイトとすることで、情報をどなたでも更新できるように運営しています。&#xA;Vulkanのレンダリングエンジンを使用できるのはGodot Engine4.0からです。&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     <item>
       <title>ゲームで表示する文字列</title>
       <link>https://godot-jp.github.io/reference/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E9%96%A2%E9%80%A3/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A7%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97/</link>
       <pubDate>Mon, 16 Jan 2023 21:52:10 +0900</pubDate>
       <guid>https://godot-jp.github.io/reference/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E9%96%A2%E9%80%A3/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A7%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97/</guid>
-      <description>特定の文字を置き換える ゲームの中で特定の文字を置き換えたいときがあります。
-例えば、入力されたプレイヤーの名前を置き換える場合などが当てはまります。
-replace関数 var message:String = &amp;#34;むかしむかし、@playerは鬼退治に行きました&amp;#34; var player_name:String = &amp;#34;桃太郎&amp;#34; func _ready(): var result:String = message.replace(&amp;#34;@player&amp;#34;, player_name) print(result) #むかしむかし、桃太郎は鬼退治に行きました format関数 var message:String = &amp;#34;むかしむかし、{player}は鬼退治に行きました&amp;#34; var player_name:String = &amp;#34;桃太郎&amp;#34; func _ready(): var result:String = message.format({&amp;#34;player&amp;#34;: player_name}) print(result) #むかしむかし、桃太郎は鬼退治に行きました replaceとformatの違い replaceは指定した文字列と一致するすべての文字を置換します。
-仮に文中に偶然同じ文字列が出てきたとしても、機械的に置換します。
-formatよりもreplaceの指定方法の方が単純なので手軽に使用することができますが、今回のケースのようにプレイヤー名を置換するだけの場合はformatの方が確実に置換することができます。
-使用するケースによって使い分けるのが良いかと思います。
-また、フォーマットを設定する（簡易版）で置換することも可能ですが、%sの数と配列の順番を揃える必要があり、実装で混乱しやすいため、上記いずれかの方法を取ることをお勧めします。
-1文字ずつ表示する 画面に表示する場合はLabelクラスを使用します。
-メッセージウィンドウなどで1文字ずつ順番に表示したい場合があります。
-Labelクラスのvisible_ratio変数の値を変更することで簡単に実装することができます。
-Labelクラスのvisible_ratioの値を変更 onready var label = $Label func _ready: label.text = &amp;#34;むかしむかし、浦島はたすけた亀に連れられて&amp;#34; label.visible_ratio = 0.5 #むかしむかし、浦島は LabelおよびRichTextLabelクラスには、割合でテキストを表示する機能が備わっています。
-awaitを使用する場合 onready var label = $Label var duration:float = 0.</description>
+      <description>特定の文字を置き換える ゲームの中で特定の文字を置き換えたいときがあります。&#xA;例えば、入力されたプレイヤーの名前を置き換える場合などが当てはまります。&#xA;replace関数 var message:String = &amp;#34;むかしむかし、@playerは鬼退治に行きました&amp;#34; var player_name:String = &amp;#34;桃太郎&amp;#34; func _ready(): var result:String = message.replace(&amp;#34;@player&amp;#34;, player_name) print(result) #むかしむかし、桃太郎は鬼退治に行きました format関数 var message:String = &amp;#34;むかしむかし、{player}は鬼退治に行きました&amp;#34; var player_name:String = &amp;#34;桃太郎&amp;#34; func _ready(): var result:String = message.format({&amp;#34;player&amp;#34;: player_name}) print(result) #むかしむかし、桃太郎は鬼退治に行きました replaceとformatの違い replaceは指定した文字列と一致するすべての文字を置換します。&#xA;仮に文中に偶然同じ文字列が出てきたとしても、機械的に置換します。&#xA;formatよりもreplaceの指定方法の方が単純なので手軽に使用することができますが、今回のケースのようにプレイヤー名を置換するだけの場合はformatの方が確実に置換することができます。&#xA;使用するケースによって使い分けるのが良いかと思います。&#xA;また、フォーマットを設定する（簡易版）で置換することも可能ですが、%sの数と配列の順番を揃える必要があり、実装で混乱しやすいため、上記いずれかの方法を取ることをお勧めします。&#xA;1文字ずつ表示する 画面に表示する場合はLabelクラスを使用します。&#xA;メッセージウィンドウなどで1文字ずつ順番に表示したい場合があります。&#xA;Labelクラスのvisible_ratio変数の値を変更することで簡単に実装することができます。&#xA;Labelクラスのvisible_ratioの値を変更 onready var label = $Label func _ready: label.text = &amp;#34;むかしむかし、浦島はたすけた亀に連れられて&amp;#34; label.visible_ratio = 0.5 #むかしむかし、浦島は LabelおよびRichTextLabelクラスには、割合でテキストを表示する機能が備わっています。&#xA;awaitを使用する場合 onready var label = $Label var duration:float = 0.</description>
     </item>
     <item>
       <title>Controlノードについて</title>
       <link>https://godot-jp.github.io/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
       <pubDate>Thu, 15 Dec 2022 13:50:29 +0900</pubDate>
       <guid>https://godot-jp.github.io/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/control%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
-      <description>Godot EngineのControlノードはGUI（グラフィカルユーザーインターフェース）を作成する機能になります。
-もちろん、同じCanvasItemを継承するNode2DでもGUIを作ることは可能ですが、レスポンシブなレイアウト機能や自動的なフォーカス機能などを持っているため、独自のプログラムを組まずともGodot Engineのエディタで簡単にデザインができる事が特徴です。
-また、翻訳を設定していると自動的にノードに含まれたテキストを翻訳したり、テーマを設定することができます。
-概念 基点とアンカー まず、アンカーとは、画面または親のControlノードの基準となる位置です。
-アンカーには、上下左右の4点の設定があり、これらはあくまでも相対的な割合になります。
-例えば、左上にアンカーがある場合は、画面（または親のControlノード）の左上から0の相対的な位置を示します。
-上記の例で言うと、Left：0, Top：0と共にRight：0, Bottom：0になっているのがわかります。
-それぞれ、0~1の間で、画面または親のControlノードの左上を基準とした位置の割合になります。
-つまり、Left:0, Top:0, Right:1, Bottom:1は画面全体となります。
-アンカーの設定方法 Godot Engine 4.0からアンカーは自動的に設定しやすくなりました。
-Controlノードを選択して、エディタビューポートの上部のメニューから、アンカーの設定をワンクリックで設定できるようになっています。
-細かな調整をする場合は、前項までの設定を個別にする必要がありますが、多くの場合はプリセットで対応可能かと思います。
-機能 翻訳 ! 翻訳については別ページで詳しく説明しますが、この項目ではControlノードが持つ翻訳についての機能のみを取り上げます。 Controlノードを継承するノードすべてに翻訳するかどうかのプロパティが設定されています（デフォルトはauto_translate: true）
-例えば、ButtonやLabelなどのテキストが表示されているノードの文字を翻訳するかどうかのプロパティになります。
-翻訳データが無い場合は、デフォルトの言語が使われるため、基本的には意識しなくても問題ありません。
-ただし翻訳データが存在している場合、ノードに使用されている文言を翻訳すると自動的に置き換わりますので、翻訳キーには注意が必要です。
-フォーカス Controlノードは、tabキーや上下左右キー（対応するゲームパッドの方向キーなど）を押した際に自動的にフォーカスする機能を持っています。
-例えば、複数のボタンを方向キーで選択することができます。
-ただし、画面上のフォーカスができるすべてのノードを自動的に選んで選択するため、画面レイアウトによっては明示的にフォーカス機能を一時的にオフにする などの対応が必要になります。
-var btn:Button = $Button func _ready(): # フォーカスを無効にする btn.focus_mode = Control.FOCUS_NONE # フォーカスを有効にする btn.focus_mode = Control.FOCUS_ALL # マウスクリックのみのフォーカスを受け付ける btn.focus_mode = Control.FOCUS_CLICK マウスクリック制限とスルー Controlノードはレイアウトとして複数重なる事が多く起こります。
-例えば、ボタンとウィンドウはどちらもControlノードで重なっていることが多いですし、さらにそのウィンドウのうらには別のウィンドウが表示されている場合もあります。
-こういった場合に、ボタンをクリックすると、後ろにあるボタンも反応してしまう または、あえて反応させたい というシチュエーションがあります。
-これらの挙動もいくつかのプロパティが用意されています。
-クリックの深さ ControlノードのインスペクタからMouseセクションのFilterに設定があります。
-GDScriptでは以下のようになります。
-var btn:Button = $Button func _ready(): btn.</description>
+      <description>Godot EngineのControlノードはGUI（グラフィカルユーザーインターフェース）を作成する機能になります。&#xA;もちろん、同じCanvasItemを継承するNode2DでもGUIを作ることは可能ですが、レスポンシブなレイアウト機能や自動的なフォーカス機能などを持っているため、独自のプログラムを組まずともGodot Engineのエディタで簡単にデザインができる事が特徴です。&#xA;また、翻訳を設定していると自動的にノードに含まれたテキストを翻訳したり、テーマを設定することができます。&#xA;概念 基点とアンカー まず、アンカーとは、画面または親のControlノードの基準となる位置です。&#xA;アンカーには、上下左右の4点の設定があり、これらはあくまでも相対的な割合になります。&#xA;例えば、左上にアンカーがある場合は、画面（または親のControlノード）の左上から0の相対的な位置を示します。&#xA;上記の例で言うと、Left：0, Top：0と共にRight：0, Bottom：0になっているのがわかります。&#xA;それぞれ、0~1の間で、画面または親のControlノードの左上を基準とした位置の割合になります。&#xA;つまり、Left:0, Top:0, Right:1, Bottom:1は画面全体となります。&#xA;アンカーの設定方法 Godot Engine 4.0からアンカーは自動的に設定しやすくなりました。&#xA;Controlノードを選択して、エディタビューポートの上部のメニューから、アンカーの設定をワンクリックで設定できるようになっています。&#xA;細かな調整をする場合は、前項までの設定を個別にする必要がありますが、多くの場合はプリセットで対応可能かと思います。&#xA;機能 翻訳 ! 翻訳については別ページで詳しく説明しますが、この項目ではControlノードが持つ翻訳についての機能のみを取り上げます。 Controlノードを継承するノードすべてに翻訳するかどうかのプロパティが設定されています（デフォルトはauto_translate: true）&#xA;例えば、ButtonやLabelなどのテキストが表示されているノードの文字を翻訳するかどうかのプロパティになります。&#xA;翻訳データが無い場合は、デフォルトの言語が使われるため、基本的には意識しなくても問題ありません。&#xA;ただし翻訳データが存在している場合、ノードに使用されている文言を翻訳すると自動的に置き換わりますので、翻訳キーには注意が必要です。&#xA;フォーカス Controlノードは、tabキーや上下左右キー（対応するゲームパッドの方向キーなど）を押した際に自動的にフォーカスする機能を持っています。&#xA;例えば、複数のボタンを方向キーで選択することができます。&#xA;ただし、画面上のフォーカスができるすべてのノードを自動的に選んで選択するため、画面レイアウトによっては明示的にフォーカス機能を一時的にオフにする などの対応が必要になります。&#xA;var btn:Button = $Button func _ready(): # フォーカスを無効にする btn.focus_mode = Control.FOCUS_NONE # フォーカスを有効にする btn.focus_mode = Control.FOCUS_ALL # マウスクリックのみのフォーカスを受け付ける btn.focus_mode = Control.FOCUS_CLICK マウスクリック制限とスルー Controlノードはレイアウトとして複数重なる事が多く起こります。&#xA;例えば、ボタンとウィンドウはどちらもControlノードで重なっていることが多いですし、さらにそのウィンドウのうらには別のウィンドウが表示されている場合もあります。&#xA;こういった場合に、ボタンをクリックすると、後ろにあるボタンも反応してしまう または、あえて反応させたい というシチュエーションがあります。&#xA;これらの挙動もいくつかのプロパティが用意されています。&#xA;クリックの深さ ControlノードのインスペクタからMouseセクションのFilterに設定があります。&#xA;GDScriptでは以下のようになります。&#xA;var btn:Button = $Button func _ready(): btn.</description>
     </item>
     <item>
       <title>入力機能について</title>
       <link>https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/</link>
       <pubDate>Sat, 10 Dec 2022 19:15:41 +0900</pubDate>
       <guid>https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/</guid>
-      <description>プロジェクトの入力マップ設定 Godot Engineはインプットマップとしてプロジェクト毎に入力の管理ができます。
-インプットマップは、アクション名を設定し、そのアクションに、どの入力を割り当てるかという考え方になります。
-デバイスからの入力を設定する プロジェクト設定からインプットマップタブを開きます。
-デフォルトで設定されているアクションは非表示になっています。
-アクション名の設定 インプットマップタブの上部にあるテキストボックスに、アクション名を入力して「追加」ボタンを押します。
-今回はJumpと入力しました。
-アクション（Action）のリストの中に、作成したJumpが登録されます。
-アクションに入力を設定する 設定したアクションの項目の右側の「＋」ボタンを押します。
-キーを設定するEvent Configurationウィンドウがポップアップします。
-このウィンドウが開いた状態で、キーボードのキーやゲームパッドのボタンを押すと自動的に入力されます。
-ウィンドウ中央のリストから、マウス・キーボード・ゲームパッドなどのボタンを選択することも可能です。
-例えば、マウスはこのウィンドウの設定に使用するため、自動での入力は反応しないため、リストから選択する必要があります。
-開発段階でゲームパッドがつながっていなくても、リストから選択することで設定自体は可能です。
-一つのアクションに対して複数の入力を割り当てる事が可能なため、キーボードとゲームパッドの両方で対応する場合も、アクション名を参照することで、設定されたすべての入力の状態を調べることができます。
-すべてのアクションの登録が終わったら、プロジェクト設定ウィンドウを閉じます。
-デッドゾーンについて キーボードやマウスと異なり、ゲームパッドはスティックのアナログ入力があります。
-アナログ入力の利点は、スティックを倒す量を0.0~1.0の値で表現し、操作性が柔軟になることです。
-欠点は、デッドゾーンを設定しない場合、スティックの値が安定しないことです。
-これは物理的なスティックの倒す量を取っている事から、ブレが発生するためです。
-例えばデッドゾーンを0.2に設定すると、0.2未満の値はすべて0とみなされます。
-これにより、不安定なアナログ入力のブレを制限することができます。
-基本的な入力の取得方法 プロジェクトにアクションマップが登録されたので、実際に入力を処理するサンプルを記載します。
-インプットメソッドで入力を処理する func _input(_event): if _event.is_action_just_pressed(&amp;#34;Jump&amp;#34;): print(&amp;#34;ジャンプボタンが押された&amp;#34;) プロセスメソッドで入力を処理する func _proccess(_delta): if Input.is_action_just_pressed(&amp;#34;Jump&amp;#34;): print(&amp;#34;ジャンプボタンが押された&amp;#34;) InputEventの種類 イベント名 型インデックス 説明 InputEvent NONE 空の入力イベント InputEventKey KEY スキャンコードとUnicodeの値、および修飾子が含まれています。 InputEventMouseButton MOUSE_BUTTON ボタン、モディファイヤなどのクリック情報が含まれます。 InputEventMouseMotion MOUSE_MOTION 相対位置、絶対位置、速度などのモーション情報が含まれます。 InputEventJoypadMotion JOYSTICK_MOTION ジョイスティック/ジョイパッドのアナログ軸情報が含まれています。 InputEventJoypadButton JOYSTICK_BUTTON ジョイスティック/ジョイパッドのボタン情報が含まれます。 InputEventScreenTouch SCREEN_TOUCH マルチタッチのプレス/リリース情報が含まれています。(モバイルデバイスでのみ使用可能) InputEventScreenDrag SCREEN_DRAG マルチタッチドラッグ情報が含まれています。(モバイルデバイスでのみ使用可能) InputEventScreenAction SCREEN_ACTION 汎用アクションが含まれています。これらのイベントは多くの場合、フィードバックとしてプログラマーによって生成されます。(詳細は以下) </description>
+      <description>プロジェクトの入力マップ設定 Godot Engineはインプットマップとしてプロジェクト毎に入力の管理ができます。&#xA;インプットマップは、アクション名を設定し、そのアクションに、どの入力を割り当てるかという考え方になります。&#xA;デバイスからの入力を設定する プロジェクト設定からインプットマップタブを開きます。&#xA;デフォルトで設定されているアクションは非表示になっています。&#xA;アクション名の設定 インプットマップタブの上部にあるテキストボックスに、アクション名を入力して「追加」ボタンを押します。&#xA;今回はJumpと入力しました。&#xA;アクション（Action）のリストの中に、作成したJumpが登録されます。&#xA;アクションに入力を設定する 設定したアクションの項目の右側の「＋」ボタンを押します。&#xA;キーを設定するEvent Configurationウィンドウがポップアップします。&#xA;このウィンドウが開いた状態で、キーボードのキーやゲームパッドのボタンを押すと自動的に入力されます。&#xA;ウィンドウ中央のリストから、マウス・キーボード・ゲームパッドなどのボタンを選択することも可能です。&#xA;例えば、マウスはこのウィンドウの設定に使用するため、自動での入力は反応しないため、リストから選択する必要があります。&#xA;開発段階でゲームパッドがつながっていなくても、リストから選択することで設定自体は可能です。&#xA;一つのアクションに対して複数の入力を割り当てる事が可能なため、キーボードとゲームパッドの両方で対応する場合も、アクション名を参照することで、設定されたすべての入力の状態を調べることができます。&#xA;すべてのアクションの登録が終わったら、プロジェクト設定ウィンドウを閉じます。&#xA;デッドゾーンについて キーボードやマウスと異なり、ゲームパッドはスティックのアナログ入力があります。&#xA;アナログ入力の利点は、スティックを倒す量を0.0~1.0の値で表現し、操作性が柔軟になることです。&#xA;欠点は、デッドゾーンを設定しない場合、スティックの値が安定しないことです。&#xA;これは物理的なスティックの倒す量を取っている事から、ブレが発生するためです。&#xA;例えばデッドゾーンを0.2に設定すると、0.2未満の値はすべて0とみなされます。&#xA;これにより、不安定なアナログ入力のブレを制限することができます。&#xA;基本的な入力の取得方法 プロジェクトにアクションマップが登録されたので、実際に入力を処理するサンプルを記載します。&#xA;インプットメソッドで入力を処理する func _input(_event): if _event.is_action_just_pressed(&amp;#34;Jump&amp;#34;): print(&amp;#34;ジャンプボタンが押された&amp;#34;) プロセスメソッドで入力を処理する func _proccess(_delta): if Input.is_action_just_pressed(&amp;#34;Jump&amp;#34;): print(&amp;#34;ジャンプボタンが押された&amp;#34;) InputEventの種類 イベント名 型インデックス 説明 InputEvent NONE 空の入力イベント InputEventKey KEY スキャンコードとUnicodeの値、および修飾子が含まれています。 InputEventMouseButton MOUSE_BUTTON ボタン、モディファイヤなどのクリック情報が含まれます。 InputEventMouseMotion MOUSE_MOTION 相対位置、絶対位置、速度などのモーション情報が含まれます。 InputEventJoypadMotion JOYSTICK_MOTION ジョイスティック/ジョイパッドのアナログ軸情報が含まれています。 InputEventJoypadButton JOYSTICK_BUTTON ジョイスティック/ジョイパッドのボタン情報が含まれます。 InputEventScreenTouch SCREEN_TOUCH マルチタッチのプレス/リリース情報が含まれています。(モバイルデバイスでのみ使用可能) InputEventScreenDrag SCREEN_DRAG マルチタッチドラッグ情報が含まれています。(モバイルデバイスでのみ使用可能) InputEventScreenAction SCREEN_ACTION 汎用アクションが含まれています。これらのイベントは多くの場合、フィードバックとしてプログラマーによって生成されます。(詳細は以下) </description>
     </item>
     <item>
       <title>GDScriptの基本</title>
       <link>https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/</guid>
-      <description>Godot Engineの組み込みスクリプト言語であるGDScriptの基本的な使い方について記載します。
-基本的な記述方法 extends Node var int_sanple = 0 var text_sample = &amp;#34;文字列&amp;#34; var int_sample2 :int = 1 func _ready(): pass GDSCriptは、大まかに３種類の要素で読み書きすることができます。
-上記のサンプルを１行ずつ解説します。
-クラスの拡張 extends Node extends NodeはNodeというクラスの拡張という意味です。
-Nodeクラスが持つ機能をそのままに、新しいクラスを作ることになります。
-変数 var int_sample = 0 var text_sample = &amp;#34;文字列&amp;#34; GDScriptは静的型付けの機能を持っています。
-多くの言語は型を明示的に指定する必要がありますが、GDScriptは自動的に型を割り付けます。
-これによりユーザーは型をあまり意識せずにプログラムを書くことができます。
-明示的な型付け var int_sample2 :int = 1 型を意識したい場合もありますので、上記のように明示的に型を指定することもできます。
-関数 func _ready(): pass GDScriptの関数はfuncにスペースを空けて関数名を記述します。
-多くの言語のように{ }でブロックを作るのではなく、:のあとのインデントでブロックを作る構文になります。
-関数にはクラスがもともと持っている組み込み関数と、ユーザーが作る独自関数の２種類があります。</description>
+      <description>Godot Engineの組み込みスクリプト言語であるGDScriptの基本的な使い方について記載します。&#xA;基本的な記述方法 extends Node var int_sanple = 0 var text_sample = &amp;#34;文字列&amp;#34; var int_sample2 :int = 1 func _ready(): pass GDSCriptは、大まかに３種類の要素で読み書きすることができます。&#xA;上記のサンプルを１行ずつ解説します。&#xA;クラスの拡張 extends Node extends NodeはNodeというクラスの拡張という意味です。&#xA;Nodeクラスが持つ機能をそのままに、新しいクラスを作ることになります。&#xA;変数 var int_sample = 0 var text_sample = &amp;#34;文字列&amp;#34; GDScriptは静的型付けの機能を持っています。&#xA;多くの言語は型を明示的に指定する必要がありますが、GDScriptは自動的に型を割り付けます。&#xA;これによりユーザーは型をあまり意識せずにプログラムを書くことができます。&#xA;明示的な型付け var int_sample2 :int = 1 型を意識したい場合もありますので、上記のように明示的に型を指定することもできます。&#xA;関数 func _ready(): pass GDScriptの関数はfuncにスペースを空けて関数名を記述します。&#xA;多くの言語のように{ }でブロックを作るのではなく、:のあとのインデントでブロックを作る構文になります。&#xA;関数にはクラスがもともと持っている組み込み関数と、ユーザーが作る独自関数の２種類があります。</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2023-12-07</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-12-07/</link>
+      <pubDate>Thu, 07 Dec 2023 15:15:01 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2023-12-07/</guid>
+      <description>今週（2023年11月30日〜2023年12月7日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-11-30</title>
       <link>https://godot-jp.github.io/news/wgj-2023-11-30/</link>
       <pubDate>Thu, 30 Nov 2023 15:14:43 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-11-30/</guid>
-      <description>今週（2023年11月23日〜2023年11月30日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年11月23日〜2023年11月30日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-11-23</title>
       <link>https://godot-jp.github.io/news/wgj-2023-11-23/</link>
       <pubDate>Thu, 23 Nov 2023 15:14:36 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-11-23/</guid>
-      <description>今週（2023年11月16日〜2023年11月23日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年11月16日〜2023年11月23日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-11-16</title>
       <link>https://godot-jp.github.io/news/wgj-2023-11-16/</link>
       <pubDate>Thu, 16 Nov 2023 15:14:56 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-11-16/</guid>
-      <description>今週（2023年11月9日〜2023年11月16日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年11月9日〜2023年11月16日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-11-09</title>
       <link>https://godot-jp.github.io/news/wgj-2023-11-09/</link>
       <pubDate>Thu, 09 Nov 2023 15:13:58 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-11-09/</guid>
-      <description>今週（2023年11月2日〜2023年11月9日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年11月2日〜2023年11月9日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-11-02</title>
       <link>https://godot-jp.github.io/news/wgj-2023-11-02/</link>
       <pubDate>Thu, 02 Nov 2023 15:13:50 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-11-02/</guid>
-      <description>今週（2023年10月26日〜2023年11月2日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年10月26日〜2023年11月2日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-10-26</title>
       <link>https://godot-jp.github.io/news/wgj-2023-10-26/</link>
       <pubDate>Thu, 26 Oct 2023 15:14:04 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-10-26/</guid>
-      <description>今週（2023年10月19日〜2023年10月26日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年10月19日〜2023年10月26日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-10-19</title>
       <link>https://godot-jp.github.io/news/wgj-2023-10-19/</link>
       <pubDate>Thu, 19 Oct 2023 15:14:30 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-10-19/</guid>
-      <description>今週（2023年10月12日〜2023年10月19日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年10月12日〜2023年10月19日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-10-12</title>
       <link>https://godot-jp.github.io/news/wgj-2023-10-12/</link>
       <pubDate>Thu, 12 Oct 2023 15:14:24 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-10-12/</guid>
-      <description>今週（2023年10月5日〜2023年10月12日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年10月5日〜2023年10月12日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-10-05</title>
       <link>https://godot-jp.github.io/news/wgj-2023-10-05/</link>
       <pubDate>Thu, 05 Oct 2023 15:14:30 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-10-05/</guid>
-      <description>今週（2023年9月28日〜2023年10月5日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年9月28日〜2023年10月5日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-09-28</title>
       <link>https://godot-jp.github.io/news/wgj-2023-09-28/</link>
       <pubDate>Thu, 28 Sep 2023 15:14:07 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-09-28/</guid>
-      <description>今週（2023年9月21日〜2023年9月28日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年9月21日〜2023年9月28日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-09-21</title>
       <link>https://godot-jp.github.io/news/wgj-2023-09-21/</link>
       <pubDate>Thu, 21 Sep 2023 15:14:01 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-09-21/</guid>
-      <description>今週（2023年9月14日〜2023年9月21日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年9月14日〜2023年9月21日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-09-14</title>
       <link>https://godot-jp.github.io/news/wgj-2023-09-14/</link>
       <pubDate>Thu, 14 Sep 2023 15:14:07 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-09-14/</guid>
-      <description>今週（2023年9月7日〜2023年9月14日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🔌ツール・プラグイン 仕切り直してGodot Engine 4.1上でLive2Dを再生するためのGDExtensionを作成しました。まだ幾つか不具合（主に表示の差異）があるのですけどWindows, macOS, Linux向けにビルド可能です。
-Godot EngineのEditorからLive2Dモデルの制御も出来る様になっています。#GodotEngine #Live2D pic.twitter.com/kv5VwUMJJb
-&amp;mdash; 水凪工房 (@MizunagiKB) September 9, 2023 Powerd by Raindrop.io</description>
+      <description>今週（2023年9月7日〜2023年9月14日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🔌ツール・プラグイン 仕切り直してGodot Engine 4.1上でLive2Dを再生するためのGDExtensionを作成しました。まだ幾つか不具合（主に表示の差異）があるのですけどWindows, macOS, Linux向けにビルド可能です。&#xA;Godot EngineのEditorからLive2Dモデルの制御も出来る様になっています。#GodotEngine #Live2D pic.twitter.com/kv5VwUMJJb&#xA;&amp;mdash; 水凪工房 (@MizunagiKB) September 9, 2023 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-09-07</title>
       <link>https://godot-jp.github.io/news/wgj-2023-09-07/</link>
       <pubDate>Thu, 07 Sep 2023 15:13:31 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-09-07/</guid>
-      <description>今週（2023年8月31日〜2023年9月7日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年8月31日〜2023年9月7日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-08-31</title>
       <link>https://godot-jp.github.io/news/wgj-2023-08-31/</link>
       <pubDate>Thu, 31 Aug 2023 15:13:32 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-08-31/</guid>
-      <description>今週（2023年8月24日〜2023年8月31日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年8月24日〜2023年8月31日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-08-24</title>
       <link>https://godot-jp.github.io/news/wgj-2023-08-24/</link>
       <pubDate>Thu, 24 Aug 2023 15:13:20 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-08-24/</guid>
-      <description>今週（2023年8月17日〜2023年8月24日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年8月17日〜2023年8月24日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-08-17</title>
       <link>https://godot-jp.github.io/news/wgj-2023-08-17/</link>
       <pubDate>Thu, 17 Aug 2023 15:13:11 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-08-17/</guid>
-      <description>今週（2023年8月10日〜2023年8月17日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🔌ツール・プラグイン dreadpon/godot_spatial_gardener: A Godot plugin for painting plants and props on arbitrary 3D surfaces implemented in GDScript A Godot plugin for painting plants and props on arbitrary 3D surfaces implemented in GDScript - GitHub - dreadpon/godot_spatial_gardener: A Godot plugin for painting plants and props on arbitrary 3... ueshita/ADXLE-GodotPlugin: A plugin of ADX2LE for GodotEngine A plugin of ADX2LE for GodotEngine. Contribute to ueshita/ADXLE-GodotPlugin development by creating an account on GitHub.</description>
+      <description>今週（2023年8月10日〜2023年8月17日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🔌ツール・プラグイン dreadpon/godot_spatial_gardener: A Godot plugin for painting plants and props on arbitrary 3D surfaces implemented in GDScript A Godot plugin for painting plants and props on arbitrary 3D surfaces implemented in GDScript - GitHub - dreadpon/godot_spatial_gardener: A Godot plugin for painting plants and props on arbitrary 3... ueshita/ADXLE-GodotPlugin: A plugin of ADX2LE for GodotEngine A plugin of ADX2LE for GodotEngine. Contribute to ueshita/ADXLE-GodotPlugin development by creating an account on GitHub.</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-08-10</title>
       <link>https://godot-jp.github.io/news/wgj-2023-08-10/</link>
       <pubDate>Thu, 10 Aug 2023 15:13:59 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-08-10/</guid>
-      <description>今週（2023年8月3日〜2023年8月10日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年8月3日〜2023年8月10日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-08-03</title>
       <link>https://godot-jp.github.io/news/wgj-2023-08-03/</link>
       <pubDate>Thu, 03 Aug 2023 15:13:28 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-08-03/</guid>
-      <description>今週（2023年7月27日〜2023年8月3日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年7月27日〜2023年8月3日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-07-27</title>
       <link>https://godot-jp.github.io/news/wgj-2023-07-27/</link>
       <pubDate>Thu, 27 Jul 2023 15:13:32 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-07-27/</guid>
-      <description>今週（2023年7月20日〜2023年7月27日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート アクションゲーム試作をver4.1で作り直した。だいたいやりたいことはできたけど、物理周りとかがもうちょっと安定してから本格的に作り始めよう…。#GodotEngine pic.twitter.com/DZON6EIGd0
-&amp;mdash; ばななはんまー (@VananaHammer) July 26, 2023 🔌ツール・プラグイン D2klaas/Godot-4-VectorFieldNavigation: Vector-Field-Navigation(Pathfinding) for Godot 4 Vector-Field-Navigation(Pathfinding) for Godot 4. Contribute to D2klaas/Godot-4-VectorFieldNavigation development by creating an account on GitHub. Powerd by Raindrop.io</description>
+      <description>今週（2023年7月20日〜2023年7月27日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート アクションゲーム試作をver4.1で作り直した。だいたいやりたいことはできたけど、物理周りとかがもうちょっと安定してから本格的に作り始めよう…。#GodotEngine pic.twitter.com/DZON6EIGd0&#xA;&amp;mdash; ばななはんまー (@VananaHammer) July 26, 2023 🔌ツール・プラグイン D2klaas/Godot-4-VectorFieldNavigation: Vector-Field-Navigation(Pathfinding) for Godot 4 Vector-Field-Navigation(Pathfinding) for Godot 4. Contribute to D2klaas/Godot-4-VectorFieldNavigation development by creating an account on GitHub. Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-07-20</title>
       <link>https://godot-jp.github.io/news/wgj-2023-07-20/</link>
       <pubDate>Thu, 20 Jul 2023 15:14:03 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-07-20/</guid>
-      <description>今週（2023年7月13日〜2023年7月20日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート Conveniently placed crates...#GunmetalGothic #screenshotsaturday #madewithgodot #indiedev pic.twitter.com/xtVebCaeaS
-&amp;mdash; ynoham (@ynoham) July 16, 2023 Love to see Godot strongly growing year over year! All the other technologies appear to be shrinking.. https://t.co/8EwH3P8ACX
-&amp;mdash; Juan Linietsky (@reduzio) July 18, 2023 🔌ツール・プラグイン Terrain3D is a new C++ based GDExtension for #GodotEngine 4.x that adds the much requested Terrain editing tools to the game engine.
-Highly performant, capable and easy to use, if you want to work with Terrain in Godot, check it out!</description>
+      <description>今週（2023年7月13日〜2023年7月20日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート Conveniently placed crates...#GunmetalGothic #screenshotsaturday #madewithgodot #indiedev pic.twitter.com/xtVebCaeaS&#xA;&amp;mdash; ynoham (@ynoham) July 16, 2023 Love to see Godot strongly growing year over year! All the other technologies appear to be shrinking.. https://t.co/8EwH3P8ACX&#xA;&amp;mdash; Juan Linietsky (@reduzio) July 18, 2023 🔌ツール・プラグイン Terrain3D is a new C++ based GDExtension for #GodotEngine 4.x that adds the much requested Terrain editing tools to the game engine.&#xA;Highly performant, capable and easy to use, if you want to work with Terrain in Godot, check it out!</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-07-13</title>
       <link>https://godot-jp.github.io/news/wgj-2023-07-13/</link>
       <pubDate>Thu, 13 Jul 2023 15:15:40 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-07-13/</guid>
-      <description>今週（2023年7月6日〜2023年7月13日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル Navigation got a lot of love in Godot 4.1 with completely reworked obstacle avoidance. Agents can now have priority and push others away. It works great for groups of units or when NPCs need to cross paths.
-Free and open-source feature demos: https://t.co/V6YtWoReWf pic.twitter.com/4UjwQ36jVM
-&amp;mdash; GDQuest (@NathanGDQuest) July 8, 2023 🐦クールなツイート What&amp;#39;s up with that weird Las Vegas Sphere 😭 #GodotEngine https://t.co/DbT2KTxGTw pic.</description>
+      <description>今週（2023年7月6日〜2023年7月13日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル Navigation got a lot of love in Godot 4.1 with completely reworked obstacle avoidance. Agents can now have priority and push others away. It works great for groups of units or when NPCs need to cross paths.&#xA;Free and open-source feature demos: https://t.co/V6YtWoReWf pic.twitter.com/4UjwQ36jVM&#xA;&amp;mdash; GDQuest (@NathanGDQuest) July 8, 2023 🐦クールなツイート What&amp;#39;s up with that weird Las Vegas Sphere 😭 #GodotEngine https://t.co/DbT2KTxGTw pic.</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-07-06</title>
       <link>https://godot-jp.github.io/news/wgj-2023-07-06/</link>
       <pubDate>Thu, 06 Jul 2023 15:16:24 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-07-06/</guid>
-      <description>今週（2023年6月29日〜2023年7月6日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年6月29日〜2023年7月6日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-06-29</title>
       <link>https://godot-jp.github.io/news/wgj-2023-06-29/</link>
       <pubDate>Thu, 29 Jun 2023 15:16:15 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-06-29/</guid>
-      <description>今週（2023年6月22日〜2023年6月29日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年6月22日〜2023年6月29日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-06-22</title>
       <link>https://godot-jp.github.io/news/wgj-2023-06-22/</link>
       <pubDate>Thu, 22 Jun 2023 15:13:58 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-06-22/</guid>
-      <description>今週（2023年6月15日〜2023年6月22日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年6月15日〜2023年6月22日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-06-15</title>
       <link>https://godot-jp.github.io/news/wgj-2023-06-15/</link>
       <pubDate>Thu, 15 Jun 2023 15:14:02 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-06-15/</guid>
-      <description>今週（2023年6月8日〜2023年6月15日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年6月8日〜2023年6月15日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-06-08</title>
       <link>https://godot-jp.github.io/news/wgj-2023-06-08/</link>
       <pubDate>Thu, 08 Jun 2023 15:13:50 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-06-08/</guid>
-      <description>今週（2023年6月1日〜2023年6月8日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年6月1日〜2023年6月8日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-06-01</title>
       <link>https://godot-jp.github.io/news/wgj-2023-06-01/</link>
       <pubDate>Thu, 01 Jun 2023 15:14:08 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-06-01/</guid>
-      <description>今週（2023年5月25日〜2023年6月1日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年5月25日〜2023年6月1日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-05-25</title>
       <link>https://godot-jp.github.io/news/wgj-2023-05-25/</link>
       <pubDate>Thu, 25 May 2023 15:13:57 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-05-25/</guid>
-      <description>今週（2023年5月18日〜2023年5月25日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年5月18日〜2023年5月25日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-05-18</title>
       <link>https://godot-jp.github.io/news/wgj-2023-05-18/</link>
       <pubDate>Thu, 18 May 2023 15:14:23 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-05-18/</guid>
-      <description>今週（2023年5月11日〜2023年5月18日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年5月11日〜2023年5月18日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-05-11</title>
       <link>https://godot-jp.github.io/news/wgj-2023-05-11/</link>
       <pubDate>Thu, 11 May 2023 15:13:38 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-05-11/</guid>
-      <description>今週（2023年5月4日〜2023年5月11日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート Got the new tileset working with the auto-tiling script. :)
-Now, gonna make use of the #Godot4 migration to refractor all the movement and attacking code! That should be fun lol#screenshotsaturday #godotengine #IndieDevs pic.twitter.com/1Ki3lkWGmu
-&amp;mdash; Du (@salgueiroAzul) May 6, 2023 最近開発を再開した侍カジュアルゲームですが、フラッピーバード的なタイトルに無理やりしてみたものの、英語ネイティブの感覚がわからないので(仮)ということにしておきますです。#godotengine #gamedev #indiedev pic.twitter.com/0S4A8WkKgW
-&amp;mdash; Gobo🐺 (@peanuts_code) May 9, 2023 🔌ツール・プラグイン imjp94/gd-blender-3d-shortcuts: Blender 3D Shortcuts in Godot Blender 3D Shortcuts in Godot. Contribute to imjp94/gd-blender-3d-shortcuts development by creating an account on GitHub.</description>
+      <description>今週（2023年5月4日〜2023年5月11日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート Got the new tileset working with the auto-tiling script. :)&#xA;Now, gonna make use of the #Godot4 migration to refractor all the movement and attacking code! That should be fun lol#screenshotsaturday #godotengine #IndieDevs pic.twitter.com/1Ki3lkWGmu&#xA;&amp;mdash; Du (@salgueiroAzul) May 6, 2023 最近開発を再開した侍カジュアルゲームですが、フラッピーバード的なタイトルに無理やりしてみたものの、英語ネイティブの感覚がわからないので(仮)ということにしておきますです。#godotengine #gamedev #indiedev pic.twitter.com/0S4A8WkKgW&#xA;&amp;mdash; Gobo🐺 (@peanuts_code) May 9, 2023 🔌ツール・プラグイン imjp94/gd-blender-3d-shortcuts: Blender 3D Shortcuts in Godot Blender 3D Shortcuts in Godot. Contribute to imjp94/gd-blender-3d-shortcuts development by creating an account on GitHub.</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-05-04</title>
       <link>https://godot-jp.github.io/news/wgj-2023-05-04/</link>
       <pubDate>Thu, 04 May 2023 15:13:43 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-05-04/</guid>
-      <description>今週（2023年4月27日〜2023年5月4日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年4月27日〜2023年5月4日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-04-27</title>
       <link>https://godot-jp.github.io/news/wgj-2023-04-27/</link>
       <pubDate>Thu, 27 Apr 2023 15:14:24 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-04-27/</guid>
-      <description>今週（2023年4月20日〜2023年4月27日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年4月20日〜2023年4月27日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-04-20</title>
       <link>https://godot-jp.github.io/news/wgj-2023-04-20/</link>
       <pubDate>Thu, 20 Apr 2023 15:14:15 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-04-20/</guid>
-      <description>今週（2023年4月13日〜2023年4月20日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年4月13日〜2023年4月20日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-04-13</title>
       <link>https://godot-jp.github.io/news/wgj-2023-04-13/</link>
       <pubDate>Thu, 13 Apr 2023 15:13:49 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-04-13/</guid>
-      <description>今週（2023年4月6日〜2023年4月13日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル darkstarrd的个人空间-darkstarrd个人主页-哔哩哔哩视频 哔哩哔哩darkstarrd的个人空间，提供darkstarrd分享的视频、音频、文章、动态、收藏等内容，关注darkstarrd账号，第一时间了解UP注动态。hard work beats talent until talent works hard 🐦クールなツイート New YT video next week, showing many technical insights about this scene in #Godot4.#gamedev #soulslike pic.twitter.com/u87cHztqp5
-&amp;mdash; Kmitt (@kmitt91) April 6, 2023 🔌ツール・プラグイン Been adding some new features to the Phantom Camera #GodotEngine plugin and upgraded the Wiki page with a bunch of video examples and icons.
-Quite happy with the additions in this release.</description>
+      <description>今週（2023年4月6日〜2023年4月13日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル darkstarrd的个人空间-darkstarrd个人主页-哔哩哔哩视频 哔哩哔哩darkstarrd的个人空间，提供darkstarrd分享的视频、音频、文章、动态、收藏等内容，关注darkstarrd账号，第一时间了解UP注动态。hard work beats talent until talent works hard 🐦クールなツイート New YT video next week, showing many technical insights about this scene in #Godot4.#gamedev #soulslike pic.twitter.com/u87cHztqp5&#xA;&amp;mdash; Kmitt (@kmitt91) April 6, 2023 🔌ツール・プラグイン Been adding some new features to the Phantom Camera #GodotEngine plugin and upgraded the Wiki page with a bunch of video examples and icons.&#xA;Quite happy with the additions in this release.</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-04-06</title>
       <link>https://godot-jp.github.io/news/wgj-2023-04-06/</link>
       <pubDate>Thu, 06 Apr 2023 15:13:42 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-04-06/</guid>
-      <description>今週（2023年3月30日〜2023年4月6日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート Now that Godot 4.0 is out, here is a sneak peek to upcoming Godot 5.0 new revamped editor user interface! Godot 5.0 is built upon GPT, modern generative AI and brain-computer interfaces to make game development even easier than before! pic.twitter.com/sorHrwTkyS
-&amp;mdash; Juan Linietsky (@reduzio) April 1, 2023 👮公式 Maintenance release: Godot 4.0.2 Free and open source 2D and 3D game engine Powerd by Raindrop.</description>
+      <description>今週（2023年3月30日〜2023年4月6日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート Now that Godot 4.0 is out, here is a sneak peek to upcoming Godot 5.0 new revamped editor user interface! Godot 5.0 is built upon GPT, modern generative AI and brain-computer interfaces to make game development even easier than before! pic.twitter.com/sorHrwTkyS&#xA;&amp;mdash; Juan Linietsky (@reduzio) April 1, 2023 👮公式 Maintenance release: Godot 4.0.2 Free and open source 2D and 3D game engine Powerd by Raindrop.</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-03-30</title>
       <link>https://godot-jp.github.io/news/wgj-2023-03-30/</link>
       <pubDate>Thu, 30 Mar 2023 15:14:43 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-03-30/</guid>
-      <description>今週（2023年3月23日〜2023年3月30日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル 書きました
-Godot4でツクール・ウディタ形式の地形オートタイルつくりかたですhttps://t.co/SGi0gBGIIE
-&amp;mdash; ふぉるた (@Faultun) March 30, 2023 Powerd by Raindrop.io</description>
+      <description>今週（2023年3月23日〜2023年3月30日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🎨チュートリアル 書きました&#xA;Godot4でツクール・ウディタ形式の地形オートタイルつくりかたですhttps://t.co/SGi0gBGIIE&#xA;&amp;mdash; ふぉるた (@Faultun) March 30, 2023 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-03-23</title>
       <link>https://godot-jp.github.io/news/wgj-2023-03-23/</link>
       <pubDate>Thu, 23 Mar 2023 15:14:13 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-03-23/</guid>
-      <description>今週（2023年3月16日〜2023年3月23日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年3月16日〜2023年3月23日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-03-16</title>
       <link>https://godot-jp.github.io/news/wgj-2023-03-16/</link>
       <pubDate>Thu, 16 Mar 2023 15:15:03 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-03-16/</guid>
-      <description>今週（2023年3月9日〜2023年3月16日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年3月9日〜2023年3月16日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-03-09</title>
       <link>https://godot-jp.github.io/news/wgj-2023-03-09/</link>
       <pubDate>Thu, 09 Mar 2023 15:16:27 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-03-09/</guid>
-      <description>今週（2023年3月2日〜2023年3月9日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年3月2日〜2023年3月9日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-03-02</title>
       <link>https://godot-jp.github.io/news/wgj-2023-03-02/</link>
       <pubDate>Thu, 02 Mar 2023 15:15:53 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-03-02/</guid>
-      <description>今週（2023年2月23日〜2023年3月2日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年2月23日〜2023年3月2日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-02-23</title>
       <link>https://godot-jp.github.io/news/wgj-2023-02-23/</link>
       <pubDate>Thu, 23 Feb 2023 15:15:36 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-02-23/</guid>
-      <description>今週（2023年2月16日〜2023年2月23日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年2月16日〜2023年2月23日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-02-16</title>
       <link>https://godot-jp.github.io/news/wgj-2023-02-16/</link>
       <pubDate>Thu, 16 Feb 2023 15:15:25 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-02-16/</guid>
-      <description>今週（2023年2月9日〜2023年2月16日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年2月9日〜2023年2月16日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-02-09</title>
       <link>https://godot-jp.github.io/news/wgj-2023-02-09/</link>
       <pubDate>Thu, 09 Feb 2023 15:15:36 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-02-09/</guid>
-      <description>今週（2023年2月2日〜2023年2月9日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年2月2日〜2023年2月9日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>一定時間待って処理する</title>
       <link>https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E4%B8%80%E5%AE%9A%E6%99%82%E9%96%93%E5%BE%85%E3%81%A3%E3%81%A6%E5%87%A6%E7%90%86%E3%81%99%E3%82%8B/</link>
       <pubDate>Wed, 08 Feb 2023 21:57:32 +0900</pubDate>
       <guid>https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E4%B8%80%E5%AE%9A%E6%99%82%E9%96%93%E5%BE%85%E3%81%A3%E3%81%A6%E5%87%A6%E7%90%86%E3%81%99%E3%82%8B/</guid>
-      <description>一定時間待って処理したい場合の実装方法はいくつかあります。
-カウンターを使って処理する _process()または_physics_processでカウンター変数に数値を足していき、特定の値になったら処理を実行する方法です。
-var counter:int = 0 func _process(_delta): counter += 1 if _counter == 10: print(&amp;#34;do something&amp;#34;) 加算でも減算でも構いませんが、一度しか使用しない場合は変数をむやみに増やしてしまう事がデメリットです。
-タイマーノードを使って処理する Timerノードは、指定した時間でシグナルを発行するノードになります。
-シグナルを受け取ることで特定の処理を行う事ができます。
-@onready var timer = $Timer func _ready(): timer.timeout.connect(func(): print(&amp;#34;test&amp;#34;)) timer.one_shot = true timer.start(0.5) one_shotをtrueにしないと、指定した時間で設定したメソッドが繰り返し実行されます。
-時間で指定するため、フレーム単位での指定はできません。
-Engine.get_frames_per_second()でfpsを取得して1/fpsとすることで1フレームを実現することはできますが、フレームレートが可変の場合は不安定になるため、時間で指定することをおすすめします。
-コルーチンを使って処理する シーンツリーに直接one_shotで消えるTimerノードを設定することも可能です。
-func _ready(): await get_tree().create_timer(0.5).timeout print(&amp;#34;test&amp;#34;) awaitを使用することで、シンプルに書く事ができますが、非同期処理ですので、処理の順番に注意する必要があります。
-var str_test:String = &amp;#34;&amp;#34; func _ready(): await get_tree().create_timer(0.5).timeout str_test = &amp;#34;test&amp;#34; func _process(_delta): print(str_test) # 0.5秒以降でないとstr_testは空になっている。 更に詳しいawaitの使用方法は以下をご覧ください。
-Godot 4 await構文 submaxさんによる記事</description>
+      <description>一定時間待って処理したい場合の実装方法はいくつかあります。&#xA;カウンターを使って処理する _process()または_physics_processでカウンター変数に数値を足していき、特定の値になったら処理を実行する方法です。&#xA;var counter:int = 0 func _process(_delta): counter += 1 if _counter == 10: print(&amp;#34;do something&amp;#34;) 加算でも減算でも構いませんが、一度しか使用しない場合は変数をむやみに増やしてしまう事がデメリットです。&#xA;タイマーノードを使って処理する Timerノードは、指定した時間でシグナルを発行するノードになります。&#xA;シグナルを受け取ることで特定の処理を行う事ができます。&#xA;@onready var timer = $Timer func _ready(): timer.timeout.connect(func(): print(&amp;#34;test&amp;#34;)) timer.one_shot = true timer.start(0.5) one_shotをtrueにしないと、指定した時間で設定したメソッドが繰り返し実行されます。&#xA;時間で指定するため、フレーム単位での指定はできません。&#xA;Engine.get_frames_per_second()でfpsを取得して1/fpsとすることで1フレームを実現することはできますが、フレームレートが可変の場合は不安定になるため、時間で指定することをおすすめします。&#xA;コルーチンを使って処理する シーンツリーに直接one_shotで消えるTimerノードを設定することも可能です。&#xA;func _ready(): await get_tree().create_timer(0.5).timeout print(&amp;#34;test&amp;#34;) awaitを使用することで、シンプルに書く事ができますが、非同期処理ですので、処理の順番に注意する必要があります。&#xA;var str_test:String = &amp;#34;&amp;#34; func _ready(): await get_tree().create_timer(0.5).timeout str_test = &amp;#34;test&amp;#34; func _process(_delta): print(str_test) # 0.5秒以降でないとstr_testは空になっている。 更に詳しいawaitの使用方法は以下をご覧ください。&#xA;Godot 4 await構文 submaxさんによる記事</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-02-02</title>
       <link>https://godot-jp.github.io/news/wgj-2023-02-02/</link>
       <pubDate>Thu, 02 Feb 2023 15:14:55 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-02-02/</guid>
-      <description>今週（2023年1月26日〜2023年2月2日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年1月26日〜2023年2月2日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-01-26</title>
       <link>https://godot-jp.github.io/news/wgj-2023-01-26/</link>
       <pubDate>Thu, 26 Jan 2023 15:14:31 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-01-26/</guid>
-      <description>今週（2023年1月19日〜2023年1月26日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年1月19日〜2023年1月26日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-01-19</title>
       <link>https://godot-jp.github.io/news/wgj-2023-01-19/</link>
       <pubDate>Thu, 19 Jan 2023 18:09:48 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-01-19/</guid>
-      <description>今週（2023年1月12日〜2023年1月19日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年1月12日〜2023年1月19日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>寄付の開始とコミュニティのロードマップ</title>
       <link>https://godot-jp.github.io/news/news-20230113124107/</link>
       <pubDate>Fri, 13 Jan 2023 12:41:16 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/news-20230113124107/</guid>
-      <description>本日からGithub Sponsorsに承認され、寄付が可能になりました。
-これまでもcodocで寄付が可能でしたが、様々な形で貢献をいただけるようになりました。
-本コミュニティはオープンソースであり非営利で運営していますが、今後の運営のためにぜひ寄付をご検討ください。
-ご希望されるスポンサーの皆様は、Webサイトのホーム画面に寄付期間中、ロゴやWebサイトのリンクを貼らせていただきます。
-お手数ですがご希望の方は、@godot_jpまでDMをいただければ幸いです。
-今後のコミュニティの運営について 寄付を公に募ることができるようになったところで、今後予定しているコミュニティのロードマップをご紹介します。
-! すべての時期は未定であり、コミュニティの意思を尊重しますので、場合によっては中止になる企画や新たに追加される企画がありますので、予めご了承ください。 🎨 Godot Engine用のアセット提供 ゲームに組み込むアセットや、ゲーム開発に必要となるアセットの提供を開始します。
-アーティストも貢献できるコミュニティにします。
-モックアップの開発やゲームジャムに使えるアセットの提供を目指しています。
-🎮 ゲームジャムの開催 年に1度、itch.ioで開催を予定しています。
-寄付の中から出資される優勝賞金も検討しています。
-🗣️ ユーザートークミーティングの開催 定期的に、Discordサーバーのステージでトークミーティングを行います。
-コントリビューターやユーザーを交えて、技術的な交流を目指しています。
-🧰 チュートリアルシリーズの開始 Godot Engineのチュートリアルシリーズの開始を考えています。
-逆引きリファレンスは各機能の範囲での解説記事ですが、チュートリアルシリーズは作品単位の範囲で記事を展開します。
-以上がロードマップになります。
-すべて時期は未定ですが、2023年内に開始を目標に活動していきます。
-本コミュニティには、フルタイムの貢献者はいませんので、ぜひ寄付のご検討をお願いいたします🥳</description>
+      <description>本日からGithub Sponsorsに承認され、寄付が可能になりました。&#xA;これまでもcodocで寄付が可能でしたが、様々な形で貢献をいただけるようになりました。&#xA;本コミュニティはオープンソースであり非営利で運営していますが、今後の運営のためにぜひ寄付をご検討ください。&#xA;ご希望されるスポンサーの皆様は、Webサイトのホーム画面に寄付期間中、ロゴやWebサイトのリンクを貼らせていただきます。&#xA;お手数ですがご希望の方は、@godot_jpまでDMをいただければ幸いです。&#xA;今後のコミュニティの運営について 寄付を公に募ることができるようになったところで、今後予定しているコミュニティのロードマップをご紹介します。&#xA;! すべての時期は未定であり、コミュニティの意思を尊重しますので、場合によっては中止になる企画や新たに追加される企画がありますので、予めご了承ください。 🎨 Godot Engine用のアセット提供 ゲームに組み込むアセットや、ゲーム開発に必要となるアセットの提供を開始します。&#xA;アーティストも貢献できるコミュニティにします。&#xA;モックアップの開発やゲームジャムに使えるアセットの提供を目指しています。&#xA;🎮 ゲームジャムの開催 年に1度、itch.ioで開催を予定しています。&#xA;寄付の中から出資される優勝賞金も検討しています。&#xA;🗣️ ユーザートークミーティングの開催 定期的に、Discordサーバーのステージでトークミーティングを行います。&#xA;コントリビューターやユーザーを交えて、技術的な交流を目指しています。&#xA;🧰 チュートリアルシリーズの開始 Godot Engineのチュートリアルシリーズの開始を考えています。&#xA;逆引きリファレンスは各機能の範囲での解説記事ですが、チュートリアルシリーズは作品単位の範囲で記事を展開します。&#xA;以上がロードマップになります。&#xA;すべて時期は未定ですが、2023年内に開始を目標に活動していきます。&#xA;本コミュニティには、フルタイムの貢献者はいませんので、ぜひ寄付のご検討をお願いいたします🥳</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-01-12</title>
       <link>https://godot-jp.github.io/news/wgj-2023-01-12/</link>
       <pubDate>Thu, 12 Jan 2023 19:20:47 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-01-12/</guid>
-      <description>今週（2023年1月5日〜2023年1月12日）のGodot Engineに関するニュースをお届けします。
-このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。
-おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+      <description>今週（2023年1月5日〜2023年1月12日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>週刊Godot Japan！ニュースの自動配信を開始</title>
       <link>https://godot-jp.github.io/news/news-20230111220920/</link>
       <pubDate>Wed, 11 Jan 2023 22:09:30 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/news-20230111220920/</guid>
-      <description>Godotユーザーのみなさん、こんにちは。
-2023年1月12日（木）15時頃から毎週更新される Weekly Godot Japan の記事配信が開始されます。
-配信日が木曜日なのは 「日本でのパッケージゲームの発売日」 が基本的に木曜日だからです😋
-約1年前に更新を止めてしまったThis Week in Godotからインスパイアされて作成されたニュース配信です。
-リンク自体はユーザーの手で厳選されブックマークに追加されるため厳密には「自動」ではなく「半自動」ですが、記事の作成から配信はすべて自動化されています。
-この自動配信はRaindrop.ioによる強力なAPIによって実現しています。
-PCブラウザの拡張機能で簡単にリンクを追加できるだけでなく、スマートフォンアプリで手軽にリンクを追加することができます。
-とてもおすすめのサービスですので、ぜひ利用してみてください。
-さて、本題のWeekly Godot Japanですが、Raindrop.ioにはコラボレーター機能があるので、複数人でブックマークを作っていくことができます。
-つまりWeekly Godot Japanも本サイトと同じく、どなたでも参加ができるコミュニティ記事として機能しています。
-ただし、あまりに簡単にリンクすることができるため、セキュリティ上の理由からメンバーは管理者による許可制になっていることをご理解ください。
-もし、ブックマークのコラボレーションをご希望の方は、Discordサーバーで@Saitos宛にメンションしてください。
-もちろん、リンクだけの共有も歓迎しています。
-それでは、明日からのWeekly Godot Japanをお楽しみください。
-良いGodotライフをお過ごしください🥳</description>
+      <description>Godotユーザーのみなさん、こんにちは。&#xA;2023年1月12日（木）15時頃から毎週更新される Weekly Godot Japan の記事配信が開始されます。&#xA;配信日が木曜日なのは 「日本でのパッケージゲームの発売日」 が基本的に木曜日だからです😋&#xA;約1年前に更新を止めてしまったThis Week in Godotからインスパイアされて作成されたニュース配信です。&#xA;リンク自体はユーザーの手で厳選されブックマークに追加されるため厳密には「自動」ではなく「半自動」ですが、記事の作成から配信はすべて自動化されています。&#xA;この自動配信はRaindrop.ioによる強力なAPIによって実現しています。&#xA;PCブラウザの拡張機能で簡単にリンクを追加できるだけでなく、スマートフォンアプリで手軽にリンクを追加することができます。&#xA;とてもおすすめのサービスですので、ぜひ利用してみてください。&#xA;さて、本題のWeekly Godot Japanですが、Raindrop.ioにはコラボレーター機能があるので、複数人でブックマークを作っていくことができます。&#xA;つまりWeekly Godot Japanも本サイトと同じく、どなたでも参加ができるコミュニティ記事として機能しています。&#xA;ただし、あまりに簡単にリンクすることができるため、セキュリティ上の理由からメンバーは管理者による許可制になっていることをご理解ください。&#xA;もし、ブックマークのコラボレーションをご希望の方は、Discordサーバーで@Saitos宛にメンションしてください。&#xA;もちろん、リンクだけの共有も歓迎しています。&#xA;それでは、明日からのWeekly Godot Japanをお楽しみください。&#xA;良いGodotライフをお過ごしください🥳</description>
     </item>
     <item>
       <title>Godot Japan User Community リリース</title>
       <link>https://godot-jp.github.io/news/release2023-1-10/</link>
       <pubDate>Thu, 05 Jan 2023 14:08:07 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/release2023-1-10/</guid>
-      <description>Godot Japan User Communityの公式サイトをリリースしました。
-サイトの説明については当サイトについてをご覧ください。
-この記事では、当サイトの今後、成り立ちについて書きたいと思います。
-サイト開設の経緯 私は2019年からGodot Engineを触り始め、様々なプロトタイプを作り、試してきました。
-2020年には、日本Discordコミュニティを開設し、日本語での情報交換がしやすい場所を作りました。
-様々な方が日本語での情報を部分的にまとめられていますが、2023年現在まで、Blenderのような日本語の非公式ポータルサイトのようなものは存在していません。
-そこで私は自身のブログで情報をまとめようとしましたが、私一人では情報提供に限りがあることに気づきました。
-いつか、こういった専用サイトを作ることを考えていましたが、どういった形が良いか悩んでいました。
-日本のDiscordサーバーで、トカゲ氏と会話をした中で、私自身が参考にしていたFlashゲームプログラミング講座の話題が出ました。
-トカゲ氏も同じくこのサイトを参考にゲーム開発やプログラムを学んだ時期があることで盛り上がりました。
-現在はFlash Playerはなくなってしまったため、直接的には参考にならないかもしれませんが、間接的にアルゴリズムやプログラムの考え方においては参考になるサイトです。
-私達が出した結論は 「Godot Engine版のサイトがあればいいのに」 でした。
-オープンソースの魅力 Godot EngineのGithubやDiscordなどのコミュニティでは様々な情報やサイト・ドキュメントに関する議論が常に行われています。
-これはオープンソースだからこそのコミュニケーションであり、Godot Engineそのものもライセンス料などがなく非営利のエンジンだからこそ魅力であると考えています。
-非営利でオープンソースなコミュニティサイトを作ることで、煩わしい広告や宣伝に悩まされることなく、欲しい情報を常に手に入れることができるサイトを目指しました。
-今後も広告の掲載などは一切なく、非営利のサイト運営となります。
-寄付について 現在Github Sponsorsの申請中でまだ認可されていませんが、今後は寄付を募る予定です。
-私は多くの日を生活のための仕事をしているので、本サイトへの貢献がまだ少ない状態です。
-サイト及びコミュニティ運営にかかる費用はすべて私が負担しています。誤解のないようにお伝えしますが、これはコミュニティへの貢献として好きでやっていることです。
-しかし、私一人の力では、無限に続くわけではありません。
-非営利ではありますが、今後のビジョンを実現するために、寄付を募ります。
-今後 当サイトはどなたでも寄稿・議論・課題の提案などができるコミュニティです。
-どんな要望も受け付けていますので、当サイトのリポジトリのIssuesやDiscussionに投稿してください。
-現在私が考えているコミュニティのコンテンツは以下です。
-チュートリアル記事シリーズ Tips＆チュートリアル動画シリーズ Godot Engine用のオープンソースアセット提供 Godot Engine プラグイン提供 本コミュニティ主催ゲームジャム その他イベント さいごに 私はGodot Engineのファンであると同時に、ゲーム開発者を応援しています。
-少しでもゲーム開発の役に立つような情報発信と、サポートができるように活動していきますので、今後ともよろしくおねがいします。</description>
+      <description>Godot Japan User Communityの公式サイトをリリースしました。&#xA;サイトの説明については当サイトについてをご覧ください。&#xA;この記事では、当サイトの今後、成り立ちについて書きたいと思います。&#xA;サイト開設の経緯 私は2019年からGodot Engineを触り始め、様々なプロトタイプを作り、試してきました。&#xA;2020年には、日本Discordコミュニティを開設し、日本語での情報交換がしやすい場所を作りました。&#xA;様々な方が日本語での情報を部分的にまとめられていますが、2023年現在まで、Blenderのような日本語の非公式ポータルサイトのようなものは存在していません。&#xA;そこで私は自身のブログで情報をまとめようとしましたが、私一人では情報提供に限りがあることに気づきました。&#xA;いつか、こういった専用サイトを作ることを考えていましたが、どういった形が良いか悩んでいました。&#xA;日本のDiscordサーバーで、トカゲ氏と会話をした中で、私自身が参考にしていたFlashゲームプログラミング講座の話題が出ました。&#xA;トカゲ氏も同じくこのサイトを参考にゲーム開発やプログラムを学んだ時期があることで盛り上がりました。&#xA;現在はFlash Playerはなくなってしまったため、直接的には参考にならないかもしれませんが、間接的にアルゴリズムやプログラムの考え方においては参考になるサイトです。&#xA;私達が出した結論は 「Godot Engine版のサイトがあればいいのに」 でした。&#xA;オープンソースの魅力 Godot EngineのGithubやDiscordなどのコミュニティでは様々な情報やサイト・ドキュメントに関する議論が常に行われています。&#xA;これはオープンソースだからこそのコミュニケーションであり、Godot Engineそのものもライセンス料などがなく非営利のエンジンだからこそ魅力であると考えています。&#xA;非営利でオープンソースなコミュニティサイトを作ることで、煩わしい広告や宣伝に悩まされることなく、欲しい情報を常に手に入れることができるサイトを目指しました。&#xA;今後も広告の掲載などは一切なく、非営利のサイト運営となります。&#xA;寄付について 現在Github Sponsorsの申請中でまだ認可されていませんが、今後は寄付を募る予定です。&#xA;私は多くの日を生活のための仕事をしているので、本サイトへの貢献がまだ少ない状態です。&#xA;サイト及びコミュニティ運営にかかる費用はすべて私が負担しています。誤解のないようにお伝えしますが、これはコミュニティへの貢献として好きでやっていることです。&#xA;しかし、私一人の力では、無限に続くわけではありません。&#xA;非営利ではありますが、今後のビジョンを実現するために、寄付を募ります。&#xA;今後 当サイトはどなたでも寄稿・議論・課題の提案などができるコミュニティです。&#xA;どんな要望も受け付けていますので、当サイトのリポジトリのIssuesやDiscussionに投稿してください。&#xA;現在私が考えているコミュニティのコンテンツは以下です。&#xA;チュートリアル記事シリーズ Tips＆チュートリアル動画シリーズ Godot Engine用のオープンソースアセット提供 Godot Engine プラグイン提供 本コミュニティ主催ゲームジャム その他イベント さいごに 私はGodot Engineのファンであると同時に、ゲーム開発者を応援しています。&#xA;少しでもゲーム開発の役に立つような情報発信と、サポートができるように活動していきますので、今後ともよろしくおねがいします。</description>
     </item>
     <item>
       <title>ゲームパッド入力について</title>
       <link>https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
       <pubDate>Tue, 20 Dec 2022 14:12:47 +0900</pubDate>
       <guid>https://godot-jp.github.io/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
-      <description>ゲームパッドとアクションの登録 入力機能についてで解説している通り、Godot Engineではアクションに対して複数の入力を登録することができます。
-これにより、コードからはキーボードとゲームパッドの操作を、どちらも同じアクションで参照することができます。
-このページでは、ゲームパッドに関連する操作やコードを解説していきます。
-ゲームパッドの状態取得 ゲームパッドが認識されているか取得 ゲームパッドがシステムに認識されているかどうかを判別します。
-if is_joy_known(0): print(&amp;#34;デバイス0のゲームパッドが正常に認識されています。&amp;#34;) システムが認識している状態であれば、グローバルスコープのJoystickListに定義されたゲームパッドの入力の値を正常に取得できます。
-切断・接続の状態を取得する ゲームパッドの接続状態が変わったことを通知するシグナルがあります。
-func _ready(): Input.joy_connection_changed.connect(_on_joy_connection_changed) func _on_joy_connection_changed(device:int, connected:bool): if not connected: print(&amp;#34;デバイス%sのゲームパッドが切断されました&amp;#34; % str(device)) elif connected: print(&amp;#34;デバイス%sのゲームパッドが接続されました&amp;#34; % str(device)) ゲームパッドの入力取得 スティックの傾きを取得 各アクションにゲームパッドの左スティックの上下左右方向をmove_right, move_left, move_up, move_downとして定義し、以下のようにアクションから方向を取得します。
-var value :Vector2 = Input.get_vector(&amp;#34;move_right&amp;#34;, &amp;#34;move_left&amp;#34;, &amp;#34;move_up&amp;#34;, &amp;#34;move_down&amp;#34;) print(str(value)) # [-1.0, -1.0] ~ [0, 0] ~ [1.0, 1.0] ボタン入力を取得 通常はis_action_pressed()などを使用してアクションでの入力判定を行うことがほとんどですが、ゲームパッドのボタン入力を個別に取得したい場合は以下のように取得できます。
-if Input.is_joy_button_pressed(0, JOY_DS_A): print(&amp;#34;Nintendo規格のAボタンに値するボタンが押されている&amp;#34;) グローバルスコープのJoystickListに定義されたゲームパッドの入力の値を第2引数に指定します。
-ジャイロスコープセンサーの取得 ! 現在標準のエンジンの機能として、iOS・Android以外のジャイロスコープセンサーの取得はできないようです。
-GDExtensionなどの拡張で取得することは可能です。 ゲームパッドへの命令 バイブレーションの設定 start_joy_vibration(デバイス, 弱振動値, 強振動値, 振動時間)で設定します。</description>
+      <description>ゲームパッドとアクションの登録 入力機能についてで解説している通り、Godot Engineではアクションに対して複数の入力を登録することができます。&#xA;これにより、コードからはキーボードとゲームパッドの操作を、どちらも同じアクションで参照することができます。&#xA;このページでは、ゲームパッドに関連する操作やコードを解説していきます。&#xA;ゲームパッドの状態取得 ゲームパッドが認識されているか取得 ゲームパッドがシステムに認識されているかどうかを判別します。&#xA;if is_joy_known(0): print(&amp;#34;デバイス0のゲームパッドが正常に認識されています。&amp;#34;) システムが認識している状態であれば、グローバルスコープのJoystickListに定義されたゲームパッドの入力の値を正常に取得できます。&#xA;切断・接続の状態を取得する ゲームパッドの接続状態が変わったことを通知するシグナルがあります。&#xA;func _ready(): Input.joy_connection_changed.connect(_on_joy_connection_changed) func _on_joy_connection_changed(device:int, connected:bool): if not connected: print(&amp;#34;デバイス%sのゲームパッドが切断されました&amp;#34; % str(device)) elif connected: print(&amp;#34;デバイス%sのゲームパッドが接続されました&amp;#34; % str(device)) ゲームパッドの入力取得 スティックの傾きを取得 各アクションにゲームパッドの左スティックの上下左右方向をmove_right, move_left, move_up, move_downとして定義し、以下のようにアクションから方向を取得します。&#xA;var value :Vector2 = Input.get_vector(&amp;#34;move_right&amp;#34;, &amp;#34;move_left&amp;#34;, &amp;#34;move_up&amp;#34;, &amp;#34;move_down&amp;#34;) print(str(value)) # [-1.0, -1.0] ~ [0, 0] ~ [1.0, 1.0] ボタン入力を取得 通常はis_action_pressed()などを使用してアクションでの入力判定を行うことがほとんどですが、ゲームパッドのボタン入力を個別に取得したい場合は以下のように取得できます。&#xA;if Input.is_joy_button_pressed(0, JOY_DS_A): print(&amp;#34;Nintendo規格のAボタンに値するボタンが押されている&amp;#34;) グローバルスコープのJoystickListに定義されたゲームパッドの入力の値を第2引数に指定します。&#xA;ジャイロスコープセンサーの取得 ! 現在標準のエンジンの機能として、iOS・Android以外のジャイロスコープセンサーの取得はできないようです。&#xA;GDExtensionなどの拡張で取得することは可能です。 ゲームパッドへの命令 バイブレーションの設定 start_joy_vibration(デバイス, 弱振動値, 強振動値, 振動時間)で設定します。</description>
     </item>
     <item>
       <title>画面レイアウトについて</title>
       <link>https://godot-jp.github.io/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
       <pubDate>Wed, 14 Dec 2022 14:11:39 +0900</pubDate>
       <guid>https://godot-jp.github.io/reference/gui%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E7%94%BB%E9%9D%A2%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
-      <description>Containerノードの基本 Container（コンテナ）ノードは、子ノードとしてコンテンツを持つことを前提としたノードです。
-子ノードであるコンテンツを自動的にレイアウトすることを目的とした機能を持っています。
-継承元のContainerノード自体はControlノードとほとんど機能は変わりませんので、単体で使用することはありません。
-基本的にはContianerを継承している以下で紹介するノードの拡張のために準備された機能を持っています。
-コンテンツのレイアウト設定 基本的にContainerの子ノードであるコンテンツはそれぞれの機能に応じて、自動的に大きさが決定され配置されます。
-これは基本的に、コンテンツ自体のサイズやレイアウトを自由に決めることができないことを意味します。
-ただし、コンテンツごとのContainer Sizingで、コンテナ内でのサイズの設定を変更することができます。
-これらはControlノードのレイアウト設定なので、Controlノードについてを参照してください。
-単一コンテナ 単一コンテナはコンテンツを自動的にレイアウトしませんが、単一のコンテンツに対するレイアウトの設定を行うことができます。
-パネルを作る PanelContainerは目に見えてわかりやすいコンテナです。
-グラフィックが設定できるという以外は、基本のContainerノード（Controlノード）と同じ機能になります。
-panelのプロパティを持っていますので、テーマでスタイルを設定することができ、ウィンドウやヘッダー・フッターなどの下地に活用できます。
-テーマとスタイルについては、テーマとスタイルについてを参照してください。
-コンテンツのアスペクト比を固定する AspectContainerは、自身のサイズが変わっても、コンテンツの縦横比を変えずにコンテンツを拡大・縮小して表示します。
-その際、縦を基準とするか横を基準とするかを設定することができます。
-コンテンツのマージンを空ける MarginContainerはconstantsプロパティで、上下左右のマージンをピクセル単位で設定することができるコンテナです。
-コンテナ内のコンテンツに対し、それぞれのマージンを設定することができます。
-コンテンツをコンテナの縦横中央に配置する CenterContainerは、コンテンツを親であるCenterContainerの縦横中央に配置します。
-親コンテナはコンテンツの大きさが最小の大きさになります。
-コンテンツをスクロールする ScrollContainerは、コンテンツをスクロールします。
-親コンテナからはみ出したコンテンツはクリッピングされます。
-整列コンテナ 整列コンテナは複数のコンテンツを自動的にレイアウトするコンテナです。
-例えば、ゲームのインベントリや、設定画面の項目を並べるような場合に活用できます。
-縦並び・横並びにする VBoxContainerまたはHBoxContainerは、複数のコンテンツを自動的に縦または横に並べて配置します。
-コンテナのサイズよりも、コンテンツの合計サイズが大きくなる場合ははみ出して表示されます。
-設定された個数分のコンテンツを順番に並べる GridContainerは、Columnsプロパティで設定された個数分のコンテンツを並べ、その個数を超えたら次の行に並べます。
-もしも並んだコンテンツの横幅が、親のコンテナであるGridContainerの横幅を超えた場合であっても、必ず並べるのが特徴です。
-コンテンツの大きさに応じて並べる FlowContainerは、コンテンツの大きさに応じて自動的に並べ、GridContainerのように詰めて表示します。
-親のコンテナであるFlowContainerの幅に応じて、収まりきらないコンテンツは次の行または列にカラム落ちします。
-My PR for implementing FlowContainers(H/V) got merged today! This type of container arranges its child nodes similar to text and autowraps the ones which don&amp;#39;t fit in a line.</description>
+      <description>Containerノードの基本 Container（コンテナ）ノードは、子ノードとしてコンテンツを持つことを前提としたノードです。&#xA;子ノードであるコンテンツを自動的にレイアウトすることを目的とした機能を持っています。&#xA;継承元のContainerノード自体はControlノードとほとんど機能は変わりませんので、単体で使用することはありません。&#xA;基本的にはContianerを継承している以下で紹介するノードの拡張のために準備された機能を持っています。&#xA;コンテンツのレイアウト設定 基本的にContainerの子ノードであるコンテンツはそれぞれの機能に応じて、自動的に大きさが決定され配置されます。&#xA;これは基本的に、コンテンツ自体のサイズやレイアウトを自由に決めることができないことを意味します。&#xA;ただし、コンテンツごとのContainer Sizingで、コンテナ内でのサイズの設定を変更することができます。&#xA;これらはControlノードのレイアウト設定なので、Controlノードについてを参照してください。&#xA;単一コンテナ 単一コンテナはコンテンツを自動的にレイアウトしませんが、単一のコンテンツに対するレイアウトの設定を行うことができます。&#xA;パネルを作る PanelContainerは目に見えてわかりやすいコンテナです。&#xA;グラフィックが設定できるという以外は、基本のContainerノード（Controlノード）と同じ機能になります。&#xA;panelのプロパティを持っていますので、テーマでスタイルを設定することができ、ウィンドウやヘッダー・フッターなどの下地に活用できます。&#xA;テーマとスタイルについては、テーマとスタイルについてを参照してください。&#xA;コンテンツのアスペクト比を固定する AspectContainerは、自身のサイズが変わっても、コンテンツの縦横比を変えずにコンテンツを拡大・縮小して表示します。&#xA;その際、縦を基準とするか横を基準とするかを設定することができます。&#xA;コンテンツのマージンを空ける MarginContainerはconstantsプロパティで、上下左右のマージンをピクセル単位で設定することができるコンテナです。&#xA;コンテナ内のコンテンツに対し、それぞれのマージンを設定することができます。&#xA;コンテンツをコンテナの縦横中央に配置する CenterContainerは、コンテンツを親であるCenterContainerの縦横中央に配置します。&#xA;親コンテナはコンテンツの大きさが最小の大きさになります。&#xA;コンテンツをスクロールする ScrollContainerは、コンテンツをスクロールします。&#xA;親コンテナからはみ出したコンテンツはクリッピングされます。&#xA;整列コンテナ 整列コンテナは複数のコンテンツを自動的にレイアウトするコンテナです。&#xA;例えば、ゲームのインベントリや、設定画面の項目を並べるような場合に活用できます。&#xA;縦並び・横並びにする VBoxContainerまたはHBoxContainerは、複数のコンテンツを自動的に縦または横に並べて配置します。&#xA;コンテナのサイズよりも、コンテンツの合計サイズが大きくなる場合ははみ出して表示されます。&#xA;設定された個数分のコンテンツを順番に並べる GridContainerは、Columnsプロパティで設定された個数分のコンテンツを並べ、その個数を超えたら次の行に並べます。&#xA;もしも並んだコンテンツの横幅が、親のコンテナであるGridContainerの横幅を超えた場合であっても、必ず並べるのが特徴です。&#xA;コンテンツの大きさに応じて並べる FlowContainerは、コンテンツの大きさに応じて自動的に並べ、GridContainerのように詰めて表示します。&#xA;親のコンテナであるFlowContainerの幅に応じて、収まりきらないコンテンツは次の行または列にカラム落ちします。&#xA;My PR for implementing FlowContainers(H/V) got merged today! This type of container arranges its child nodes similar to text and autowraps the ones which don&amp;#39;t fit in a line.</description>
     </item>
     <item>
       <title>プロジェクトの作成方法</title>
       <link>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/</link>
       <pubDate>Sat, 10 Dec 2022 19:24:47 +0900</pubDate>
       <guid>https://godot-jp.github.io/reference/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95/</guid>
-      <description>インストール方法 公式サイトからダウンロード Godot Engineの公式サイトのダウンロードページから安定版をダウンロードします。
-Zipファイルなので任意のパスに解凍し、godot_[バージョン]_stable_win.exeを起動します。
-! 当サイトではGodot Engine 4.xを基準にリファレンスを掲載しています。
-3.xをインストールした場合、若干内容に差異があるかもしれません。
-Issuesでご連絡いただけましたら、対応を検討いたしますので、お気軽にご連絡ください。 その他のプラットフォームからダウンロード Steam Godot Engineをインストールする方法はいくつかありますが、手軽なのはSteamからのダウンロード・インストールです。
-常に安定版を配信しており、自動的にアップデートを行うことができます。
-Steamの製品ページにアクセスし、無料でダウンロードしてください。
-以降は自分のライブラリから起動できます。
-itch.io itch.ioからも無料ダウンロードが可能です。
-itch.ioのデスクトップアプリを入れると、最新版の自動ダウンロードやアプリの管理も可能です。
-プロジェクトの作成 プロジェクトマネージャー 起動直後はプロジェクトマネージャーが開きます。
-新規プロジェクトの作成 プロジェクトマネージャーの右側にある、新規プロジェクトのボタンを押すとプロジェクト作成画面がポップアップします。
-設定 説明 プロジェクト名 プロジェクトの名前を入力します。隣の「フォルダーを作成」をクリックすると、プロジェクト名と同じフォルダが、プロジェクトパスに作成されます。 プロジェクトパス プロジェクトを作るファイルパスです。何らかのファイルが含まれていると警告が出ます。 レンダラー プロジェクトのレンダリング方式を選択します。PCなどはForward+、モバイルはMobileを選択します。 Version Control Metadata バージョン管理方法を選択します。バージョン管理しない場合はGitのままで問題ありません。 メインシーンの作成 メインシーンとは、作成したプロジェクトで最初に実行される画面のことです。
-3Dの空間や2Dの画面・GUIなども含めるため、Godot Engineではこれらをまとめてシーンと呼びます。
-シーンパネルから作成 画面左上にあるシーンと書かれたパネルから、ルートノードを生成します。
-ルートノードは、そのシーンの一番上の根幹となるノードです。
-作成したシーンは自動的にエディタで開かれますが、まだ保存されていません。
-シーンを作成した時点で保存しておくことをおすすめします。
-開いたシーンを保存する 「未保存」のシーンを開いている状態でCtrl+Sで保存パネルを開き、任意のフォルダに保存します。
-ファイルシステムパネルから作成 画面右下にあるファイルシステムと書かれたパネルは、プロジェクトのファイルやフォルダを表示しています。
-任意のフォルダ（ルートフォルダはres://）を右クリックすることで、シーンを作成することができます。
-ファイルシステムから作成した場合は、ファイルが保存されるだけで、自動的にシーンを開いてはくれません。
-作成したシーンファイル（.tscnファイル）をダブルクリックして開いてください。
-メインシーンの設定 作成したシーンをメインシーンとして設定します。
-保存したシーンファイル（.tscnファイル）を。ファイルシステムパネルから右クリックします。
-右クリックメニューの中から「メインシーンとして設定」をクリックすると、選んだシーンが最初に実行されるようになります。</description>
+      <description>インストール方法 公式サイトからダウンロード Godot Engineの公式サイトのダウンロードページから安定版をダウンロードします。&#xA;Zipファイルなので任意のパスに解凍し、godot_[バージョン]_stable_win.exeを起動します。&#xA;! 当サイトではGodot Engine 4.xを基準にリファレンスを掲載しています。&#xA;3.xをインストールした場合、若干内容に差異があるかもしれません。&#xA;Issuesでご連絡いただけましたら、対応を検討いたしますので、お気軽にご連絡ください。 その他のプラットフォームからダウンロード Steam Godot Engineをインストールする方法はいくつかありますが、手軽なのはSteamからのダウンロード・インストールです。&#xA;常に安定版を配信しており、自動的にアップデートを行うことができます。&#xA;Steamの製品ページにアクセスし、無料でダウンロードしてください。&#xA;以降は自分のライブラリから起動できます。&#xA;itch.io itch.ioからも無料ダウンロードが可能です。&#xA;itch.ioのデスクトップアプリを入れると、最新版の自動ダウンロードやアプリの管理も可能です。&#xA;プロジェクトの作成 プロジェクトマネージャー 起動直後はプロジェクトマネージャーが開きます。&#xA;新規プロジェクトの作成 プロジェクトマネージャーの右側にある、新規プロジェクトのボタンを押すとプロジェクト作成画面がポップアップします。&#xA;設定 説明 プロジェクト名 プロジェクトの名前を入力します。隣の「フォルダーを作成」をクリックすると、プロジェクト名と同じフォルダが、プロジェクトパスに作成されます。 プロジェクトパス プロジェクトを作るファイルパスです。何らかのファイルが含まれていると警告が出ます。 レンダラー プロジェクトのレンダリング方式を選択します。PCなどはForward+、モバイルはMobileを選択します。 Version Control Metadata バージョン管理方法を選択します。バージョン管理しない場合はGitのままで問題ありません。 メインシーンの作成 メインシーンとは、作成したプロジェクトで最初に実行される画面のことです。&#xA;3Dの空間や2Dの画面・GUIなども含めるため、Godot Engineではこれらをまとめてシーンと呼びます。&#xA;シーンパネルから作成 画面左上にあるシーンと書かれたパネルから、ルートノードを生成します。&#xA;ルートノードは、そのシーンの一番上の根幹となるノードです。&#xA;作成したシーンは自動的にエディタで開かれますが、まだ保存されていません。&#xA;シーンを作成した時点で保存しておくことをおすすめします。&#xA;開いたシーンを保存する 「未保存」のシーンを開いている状態でCtrl+Sで保存パネルを開き、任意のフォルダに保存します。&#xA;ファイルシステムパネルから作成 画面右下にあるファイルシステムと書かれたパネルは、プロジェクトのファイルやフォルダを表示しています。&#xA;任意のフォルダ（ルートフォルダはres://）を右クリックすることで、シーンを作成することができます。&#xA;ファイルシステムから作成した場合は、ファイルが保存されるだけで、自動的にシーンを開いてはくれません。&#xA;作成したシーンファイル（.tscnファイル）をダブルクリックして開いてください。&#xA;メインシーンの設定 作成したシーンをメインシーンとして設定します。&#xA;保存したシーンファイル（.tscnファイル）を。ファイルシステムパネルから右クリックします。&#xA;右クリックメニューの中から「メインシーンとして設定」をクリックすると、選んだシーンが最初に実行されるようになります。</description>
     </item>
     <item>
       <title></title>
@@ -773,43 +447,21 @@ itch.ioのデスクトップアプリを入れると、最新版の自動ダウ�
       <link>https://godot-jp.github.io/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://godot-jp.github.io/links/</guid>
-      <description>　掲載許可をいただいた方のみ記載させていただいております。ありがとうございます。
-以下五十音順です。
-チュートリアルメイン 2dgames.jp Peanuts Code ブログメイン 白樺開発日記 ふぉるたブログ </description>
+      <description>　掲載許可をいただいた方のみ記載させていただいております。ありがとうございます。&#xA;以下五十音順です。&#xA;チュートリアルメイン 2dgames.jp Peanuts Code ブログメイン 白樺開発日記 ふぉるたブログ </description>
     </item>
     <item>
       <title>数値について</title>
       <link>https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
-      <description>数値の基本 数値の型は、主にint型とfloat型になります。
-単純に言えば、intは整数で、floatは小数点のある数字（実数）です。
-int型の場合、64bitの数値として、-9223372036854775807 〜 9223372036854775807までの数値を扱う事ができます。
-float型の場合、エンジン内の関数などでは32bitの浮動小数点値を使用しています。
-これは10進数の6桁になりますので、大きな数字を表現する場合はint型として処理するほうが良いと思います。
-数値の作成方法 数値を作成するには数値リテラルを使用します。
-整数の作成 var value0 :int = 1 var value1 :int = -1 # 静的型付け var value2 = 1 実数の作成 var value0 :float = 1.0 var value1 :float = -1.0 # 静的型付け var value2 = 1.0 数値に変換する方法 別の型を数値に変換（キャスト）する関数が用意されています。
-intクラスメソッド メソッド名 説明 int(bool) bool型をint型に変換します。trueなら1に、falseなら0に変換します。 int(float) float型をint型に変換します。端数は切り捨てられますので、例えば2.7の場合は2に、-0.7の場合は0になります。 int(String) 有効なString型をint型に変換します。すべて無効な文字列は無視され0が返されます。例えば&amp;quot;test1&amp;quot;の場合は1に、&amp;quot;1e3&amp;quot;の場合は13になります。 floatクラスメソッド メソッド名 説明 float(bool) bool型をfloat型に変換します。trueなら1.0に、falseなら0.0に変換します。 float(int) int型をfloat型に変換します。1の場合は1.0に変換されます。 float(String) 有効なString型をfloat型に変換します。このメソッドはfloat文字列（&amp;quot;0.72&amp;quot;など）や指数表記文字列を受け入れるため、1e3の場合は1000.0になります。（1e3 = 1×10の3乗 = 1000）それまで解析した結果を返して処理を終了するため、1e3a2の場合は1000.0となり、後半のa2は無効となります。 特殊な数値の表し方 2進整数（int型） 0と1で表す2進数ですが、Godot Engineでは、最終的にint型として扱われます。</description>
+      <description>数値の基本 数値の型は、主にint型とfloat型になります。&#xA;単純に言えば、intは整数で、floatは小数点のある数字（実数）です。&#xA;int型の場合、64bitの数値として、-9223372036854775807 〜 9223372036854775807までの数値を扱う事ができます。&#xA;float型の場合、エンジン内の関数などでは32bitの浮動小数点値を使用しています。&#xA;これは10進数の6桁になりますので、大きな数字を表現する場合はint型として処理するほうが良いと思います。&#xA;数値の作成方法 数値を作成するには数値リテラルを使用します。&#xA;整数の作成 var value0 :int = 1 var value1 :int = -1 # 静的型付け var value2 = 1 実数の作成 var value0 :float = 1.0 var value1 :float = -1.0 # 静的型付け var value2 = 1.0 数値に変換する方法 別の型を数値に変換（キャスト）する関数が用意されています。&#xA;intクラスメソッド メソッド名 説明 int(bool) bool型をint型に変換します。trueなら1に、falseなら0に変換します。 int(float) float型をint型に変換します。端数は切り捨てられますので、例えば2.7の場合は2に、-0.7の場合は0になります。 int(String) 有効なString型をint型に変換します。すべて無効な文字列は無視され0が返されます。例えば&amp;quot;test1&amp;quot;の場合は1に、&amp;quot;1e3&amp;quot;の場合は13になります。 floatクラスメソッド メソッド名 説明 float(bool) bool型をfloat型に変換します。trueなら1.0に、falseなら0.0に変換します。 float(int) int型をfloat型に変換します。1の場合は1.0に変換されます。 float(String) 有効なString型をfloat型に変換します。このメソッドはfloat文字列（&amp;quot;0.72&amp;quot;など）や指数表記文字列を受け入れるため、1e3の場合は1000.0になります。（1e3 = 1×10の3乗 = 1000）それまで解析した結果を返して処理を終了するため、1e3a2の場合は1000.0となり、後半のa2は無効となります。 特殊な数値の表し方 2進整数（int型） 0と1で表す2進数ですが、Godot Engineでは、最終的にint型として扱われます。</description>
     </item>
     <item>
       <title>文字列について</title>
       <link>https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
-      <description>文字列の基本 文字列は非常に単純なデータ型であり、コピーオンライトという方式が取られています。
-参照渡しができない型の場合、他の変数に渡すとすぐに複製されますが、Godot Engineの場合、渡された時点では参照渡しであり、変更があった場合に複製されます。
-つまり、変更がない場合は複製されないのでメモリの節約になります。
-また、Godot Engineでは文字列を加工するメソッドが多数用意されています。
-文字コードについて Godot EngineはUnicodeをサポートしています。
-文字列の作成方法 文字列を作成するには、文字列リテラルを使用し、ダブルクォーテーション&amp;quot;&amp;quot;でくくります。
-var value :String = &amp;#34;あいうえお&amp;#34; # あいうえお 文字列の中でダブルクォーテーションを使う 文字列リテラルでダブルクォーテーションを使用しているため、文字列内にダブルクォーテーションを使用することができません。
-その場合、エスケープ文字を使い、\&amp;quot;と記述します。
-var value :String = &amp;#34;\&amp;#34;かきくけこ\&amp;#34;&amp;#34; # &amp;#34;かきくけこ&amp;#34; 他の型を文字列に変換する ほとんどの型をStringに変換することができますが、Stringクラスで変換するわけではありません。
-String(100)などとするとエラーが出ます。
-str(100) var_to_str(100) 文字列の処理 文字列を連結する 連結演算子+または+=を使用して、複数の文字列を連結します。
-var value :String = &amp;#34;あいう&amp;#34; + &amp;#34;え&amp;#34; # あいうえ value += &amp;#34;お&amp;#34; # あいうえお 他の型と文字列を連結する 他の型と連結する場合は、どちらも文字列に揃える必要があります。
-var value :String = &amp;#34;あいうえお&amp;#34; value += str(100) print(value) # あいうえお100 文字列同士を比較する 文字列が同じかどうかを比較する場合、==等価演算子を使用することができます。
-var value = &amp;#34;あいう&amp;#34; == &amp;#34;あいう&amp;#34; # true また、文字コードの大小を、&amp;lt;または&amp;gt;の比較演算子を使用することで判別できます。</description>
+      <description>文字列の基本 文字列は非常に単純なデータ型であり、コピーオンライトという方式が取られています。&#xA;参照渡しができない型の場合、他の変数に渡すとすぐに複製されますが、Godot Engineの場合、渡された時点では参照渡しであり、変更があった場合に複製されます。&#xA;つまり、変更がない場合は複製されないのでメモリの節約になります。&#xA;また、Godot Engineでは文字列を加工するメソッドが多数用意されています。&#xA;文字コードについて Godot EngineはUnicodeをサポートしています。&#xA;文字列の作成方法 文字列を作成するには、文字列リテラルを使用し、ダブルクォーテーション&amp;quot;&amp;quot;でくくります。&#xA;var value :String = &amp;#34;あいうえお&amp;#34; # あいうえお 文字列の中でダブルクォーテーションを使う 文字列リテラルでダブルクォーテーションを使用しているため、文字列内にダブルクォーテーションを使用することができません。&#xA;その場合、エスケープ文字を使い、\&amp;quot;と記述します。&#xA;var value :String = &amp;#34;\&amp;#34;かきくけこ\&amp;#34;&amp;#34; # &amp;#34;かきくけこ&amp;#34; 他の型を文字列に変換する ほとんどの型をStringに変換することができますが、Stringクラスで変換するわけではありません。&#xA;String(100)などとするとエラーが出ます。&#xA;str(100) var_to_str(100) 文字列の処理 文字列を連結する 連結演算子+または+=を使用して、複数の文字列を連結します。&#xA;var value :String = &amp;#34;あいう&amp;#34; + &amp;#34;え&amp;#34; # あいうえ value += &amp;#34;お&amp;#34; # あいうえお 他の型と文字列を連結する 他の型と連結する場合は、どちらも文字列に揃える必要があります。&#xA;var value :String = &amp;#34;あいうえお&amp;#34; value += str(100) print(value) # あいうえお100 文字列同士を比較する 文字列が同じかどうかを比較する場合、==等価演算子を使用することができます。&#xA;var value = &amp;#34;あいう&amp;#34; == &amp;#34;あいう&amp;#34; # true また、文字コードの大小を、&amp;lt;または&amp;gt;の比較演算子を使用することで判別できます。</description>
     </item>
   </channel>
 </rss>

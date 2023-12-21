@@ -6,8 +6,15 @@
     <description>Recent content in weekly-godot-japan on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 14 Dec 2023 15:14:31 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 21 Dec 2023 15:14:32 +0900</lastBuildDate>
     <atom:link href="https://godot-jp.github.io/tags/weekly-godot-japan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weekly Godot Japan 2023-12-21</title>
+      <link>https://godot-jp.github.io/news/wgj-2023-12-21/</link>
+      <pubDate>Thu, 21 Dec 2023 15:14:32 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2023-12-21/</guid>
+      <description>今週（2023年12月14日〜2023年12月21日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
     <item>
       <title>Weekly Godot Japan 2023-12-14</title>
       <link>https://godot-jp.github.io/news/wgj-2023-12-14/</link>
@@ -230,7 +237,7 @@
       <link>https://godot-jp.github.io/news/wgj-2023-05-11/</link>
       <pubDate>Thu, 11 May 2023 15:13:38 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-05-11/</guid>
-      <description>今週（2023年5月4日〜2023年5月11日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート Got the new tileset working with the auto-tiling script. :)&#xA;Now, gonna make use of the #Godot4 migration to refractor all the movement and attacking code! That should be fun lol#screenshotsaturday #godotengine #IndieDevs pic.twitter.com/1Ki3lkWGmu&#xA;&amp;mdash; Du (@salgueiroAzul) May 6, 2023 最近開発を再開した侍カジュアルゲームですが、フラッピーバード的なタイトルに無理やりしてみたものの、英語ネイティブの感覚がわからないので(仮)ということにしておきますです。#godotengine #gamedev #indiedev pic.twitter.com/0S4A8WkKgW&#xA;&amp;mdash; Gobo🐺 (@peanuts_code) May 9, 2023 🔌ツール・プラグイン imjp94/gd-blender-3d-shortcuts: Blender 3D Shortcuts in Godot Blender 3D Shortcuts in Godot. Contribute to imjp94/gd-blender-3d-shortcuts development by creating an account on GitHub.</description>
+      <description>今週（2023年5月4日〜2023年5月11日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート Got the new tileset working with the auto-tiling script. :)&#xA;Now, gonna make use of the #Godot4 migration to refractor all the movement and attacking code! That should be fun lol#screenshotsaturday #godotengine #IndieDevs pic.twitter.com/1Ki3lkWGmu&#xA;&amp;mdash; Du (@salgueiroAzul) May 6, 2023 最近開発を再開した侍カジュアルゲームですが、フラッピーバード的なタイトルに無理やりしてみたものの、英語ネイティブの感覚がわからないので(仮)ということにしておきますです。#godotengine #gamedev #indiedev pic.twitter.com/0S4A8WkKgW&#xA;&amp;mdash; masanao sako(gobo)🐺 (@peanuts_code) May 9, 2023 🔌ツール・プラグイン imjp94/gd-blender-3d-shortcuts: Blender 3D Shortcuts in Godot Blender 3D Shortcuts in Godot.</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-05-04</title>

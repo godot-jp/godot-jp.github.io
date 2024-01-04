@@ -6,8 +6,15 @@
     <description>Recent content in weekly-godot-japan on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 28 Dec 2023 15:14:20 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jan 2024 15:14:43 +0900</lastBuildDate>
     <atom:link href="https://godot-jp.github.io/tags/weekly-godot-japan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weekly Godot Japan 2024-01-04</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-01-04/</link>
+      <pubDate>Thu, 04 Jan 2024 15:14:43 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-01-04/</guid>
+      <description>今週（2023年12月28日〜2024年1月4日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
     <item>
       <title>Weekly Godot Japan 2023-12-28</title>
       <link>https://godot-jp.github.io/news/wgj-2023-12-28/</link>
@@ -174,7 +181,7 @@
       <link>https://godot-jp.github.io/news/wgj-2023-07-20/</link>
       <pubDate>Thu, 20 Jul 2023 15:14:03 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-07-20/</guid>
-      <description>今週（2023年7月13日〜2023年7月20日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート Conveniently placed crates...#GunmetalGothic #screenshotsaturday #madewithgodot #indiedev pic.twitter.com/xtVebCaeaS&#xA;&amp;mdash; ynoham (@ynoham) July 16, 2023 Love to see Godot strongly growing year over year! All the other technologies appear to be shrinking.. https://t.co/8EwH3P8ACX&#xA;&amp;mdash; Juan Linietsky (@reduzio) July 18, 2023 🔌ツール・プラグイン Terrain3D is a new C++ based GDExtension for #GodotEngine 4.x that adds the much requested Terrain editing tools to the game engine.&#xA;Highly performant, capable and easy to use, if you want to work with Terrain in Godot, check it out!</description>
+      <description>今週（2023年7月13日〜2023年7月20日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート Conveniently placed crates...#GunmetalGothic #screenshotsaturday #madewithgodot #indiedev pic.twitter.com/xtVebCaeaS&#xA;&amp;mdash; ynoham🔜MAGFest (@ynoham) July 16, 2023 Love to see Godot strongly growing year over year! All the other technologies appear to be shrinking.. https://t.co/8EwH3P8ACX&#xA;&amp;mdash; Juan Linietsky (@reduzio) July 18, 2023 🔌ツール・プラグイン Terrain3D is a new C++ based GDExtension for #GodotEngine 4.x that adds the much requested Terrain editing tools to the game engine.&#xA;Highly performant, capable and easy to use, if you want to work with Terrain in Godot, check it out!</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-07-13</title>

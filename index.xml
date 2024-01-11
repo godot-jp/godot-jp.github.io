@@ -6,7 +6,7 @@
     <description>Recent content on Godot Japan User Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 04 Jan 2024 15:14:43 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jan 2024 15:15:04 +0900</lastBuildDate>
     <atom:link href="https://godot-jp.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>当サイトについて</title>
@@ -49,6 +49,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://godot-jp.github.io/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/</guid>
       <description>Godot Engineの組み込みスクリプト言語であるGDScriptの基本的な使い方について記載します。&#xA;基本的な記述方法 extends Node var int_sanple = 0 var text_sample = &amp;#34;文字列&amp;#34; var int_sample2 :int = 1 func _ready(): pass GDSCriptは、大まかに３種類の要素で読み書きすることができます。&#xA;上記のサンプルを１行ずつ解説します。&#xA;クラスの拡張 extends Node extends NodeはNodeというクラスの拡張という意味です。&#xA;Nodeクラスが持つ機能をそのままに、新しいクラスを作ることになります。&#xA;変数 var int_sample = 0 var text_sample = &amp;#34;文字列&amp;#34; GDScriptは静的型付けの機能を持っています。&#xA;多くの言語は型を明示的に指定する必要がありますが、GDScriptは自動的に型を割り付けます。&#xA;これによりユーザーは型をあまり意識せずにプログラムを書くことができます。&#xA;明示的な型付け var int_sample2 :int = 1 型を意識したい場合もありますので、上記のように明示的に型を指定することもできます。&#xA;関数 func _ready(): pass GDScriptの関数はfuncにスペースを空けて関数名を記述します。&#xA;多くの言語のように{ }でブロックを作るのではなく、:のあとのインデントでブロックを作る構文になります。&#xA;関数にはクラスがもともと持っている組み込み関数と、ユーザーが作る独自関数の２種類があります。</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-01-11</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-01-11/</link>
+      <pubDate>Thu, 11 Jan 2024 15:15:04 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-01-11/</guid>
+      <description>今週（2024年1月4日〜2024年1月11日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2024-01-04</title>

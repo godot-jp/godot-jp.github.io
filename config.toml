@@ -3,6 +3,7 @@ languageCode = 'ja-jp'
 title = 'Godot Japan User Community'
 theme = 'GodotJP-2023'
 enableGitInfo = true
+ignoreLogs = ['error-remote-getjson']
 
 [pramas]
 dafaultNoimage = "/images/m_e_other_501.png"

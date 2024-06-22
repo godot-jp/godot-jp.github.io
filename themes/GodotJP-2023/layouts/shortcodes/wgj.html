@@ -40,11 +40,6 @@
 {{range  $dict }}
     <h3 class="fs-2 text-center mt-4">{{ index . 0 }}</h3>
     {{range after 1 .}}
-        {{/*if eq ($url := urls.Parse .link).Host "twitter.com" */}}
-            {{/* $query := print "https://publish.twitter.com/oembed?url=" (urlquery $url) */}}
-            {{/* $tweet := getJSON $query */}}
-            {{/* $tweet.html | safeHTML */}}
-        {{/*else if eq ($url := urls.Parse .link ).Host "mastodon.gamedev.place"*/}}
         {{if eq ($url := urls.Parse .link ).Host "mastodon.gamedev.place"}}
             {{ $toot_user := index (split $url.Path "/") 1 }}
             {{ $toot_id := index (split $url.Path "/") 2 }}

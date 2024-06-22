@@ -3,7 +3,7 @@ title: "「Godotでゆるっと！ゲーム制作祭」が開催されます"
 date: 2024-06-23T01:11:57+09:00
 image: "image-1.png"
 tags: ["information"]
-draft: true
+draft: false
 ---
 
 [Yuumayayさん](https://x.com/yuumayay)が主催するGodot Engineゲームジャム、[Godotでゆるっと！ゲーム制作祭]](https://progsha.org/gygm/)が2024年6月24日～6月30日に開催されます。  

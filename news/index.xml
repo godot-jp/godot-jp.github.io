@@ -4,10 +4,171 @@
     <title>ニュース on Godot Japan User Community</title>
     <link>https://godot-jp.github.io/news/</link>
     <description>Recent content in ニュース on Godot Japan User Community</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 05 Jan 2023 12:41:13 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2024 15:16:36 +0900</lastBuildDate>
     <atom:link href="https://godot-jp.github.io/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weekly Godot Japan 2024-06-20</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-06-20/</link>
+      <pubDate>Thu, 20 Jun 2024 15:16:36 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-06-20/</guid>
+      <description>今週（2024年6月13日〜2024年6月20日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-06-13</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-06-13/</link>
+      <pubDate>Thu, 13 Jun 2024 15:16:37 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-06-13/</guid>
+      <description>今週（2024年6月6日〜2024年6月13日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-06-06</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-06-06/</link>
+      <pubDate>Thu, 06 Jun 2024 15:16:25 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-06-06/</guid>
+      <description>今週（2024年5月30日〜2024年6月6日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-05-30</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-05-30/</link>
+      <pubDate>Thu, 30 May 2024 15:16:09 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-05-30/</guid>
+      <description>今週（2024年5月23日〜2024年5月30日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-05-23</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-05-23/</link>
+      <pubDate>Thu, 23 May 2024 15:17:03 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-05-23/</guid>
+      <description>今週（2024年5月16日〜2024年5月23日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-05-16</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-05-16/</link>
+      <pubDate>Thu, 16 May 2024 15:13:07 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-05-16/</guid>
+      <description>今週（2024年5月9日〜2024年5月16日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-05-09</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-05-09/</link>
+      <pubDate>Thu, 09 May 2024 15:15:25 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-05-09/</guid>
+      <description>今週（2024年5月2日〜2024年5月9日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-05-02</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-05-02/</link>
+      <pubDate>Thu, 02 May 2024 15:14:53 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-05-02/</guid>
+      <description>今週（2024年4月25日〜2024年5月2日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-04-25</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-04-25/</link>
+      <pubDate>Thu, 25 Apr 2024 15:14:48 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-04-25/</guid>
+      <description>今週（2024年4月18日〜2024年4月25日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-04-18</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-04-18/</link>
+      <pubDate>Thu, 18 Apr 2024 15:15:01 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-04-18/</guid>
+      <description>今週（2024年4月11日〜2024年4月18日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-04-11</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-04-11/</link>
+      <pubDate>Thu, 11 Apr 2024 15:14:41 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-04-11/</guid>
+      <description>今週（2024年4月4日〜2024年4月11日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-04-04</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-04-04/</link>
+      <pubDate>Thu, 04 Apr 2024 15:14:14 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-04-04/</guid>
+      <description>今週（2024年3月28日〜2024年4月4日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-03-28</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-03-28/</link>
+      <pubDate>Thu, 28 Mar 2024 15:14:04 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-03-28/</guid>
+      <description>今週（2024年3月21日〜2024年3月28日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-03-21</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-03-21/</link>
+      <pubDate>Thu, 21 Mar 2024 15:13:52 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-03-21/</guid>
+      <description>今週（2024年3月14日〜2024年3月21日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-03-14</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-03-14/</link>
+      <pubDate>Thu, 14 Mar 2024 15:13:39 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-03-14/</guid>
+      <description>今週（2024年3月7日〜2024年3月14日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-03-07</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-03-07/</link>
+      <pubDate>Thu, 07 Mar 2024 15:14:26 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-03-07/</guid>
+      <description>今週（2024年2月29日〜2024年3月7日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-02-29</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-02-29/</link>
+      <pubDate>Thu, 29 Feb 2024 15:14:24 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-02-29/</guid>
+      <description>今週（2024年2月22日〜2024年2月29日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-02-22</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-02-22/</link>
+      <pubDate>Thu, 22 Feb 2024 15:14:11 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-02-22/</guid>
+      <description>今週（2024年2月15日〜2024年2月22日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-02-15</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-02-15/</link>
+      <pubDate>Thu, 15 Feb 2024 15:14:06 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-02-15/</guid>
+      <description>今週（2024年2月8日〜2024年2月15日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-02-08</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-02-08/</link>
+      <pubDate>Thu, 08 Feb 2024 15:14:24 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-02-08/</guid>
+      <description>今週（2024年2月1日〜2024年2月8日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-02-01</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-02-01/</link>
+      <pubDate>Thu, 01 Feb 2024 15:14:16 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-02-01/</guid>
+      <description>今週（2024年1月25日〜2024年2月1日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-01-25</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-01-25/</link>
+      <pubDate>Thu, 25 Jan 2024 15:15:03 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-01-25/</guid>
+      <description>今週（2024年1月18日〜2024年1月25日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
+    <item>
+      <title>Weekly Godot Japan 2024-01-18</title>
+      <link>https://godot-jp.github.io/news/wgj-2024-01-18/</link>
+      <pubDate>Thu, 18 Jan 2024 15:15:17 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/wgj-2024-01-18/</guid>
+      <description>今週（2024年1月11日〜2024年1月18日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 Powerd by Raindrop.io</description>
+    </item>
     <item>
       <title>Weekly Godot Japan 2024-01-11</title>
       <link>https://godot-jp.github.io/news/wgj-2024-01-11/</link>
@@ -188,7 +349,7 @@
       <link>https://godot-jp.github.io/news/wgj-2023-07-20/</link>
       <pubDate>Thu, 20 Jul 2023 15:14:03 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-07-20/</guid>
-      <description>今週（2023年7月13日〜2023年7月20日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート Conveniently placed crates...#GunmetalGothic #screenshotsaturday #madewithgodot #indiedev pic.twitter.com/xtVebCaeaS&#xA;&amp;mdash; ynoham🔜MAGFest (@ynoham) July 16, 2023 Love to see Godot strongly growing year over year! All the other technologies appear to be shrinking.. https://t.co/8EwH3P8ACX&#xA;&amp;mdash; Juan Linietsky (@reduzio) July 18, 2023 🔌ツール・プラグイン Terrain3D is a new C++ based GDExtension for #GodotEngine 4.x that adds the much requested Terrain editing tools to the game engine.&#xA;Highly performant, capable and easy to use, if you want to work with Terrain in Godot, check it out!</description>
+      <description>今週（2023年7月13日〜2023年7月20日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート Conveniently placed crates...#GunmetalGothic #screenshotsaturday #madewithgodot #indiedev pic.twitter.com/xtVebCaeaS&#xA;&amp;mdash; ynoham (@ynoham) July 16, 2023 Love to see Godot strongly growing year over year! All the other technologies appear to be shrinking.. https://t.co/8EwH3P8ACX&#xA;&amp;mdash; Juan Linietsky (@reduzio) July 18, 2023 🔌ツール・プラグイン Terrain3D is a new C++ based GDExtension for #GodotEngine 4.x that adds the much requested Terrain editing tools to the game engine.&#xA;Highly performant, capable and easy to use, if you want to work with Terrain in Godot, check it out!</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-07-13</title>
@@ -258,7 +419,7 @@
       <link>https://godot-jp.github.io/news/wgj-2023-05-11/</link>
       <pubDate>Thu, 11 May 2023 15:13:38 +0900</pubDate>
       <guid>https://godot-jp.github.io/news/wgj-2023-05-11/</guid>
-      <description>今週（2023年5月4日〜2023年5月11日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート Got the new tileset working with the auto-tiling script. :)&#xA;Now, gonna make use of the #Godot4 migration to refractor all the movement and attacking code! That should be fun lol#screenshotsaturday #godotengine #IndieDevs pic.twitter.com/1Ki3lkWGmu&#xA;&amp;mdash; Du (@salgueiroAzul) May 6, 2023 最近開発を再開した侍カジュアルゲームですが、フラッピーバード的なタイトルに無理やりしてみたものの、英語ネイティブの感覚がわからないので(仮)ということにしておきますです。#godotengine #gamedev #indiedev pic.twitter.com/0S4A8WkKgW&#xA;&amp;mdash; masanao sako(gobo)🐺 (@peanuts_code) May 9, 2023 🔌ツール・プラグイン imjp94/gd-blender-3d-shortcuts: Blender 3D Shortcuts in Godot Blender 3D Shortcuts in Godot.</description>
+      <description>今週（2023年5月4日〜2023年5月11日）のGodot Engineに関するニュースをお届けします。&#xA;このニュースはraindrop.ioのブックマークに今週追加された関連性の高いニュース・リリース・ゲーム・ツール・およびその他をまとめ、自動的に配信されています。&#xA;おすすめやアイディアがある場合は、DiscussionのスレッドまたはGodot Japan Discordサーバーにコメントをいただければ反映します。 🐦クールなツイート Got the new tileset working with the auto-tiling script. :)&#xA;Now, gonna make use of the #Godot4 migration to refractor all the movement and attacking code! That should be fun lol#screenshotsaturday #godotengine #IndieDevs pic.twitter.com/1Ki3lkWGmu&#xA;&amp;mdash; Du (@salgueiroAzul) May 6, 2023 🔌ツール・プラグイン imjp94/gd-blender-3d-shortcuts: Blender 3D Shortcuts in Godot Blender 3D Shortcuts in Godot. Contribute to imjp94/gd-blender-3d-shortcuts development by creating an account on GitHub. GodotVR/godot_xr_reference: Reference implementation for Godot 4 XR plugins Reference implementation for Godot 4 XR plugins.</description>
     </item>
     <item>
       <title>Weekly Godot Japan 2023-05-04</title>

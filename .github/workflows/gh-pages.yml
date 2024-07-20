@@ -37,7 +37,7 @@ jobs:
           git config core.quotePath false
 
       - name: Build
-        run: hugo
+        run: hugo --cleanDestinationDir
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

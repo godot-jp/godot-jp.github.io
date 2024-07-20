@@ -6,8 +6,15 @@
     <description>Recent content in ニュース on Godot Japan User Community</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 23 Jun 2024 02:30:15 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jul 2024 11:54:00 +0900</lastBuildDate>
     <atom:link href="https://godot-jp.github.io/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7/26 Godot Meetup Tokyo Vol.2を開催！</title>
+      <link>https://godot-jp.github.io/news/news-202407201139/</link>
+      <pubDate>Sat, 20 Jul 2024 11:39:46 +0900</pubDate>
+      <guid>https://godot-jp.github.io/news/news-202407201139/</guid>
+      <description>Godot勉強会改めGodot Meetup Tokyoを2024年7月26日（金）18:30から開催します。&#xA;（参加費無料）&#xA;詳細はこちら 登壇者には、前回GodotコアのコントリビューションについてのLTを行ったトカゲさんや、Godotアドオン開発で様々な発信をしているふぉるたさんなど、4名のLTと懇談会の時間を多く取っています。&#xA;CRI・ミドルウェア様にご協力いただき会場をお借りしましたので、是非お楽しみください。</description>
+    </item>
     <item>
       <title>「Godotでゆるっと！ゲーム制作祭」が開催されます</title>
       <link>https://godot-jp.github.io/news/news-20240623011123/</link>

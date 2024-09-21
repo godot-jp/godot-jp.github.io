@@ -44,9 +44,30 @@
 			<div class="post-content my-3 p-3 rounded-3 bg-light">
 				{{ .Content }}
 			</div>
+
+			{{ if eq .Section "reference" }}
+			<hr>
+			<h4>💬 Giscus</h4>
+			<div class="giscus">
+				<script src="https://giscus.app/client.js"
+					data-repo="godot-jp/godot-jp.github.io"
+					data-repo-id="R_kgDOIicNHA"
+					data-category="Announcements"
+					data-category-id="DIC_kwDOIicNHM4CS2uB"
+					data-mapping="title"
+					data-strict="0"
+					data-reactions-enabled="1"
+					data-emit-metadata="0"
+					data-input-position="bottom"
+					data-theme="preferred_color_scheme"
+					data-lang="ja"
+					crossorigin="anonymous"
+					async>
+				</script>
+			</div>
+			{{ end }}
 		</div>
 	</div>
-
 	
 	{{ if or (eq .Section "news") (eq .Section "blog") }}
 	{{/*  関連記事  */}}
@@ -81,6 +102,6 @@
   <footer class="footer w-100">
     {{ partial "footer.html" . }}
   </footer>
-  
+
 </body>
 </html>

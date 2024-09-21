@@ -14,18 +14,19 @@
 .post-content h4,
 .post-content h5,
 .post-content h6 {
-  color: #666;
+  color: #933;
   padding: 0.5em 0;
 }
 
 .post-content a {
   color: #36e;
+  border-bottom: 1px dotted #36e;
   text-decoration: none;
 }
 
 .post-content a:hover {
-  color: #36e;
-  text-decoration: underline;
+	color: #36e;
+	border-bottom: 2px dotted #47d;
 }
 
 .post-content blockquote {
@@ -58,4 +59,10 @@
   border-radius: 3px;
   font-size: 0.9em;
   padding: 0.1em 0.3em;
+}
+
+.giscus{
+	background: #445;
+	padding: 10px;
+	border-radius: 10px;
 }

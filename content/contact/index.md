@@ -33,7 +33,7 @@ function onSubmit(token) {
 	class="g-recaptcha btn btn-dark m-auto" 
         data-sitekey="6Ley6EoqAAAAADEselvCBRRULPXMU11Z3K4kyiPd" 
         data-callback='onSubmit' 
-        data-action='submit'>送信</button>
+        data-action='submit'><i class="bi bi-send-fill"></i> 送信</button>
 	</p>
 </dl>
 </form>

@@ -140,6 +140,10 @@ a.news{
   transition: .2s;
 }
 
+.card-link .image-box{
+	overflow:hidden;
+}
+
 
 .shadow-animation{
   box-shadow: rgba(0,0,0,0) 0 0 10px;
@@ -151,11 +155,21 @@ a.news{
   transition: .2s;
 }
 
-a.news:hover h5{
+.card-link:hover h5{
   color: #999;
   text-decoration: none;
   transition: .2s;
 }
+
+.card-link img{
+	transition: 0.2s;
+}	
+.card-link:hover img{	
+  opacity: 0.6;
+  transform:scale(1.05,1.05);
+  transition: 0.2s;
+}
+
 a.news h5{
 	transition: 0.2s;
 }

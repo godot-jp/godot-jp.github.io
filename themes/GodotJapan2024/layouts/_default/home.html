@@ -34,6 +34,9 @@
         <a href="{{ "news/" | relURL }}" class="h3 text-decoration-none text-dark">
         📬 ニュース
         </a>
+        <a class="h3 text-danger" href="">
+          <i class="bi bi-rss-fill"></i>
+        </a>
       </div>
       <div class="col-2 text-end">
         <a class="text-decoration-none btn d-none d-md-inline" href="{{ "news/" | relURL }}">もっと見る</a>
@@ -45,7 +48,7 @@
       {{range first 3 .Pages}}
       <!-- news card -->
       <a href="{{ .Permalink | relURL}}" class="col d-flex align-items-stretc news">
-        <div class="card h-100 shadow-animation">
+        <div class="card h-100 shadow-animation card-link">
           {{ $cover_path := "" }}
           {{ $info := .GitInfo}}
           {{ if eq (path.Dir .Params.image) "."}}
@@ -53,7 +56,9 @@
           {{else}}
               {{$cover_path = .Params.image}}
           {{end}}
-          <img src="{{$cover_path}}" class="card-img-top">
+          <div class="image-box">
+            <img src="{{$cover_path}}" class="card-img-top">
+          </div>
           <div class="card-body">
             <h5 class="card-title">{{.Title}}</h5>
           </div>
@@ -158,8 +163,8 @@
       <div class="row row-cols-1 row-cols-md-3 g-4">
         
         <div class="col">
-          <div class="card h-100">
-            <div class="card-body d-flex flex-wrap align-items-stretch justify-content-center">
+          <div class="card h-100 card-link">
+            <div class="card-body d-flex flex-wrap align-items-stretch justify-content-center image-box">
               <a href="https://framesynthesis.co.jp/" target="_blank" class="card-text">
                 <img src="/img/logo_frame_synthesis.png" alt="株式会社フレームシンセシス" width="224px" height="100%" style="object-fit: contain;">
               </a>
@@ -168,8 +173,8 @@
         </div>
         
         <div class="col">
-          <div class="card h-100">
-            <div class="card-body d-flex flex-wrap align-items-stretch justify-content-center">
+          <div class="card h-100 card-link">
+            <div class="card-body d-flex flex-wrap align-items-stretch justify-content-center image-box">
               <a href="https://faultun.com/ja/" target="_blank" class="card-text">
                 <img src="/img/logo_foltablog.webp" alt="ふぉるたブログ" width="224px" height="100%" style="object-fit: contain;">
               </a>
@@ -178,8 +183,8 @@
         </div>
 
         <div class="col">
-          <div class="card h-100">
-            <div class="card-body d-flex flex-wrap align-items-stretch justify-content-center">
+          <div class="card h-100 card-link">
+            <div class="card-body d-flex flex-wrap align-items-stretch justify-content-center image-box">
               <a href="https://ahead-studio.com/" target="_blank" class="card-text">
                 <img src="/img/logo_ahead_studio.png" width="224px" height="100%" style="object-fit: contain;">
               </a>

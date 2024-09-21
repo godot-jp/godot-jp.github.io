@@ -1,9 +1,11 @@
 {{ define "main" }}
 <hgroup style="padding-top: 100px;" class="bg-dark text-light pb-2 mb-2">
-  <h1>{{ .Title }}</h1>
-  <p class="h6">
-    {{ .Content }}
-  </p>
+  <div class="">
+    <h1 class="col-10 col-lg-6 m-auto py-2">{{ .Title }}</h1>
+    <div class="col-10 col-lg-6 m-auto" style="font-size: 80%; line-height:180%;">
+      {{ .Content }}
+    </div>
+  </div>
 </hgroup>
 <div class="container row row-cols-1 row-cols-md-3 g-4 m-auto">
   
@@ -11,18 +13,29 @@
   {{ $paginator := .Paginate $pages.ByTitle 9 }}
   
   {{ range $paginator.Pages }}
+  {{ $info := .GitInfo}}
+  {{/*  {{ if gt .Pages.Len 0 }}  */}}
   <a href="{{ .RelPermalink }}" class="text-decoration-none">
-    <article class="col">
-      <div class="card">
+    <article class="col shadow-animation card-link">
+      <div class="card ">
+        {{if .Params.image }}
+        <div class="image-box ">
+          <img src="{{ .RelPermalink }}/{{ .Params.image }}" class="card-img-top object-fit-cover" height="140px">
+        </div>
+        {{end}}
         <div class="card-body">
-          {{if .Params.image }}
-          <img src="{{ .RelPermalink }}/{{ .Params.image }}" class="card-img-top rounded-3 object-fit-cover" height="140px">
-          {{end}}
           <h5 class="card-title py-1">{{ .LinkTitle }}</h5>
         </div>
+        
+				{{ if or (eq .Section "news") (eq .Section "blog") }}
+        <div class="card-footer d-flex justify-content-end">
+          <small class="text-body-secondary fw-medium text-opacity-25">{{dateFormat "2006.01.02" $info.AuthorDate}}</small>
+        </div>
+        {{ end }}
       </div>
     </article>
   </a>
+  {{/*  {{ end }}  */}}
   {{ end }}
   
 </div>

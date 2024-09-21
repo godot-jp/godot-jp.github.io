@@ -4,9 +4,11 @@
   {{ partial "head.html" . }}
 </head>
 <body class="base-background-color">
+
   <header class="sticky-top m-0">
     {{ partial "header.html" . }}
   </header>
+  
   <main style="padding-top:100px;">
 	{{ $info := .GitInfo}}
 	<div class="container rounded-3 px-lg-3 mb-3">
@@ -73,11 +75,12 @@
 		{{ end }}
 	</div>
 	{{ end }}
-	
+
   </main>
 
   <footer class="footer w-100">
     {{ partial "footer.html" . }}
   </footer>
+  
 </body>
 </html>

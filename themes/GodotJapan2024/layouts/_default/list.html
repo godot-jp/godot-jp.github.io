@@ -1,8 +1,32 @@
 {{ define "main" }}
+<hgroup style="padding-top: 100px;" class="bg-dark text-light pb-2 mb-2">
   <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
+  <p class="h6">
+    {{ .Content }}
+  </p>
+</hgroup>
+<div class="container row row-cols-1 row-cols-md-3 g-4 m-auto">
+  
+  {{ $pages := .Pages }}
+  {{ $paginator := .Paginate $pages.ByTitle 9 }}
+  
+  {{ range $paginator.Pages }}
+  <a href="{{ .RelPermalink }}" class="text-decoration-none">
+    <article class="col">
+      <div class="card">
+        <div class="card-body">
+          {{if .Params.image }}
+          <img src="{{ .RelPermalink }}/{{ .Params.image }}" class="card-img-top rounded-3 object-fit-cover" height="140px">
+          {{end}}
+          <h5 class="card-title py-1">{{ .LinkTitle }}</h5>
+        </div>
+      </div>
+    </article>
+  </a>
   {{ end }}
+  
+</div>
+
+  {{ partial "pagination.html" . }}
+
 {{ end }}

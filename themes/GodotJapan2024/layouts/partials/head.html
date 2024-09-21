@@ -1,0 +1,8 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+{{ partialCached "head/css.html" . }}
+{{ partialCached "head/js.html" . }}
+{{ if eq .RelPermalink "/contact/"}}
+  <script src="https://www.google.com/recaptcha/api.js?render=6Ley6EoqAAAAADEselvCBRRULPXMU11Z3K4kyiPd"></script>
+{{ end }}

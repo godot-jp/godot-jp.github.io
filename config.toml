@@ -1,7 +1,7 @@
-baseURL = 'https://godot-jp.github.io/'
+baseURL = 'https://godot-japan.com/'
 languageCode = 'ja-jp'
-title = 'Godot Japan User Community'
-theme = 'GodotJP-2023'
+title = 'Godot Japan'
+theme = 'GodotJapan2024'
 enableGitInfo = true
 ignoreLogs = ['error-remote-getjson']
 

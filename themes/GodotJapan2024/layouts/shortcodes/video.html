@@ -1,0 +1,8 @@
+{{$url := .Get 0}}
+{{$id := $url | base64Encode }}
+<div class="w-100 my-3">
+    <video id="{{$id}}" autoplay="" loop="" muted="" 
+    style="display:block; max-width:100%; width:100%; margin:auto; border-radius:0.5rem;">
+        <source src="{{$url}}" type="video/mp4"/>
+    </video>
+</div>

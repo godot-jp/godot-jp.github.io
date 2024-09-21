@@ -29,6 +29,18 @@
 					<p class="h5 col fw-bold text-end text-danger">{{dateFormat "2006.01.02 15:04" $info.AuthorDate}}</p>
 				</div>
 				{{ end }}
+				{{ if eq .Section "reference" }}
+				<div class="row container">
+					<p class="h5 col fw-bold">
+						<span class="text-secondary fw-bolder">By : </span>
+						{{ $author_name := $info.AuthorName}}
+						{{ if eq $author_name "" }}
+						{{ $author_name = "-" }}
+						{{ end }}
+						<span class="news-author">{{$author_name}}</span>
+					</p>
+				</div>
+				{{ end }}
 			</hgroup>
 			
 			{{ with .Params.tags }}
@@ -47,7 +59,7 @@
 
 			{{ if eq .Section "reference" }}
 			<hr>
-			<h4>💬 Giscus</h4>
+			<h4><a data-bs-toggle="tooltip" data-bs-placement="top" title="記事についてのディスカッション">💬 Giscus</a></h4>
 			<div class="giscus">
 				<script src="https://giscus.app/client.js"
 					data-repo="godot-jp/godot-jp.github.io"

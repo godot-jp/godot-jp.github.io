@@ -6,3 +6,10 @@
 {{ if eq .RelPermalink "/contact/"}}
   <script src="https://www.google.com/recaptcha/api.js?render=6Ley6EoqAAAAADEselvCBRRULPXMU11Z3K4kyiPd"></script>
 {{ end }}
+
+<script type="text/javascript">
+	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+	var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+	return new bootstrap.Tooltip(tooltipTriggerEl)
+	})
+</script>

@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-US'
-title = 'My New Hugo Site'
+baseURL = 'https://godot-japan.com/'
+languageCode = 'ja-JP'
+title = 'Godot Japan 2024'
 
 [[menus.main]]
 name = 'Home'

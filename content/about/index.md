@@ -17,7 +17,7 @@ Godot Japanは日本最大級のGodot Engineのユーザーコミュニティで
 
 <div class="row gx-2 d-flex justify-content-center align-items-stretch mb-3">
 <div class="card d-flex p-3 mx-1 col-12 col-lg-5">
-<h3 class="text-center">Github</h3>
+<p class="h3 text-center">Github</p>
 <img src="Github-Icon.png" width="97px" class="mx-auto my-3">
 <a href="https://github.com/godot-jp/godot-jp" class="btn btn-dark w-100 my-3 fw-bolder justify-content-center text-light" style="border:1px solid;">Githubへ</a>
 <div>
@@ -25,7 +25,7 @@ Godot Japanは日本最大級のGodot Engineのユーザーコミュニティで
 </div>
 </div>
 <div class="card p-3 my-2 my-lg-0 mx-1 col-12 col-lg-5">
-<h3 class="text-center">Discordサーバー</h3>
+<p class="h3 text-center">Discordサーバー</p>
 <img src="Discord-Icon.png" width="97px" class="mx-auto my-3">
 <a href="https://discord.gg/DyFvSJZ" class="btn btn-dark w-100 my-3 fw-bolder justify-content-center text-light" style="border:1px solid;">Discordに参加する</a>
 <div>

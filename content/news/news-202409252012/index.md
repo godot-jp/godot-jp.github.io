@@ -2,7 +2,7 @@
 title: "Godot Japanが大幅リニューアルしました！"
 date: 2024-09-22T20:13:13+09:00
 image: "image.png"
-tags: []
+tags: ["information"]
 draft: false
 ---
 

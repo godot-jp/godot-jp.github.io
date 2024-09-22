@@ -1,6 +1,7 @@
 baseURL = 'https://godot-japan.com/'
 languageCode = 'ja-JP'
-title = 'Godot Japan 2024'
+title = 'Godot Japan'
+
 
 [[menus.main]]
 name = 'Home'

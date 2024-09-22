@@ -3,7 +3,7 @@
   <div class="">
 	{{/*  {{ .Parent.RelPermalink }}  */}}
 	{{ if eq .Parent.RelPermalink "/reference/" }}
-	<div class="col-10 col-lg-6 m-auto">
+	<div class="col-10 col-lg-6 m-auto  p-2">
 		<a href="{{ .Parent.RelPermalink }}" class="text-decoration-none text-secondary">
 			<i class="bi bi-arrow-left"></i> リファレンス一覧へ
 		</a>
@@ -31,10 +31,10 @@
 			<div class="card-body">
 			<h5 class="card-title py-1">
 				{{ .LinkTitle }}
-				{{ if ne .IsPage true }}
-				<small>({{ .Pages.Len }})</small>
-				{{ end }}
 			</h5>
+			{{/*  {{ if ne .IsPage true }}
+			<small style="opacity: 0.5;">({{ .Pages.Len }})</small>
+			{{ end }}  */}}
 			</div>
 		</div>
 		</article>

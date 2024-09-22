@@ -5,7 +5,7 @@ body{
     position: relative;/*←相対位置*/
 }
 
-.main{
+main{
 	min-height: calc(100vh - 400px);
 }
 
@@ -67,6 +67,42 @@ p.vertical-text{
 .navbar-brand {
   font-size: 1.75rem;
   letter-spacing: 3px;
+}
+
+.donate-btn::after{
+	border-radius: 10px;
+}
+
+.donate-btn{
+	--angle: 0deg;
+	background-color: #111;
+	border: 2px solid;
+	/* position: absolute;
+	padding: 10px;
+	left:   0;
+	top:    0;
+	right:  0;
+	bottom: 0; */
+	/* border-radius: 10px; */
+	border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+	animation: 7s rotate linear infinite;
+}
+
+.donate-btn:hover{
+	background-color: #333;
+	border: 2px solid #fff;
+	border-radius: 0;
+}
+
+@property --angle {
+	syntax: '<angle>';
+	initial-value: 0deg;
+	inherits: false;
+}
+@keyframes rotate {
+	to {
+		--angle: 360deg;
+	}
 }
 
 h1.logo{

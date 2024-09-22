@@ -15,21 +15,25 @@
     </div>
   </div>
 </hgroup>
-<div class="container row row-cols-1 row-cols-md-3 g-4 m-auto">
+<div class="container row row-cols-1 row-cols-md-4 g-4 m-auto">
   {{/*  リファレンス用のリストテンプレート  */}}
   {{ range .Pages }}
   	{{ $info := .GitInfo}}
 	{{ if or (gt .Pages.Len 0) ( .IsPage ) }}
 	<a href="{{ .RelPermalink }}" class="text-decoration-none">
 		<article class="col shadow-animation card-link">
-		<div class="card ">
+		{{/*  カードの色を決定する  */}}
+		<div class="card">
+			<div class="reference-emoji">
+				{{ .Params.emoji }}
+			</div>
 			{{if .Params.image }}
 			<div class="image-box ">
 				<img src="{{ .RelPermalink }}/{{ .Params.image }}" class="card-img-top object-fit-cover" height="140px">
 			</div>
 			{{end}}
 			<div class="card-body">
-			<h5 class="card-title py-1">
+			<h5 class="card-title py-1 text-center">
 				{{ .LinkTitle }}
 			</h5>
 			{{/*  {{ if ne .IsPage true }}

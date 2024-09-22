@@ -1,6 +1,6 @@
 ---
 title: "入力について"
-emoji: "input"
+emoji: "🎮"
 toc: true
 weight: 20
 draft: false

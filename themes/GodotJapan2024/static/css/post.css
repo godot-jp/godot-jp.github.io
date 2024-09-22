@@ -24,7 +24,7 @@
 .post-content h4,
 .post-content h5,
 .post-content h6 {
-  display: inline-block;
+  width: fit-content;
   position: relative;
   /* padding: 0 10px 0; */
   z-index: 0;
@@ -66,9 +66,12 @@
 .post-content h4[id],
 .post-content h5[id],
 .post-content h6[id] {
-  padding-top: 6rem;
+  padding-top: 7rem;
   margin-top: -6rem;
+  margin-bottom: 2rem;
 }
+
+
 
 .post-content a {
   color: #36e;
@@ -157,4 +160,33 @@ aside.msg .msg-content{
     flex: 1;
     margin-left: 0.6em;
     min-width: 0;
+}
+
+
+.post-content table{
+  font-size: 90%;
+  table-layout: fixed;
+}
+
+.post-content table th{
+  background-color: #bebebe;
+  padding: 0.5em;
+  border: 1px solid #969696;
+}
+
+.post-content table td{
+  padding: 0.5em;
+  border: 1px solid #ccc;
+}
+
+.post-content table tr:nth-child(2n){
+  background-color: #f0f0f0;
+}
+
+.post-content table th:first-child{
+  border-top-left-radius: 5px;
+}
+
+.post-content table th:last-child{
+  border-top-right-radius: 5px;
 }

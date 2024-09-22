@@ -24,9 +24,9 @@
 					{{ .Title }}
 				</h2>
 				{{ if or (eq .Section "news") (eq .Section "blog") }}
-				<div class="row container">
-					<p class="h5 col fw-bold"><span class="text-secondary fw-bolder">By : </span><span class="news-author">{{$info.AuthorName}}</span></p>
-					<p class="h5 col fw-bold text-end text-danger">{{dateFormat "2006.01.02 15:04" $info.AuthorDate}}</p>
+				<div class="d-flex flex-wrap flex-sm-nowrap container">
+					<p class="w-100 h5 fw-bold" style="white-space: nowrap;"><span class="text-secondary fw-bolder">By : </span><span class="news-author text-secondary">{{$info.AuthorName}}</span></p>
+					<p class="h6 fw-bold justify-content-end" style="color:#ca9; white-space: nowrap;">{{dateFormat "2006.01.02 15:04" $info.AuthorDate}}</p>
 				</div>
 				{{ end }}
 				{{ if eq .Section "reference" }}
@@ -83,11 +83,11 @@
 	
 	{{ if or (eq .Section "news") (eq .Section "blog") }}
 	{{/*  関連記事  */}}
-	<div class="container related-posts">
-		{{ $related := .Site.RegularPages.Related . | first 5 }}
+	<div class="col col-lg-9 m-auto related-posts">
+		{{ $related := .Site.RegularPages.Related . | first 3 }}
 		{{ with $related }}
 		<h3 class="text-center py-2">🔗 関連記事</h3>
-		<article class="row row-cols-1 row-cols-lg-3 container m-auto">
+		<article class="row row-cols-1 row-cols-lg-3 container m-auto justify-content-center">
 			{{ range . }}
 			<div class="col p-1">
 			<a href="{{ .RelPermalink }}" class="card text-decoration-none shadow-animation">

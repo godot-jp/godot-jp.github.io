@@ -1,6 +1,6 @@
 ---
 title: "基本的な使い方"
-emoji: "basic"
+emoji: "🤔"
 weight: 1
 ---
 

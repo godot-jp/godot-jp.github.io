@@ -6,7 +6,7 @@ body{
 }
 
 main{
-	min-height: calc(100vh - 400px);
+	min-height: calc(100vh - 300px);
 }
 
 p.vertical-text{
@@ -121,7 +121,7 @@ h1.logo::before{
   color: #fff;
   /* position: absolute;
   bottom: 0; */
-  min-height: 400px;
+  min-height: 300px;
   padding-top: 0.2rem;
 }
 
@@ -150,12 +150,7 @@ h1.logo::before{
 }
 
 .footer .copyright{
-	position:absolute;
-	bottom:2px;
-	left:0;
 	width: 100%;
-	margin: 0;
-	padding: 0;
 }
 
 .news-title{
@@ -309,4 +304,20 @@ a.news h5{
 	pointer-events: none;
 	color:#ccc;
 	background-color: rgba(255,255,255,0.5);
+}
+
+a:hover .reference-emoji{
+	transition: 0.3s;
+	text-shadow:#ccc 1px 2px 3px,
+				#ccc 1px 2px 3px,
+				#ccc 1px 2px 3px,
+				#ccc 1px 2px 3px,
+				#ccc 1px 2px 5px,
+				#ccc 1px 2px 5px,
+				#ccc 1px 2px 10px;
+}
+a .reference-emoji{
+	transition: 0.3s;
+	font-size: 5rem;
+	text-align: center;
 }

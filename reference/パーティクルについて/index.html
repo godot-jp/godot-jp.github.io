@@ -11,6 +11,12 @@
       <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
 
 
+<link rel="apple-touch-icon" sizes="180x180" href="https://godot-japan.com/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://godot-japan.com/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://godot-japan.com/favicons/favicon-16x16.png">
+<link rel="manifest" href="https://godot-japan.com/favicons/site.webmanifest ">
+<link rel="mask-icon" href="https://godot-japan.com/favicons/safari-pinned-tab.svg" color="#5bbad5">
+
 <script type="text/javascript">
 	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 	var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {

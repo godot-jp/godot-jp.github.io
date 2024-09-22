@@ -1,0 +1,51 @@
+{{ define "main" }}
+<hgroup style="padding-top: 100px;" class="bg-dark text-light pb-2 mb-2">
+  <div class="">
+	{{/*  {{ .Parent.RelPermalink }}  */}}
+	{{ if eq .Parent.RelPermalink "/reference/" }}
+	<div class="col-10 col-lg-6 m-auto  p-2">
+		<a href="{{ .Parent.RelPermalink }}" class="text-decoration-none text-secondary">
+			<i class="bi bi-arrow-left"></i> リファレンス一覧へ
+		</a>
+	</div>
+	{{ end }}
+    <h1 class="col-10 col-lg-6 m-auto pb-2">{{ .Title }}</h1>
+    <div class="col-10 col-lg-6 m-auto" style="font-size: 80%; line-height:180%;">
+      {{ .Content }}
+    </div>
+  </div>
+</hgroup>
+<div class="container row row-cols-1 row-cols-md-4 g-4 m-auto">
+  {{/*  リファレンス用のリストテンプレート  */}}
+  {{ range .Pages }}
+  	{{ $info := .GitInfo}}
+	{{ if or (gt .Pages.Len 0) ( .IsPage ) }}
+	<a href="{{ .RelPermalink }}" class="text-decoration-none">
+		<article class="col shadow-animation card-link">
+		{{/*  カードの色を決定する  */}}
+		<div class="card">
+			<div class="reference-emoji">
+				{{ .Params.emoji }}
+			</div>
+			{{if .Params.image }}
+			<div class="image-box ">
+				<img src="{{ .RelPermalink }}/{{ .Params.image }}" class="card-img-top object-fit-cover" height="140px">
+			</div>
+			{{end}}
+			<div class="card-body">
+			<h5 class="card-title py-1 text-center">
+				{{ .LinkTitle }}
+			</h5>
+			{{/*  {{ if ne .IsPage true }}
+			<small style="opacity: 0.5;">({{ .Pages.Len }})</small>
+			{{ end }}  */}}
+			</div>
+		</div>
+		</article>
+	</a>
+	{{ end }}
+  {{ end }}
+  
+</div>
+
+{{ end }}

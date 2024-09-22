@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+{{ partialCached "head/css.html" . }}
+{{ partialCached "head/js.html" . }}
+{{ if eq .RelPermalink "/contact/"}}
+  <script src="https://www.google.com/recaptcha/api.js?render=6Ley6EoqAAAAADEselvCBRRULPXMU11Z3K4kyiPd"></script>
+{{ end }}
+
+<script type="text/javascript">
+	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+	var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+	return new bootstrap.Tooltip(tooltipTriggerEl)
+	})
+	fluentemoji.parse('.reference-emoji');
+</script>
+<link rel="alternate" type="application/rss+xml" href="/news/index.xml" title="Godot Japan News">

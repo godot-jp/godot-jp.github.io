@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body class="base-background-color">
+
+	<header class="sticky-top m-0">
+		{{ partial "header.html" . }}
+	</header>
+
+	<main>
+		<section class="error-404 container h-100 text-center" style="padding-top:100px;">
+			<h2>404 - ページが見つかりません</h2>
+			<p>申し訳ありませんが、お探しのページは存在しないか、移動された可能性があります。</p>
+			<a href="/" class="btn btn-dark">ホームに戻る</a>
+		</section>
+	</main>
+
+	<footer class="footer w-100">
+		{{ partial "footer.html" . }}
+	</footer>
+</body>
+</html>

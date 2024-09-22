@@ -1,9 +1,11 @@
 ---
 title: "GDScriptについて"
-emoji: "gdscript"
+emoji: "🎼"
 toc: true
 weight: 10
 date: 2022-12-27T12:08:22+09:00
 draft: false
 ---
 
+GDScriptの基本的な使い方やクセをまとめています。
+エンジンの内臓のスクリプト言語ではありますが、少ないコードでエンジンの機能を最大限に発揮できるようにデザインされています。

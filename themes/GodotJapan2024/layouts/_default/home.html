@@ -1,0 +1,208 @@
+{{ define "main" }}
+<div class="container-fluid d-flex flex-column p-3 vh-100">
+  <div class="video">
+    <video src="/img/header_video.mp4" autoplay loop muted playsinline></video>
+  </div>
+
+  <div class="d-flex flex-column h-100">
+    <p class="justify-content-center align-self-center vertical-text h2 text-justify mx-auto" style="padding-top:100px; line-height: 150%;">
+      ゴドーエンジンで<br>
+      プロフェッショナルな開発を。<br>
+      日本語でも。
+    </p>
+
+    <div class="justify-content-center align-self-center text-center p-2 mt-3 d-none d-md-block">
+      <a href="https://github.com/godotengine/godot/releases/latest/" class="btn btn-danger mx-auto px-4 text-justify shadow-lg">
+        Godot Engine 最新版<br>
+        ダウンロード
+      </a>
+    </div>
+  </div>
+
+  <small class="text-end text-light d-flex align-items-end justify-content-end" style="opacity:0.75;">
+    <a href="https://store.steampowered.com/app/2081230/_/" target="_blank" class="text-decoration-none text-light bg-black">
+      パーリィナイトメア | KAKUKAKU GAMES
+    </a>
+  </small>
+
+</div>
+
+<div class="container">
+  <article class="my-4 pb-1">
+    <div class="my-3 row align-items-end">
+      <div class="col-10">
+        <a href="{{ "news/" | relURL }}" class="h3 text-decoration-none text-dark">
+        📬 ニュース
+        </a>
+        {{/*  TODO: RSS用のテンプレートを作って機能させる  */}}
+        <a class="h3 text-danger" href="/news/index.xml">
+          <i class="bi bi-rss-fill"></i>
+        </a>
+      </div>
+      <div class="col-2 text-end">
+        <a class="text-decoration-none btn d-none d-md-inline" href="{{ "news/" | relURL }}">もっと見る</a>
+      </div>
+    </div>
+    <!-- news card container -->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      {{with .Site.GetPage "news/"}}
+      {{range first 3 .Pages}}
+      <!-- news card -->
+      <a href="{{ .Permalink | relURL}}" class="col d-flex align-items-stretc news">
+        <div class="card h-100 shadow-animation card-link">
+          {{ $cover_path := "" }}
+          {{ $info := .GitInfo}}
+          {{ if eq (path.Dir .Params.image) "."}}
+              {{$cover_path = print .Permalink "/" .Params.image}}
+          {{else}}
+              {{$cover_path = .Params.image}}
+          {{end}}
+          <div class="image-box">
+            <img src="{{$cover_path}}" class="card-img-top">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">{{.Title}}</h5>
+          </div>
+          <div class="card-footer d-flex justify-content-end">
+            <small class="text-body-secondary fw-medium text-opacity-25">{{dateFormat "2006.01.02" $info.AuthorDate}}</small>
+          </div>
+        </div>
+      </a>
+      {{end}}
+      {{end}}
+
+    </div>
+  </article>
+
+  {{/* Tutorial section */}}
+  {{ with .Site.GetPage "tutorial/"}}
+  <article class="my-4 pb-1">
+    <div class="my-3">
+      <h3>🚀 チュートリアル</h3>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+
+        <div class="col">
+          <a href="#" class="card mb-3 text-decoration-none shadow-animation">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </article>
+  {{end}}
+  
+  <article class="my-4 pb-1">
+    <div class="my-3">
+      <h3>🍻 参加</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        
+        <div class="col d-flex align-items-stretch">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-wrap align-items-stretch justify-content-center">
+              <p class="card-title col-12 h3 text-center">Discord</p>
+              <img src="/img/home_img_discord.png" alt="Discord" class="card-image-top d-block m-2" style="object-fit:cover; max-width:100%; max-height: 100%; height:200px;">
+              <p class="card-text">
+                Discordコミュニティは国内最大級のユーザーコミュニティです。<br>
+                多くの日本語ユーザーのゲーム開発者・エンジンのコントリビューターが日本語で日々ディスカッションが行われています。
+              </p>
+              <div class="text-center d-flex align-items-end">
+                <a class="btn btn-dark m-auto shadow-animation" href="https://discord.gg/DyFvSJZ">参加する</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex align-items-stretch">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-wrap align-items-stretch justify-content-center">
+              <p class="card-title col-12 h3 text-center">Forum</p>
+              <img src="/img/home_img_tea.png" alt="Forum" class="card-image-top d-block m-2" style="object-fit:cover; max-width:100%; max-height: 100%; height:200px;">
+              <p class="card-text">
+                Godot Engineの日本語情報を増やすべく、コミュニティでも人気のあるフォーラムの形を採用しました。
+                日本語での質問や情報交換が可能です。<br>
+                <small class="text-secondary">
+                  ※フォーラムに投稿するためにはアカウント登録が必要です。
+                </small>
+              </p>
+              <div class="text-center d-flex align-items-end">
+                <a class="btn btn-dark m-auto shadow-animation" href="https://forum.godot-japan.com/">参加する</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex align-items-stretch">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-wrap align-items-stretch justify-content-center">
+              <p class="card-title col-12 h3 text-center">Donate</p>
+              <img src="/img/home_img_donate.png" alt="Donate" class="card-image-top d-block m-2" style="object-fit:cover; max-width:100%; max-height: 100%; height:200px;">
+              <p class="card-text">
+                Godot Japanは非営利のオープンソースコミュニティであり、ボランティアスタッフによって構成されています。
+                今後も長期的に日本でのGodot Engineの活動のために寄付をご検討ください。
+              </p>
+              <div class="text-center d-flex align-items-end">
+                <a class="btn btn-dark m-auto shadow-animation" href="/donate">寄付する</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </article>
+
+  
+  <article class="my-4 pb-1">
+    <div class="my-3">
+      <h3>🏆 スポンサー</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        
+        <div class="col">
+          <div class="card h-100 card-link">
+            <div class="card-body d-flex flex-wrap align-items-stretch justify-content-center image-box">
+              <a href="https://framesynthesis.co.jp/" target="_blank" class="card-text">
+                <img src="/img/logo_frame_synthesis.png" alt="株式会社フレームシンセシス" width="224px" height="100%" style="object-fit: contain;">
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-100 card-link">
+            <div class="card-body d-flex flex-wrap align-items-stretch justify-content-center image-box">
+              <a href="https://faultun.com/ja/" target="_blank" class="card-text">
+                <img src="/img/logo_foltablog.webp" alt="ふぉるたブログ" width="224px" height="100%" style="object-fit: contain;">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 card-link">
+            <div class="card-body d-flex flex-wrap align-items-stretch justify-content-center image-box">
+              <a href="https://ahead-studio.com/" target="_blank" class="card-text">
+                <img src="/img/logo_ahead_studio.png" width="224px" height="100%" style="object-fit: contain;">
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </article>
+
+</div>
+
+{{ end }}

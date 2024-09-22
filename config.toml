@@ -1,7 +1,7 @@
-baseURL = 'https://godot-jp.github.io/'
+baseURL = 'https://godot-japan.com/'
 languageCode = 'ja-jp'
-title = 'Godot Japan User Community'
-theme = 'GodotJP-2023'
+title = 'Godot Japan'
+theme = 'GodotJapan2024'
 enableGitInfo = true
 ignoreLogs = ['error-remote-getjson']
 
@@ -23,3 +23,20 @@ imageQuality = 75
     endLevel = 2
     ordered = false
     startLevel = 1
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = false
+
+  [[related.indices]]
+    name = "keyword"
+    weight = 100
+
+  [[related.indices]]
+    name = "tags"
+    weight = 80
+
+  [[related.indices]]
+    name = "date"
+    weight = 10

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /categories/
+Disallow: /tags/
+Sitemap: http://godot-japan.com/sitemap.xml

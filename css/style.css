@@ -1,0 +1,323 @@
+body{
+	font-family: "Montserrat", 'Segoe UI', Tahoma, Geneva, Verdana, "Noto Color Emoji", sans-serif;
+	/* padding-bottom: 400px; */
+	min-height: 100vh;
+    position: relative;/*←相対位置*/
+}
+
+main{
+	min-height: calc(100vh - 300px);
+}
+
+p.vertical-text{
+	color:#fff;
+	font-family: "Zen Old Mincho", serif;
+	font-weight: 1000;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	text-shadow: #000 -1px -1px 5px, 
+				 #000 -2px -2px 5px,
+				 #000 1px 1px 5px,
+				 #000 2px 2px 5px,
+				 #000 0 0 10px, 
+				 #000 0 0 10px, 
+				 #000 0 0 20px, 
+				 #000 0 0 20px, 
+				 #000 0 0 30px, 
+				 #000 0 0 50px, 
+				 #000 0 0 50px, 
+				 rgba(0, 0, 0, 1) 0 0 20px,
+				 rgba(0, 0, 0, 1) 0 0 20px,
+				 rgba(0, 0, 0, 1) 0 0 50px, 
+				 rgba(0, 0, 0, 1) 0 0 50px;
+}
+
+.base-background-color{
+	background-color: #DDE5D3;
+}
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, .5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+
+.donate-btn::after{
+	border-radius: 10px;
+}
+
+.donate-btn{
+	--angle: 0deg;
+	background-color: #111;
+	border: 2px solid;
+	/* position: absolute;
+	padding: 10px;
+	left:   0;
+	top:    0;
+	right:  0;
+	bottom: 0; */
+	/* border-radius: 10px; */
+	border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+	animation: 7s rotate linear infinite;
+}
+
+.donate-btn:hover{
+	background-color: #333;
+	border: 2px solid #fff;
+	border-radius: 0;
+}
+
+@property --angle {
+	syntax: '<angle>';
+	initial-value: 0deg;
+	inherits: false;
+}
+@keyframes rotate {
+	to {
+		--angle: 360deg;
+	}
+}
+
+h1.logo{
+	max-width: 288px;
+	height: 64px;
+	overflow: hidden;
+}
+
+h1.logo::before{
+	content: url("/img/logo_godot_japan.png");
+	object-fit: cover;
+}
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  /* position: absolute;
+  bottom: 0; */
+  min-height: 300px;
+  padding-top: 0.2rem;
+}
+
+.footer ul{
+	line-height: 1.8em;
+}
+
+.footer a {
+  color: #fcc;
+  text-decoration: none;
+}
+
+.footer li a{
+	color: #777;
+	transition: 0.3s;
+}
+
+.footer li a:hover{
+	color: #fff;
+	transition: 0.3s;
+}
+
+.footer-description{
+	font-size: 0.9rem;
+	color:#666;
+}
+
+.footer .copyright{
+	width: 100%;
+}
+
+.news-title{
+	color:#666;
+}
+
+.news-author{
+	color:#c00;
+}
+
+.post-content{
+  line-height: 2em;
+}
+
+a.news{
+  color: #000;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.card-link .image-box{
+	overflow:hidden;
+}
+
+
+.shadow-animation{
+  box-shadow: rgba(0,0,0,0) 0 0 10px;
+  transition: .2s;
+}
+
+.shadow-animation:hover {
+  box-shadow: rgba(0,0,0,0.25) 0 0 10px;
+  transition: .2s;
+}
+
+.card-link:hover h5{
+  color: #999;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.card-link img{
+	transition: 0.2s;
+}	
+.card-link:hover img{	
+  opacity: 0.6;
+  transform:scale(1.05,1.05);
+  transition: 0.2s;
+}
+
+a.news h5{
+	transition: 0.2s;
+}
+
+.news img {
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.navbar li{
+	margin: 0 2px;
+}
+.navbar li a{
+	color: #000;
+	border-radius: 5px;
+	transition: .2s;
+}
+
+.navbar li a:hover{
+	color: #fff;
+	background-color: rgba(0,0,0,0.4);
+	box-shadow: rgba(0,0,0,0.25) 1px 1px 5px;
+	transition: 0.2s;
+}
+
+.navbar li a.active{
+	color: #000;
+	font-weight: bolder;
+	text-shadow:#fff 0 0 3px,
+				#fff 0 0 3px,
+				#fff 0 0 10px;
+	transition: 0.2s;
+}
+
+.navbar li a.active:hover{
+	text-shadow:#fff 0 0 3px,
+				#fff 0 0 3px,
+				#fff 0 0 3px,
+				#fff 0 0 3px,
+				#fff 0 0 5px,
+				#fff 0 0 5px,
+				#fff 0 0 10px;
+	transition: 0.2s;
+}
+
+.video{
+	width: 100%;
+	height: 100vh;
+	background: url("/img/kv-alternative.jpg") no-repeat center/cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: -1;
+}
+
+.video > video {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.mail-form{
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: rgba(0,0,0,0.25) 1px 1px 5px;
+}
+
+.mail-form dt{
+	padding: 10px;
+}
+.mail-form input,
+.mail-form textarea{
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+.mail-form textarea{
+	height: 10rem;
+}
+
+.related-posts{
+	padding: 10px;
+}
+
+.pagination .current{
+	pointer-events: none;
+	background-color: #f0f0f0;
+	color: #444;
+}
+
+.pagination .disable{
+	pointer-events: none;
+	color:#ccc;
+	background-color: rgba(255,255,255,0.5);
+}
+
+a:hover .reference-emoji{
+	transition: 0.3s;
+	text-shadow:#ccc 1px 2px 3px,
+				#ccc 1px 2px 3px,
+				#ccc 1px 2px 3px,
+				#ccc 1px 2px 3px,
+				#ccc 1px 2px 5px,
+				#ccc 1px 2px 5px,
+				#ccc 1px 2px 10px;
+}
+a .reference-emoji{
+	transition: 0.3s;
+	font-size: 5rem;
+	text-align: center;
+}

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2Dについて on Godot Japan User Community</title>
-    <link>https://godot-jp.github.io/reference/2d%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
-    <description>Recent content in 2Dについて on Godot Japan User Community</description>
+    <title>2Dについて on Godot Japan</title>
+    <link>https://godot-japan.com/reference/2d%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+    <description>Recent content in 2Dについて on Godot Japan</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://godot-jp.github.io/reference/2d%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://godot-japan.com/reference/2d%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

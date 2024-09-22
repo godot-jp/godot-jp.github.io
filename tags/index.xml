@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Godot Japan User Community</title>
-    <link>https://godot-jp.github.io/tags/</link>
-    <description>Recent content in Tags on Godot Japan User Community</description>
+    <title>Tags on Godot Japan</title>
+    <link>https://godot-japan.com/tags/</link>
+    <description>Recent content in Tags on Godot Japan</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 20 Jul 2024 11:54:00 +0900</lastBuildDate>
-    <atom:link href="https://godot-jp.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Sep 2024 01:15:32 +0900</lastBuildDate>
+    <atom:link href="https://godot-japan.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Information</title>
-      <link>https://godot-jp.github.io/tags/information/</link>
-      <pubDate>Sat, 20 Jul 2024 11:39:46 +0900</pubDate>
-      <guid>https://godot-jp.github.io/tags/information/</guid>
+      <link>https://godot-japan.com/tags/information/</link>
+      <pubDate>Sun, 22 Sep 2024 20:13:13 +0900</pubDate>
+      <guid>https://godot-japan.com/tags/information/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blue</title>
+      <link>https://godot-japan.com/tags/blue/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>https://godot-japan.com/tags/blue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Green</title>
+      <link>https://godot-japan.com/tags/green/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>https://godot-japan.com/tags/green/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Red</title>
+      <link>https://godot-japan.com/tags/red/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>https://godot-japan.com/tags/red/</guid>
       <description></description>
     </item>
   </channel>

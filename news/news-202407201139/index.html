@@ -1,237 +1,210 @@
-<html lang="ja">
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
 <head>
-    <title>
-        7/26 Godot Meetup Tokyo Vol.2を開催！ -
-        
-        Godot Japan User Community
-    </title>
-    <link rel="apple-touch-icon" sizes="180x180" href="https://godot-jp.github.io/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://godot-jp.github.io/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://godot-jp.github.io/favicons/favicon-16x16.png">
-    <link rel="manifest" href="https://godot-jp.github.io/favicons/site.webmanifest ">
-    <link rel="mask-icon" href="https://godot-jp.github.io/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Cache-Control" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <meta name="twitter:card" content="summary_large_image" >
-    
-    <meta name="twitter:title" property="og:title" content="7/26 Godot Meetup Tokyo Vol.2を開催！" >
-    <meta property="og:description" name="twitter:description" content="Godot勉強会改めGodot Meetup Tokyoを2024年7月26日（金）18:30から開催します。
-（参加費無料）
-詳細はこちら 登壇者には、前回GodotコアのコントリビューションについてのLTを行ったトカゲさんや、Godot" >
-    
-    
-    
-    
-    
-    
-    <meta property="og:image" name="twitter:image" content="https://godot-jp.github.io/news/news-202407201139//image.png" >
-    
-    
-    <meta property="og:type" content="website" >
-    <meta property="og:url" content="https://godot-jp.github.io/news/news-202407201139/" >
-    <meta property="og:site_name" content="Godot Japan User Community" >
-    
-    
-    <link rel="stylesheet" href="https://godot-jp.github.io/scss/gjuc-bs.css" >
-    
-    <script src="https://godot-jp.github.io/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" ></script>
-    <link href="/css/gjuc.base.style.css" rel="stylesheet">
-    <link href="/css/gjuc.posts.style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
-    
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0KGV6JPV5X"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        
-        gtag('config', 'G-0KGV6JPV5X');
-    </script>
-</head>
-<body class="bg-light">
-<nav id="global-menu" class="navbar navbar-expand-lg navbar-dark row bg-primary">
-    <div class="container-fluid p-0 m-0">
-        <span id="header-logo" class="navbar-brand">
-            <a href="/" class="m-auto">
-                <img src="/images/Logo.svg" class="w-100">
-            </a>
-        </span>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="row col gx-0 fw-bold">
-                
-                    
-                        
-                            
-                            
-                            <li class="col-12 col-lg-auto nav-item text-start"><a href="/about/" class="nav-link  p-2 p-lg-4">当サイトについて</a></li>
-                        
-                    
-                
-                    
-                
-                    
-                        
-                            
-                            
-                            <li class="col-12 col-lg-auto nav-item text-start"><a href="/news/" class="nav-link  p-2 p-lg-4">ニュース</a></li>
-                        
-                    
-                
-                    
-                        
-                            
-                            
-                            <li class="col-12 col-lg-auto nav-item text-start"><a href="/reference/" class="nav-link  p-2 p-lg-4">逆引きリファレンス</a></li>
-                        
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        
-                    
-                
-                    
-                
-                    
-                        
-                            
-                            
-                            <li class="col-12 col-lg-auto nav-item text-start"><a href="/links/" class="nav-link  p-2 p-lg-4">ユーザーリンク集</a></li>
-                        
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-            <div class="mx-1 mx-lg-3 my-2 text-start col-auto">
-                <a class="col-auto donate-btn fw-bold" href="https://github.com/sponsors/godot-jp"><i class="fas fa-heart"></i> Donate</a>
-            </div>
-        </div>
-    </div>
-</nav>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>7/26 Godot Meetup Tokyo Vol.2を開催！ | Godot Japan</title>
 
-<section class="container-fluid container-lg py-3">
-    <h1 class="my-3 text-danger text-center">
-        7/26 Godot Meetup Tokyo Vol.2を開催！
-    </h1>
-    <div class="col-8 mx-auto">
+      <link rel="stylesheet" href="/css/main.min.31b9689d1dee9dee8eebdec0725b3be10c75a72fe10d890488a2c4dc7ffc7018.css" integrity="sha256-MblonR3une6O697Acls74Qx1py/hDYkEiKLE3H/8cBg=" crossorigin="anonymous">
+
+
+      <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript">
+	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+	var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+	return new bootstrap.Tooltip(tooltipTriggerEl)
+	})
+	fluentemoji.parse('.reference-emoji');
+</script>
+<link rel="alternate" type="application/rss+xml" href="/news/index.xml" title="Godot Japan News">
+
+</head>
+<body class="base-background-color">
+
+  <header class="sticky-top m-0">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-sm m-0 p-0">
+  <div class="container-fluid">
+    <a href="/" class="navbar-brand col">
+      <img src="/img/logo_godot_japan.png" alt="Godot Japan" class="my-2"
+      style="height:100%; width:100%; max-height:48px; object-fit:contain; object-position:left;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/about">Godot Japanについて</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://forum.godot-japan.com/">フォーラム</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/news">ニュース</a>
+        </li>
         
-            <ul class="tags row mx-0 px-0"><li class="col-auto"><a href="/tags/information" class="btn btn-light border border-black-50">Information</a></ul>
-        
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">お問い合わせ</a>
+        </li>
+        <a href="/donate" class="btn btn-danger mx-3 mt-3 mt-lg-0 shadow-animation text-light">
+          <i class="bi bi-chat-heart-fill"></i> Donate
+        </a>
+      </ul>
     </div>
-    
-    <div class="col-12 col-md-8 mx-auto text-center">
-        <img src="image.png" style="width:100%;" class="news-images">
-    </div>
-    
-    <div class="my-3 text-center fw-bold" style="color:#999;">
-        
-        by Saitos - 2024/07/20 11:54:00
-        
-    </div>
-    <div class="mb-3">
-        <div class="d-flex row gx-2 text-center justify-content-center">
-            <a class="col-auto btn btn-info m-1 twitter-icon py-1" style="font-size:70%;"
-            href="https://x.com/intent/tweet?text=7%2f26%20Godot%20Meetup%20Tokyo%20Vol.2%e3%82%92%e9%96%8b%e5%82%ac%ef%bc%81%20%7C%20Godot%20Japan%20User%20Community%0a&url=https%3a%2f%2fgodot-jp.github.io%2fnews%2fnews-202407201139%2f" 
-            rel="nofollow" 
-            target="_blank">シェア</a>
-        </div>
-    </div>
-    <div class="col-12 col-md-8 mx-auto markdown">
-        <p>Godot勉強会改め<strong>Godot Meetup Tokyo</strong>を2024年7月26日（金）18:30から開催します。<br>
+  </div>
+</nav>
+  
+
+  </header>
+  
+  <main style="padding-top:100px;">
+	
+	<div class="container rounded-3 px-lg-3 mb-3">
+		<div class="col col-lg-10 mx-auto bg-light rounded-3 p-3">
+			
+			<div class="col-12 col-md-8 mx-auto text-center w-100">
+				<img src="image.png" class="w-100 news-images rounded-3">
+			</div>
+			
+			
+			<hgroup class="fw-bolder">
+				<h2 class="news-title h1 p-3 fw-bolder">
+					7/26 Godot Meetup Tokyo Vol.2を開催！
+				</h2>
+				
+				<div class="d-flex flex-wrap flex-sm-nowrap container">
+					<p class="w-100 h5 fw-bold" style="white-space: nowrap;"><span class="text-secondary fw-bolder">By : </span><span class="news-author text-secondary">Saitos</span></p>
+					<p class="h6 fw-bold justify-content-end" style="color:#ca9; white-space: nowrap;">2024.07.20 11:54</p>
+				</div>
+				
+				
+			</hgroup>
+			
+			
+			<div class="tags d-flex mx-0 px-0"><a href="/tags/information" class="btn btn-light border border-black-50 m-1">
+					Information
+				</a></div>
+			
+				
+			<div class="post-content my-3 p-3 rounded-3 bg-light">
+				<p>Godot勉強会改め<strong>Godot Meetup Tokyo</strong>を2024年7月26日（金）18:30から開催します。<br>
 （参加費無料）</p>
 <h3 id="詳細はこちらhttpsgodot-jpconnpasscomevent324374"><a href="https://godot-jp.connpass.com/event/324374/">詳細はこちら</a></h3>
 <p>登壇者には、前回GodotコアのコントリビューションについてのLTを行った<a href="https://x.com/viridflow">トカゲ</a>さんや、Godotアドオン開発で様々な発信をしている<a href="https://x.com/Faultun">ふぉるた</a>さんなど、4名のLTと懇談会の時間を多く取っています。</p>
 <p>CRI・ミドルウェア様にご協力いただき会場をお借りしましたので、是非お楽しみください。</p>
 
-    </div>
-    <div class="text-center my-4">
-        <a href="#" class="btn btn-light border border-black-50"> 
-            <span class="to-top-icon">↑</span>トップにもどる
-        </a>
-    </div>
-</section>
-<footer class="bg-primary text-light footer navbar fixed-bottom">
-    <p class="text-center w-100">
-        © 2022 - 2024 Saitos and Contributors.
-    </p>
-</footer>
+			</div>
+
+			
+		</div>
+	</div>
+	
+	
+	
+	<div class="col col-lg-9 m-auto related-posts">
+		
+		
+		<h3 class="text-center py-2">🔗 関連記事</h3>
+		<article class="row row-cols-1 row-cols-lg-3 container m-auto justify-content-center">
+			
+			<div class="col p-1">
+			<a href="/news/news-202409252012/" class="card text-decoration-none shadow-animation">
+				<div class="card-body row">
+					
+					<div class="card-image col-12 col-lg-4 ">
+						<img src="/news/news-202409252012//image.png" class="object-fit-cover rounded-start" style="width:100%; height:100%">
+					</div>
+					
+					<div class="card-title col-12 col-lg-8">
+						Godot Japanが大幅リニューアルしました！
+					</div>
+				</div>
+			</a>
+			</div>
+		 
+			<div class="col p-1">
+			<a href="/news/news-20240623011123/" class="card text-decoration-none shadow-animation">
+				<div class="card-body row">
+					
+					<div class="card-image col-12 col-lg-4 ">
+						<img src="/news/news-20240623011123//image-1.png" class="object-fit-cover rounded-start" style="width:100%; height:100%">
+					</div>
+					
+					<div class="card-title col-12 col-lg-8">
+						「Godotでゆるっと！ゲーム制作祭」が開催されます
+					</div>
+				</div>
+			</a>
+			</div>
+		 
+			<div class="col p-1">
+			<a href="/news/news-20230113124107/" class="card text-decoration-none shadow-animation">
+				<div class="card-body row">
+					
+					<div class="card-image col-12 col-lg-4 ">
+						<img src="/news/news-20230113124107//2023-01-13-13-29-35.png" class="object-fit-cover rounded-start" style="width:100%; height:100%">
+					</div>
+					
+					<div class="card-title col-12 col-lg-8">
+						寄付の開始とコミュニティのロードマップ
+					</div>
+				</div>
+			</a>
+			</div>
+		 
+		</article>
+		
+	</div>
+	
+
+  </main>
+
+  <footer class="footer w-100">
+    <div class=" mt-5 d-flex flex-column align-content-stretch">
+	<div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 container mx-auto footer-description  align-content-stretch">
+		<div class="col">
+			<p class="h3 text-light">Godot Japan</p>
+			<p>
+				国内最大級のGodot Engine日本コミュニティです。ユーザー同士のコミュニケーションをサポートし、快適にGodot Engineをご活用いただくために活動を行っています。
+			</p>
+		</div>
+		<div class="col">
+			<p class="h5 text-light">ユーザーコミュニティ</p>
+			<ul class="list-inline">
+				<li><a href="/about">Godot Japanについて</a></li>
+				<li><a href="https://discord.gg/DyFvSJZ">Discordサーバーに参加する</a></li>
+				<li><a href="/news">ニュース</a></li>
+				<li><a href="/reference">逆引きリファレンス</a></li>
+				<li><a href="/links">ユーザーリンク</a></li>
+			</ul>
+		</div>
+		<div class="col">
+			<p class="h5 text-light">フォーラム</p>
+			<ul class="list-inline">
+				<li><a href="https://forum.godot-japan.com/faq">FAQ＆ガイドライン</a></li>
+				<li><a href="https://forum.godot-japan.com/t/topic/35">フォーラムの便利な使い方</a></li>
+				<li><a href="https://forum.godot-japan.com/privacy">プライバシーポリシー</a></li>
+			</ul>
+		</div>
+		<div class="col">
+			<p class="h5 text-light">運営</p>
+			<ul class="list-inline">
+				<li><a href="/about#運営組織について">運営組織について</a></li>
+				<li><a href="/donate">寄付</a></li>
+				<li><a href="/contact">お問い合わせ</a></li>
+				<li><a href="/press">プレスキット</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="text-center copyright d-flex justify-content-center align-content-end">
+		<small class="p-2 d-block">
+			© Godot Japan 2020-2024. Hosted by <a href="https://ahead-studio.com/">Ahead Studio</a>. Website source code on <a href="https://github.com/godot-jp/godot-jp.github.io">Github</a>
+		</small>
+	</div>
+</div>
+  </footer>
 
 </body>
 </html>

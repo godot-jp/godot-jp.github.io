@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="VSCodeで開発環境を作る">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="Godot Japan">
+
+<meta property="og:image" content="https://godot-japan.com/img/TwitterCard.png">
+
+
+
+<title>VSCodeで開発環境を作る | Godot Japan</title>
+
+      <link rel="stylesheet" href="/css/main.min.31b9689d1dee9dee8eebdec0725b3be10c75a72fe10d890488a2c4dc7ffc7018.css" integrity="sha256-MblonR3une6O697Acls74Qx1py/hDYkEiKLE3H/8cBg=" crossorigin="anonymous">
+
+
+      <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://godot-japan.com/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://godot-japan.com/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://godot-japan.com/favicons/favicon-16x16.png">
+<link rel="manifest" href="https://godot-japan.com/favicons/site.webmanifest ">
+<link rel="mask-icon" href="https://godot-japan.com/favicons/safari-pinned-tab.svg" color="#5bbad5">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/post.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://emoji.fluent-cdn.com/1.0.0/fluentemoji.min.js" integrity="sha256-G+vk3FHls/+I4Y8UV9jyCptUB8a4dnIXNeebVWc+Oo8= sha384-oAYDjisHrSixQ6gOZWkdOy/hd68sjETUF/FU+u2eoYbxBumADffLAxjhU8eweqKs sha512-ebCuNnS6S45CxCyNltbcf71VhjwZqHqOPe+RJncGHITkjgm5yIYQkJ8Z4u/F/mc5WndKF1YPfjZ7JFSRpekKrg==" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+	var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+	return new bootstrap.Tooltip(tooltipTriggerEl)
+	})
+	fluentemoji.parse('.reference-emoji');
+</script>
+<link rel="alternate" type="application/rss+xml" href="/news/index.xml" title="Godot Japan News">
+
+</head>
+<body class="base-background-color">
+
+  <header class="sticky-top m-0">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-sm m-0 p-0">
+  <div class="container-fluid">
+    <a href="/" class="navbar-brand col">
+      <img src="/img/logo_godot_japan.png" alt="Godot Japan" class="my-2"
+      style="height:100%; width:100%; max-height:48px; object-fit:contain; object-position:left;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/about">Godot Japanについて</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://forum.godot-japan.com/">フォーラム</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/news">ニュース</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">お問い合わせ</a>
+        </li>
+        <a href="/donate" class="btn btn-danger mx-3 mt-3 mt-lg-0 shadow-animation text-light">
+          <i class="bi bi-chat-heart-fill"></i> Donate
+        </a>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+
+  </header>
+  
+  <main style="padding-top:100px;">
+	
+	<div class="container rounded-3 px-lg-3 mb-3">
+		<div class="col col-lg-10 mx-auto bg-light rounded-3 p-3">
+			
+			
+			<hgroup class="fw-bolder">
+				<h2 class="news-title h1 p-3 fw-bolder">
+					VSCodeで開発環境を作る
+				</h2>
+				
+				
+				<div class="row container">
+					<p class="h5 col fw-bold">
+						<span class="text-secondary fw-bolder">By : </span>
+						
+						
+						<span class="news-author">Saitos</span>
+					</p>
+				</div>
+				
+			</hgroup>
+			
+			
+				
+			<div class="post-content my-3 p-3 rounded-3 bg-light">
+				<p>Godotでのゲーム開発において、Godotのエディタを開かなくても開発することは可能です。<br>
+アーティストとプログラマでの分業に役立つと思いますので、環境セットアップの一例として参考にどうぞ。</p>
+<hr>
+<h1 id="vscodeのインストール">VSCodeのインストール</h1>
+<a href="https://code.visualstudio.com/download" class="no-icon" onMouseOver="this.style.opacity='0.9'" target="_blank" rel="noopener noreferrer”">
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://godot-japan.com/opengraph-home_11184801169479559337_hu17052654344433531534.webp">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Download Visual Studio Code - Mac, Linux, Windows</h5>
+                        <p class="card-text text-dark">Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.  Download Visual Studio Code to experience a redefined code editor,  optimized for building and debugging modern web and cloud applications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+<p>ダウンロード・インストールは省きます。</p>
+<h1 id="vscodeプラグインのインストール">VSCodeプラグインのインストール</h1>
+<h2 id="godot-toolsのインストール">Godot Toolsのインストール</h2>
+<h4 id="github">Github</h4>
+<a href="https://github.com/godotengine/godot-vscode-plugin" class="no-icon" onMouseOver="this.style.opacity='0.9'" target="_blank" rel="noopener noreferrer”">
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://godot-japan.com/godot-vscode-plugin_10039011464318605869_hu11865653791248215289.webp">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">GitHub - godotengine/godot-vscode-plugin: Godot development tools for VSCode</h5>
+                        <p class="card-text text-dark">Godot development tools for VSCode. Contribute to godotengine/godot-vscode-plugin development by creating an account on GitHub.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+<h4 id="vscode-market">VSCode Market</h4>
+<a href="https://marketplace.visualstudio.com/items?itemName=geequlim.godot-tools" class="no-icon" onMouseOver="this.style.opacity='0.9'" target="_blank" rel="noopener noreferrer”">
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://godot-japan.com/Microsoft.VisualStudio.Services.Icons_996990483762271126_hu7912568962091012535.webp">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">godot-tools&amp;#32;-&amp;#32;Visual&amp;#32;Studio&amp;#32;Marketplace</h5>
+                        <p class="card-text text-dark">Extension&#32;for&#32;Visual&#32;Studio&#32;Code&#32;-&#32;Tools&#32;for&#32;game&#32;development&#32;with&#32;Godot&#32;Engine&#32;and&#32;GDScript</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+<h3 id="godot-toolsの設定">Godot Toolsの設定</h3>
+<h4 id="エディターパスの設定">エディターパスの設定</h4>
+<p><img src="image-1.png" alt="エディターパス"></p>
+<p>Godotエディタのexeファイルのパスを設定します。<br>
+<code>Godot 3.x</code>、<code>Godot 4.x</code>それぞれを設定することもできますが、そのプロジェクトでメインで使っているものだけでも問題ありません。</p>
+<h4 id="ヘッドレス設定">ヘッドレス設定</h4>
+<p><img src="image.png" alt="ヘッドレス"></p>
+<p><code>Godot Tools &gt; Lsp: Headless</code>にチェックを入れるとGodot Engineをヘッドレスモードで起動することができます。<br>
+ヘッドレスモードの場合は、Godot Engineのエディタを起動しなくても、Godot Engineでの開発を行うことができます。</p>
+<p>チェックが入っていない場合、そのプロジェクトが開かれた起動中のGodotエディタと通信しようとします。<br>
+もしGodotが起動していない場合は、そのプロジェクトを開きGodotエディタを起動します。</p>
+<h3 id="godot-engineの設定">Godot Engineの設定</h3>
+<p>Godot Engineのエディタ設定を開きます。<br>
+ツールメニューの<code>エディター &gt; エディター設定</code>です。<br>
+<img src="image-2.png" alt="エディタ設定"></p>
+<p>エディタ設定の中から<code>テキストエディター &gt; 外部</code>の項目を選択します。<br>
+<img src="image-3.png" alt="外部エディタ"></p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">プロパティ</th>
+          <th style="text-align: left">値</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">外部エディターを使用</td>
+          <td style="text-align: left"><code>true</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">実行パス</td>
+          <td style="text-align: left"><code>VSCode実行ファイルのパス</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">実行フラグ</td>
+          <td style="text-align: left"><code>{project} --goto {file}:{line}:{col}</code></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<p>以上でGodot EngineとVSCodeの設定が完了しました。</p>
+<h2 id="便利なgodot開発向けvscodeプラグイン">便利なGodot開発向けVSCodeプラグイン</h2>
+<h4 id="gdscript-theme">GDScript Theme</h4>
+<p>いろんなものがVSCode自体もシンタックスハイライトもGodotカラーになるのでわかりやすい。</p>
+<a href="https://marketplace.visualstudio.com/items?itemName=JamesSauer.gdscript-theme" class="no-icon" onMouseOver="this.style.opacity='0.9'" target="_blank" rel="noopener noreferrer”">
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://godot-japan.com/Microsoft.VisualStudio.Services.Icons_13822806266715896672_hu17983893792811768607.webp">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">GDScript&amp;#32;Theme&amp;#32;-&amp;#32;Visual&amp;#32;Studio&amp;#32;Marketplace</h5>
+                        <p class="card-text text-dark">Extension&#32;for&#32;Visual&#32;Studio&#32;Code&#32;-&#32;Color&#32;theme&#32;that&#32;makes&#32;VSCode&#32;look&#32;like&#32;Godot&#39;s&#32;internal&#32;editor&#32;for&#32;GDScript</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+<h4 id="gdshader-lsp">gdshader lsp</h4>
+<p>GDShader用のプラグイン<br>
+シンタックスハイライト、コード補完など</p>
+<a href="https://marketplace.visualstudio.com/items?itemName=godofavacyn.gdshader-lsp" class="no-icon" onMouseOver="this.style.opacity='0.9'" target="_blank" rel="noopener noreferrer”">
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://godot-japan.com/Microsoft.VisualStudio.Services.Icons_16005177424238327624_hu6299124435366859253.webp">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">gdshader-lsp&amp;#32;-&amp;#32;Visual&amp;#32;Studio&amp;#32;Marketplace</h5>
+                        <p class="card-text text-dark">Extension&#32;for&#32;Visual&#32;Studio&#32;Code&#32;-&#32;Language&#32;server&#32;for&#32;the&#32;Godot&#32;Shading&#32;language.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+<h4 id="c-tools-for-godot">C# Tools for Godot</h4>
+<p>Godot C#用のプラグイン</p>
+<a href="https://marketplace.visualstudio.com/items?itemName=neikeq.godot-csharp-vscode" class="no-icon" onMouseOver="this.style.opacity='0.9'" target="_blank" rel="noopener noreferrer”">
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://godot-japan.com/Microsoft.VisualStudio.Services.Icons_1009002713725031_hu127105860383608939.webp">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">C#&amp;#32;Tools&amp;#32;for&amp;#32;Godot&amp;#32;-&amp;#32;Visual&amp;#32;Studio&amp;#32;Marketplace</h5>
+                        <p class="card-text text-dark">Extension&#32;for&#32;Visual&#32;Studio&#32;Code&#32;-&#32;Debugger&#32;and&#32;utilities&#32;for&#32;working&#32;with&#32;Godot&#32;C#&#32;projects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+<h4 id="godot-gdextention-c-snippets">godot gdextention C++ snippets</h4>
+<p>GDExtension用のプラグイン</p>
+<a href="https://marketplace.visualstudio.com/items?itemName=ClickyClicker.godot-gdextention-c---snippets" class="no-icon" onMouseOver="this.style.opacity='0.9'" target="_blank" rel="noopener noreferrer”">
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://godot-japan.com/Microsoft.VisualStudio.Services.Icons_7891035993141718667_hu18093608344345535313.webp">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">godot&amp;#32;gdextention&amp;#32;C&#43;&#43;&amp;#32;snippets&amp;#32;-&amp;#32;Visual&amp;#32;Studio&amp;#32;Marketplace</h5>
+                        <p class="card-text text-dark">Extension&#32;for&#32;Visual&#32;Studio&#32;Code&#32;-&#32;Lots&#32;of&#32;useful&#32;snippets&#32;for&#32;gdextension&#32;programming</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+
+			</div>
+
+			
+			<hr>
+			<h4><a data-bs-toggle="tooltip" data-bs-placement="top" title="記事についてのディスカッション">💬 Giscus</a></h4>
+			<div class="giscus">
+				<script src="https://giscus.app/client.js"
+					data-repo="godot-jp/godot-jp.github.io"
+					data-repo-id="R_kgDOIicNHA"
+					data-category="Announcements"
+					data-category-id="DIC_kwDOIicNHM4CS2uB"
+					data-mapping="title"
+					data-strict="0"
+					data-reactions-enabled="1"
+					data-emit-metadata="0"
+					data-input-position="bottom"
+					data-theme="preferred_color_scheme"
+					data-lang="ja"
+					crossorigin="anonymous"
+					async>
+				</script>
+			</div>
+			
+		</div>
+	</div>
+	
+	
+
+  </main>
+
+  <footer class="footer w-100">
+    <div class=" mt-5 d-flex flex-column align-content-stretch">
+	<div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 container mx-auto footer-description  align-content-stretch">
+		<div class="col">
+			<p class="h3 text-light">Godot Japan</p>
+			<p>
+				国内最大級のGodot Engine日本コミュニティです。ユーザー同士のコミュニケーションをサポートし、快適にGodot Engineをご活用いただくために活動を行っています。
+			</p>
+		</div>
+		<div class="col">
+			<p class="h5 text-light">ユーザーコミュニティ</p>
+			<ul class="list-inline">
+				<li><a href="/about">Godot Japanについて</a></li>
+				<li><a href="https://discord.gg/DyFvSJZ">Discordサーバーに参加する</a></li>
+				<li><a href="/news">ニュース</a></li>
+				<li><a href="/reference">逆引きリファレンス</a></li>
+				<li><a href="/links">ユーザーリンク</a></li>
+			</ul>
+		</div>
+		<div class="col">
+			<p class="h5 text-light">フォーラム</p>
+			<ul class="list-inline">
+				<li><a href="https://forum.godot-japan.com/faq">FAQ＆ガイドライン</a></li>
+				<li><a href="https://forum.godot-japan.com/t/topic/35">フォーラムの便利な使い方</a></li>
+				<li><a href="https://forum.godot-japan.com/privacy">プライバシーポリシー</a></li>
+			</ul>
+		</div>
+		<div class="col">
+			<p class="h5 text-light">運営</p>
+			<ul class="list-inline">
+				<li><a href="/about#運営組織について">運営組織について</a></li>
+				<li><a href="/donate">寄付</a></li>
+				<li><a href="/contact">お問い合わせ</a></li>
+				<li><a href="/press">プレスキット</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="text-center copyright d-flex justify-content-center align-content-end">
+		<small class="p-2 d-block">
+			© Godot Japan 2020-2024. Hosted by <a href="https://ahead-studio.com/">Ahead Studio</a>. Website source code on <a href="https://github.com/godot-jp/godot-jp.github.io">Github</a>
+		</small>
+	</div>
+</div>
+  </footer>
+
+</body>
+</html>

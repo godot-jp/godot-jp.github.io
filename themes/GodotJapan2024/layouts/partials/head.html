@@ -5,14 +5,9 @@
 <meta property="og:title" content="{{ .Title }}">
 <meta property="og:description" content="{{ .Description }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
-{{- $img := "/img/TwitterCard.png" }}
-{{- if .IsPage }}{{- $img = .Params.image }}
-{{ else if .IsSection }}{{- $img = "/img/TwitterCard.png" }}
-{{ end }}
-{{- $title := .Title }}
-{{- with $img }}
-  <meta property="og:image" content="{{ $img }}">
-{{ end -}}
+
+<meta property="og:image" content="{{ .Site.BaseURL }}img/TwitterCard.png">
+
 
 
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>

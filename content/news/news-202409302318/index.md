@@ -1,5 +1,5 @@
 ---
-title: "Godot Foundationの大量ブロックに対する声明について日本語解説"
+title: "Godot Engine 公式アカウント集団ブロック事件について Godot Foundation からの声明（日本語解説）"
 date: 2024-09-30T23:19:02+09:00
 image: "image2.png"
 tags: ["official-log", "information"]

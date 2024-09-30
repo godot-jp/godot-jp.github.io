@@ -76,7 +76,7 @@ CoC が適用されるのは「ソーシャルメディアにおける行動」�
 
 ![Godot Faundationの声明](image.png)
 
-### Xananax氏
+### 声明で触れられているXananax氏からの謝罪
 
 Xananax氏は当時の言葉遣いを反省していることを改めてポストしています。
 

@@ -1,8 +1,12 @@
 {{- $url := (.Get 0) -}}
-{{- with $result := resources.GetRemote $url -}}
-    {{- with $result.Err -}}
-        {{- warnf "%s" . -}}{{- . -}}
-    {{- else -}}
+{{/* resources.GetRemote を try 関数で囲みます */}}
+{{- with try (resources.GetRemote $url) -}}
+    {{- with .Err -}}
+        {{/* エラーがある場合 */}}
+        {{- warnf "URL %s の取得に失敗しました: %s" $url . -}}
+    {{- else with .Value -}}
+        {{/* 正常に取得できた場合（.Value が元の $result に相当） */}}
+        {{- $result := . -}}
         {{- $title := "" -}}
         {{- $description := "" -}}
         {{- $image := "" -}}
@@ -33,19 +37,23 @@
 
         {{- $thumbnail_url := "" -}}
         {{- if $image -}}
-            {{- with $thumbnail := resources.GetRemote $image -}}
-                {{- with $thumbnail.Err -}}
-                    {{- warnf "%s" . -}}{{- . -}}
-                {{- else -}}
+            {{/* サムネイル取得も try を使用 */}}
+            {{- with try (resources.GetRemote $image) -}}
+                {{- with .Err -}}
+                    {{- warnf "画像 %s の取得に失敗しました: %s" $image . -}}
+                {{- else with .Value -}}
+                    {{- $thumbnail := . -}}
                     {{- $thumbnail_url = ($thumbnail.Fit (printf "400x400 center q75 webp")).Permalink -}}
                 {{- end -}}
             {{- end -}}
         {{- else -}}
             {{- $thumbnail := resources.Get $.Site.Params.dafaultNoimage -}}
-            {{- $thumbnail_url = ($thumbnail.Fit (printf "400x400 center q75 webp")).Permalink -}}
+            {{- if $thumbnail -}}
+                {{- $thumbnail_url = ($thumbnail.Fit (printf "400x400 center q75 webp")).Permalink -}}
+            {{- end -}}
         {{- end -}}
         
-        <a href="{{- $url -}}" class="no-icon" onMouseOver="this.style.opacity='0.9'" target="_blank" rel="noopener noreferrer”">
+        <a href="{{- $url -}}" class="no-icon" onMouseOver="this.style.opacity='0.9'" target="_blank" rel="noopener noreferrer">
         <div class="card mb-3">
             <div class="row g-0">
                 <div class="col-md-4">

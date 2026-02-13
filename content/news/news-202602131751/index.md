@@ -3,7 +3,7 @@ title: "Godot Engineの「今」が凝縮！産業利用から3D都市モデル�
 date: 2026-02-13T17:51:46+09:00
 image: "image.png"
 tags: ["meetup-tokyo", "report"]
-draft: true
+draft: false
 ---
 
 # Godot Engineの「今」が凝縮！産業利用から3D都市モデル、Steam対応まで。熱気に包まれた『Godot Meetup Tokyo Vol.6』レポート

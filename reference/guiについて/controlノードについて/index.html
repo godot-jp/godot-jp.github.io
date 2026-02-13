@@ -148,7 +148,7 @@
 <p><code>Control</code>ノードは、<kbd>tab</kbd>キーや上下左右キー（対応するゲームパッドの方向キーなど）を押した際に自動的にフォーカスする機能を持っています。<br>
 例えば、複数のボタンを方向キーで選択することができます。</p>
 <p>ただし、画面上のフォーカスができるすべてのノードを自動的に選んで選択するため、画面レイアウトによっては<strong>明示的にフォーカス機能を一時的にオフにする</strong> などの対応が必要になります。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> btn:<span style="color:#a6e22e">Button</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">$Button</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> btn:<span style="color:#a6e22e">Button</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">$Button</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">_ready</span>():
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># フォーカスを無効にする</span>
@@ -165,7 +165,7 @@
 <h3 id="クリックの深さ">クリックの深さ</h3>
 <p><code>Control</code>ノードのインスペクタから<code>Mouse</code>セクションの<code>Filter</code>に設定があります。<br>
 <code>GDScript</code>では以下のようになります。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> btn:<span style="color:#a6e22e">Button</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">$Button</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> btn:<span style="color:#a6e22e">Button</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">$Button</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">_ready</span>():
 </span></span><span style="display:flex;"><span>    btn<span style="color:#f92672">.</span>mouse_filter <span style="color:#f92672">=</span> <span style="color:#a6e22e">Control</span><span style="color:#f92672">.</span>MOUSE_FILTER_STOP 
@@ -174,22 +174,22 @@
 </span></span></code></pre></div><table>
   <thead>
       <tr>
-          <th style="text-align: left">タイプ</th>
-          <th style="text-align: left">説明</th>
+          <th>タイプ</th>
+          <th>説明</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">MOUSE_FILTER_STOP</td>
-          <td style="text-align: left">クリックされた<code>Control</code>ノードでクリックの影響を止めます。</td>
+          <td>MOUSE_FILTER_STOP</td>
+          <td>クリックされた<code>Control</code>ノードでクリックの影響を止めます。</td>
       </tr>
       <tr>
-          <td style="text-align: left">MOUSE_FILTER_PASS</td>
-          <td style="text-align: left">クリックされた<code>Control</code>ノードよりも後ろにあるノードもクリックの影響を受けます。</td>
+          <td>MOUSE_FILTER_PASS</td>
+          <td>クリックされた<code>Control</code>ノードよりも後ろにあるノードもクリックの影響を受けます。</td>
       </tr>
       <tr>
-          <td style="text-align: left">MOUSE_FILTER_IGNORE</td>
-          <td style="text-align: left">クリックされた<code>Control</code>ノードはクリックを無視します（影響は止まりません）</td>
+          <td>MOUSE_FILTER_IGNORE</td>
+          <td>クリックされた<code>Control</code>ノードはクリックを無視します（影響は止まりません）</td>
       </tr>
   </tbody>
 </table>
@@ -270,7 +270,7 @@
 	</div>
 	<div class="text-center copyright d-flex justify-content-center align-content-end">
 		<small class="p-2 d-block">
-			© Godot Japan 2020-2024. Hosted by <a href="https://ahead-studio.com/">Ahead Studio</a>. Website source code on <a href="https://github.com/godot-jp/godot-jp.github.io">Github</a>
+			© Godot Japan 2020-2026. Hosted by <a href="https://ahead-studio.com/">Ahead Studio</a>. Website source code on <a href="https://github.com/godot-jp/godot-jp.github.io">Github</a>
 		</small>
 	</div>
 </div>

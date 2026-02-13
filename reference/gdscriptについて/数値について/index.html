@@ -122,13 +122,13 @@
 <h2 id="数値の作成方法">数値の作成方法</h2>
 <p>数値を作成するには数値リテラルを使用します。</p>
 <h3 id="整数の作成">整数の作成</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value0 :<span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value0 :<span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value1 :<span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># 静的型付け</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value2 <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
 </span></span></code></pre></div><h3 id="実数の作成">実数の作成</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value0 :<span style="color:#66d9ef">float</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.0</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value0 :<span style="color:#66d9ef">float</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.0</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value1 :<span style="color:#66d9ef">float</span> <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1.0</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># 静的型付け</span>
@@ -139,22 +139,22 @@
 <table>
   <thead>
       <tr>
-          <th style="text-align: left">メソッド名</th>
-          <th style="text-align: left">説明</th>
+          <th>メソッド名</th>
+          <th>説明</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left"><code>int(bool)</code></td>
-          <td style="text-align: left"><code>bool</code>型を<code>int</code>型に変換します。<code>true</code>なら<code>1</code>に、<code>false</code>なら<code>0</code>に変換します。</td>
+          <td><code>int(bool)</code></td>
+          <td><code>bool</code>型を<code>int</code>型に変換します。<code>true</code>なら<code>1</code>に、<code>false</code>なら<code>0</code>に変換します。</td>
       </tr>
       <tr>
-          <td style="text-align: left"><code>int(float)</code></td>
-          <td style="text-align: left"><code>float</code>型を<code>int</code>型に変換します。端数は切り捨てられますので、例えば<code>2.7</code>の場合は<code>2</code>に、<code>-0.7</code>の場合は<code>0</code>になります。</td>
+          <td><code>int(float)</code></td>
+          <td><code>float</code>型を<code>int</code>型に変換します。端数は切り捨てられますので、例えば<code>2.7</code>の場合は<code>2</code>に、<code>-0.7</code>の場合は<code>0</code>になります。</td>
       </tr>
       <tr>
-          <td style="text-align: left"><code>int(String)</code></td>
-          <td style="text-align: left">有効な<code>String</code>型を<code>int</code>型に変換します。すべて無効な文字列は無視され<code>0</code>が返されます。例えば<code>&quot;test1&quot;</code>の場合は<code>1</code>に、<code>&quot;1e3&quot;</code>の場合は<code>13</code>になります。</td>
+          <td><code>int(String)</code></td>
+          <td>有効な<code>String</code>型を<code>int</code>型に変換します。すべて無効な文字列は無視され<code>0</code>が返されます。例えば<code>&quot;test1&quot;</code>の場合は<code>1</code>に、<code>&quot;1e3&quot;</code>の場合は<code>13</code>になります。</td>
       </tr>
   </tbody>
 </table>
@@ -162,22 +162,22 @@
 <table>
   <thead>
       <tr>
-          <th style="text-align: left">メソッド名</th>
-          <th style="text-align: left">説明</th>
+          <th>メソッド名</th>
+          <th>説明</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left"><code>float(bool)</code></td>
-          <td style="text-align: left"><code>bool</code>型を<code>float</code>型に変換します。<code>true</code>なら<code>1.0</code>に、<code>false</code>なら<code>0.0</code>に変換します。</td>
+          <td><code>float(bool)</code></td>
+          <td><code>bool</code>型を<code>float</code>型に変換します。<code>true</code>なら<code>1.0</code>に、<code>false</code>なら<code>0.0</code>に変換します。</td>
       </tr>
       <tr>
-          <td style="text-align: left"><code>float(int)</code></td>
-          <td style="text-align: left"><code>int</code>型を<code>float</code>型に変換します。<code>1</code>の場合は<code>1.0</code>に変換されます。</td>
+          <td><code>float(int)</code></td>
+          <td><code>int</code>型を<code>float</code>型に変換します。<code>1</code>の場合は<code>1.0</code>に変換されます。</td>
       </tr>
       <tr>
-          <td style="text-align: left"><code>float(String)</code></td>
-          <td style="text-align: left">有効な<code>String</code>型を<code>float</code>型に変換します。このメソッドは<code>float</code>文字列（<code>&quot;0.72&quot;</code>など）や指数表記文字列を受け入れるため、<code>1e3</code>の場合は<code>1000.0</code>になります。（<code>1e3 = 1×10の3乗 = 1000</code>）<br/>それまで解析した結果を返して処理を終了するため、<code>1e3a2</code>の場合は<code>1000.0</code>となり、後半の<code>a2</code>は無効となります。</td>
+          <td><code>float(String)</code></td>
+          <td>有効な<code>String</code>型を<code>float</code>型に変換します。このメソッドは<code>float</code>文字列（<code>&quot;0.72&quot;</code>など）や指数表記文字列を受け入れるため、<code>1e3</code>の場合は<code>1000.0</code>になります。（<code>1e3 = 1×10の3乗 = 1000</code>）<br/>それまで解析した結果を返して処理を終了するため、<code>1e3a2</code>の場合は<code>1000.0</code>となり、後半の<code>a2</code>は無効となります。</td>
       </tr>
   </tbody>
 </table>
@@ -193,7 +193,7 @@
 <h1 id="数値の計算">数値の計算</h1>
 <p>数値は演算子を使って計算することができます。</p>
 <h2 id="算術演算子">算術演算子</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#75715e"># 加算（足し算）</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#75715e"># 加算（足し算）</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value1:<span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">2</span> <span style="color:#75715e"># value = 5</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># 減算（引き算）</span>
@@ -208,7 +208,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># 剰余（余り）</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value2:<span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#75715e"># value = 1</span>
 </span></span></code></pre></div><h2 id="複合代入演算子">複合代入演算子</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value:<span style="color:#66d9ef">float</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.0</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value:<span style="color:#66d9ef">float</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.0</span>
 </span></span><span style="display:flex;"><span>value <span style="color:#f92672">+=</span> <span style="color:#ae81ff">2.0</span> <span style="color:#75715e"># =5.0 加算</span>
 </span></span><span style="display:flex;"><span>value <span style="color:#f92672">-=</span> <span style="color:#ae81ff">2.0</span> <span style="color:#75715e"># =1.0 減算</span>
 </span></span><span style="display:flex;"><span>value <span style="color:#f92672">*=</span> <span style="color:#ae81ff">2.0</span> <span style="color:#75715e"># =6.0 乗算</span>
@@ -287,7 +287,7 @@
 	</div>
 	<div class="text-center copyright d-flex justify-content-center align-content-end">
 		<small class="p-2 d-block">
-			© Godot Japan 2020-2024. Hosted by <a href="https://ahead-studio.com/">Ahead Studio</a>. Website source code on <a href="https://github.com/godot-jp/godot-jp.github.io">Github</a>
+			© Godot Japan 2020-2026. Hosted by <a href="https://ahead-studio.com/">Ahead Studio</a>. Website source code on <a href="https://github.com/godot-jp/godot-jp.github.io">Github</a>
 		</small>
 	</div>
 </div>

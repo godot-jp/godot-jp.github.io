@@ -1,0 +1,96 @@
+{{- $image := "" -}}
+{{- if .Params.image -}}
+  {{- if hasPrefix .Params.image "http" -}}
+    {{- $image = .Params.image -}}
+  {{- else -}}
+    {{- $image = printf "%s%s" .Permalink .Params.image -}}
+  {{- end -}}
+{{- else -}}
+  {{- $image = printf "%simg/TwitterCard.png" .Site.BaseURL -}}
+{{- end -}}
+
+{{- $description := .Description -}}
+{{- if not $description -}}
+  {{- if .IsPage -}}
+    {{- $description = .Summary | plainify | truncate 160 -}}
+  {{- else -}}
+    {{- $description = .Site.Title -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ .Site.Title }}",
+  "url": "{{ .Site.BaseURL }}",
+  "description": "{{ .Site.Title }} - Godot Engineの日本コミュニティ",
+  "inLanguage": "ja-JP"
+}
+</script>
+{{- else if or (eq .Section "news") (eq .Section "blog") -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{{ if eq .Section "news" }}NewsArticle{{ else }}BlogPosting{{ end }}",
+  "headline": "{{ .Title }}",
+  "description": "{{ $description }}",
+  "image": "{{ $image }}",
+  "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "author": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ .Site.BaseURL }}img/logo_godot_japan.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  "inLanguage": "ja-JP"
+  {{- with .Params.tags -}},
+  "keywords": "{{ delimit . ", " }}"
+  {{- end -}}
+}
+</script>
+{{- else if eq .Section "reference" -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "{{ .Title }}",
+  "description": "{{ $description }}",
+  "image": "{{ $image }}",
+  "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "author": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ .Site.BaseURL }}img/logo_godot_japan.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  "inLanguage": "ja-JP"
+  {{- with .Params.tags -}},
+  "keywords": "{{ delimit . ", " }}"
+  {{- end -}}
+}
+</script>
+{{- end -}}

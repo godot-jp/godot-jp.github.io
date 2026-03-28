@@ -44,7 +44,7 @@
             {{ $toot_user := index (split $url.Path "/") 1 }}
             {{ $toot_id := index (split $url.Path "/") 2 }}
             <div class="text-center my-2 mx-auto col-12 col-lg-8">
-                <iframe src="https://mastodon.gamedev.place/{{ $toot_user }}/{{$toot_id}}/embed" class="mastodon-embed mx-auto" style="width:100%; max-width: 100%; border: 0;"allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.gamedev.place/embed.js" async="async"></script>
+                <iframe src="https://mastodon.gamedev.place/{{ $toot_user }}/{{$toot_id}}/embed" class="mastodon-embed mx-auto" style="width:100%; max-width: 100%; border: 0;" allowfullscreen="allowfullscreen" title="Mastodon投稿: {{ .title }}" sandbox="allow-scripts allow-same-origin allow-popups" loading="lazy"></iframe><script src="https://mastodon.gamedev.place/embed.js" async="async"></script>
                 <a href="https://mastodon.gamedev.place/" style="display:block; text-align:right; font-size:80%;">Mastodon | Game Dev place</a>
             </div>
         {{else}}

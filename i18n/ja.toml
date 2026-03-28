@@ -1,0 +1,40 @@
+# 日本語翻訳ファイル
+
+[readMore]
+other = "続きを読む"
+
+[publishedOn]
+other = "公開日"
+
+[lastModified]
+other = "最終更新"
+
+[author]
+other = "著者"
+
+[tags]
+other = "タグ"
+
+[categories]
+other = "カテゴリー"
+
+[relatedPosts]
+other = "関連記事"
+
+[latestNews]
+other = "最新ニュース"
+
+[allNews]
+other = "すべてのニュース"
+
+[searchPlaceholder]
+other = "検索..."
+
+[404Title]
+other = "ページが見つかりません"
+
+[404Message]
+other = "お探しのページは存在しないか、移動した可能性があります。"
+
+[backToHome]
+other = "ホームに戻る"

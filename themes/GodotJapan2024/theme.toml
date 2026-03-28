@@ -1,31 +1,27 @@
-name = 'Theme name'
+name = 'GodotJapan2024'
 license = 'MIT'
-licenselink = 'https://github.com/owner/repo/LICENSE'
-description = 'Theme description'
+licenselink = 'https://github.com/godot-jp/godot-jp.github.io/blob/main/LICENSE'
+description = 'Godot Japanコミュニティサイト用Hugoテーマ。Bootstrap 5.3.3ベース、SEO最適化、アクセシビリティ対応。'
 
 # The home page of the theme, where the source can be found
-homepage = 'https://github.com/owner/repo'
+homepage = 'https://github.com/godot-jp/godot-jp.github.io'
 
 # If you have a running demo of the theme
-demosite = 'https://owner.github.io/repo'
+demosite = 'https://godot-japan.com/'
 
 # Taxonomy terms
-tags = ['blog', 'company']
-features = ['some', 'awesome', 'features']
-
-# If the theme has multiple authors
-authors = [
-  {name = 'Name of author', homepage = 'Website of author'},
-  {name = 'Name of author', homepage = 'Website of author'}
+tags = ['godot', 'game-engine', 'community', 'japanese', 'bootstrap5', 'seo', 'accessibility']
+features = [
+  'Bootstrap 5.3.3統合',
+  'SEOメタデータ（Open Graph、Twitter Card）',
+  'Schema.org構造化データ',
+  '画像遅延読み込み',
+  'アクセシビリティ対応（WCAG 2.1 AA）',
+  'CSS変数によるカスタマイズ',
+  'レスポンシブデザイン',
+  'GitInfo統合'
 ]
 
-# If the theme has a single author
 [author]
-  name = 'Your name'
-  homepage = 'Your website'
-
-# If porting an existing theme
-[original]
-  author = 'Name of original author'
-  homepage = 'Website of original author'
-  repo = 'https://github.com/owner/repo'
+  name = 'Godot Japan Community'
+  homepage = 'https://godot-japan.com'

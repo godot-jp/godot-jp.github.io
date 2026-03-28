@@ -5,7 +5,7 @@
   </div>
 
   <div class="d-flex flex-column h-100">
-    <p class="justify-content-center align-self-center vertical-text h2 text-justify mx-auto" style="padding-top:100px; line-height: 150%;">
+    <p class="justify-content-center align-self-center vertical-text h2 text-justify mx-auto page-content" style="line-height: 150%;">
       ゴドーエンジンで<br>
       プロフェッショナルな開発を。<br>
       日本語でも。
@@ -51,20 +51,23 @@
       <a href="{{ .Permalink | relURL}}" class="col d-flex align-items-stretc news">
         <div class="card h-100 shadow-animation card-link">
           {{ $cover_path := "" }}
-          {{ $info := .GitInfo}}
           {{ if eq (path.Dir .Params.image) "."}}
               {{$cover_path = print .Permalink "/" .Params.image}}
           {{else}}
               {{$cover_path = .Params.image}}
           {{end}}
           <div class="image-box">
-            <img src="{{$cover_path}}" class="card-img-top">
+            <img src="{{$cover_path}}" class="card-img-top" alt="{{ .Title }}" loading="lazy">
           </div>
           <div class="card-body">
             <h5 class="card-title">{{.Title}}</h5>
           </div>
           <div class="card-footer d-flex justify-content-end">
-            <small class="text-body-secondary fw-medium text-opacity-25">{{dateFormat "2006.01.02" $info.AuthorDate}}</small>
+            {{ with .GitInfo }}
+            <small class="text-body-secondary fw-medium text-opacity-25">{{dateFormat "2006.01.02" .AuthorDate}}</small>
+            {{ else }}
+            <small class="text-body-secondary fw-medium text-opacity-25">-</small>
+            {{ end }}
           </div>
         </div>
       </a>

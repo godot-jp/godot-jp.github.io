@@ -1,5 +1,5 @@
 {{ define "main" }}
-<hgroup style="padding-top: 100px;" class="bg-dark text-light pb-2 mb-2">
+<hgroup class="page-content bg-dark text-light pb-2 mb-2">
   <div class="">
 	{{/*  {{ .Parent.RelPermalink }}  */}}
 	{{ if eq .Parent.RelPermalink "/reference/" }}
@@ -18,7 +18,6 @@
 <div class="container row row-cols-1 row-cols-md-4 g-4 m-auto">
   {{/*  リファレンス用のリストテンプレート  */}}
   {{ range .Pages }}
-  	{{ $info := .GitInfo}}
 	{{ if or (gt .Pages.Len 0) ( .IsPage ) }}
 	<a href="{{ .RelPermalink }}" class="text-decoration-none">
 		<article class="col shadow-animation card-link">
@@ -29,7 +28,7 @@
 			</div>
 			{{if .Params.image }}
 			<div class="image-box ">
-				<img src="{{ .RelPermalink }}/{{ .Params.image }}" class="card-img-top object-fit-cover" height="140px">
+				<img src="{{ .RelPermalink }}/{{ .Params.image }}" class="card-img-top object-fit-cover" height="140px" alt="{{ .Title }}" loading="lazy">
 			</div>
 			{{end}}
 			<div class="card-body">

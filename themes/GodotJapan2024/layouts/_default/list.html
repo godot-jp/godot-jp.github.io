@@ -1,5 +1,5 @@
 {{ define "main" }}
-<hgroup style="padding-top: 100px;" class="bg-dark text-light pb-2 mb-2">
+<hgroup class="page-content bg-dark text-light pb-2 mb-2">
   <div class="">
     <h1 class="col-10 col-lg-6 m-auto py-2">{{ .Title }}</h1>
     <div class="col-10 col-lg-6 m-auto" style="font-size: 80%; line-height:180%;">
@@ -13,7 +13,6 @@
   {{ $paginator := .Paginate $pages.ByDate.Reverse 9 }}
   
   {{ range $paginator.Pages }}
-  {{ $info := .GitInfo}}
   {{/*  {{ if gt .Pages.Len 0 }}  */}}
   <a href="{{ .RelPermalink }}" class="text-decoration-none">
     <article class="col shadow-animation card-link">
@@ -29,7 +28,7 @@
         
 				{{ if or (eq .Section "news") (eq .Section "blog") }}
         <div class="card-footer d-flex justify-content-end">
-          <small class="text-body-secondary fw-medium text-opacity-25">{{dateFormat "2006.01.02" $info.AuthorDate}}</small>
+          <small class="text-body-secondary fw-medium text-opacity-25">{{dateFormat "2006.01.02" .Date}}</small>
         </div>
         {{ end }}
       </div>

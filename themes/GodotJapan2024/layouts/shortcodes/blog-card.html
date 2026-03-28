@@ -1,12 +1,7 @@
 {{- $url := (.Get 0) -}}
-{{/* resources.GetRemote を try 関数で囲みます */}}
-{{- with try (resources.GetRemote $url) -}}
-    {{- with .Err -}}
-        {{/* エラーがある場合 */}}
-        {{- warnf "URL %s の取得に失敗しました: %s" $url . -}}
-    {{- else with .Value -}}
-        {{/* 正常に取得できた場合（.Value が元の $result に相当） */}}
-        {{- $result := . -}}
+{{/* resources.GetRemote のエラーハンドリング */}}
+{{- with resources.GetRemote $url -}}
+    {{- $result := . -}}
         {{- $title := "" -}}
         {{- $description := "" -}}
         {{- $image := "" -}}
@@ -37,17 +32,13 @@
 
         {{- $thumbnail_url := "" -}}
         {{- if $image -}}
-            {{/* サムネイル取得も try を使用 */}}
-            {{- with try (resources.GetRemote $image) -}}
-                {{- with .Err -}}
-                    {{- warnf "画像 %s の取得に失敗しました: %s" $image . -}}
-                {{- else with .Value -}}
-                    {{- $thumbnail := . -}}
-                    {{- $thumbnail_url = ($thumbnail.Fit (printf "400x400 center q75 webp")).Permalink -}}
-                {{- end -}}
+            {{/* サムネイル取得のエラーハンドリング */}}
+            {{- with resources.GetRemote $image -}}
+                {{- $thumbnail := . -}}
+                {{- $thumbnail_url = ($thumbnail.Fit (printf "400x400 center q75 webp")).Permalink -}}
             {{- end -}}
         {{- else -}}
-            {{- $thumbnail := resources.Get $.Site.Params.dafaultNoimage -}}
+            {{- $thumbnail := resources.Get $.Site.Params.defaultNoImage -}}
             {{- if $thumbnail -}}
                 {{- $thumbnail_url = ($thumbnail.Fit (printf "400x400 center q75 webp")).Permalink -}}
             {{- end -}}
@@ -57,7 +48,7 @@
         <div class="card mb-3">
             <div class="row g-0">
                 <div class="col-md-4">
-                    <img src="{{- $thumbnail_url -}}">
+                    <img src="{{- $thumbnail_url -}}" alt="{{- $title -}}" loading="lazy">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
@@ -68,5 +59,4 @@
             </div>
         </div>
         </a>
-    {{- end -}}
 {{- end -}}

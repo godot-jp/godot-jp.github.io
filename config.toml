@@ -1,13 +1,26 @@
 baseURL = 'https://godot-japan.com/'
 languageCode = 'ja-jp'
+defaultContentLanguage = 'ja'
 title = 'Godot Japan'
 theme = 'GodotJapan2024'
 enableGitInfo = true
 ignoreLogs = ['error-remote-getjson']
 
-[pramas]
-dafaultNoimage = "/images/m_e_other_501.png"
+[params]
+defaultNoImage = "/images/m_e_other_501.png"
 imageQuality = 75
+recaptchaKey = "6Ley6EoqAAAAADEselvCBRRULPXMU11Z3K4kyiPd"
+
+[imaging]
+quality = 75
+resampleFilter = "Lanczos"
+anchor = "Smart"
+
+[caches]
+  [caches.getjson]
+    maxAge = "1h"
+  [caches.getresource]
+    maxAge = "1h"
 
 [mediaTypes]
   [mediaTypes.'text/json']
@@ -17,7 +30,7 @@ imageQuality = 75
   [markup.goldmark]
     [markup.goldmark.renderer]
       hardWraps = true
-      unsafe = true
+      unsafe = false
       block = true
   [markup.tableOfContents]
     endLevel = 2
@@ -36,6 +49,20 @@ imageQuality = 75
   [[related.indices]]
     name = "tags"
     weight = 80
+
+[languages]
+  [languages.ja]
+    languageCode = "ja-JP"
+    languageName = "日本語"
+    weight = 1
+    title = "Godot Japan"
+    [languages.ja.params]
+      description = "Godotエンジンの日本コミュニティサイト"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.134.0"
 
   [[related.indices]]
     name = "date"

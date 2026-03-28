@@ -6,20 +6,34 @@
     <description>Recent content in Tags on Godot Japan</description>
     <generator>Hugo</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 13 Feb 2026 18:01:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 19:34:19 +0900</lastBuildDate>
     <atom:link href="https://godot-japan.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Meetup-Tokyo</title>
-      <link>https://godot-japan.com/tags/meetup-tokyo/</link>
-      <pubDate>Fri, 13 Feb 2026 17:51:46 +0900</pubDate>
-      <guid>https://godot-japan.com/tags/meetup-tokyo/</guid>
+      <title>Event</title>
+      <link>https://godot-japan.com/tags/event/</link>
+      <pubDate>Sun, 22 Mar 2026 17:51:46 +0900</pubDate>
+      <guid>https://godot-japan.com/tags/event/</guid>
       <description></description>
     </item>
     <item>
       <title>Report</title>
       <link>https://godot-japan.com/tags/report/</link>
-      <pubDate>Fri, 13 Feb 2026 17:51:46 +0900</pubDate>
+      <pubDate>Sun, 22 Mar 2026 17:51:46 +0900</pubDate>
       <guid>https://godot-japan.com/tags/report/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TOKYO INDIE GAMES SUMMIT</title>
+      <link>https://godot-japan.com/tags/tokyo-indie-games-summit/</link>
+      <pubDate>Sun, 22 Mar 2026 17:51:46 +0900</pubDate>
+      <guid>https://godot-japan.com/tags/tokyo-indie-games-summit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Meetup-Tokyo</title>
+      <link>https://godot-japan.com/tags/meetup-tokyo/</link>
+      <pubDate>Fri, 13 Feb 2026 17:51:46 +0900</pubDate>
+      <guid>https://godot-japan.com/tags/meetup-tokyo/</guid>
       <description></description>
     </item>
     <item>

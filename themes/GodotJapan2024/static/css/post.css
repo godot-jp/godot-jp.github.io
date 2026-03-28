@@ -24,10 +24,8 @@
 .post-content h4,
 .post-content h5,
 .post-content h6 {
-  width: fit-content;
   position: relative;
   /* padding: 0 10px 0; */
-  z-index: 0;
 }
 
 .post-content h1,
@@ -66,8 +64,7 @@
 .post-content h4[id],
 .post-content h5[id],
 .post-content h6[id] {
-  padding-top: 7rem;
-  margin-top: -6rem;
+  scroll-margin-top: 100px;
   margin-bottom: 2rem;
 }
 

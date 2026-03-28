@@ -3,7 +3,7 @@ title: "TOKYO INDIE GAMES SUMMITレポート！ GodotEngineを使用したゲー
 date: 2026-03-22T17:51:46+09:00
 image: "cover.jpg"
 tags: ["TOKYO INDIE GAMES SUMMIT","report","event"]
-draft: true
+draft: false
 ---
 
 先日開催された[TOKYO INDIE GAMES SUMMIT 2026](https://indiegamessummit.tokyo/)（以下TIGS2026）にて、[株式会社フレームシンセシス](https://framesynthesis.co.jp/)さんのブースをお借りする形でGodot Japan User Communityのブースを出展してきました！

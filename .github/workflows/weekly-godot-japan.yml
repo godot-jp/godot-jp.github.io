@@ -29,16 +29,16 @@ jobs:
           timezoneLinux: "Asia/Tokyo"
       
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           token: ${{ steps.generate_token.outputs.token }}
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
       
       # Hugoをセットアップ
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.109.0'
+          hugo-version: '0.139.0'
+          extended: true
           
       # Raindrop.ioからJSON取得
       - name: Connect to raindrop.io
@@ -69,5 +69,13 @@ jobs:
           git config user.name Godot-Japan
           git config user.email github-actions@github.com
           git add .
-          git commit -m "Add Weekly Godot Japan post" -a
-          git push --force 
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Add Weekly Godot Japan post $(date '+%Y-%m-%d')"
+          git pull --rebase origin main || {
+            echo "Failed to rebase, attempting merge"
+            git pull origin main
+          }
+          git push origin main 

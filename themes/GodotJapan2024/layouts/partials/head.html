@@ -1,20 +1,67 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 
+{{- $description := .Description -}}
+{{- if not $description -}}
+  {{- if .IsPage -}}
+    {{- $description = .Summary | plainify | truncate 160 -}}
+  {{- else -}}
+    {{- $description = .Site.Title -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $image := "" -}}
+{{- if .Params.image -}}
+  {{- if hasPrefix .Params.image "http" -}}
+    {{- $image = .Params.image -}}
+  {{- else -}}
+    {{- $image = printf "%s%s" .Permalink .Params.image -}}
+  {{- end -}}
+{{- else -}}
+  {{- $image = printf "%simg/TwitterCard.png" .Site.BaseURL -}}
+{{- end -}}
+
+<meta name="description" content="{{ $description }}">
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{- if .IsPage -}}
 <meta property="og:type" content="article">
+{{- else -}}
+<meta property="og:type" content="website">
+{{- end -}}
+<meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:title" content="{{ .Title }}">
-<meta property="og:description" content="{{ .Description }}">
+<meta property="og:description" content="{{ $description }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:image" content="{{ $image }}">
+{{- if .IsPage -}}
+{{- with .PublishDate -}}
+<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">
+{{- end -}}
+{{- with .Lastmod -}}
+<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">
+{{- end -}}
+{{- range .Params.tags -}}
+<meta property="article:tag" content="{{ . }}">
+{{- end -}}
+{{- end -}}
 
-<meta property="og:image" content="{{ .Site.BaseURL }}img/TwitterCard.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ $description }}">
+<meta name="twitter:image" content="{{ $image }}">
+{{- with .Site.Params.twitterSite -}}
+<meta name="twitter:site" content="{{ . }}">
+{{- end -}}
 
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ printf "%s | %s" .Title .Site.Title }}{{ end }}</title>
 
+{{- partial "schema.html" . -}}
 
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
 {{ if eq .RelPermalink "/contact/"}}
-  <script src="https://www.google.com/recaptcha/api.js?render=6Ley6EoqAAAAADEselvCBRRULPXMU11Z3K4kyiPd"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render={{ .Site.Params.recaptchaKey }}"></script>
 {{ end }}
 
 <link rel="apple-touch-icon" sizes="180x180" href="{{ "favicons/apple-touch-icon.png" | absURL }}">

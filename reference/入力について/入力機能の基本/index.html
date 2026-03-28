@@ -1,20 +1,51 @@
 <!DOCTYPE html>
-<html lang="ja-jp" dir="ltr">
+<html lang="ja-JP" dir="ltr">
 <head>
   <meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-
-<meta property="og:type" content="article">
+<meta name="viewport" content="width=device-width"><meta name="description" content="プロジェクトの入力マップ設定 Godot Engineはインプットマップとしてプロジェクト毎に入力の管理ができます。
+インプットマップは、アクション名を設定し、そのアクションに、どの入力を割り当てるかという考え方になります。
+デバイスからの入力を設定する プロジェクト設定からインプットマップタブを開きます。
+デフォルト …">
+<link rel="canonical" href="https://godot-japan.com/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/"><meta property="og:type" content="article"><meta property="og:url" content="https://godot-japan.com/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/">
 <meta property="og:title" content="入力機能について">
-<meta property="og:description" content="">
+<meta property="og:description" content="プロジェクトの入力マップ設定 Godot Engineはインプットマップとしてプロジェクト毎に入力の管理ができます。
+インプットマップは、アクション名を設定し、そのアクションに、どの入力を割り当てるかという考え方になります。
+デバイスからの入力を設定する プロジェクト設定からインプットマップタブを開きます。
+デフォルト …">
 <meta property="og:site_name" content="Godot Japan">
-
-<meta property="og:image" content="https://godot-japan.com/img/TwitterCard.png">
-
-
-
-<title>入力機能について | Godot Japan</title>
-
+<meta property="og:image" content="https://godot-japan.com/img/TwitterCard.png"><meta property="article:published_time" content="2022-12-10T19:15:41&#43;09:00"><meta property="article:modified_time" content="2022-12-26T11:59:10&#43;09:00"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="入力機能について">
+<meta name="twitter:description" content="プロジェクトの入力マップ設定 Godot Engineはインプットマップとしてプロジェクト毎に入力の管理ができます。
+インプットマップは、アクション名を設定し、そのアクションに、どの入力を割り当てるかという考え方になります。
+デバイスからの入力を設定する プロジェクト設定からインプットマップタブを開きます。
+デフォルト …">
+<meta name="twitter:image" content="https://godot-japan.com/img/TwitterCard.png"><title>入力機能について | Godot Japan</title><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "入力機能について",
+  "description": "プロジェクトの入力マップ設定 Godot Engineはインプットマップとしてプロジェクト毎に入力の管理ができます。\nインプットマップは、アクション名を設定し、そのアクションに、どの入力を割り当てるかという考え方になります。\nデバイスからの入力を設定する プロジェクト設定からインプットマップタブを開きます。\nデフォルト …",
+  "image": "https:\/\/godot-japan.com\/img\/TwitterCard.png",
+  "datePublished": "2022-12-10T19:15:41\u002b09:00",
+  "dateModified": "2022-12-26T11:59:10\u002b09:00",
+  "author": {
+    "@type": "Organization",
+    "name": "Godot Japan"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Godot Japan",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https:\/\/godot-japan.com\/img/logo_godot_japan.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https:\/\/godot-japan.com\/reference\/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6\/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC\/"
+  },
+  "inLanguage": "ja-JP"}
+</script>
       <link rel="stylesheet" href="/css/main.min.31b9689d1dee9dee8eebdec0725b3be10c75a72fe10d890488a2c4dc7ffc7018.css" integrity="sha256-MblonR3une6O697Acls74Qx1py/hDYkEiKLE3H/8cBg=" crossorigin="anonymous">
 
 
@@ -50,7 +81,6 @@
 
 </head>
 <body class="base-background-color">
-
   <header class="sticky-top m-0">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-sm m-0 p-0">
   <div class="container-fluid">
@@ -86,9 +116,9 @@
   
 
   </header>
-  
-  <main style="padding-top:100px;">
-	
+  <main>
+    
+<main class="page-content">
 	<div class="container rounded-3 px-lg-3 mb-3">
 		<div class="col col-lg-10 mx-auto bg-light rounded-3 p-3">
 			
@@ -103,8 +133,8 @@
 					<p class="h5 col fw-bold">
 						<span class="text-secondary fw-bolder">By : </span>
 						
-						
 						<span class="news-author">Saitos</span>
+						
 					</p>
 				</div>
 				
@@ -119,22 +149,22 @@
 <h2 id="デバイスからの入力を設定する">デバイスからの入力を設定する</h2>
 <p><code>プロジェクト設定</code>から<code>インプットマップ</code>タブを開きます。<br>
 デフォルトで設定されているアクションは非表示になっています。</p>
-<p><img src="img/2022-12-11-08-33-53.png" alt=""></p>
+<p><img src="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/img/2022-12-11-08-33-53.png"></p>
 <h3 id="アクション名の設定">アクション名の設定</h3>
-<p><img src="img/2022-12-11-08-39-34.png#center" alt=""></p>
+<p><img src="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/img/2022-12-11-08-39-34.png#center"></p>
 <p><code>インプットマップ</code>タブの上部にあるテキストボックスに、アクション名を入力して「追加」ボタンを押します。<br>
 今回は<code>Jump</code>と入力しました。</p>
 <p><code>アクション（Action）</code>のリストの中に、作成した<code>Jump</code>が登録されます。</p>
 <h4 id="アクションに入力を設定する">アクションに入力を設定する</h4>
-<p><img src="img/2022-12-11-08-57-00.png" alt=""></p>
+<p><img src="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/img/2022-12-11-08-57-00.png"></p>
 <p>設定したアクションの項目の右側の「＋」ボタンを押します。</p>
 <p>キーを設定する<code>Event Configuration</code>ウィンドウがポップアップします。<br>
 このウィンドウが開いた状態で、キーボードのキーやゲームパッドのボタンを押すと自動的に入力されます。</p>
-<p><img src="img/2022-12-11-08-59-47.png#center" alt=""></p>
+<p><img src="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/img/2022-12-11-08-59-47.png#center"></p>
 <p>ウィンドウ中央のリストから、マウス・キーボード・ゲームパッドなどのボタンを選択することも可能です。</p>
 <p>例えば、マウスはこのウィンドウの設定に使用するため、自動での入力は反応しないため、リストから選択する必要があります。<br>
 開発段階でゲームパッドがつながっていなくても、リストから選択することで設定自体は可能です。</p>
-<p><img src="img/2022-12-11-09-05-37.png" alt=""></p>
+<p><img src="/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AE%E5%9F%BA%E6%9C%AC/img/2022-12-11-09-05-37.png"></p>
 <p>一つのアクションに対して複数の入力を割り当てる事が可能なため、キーボードとゲームパッドの両方で対応する場合も、アクション名を参照することで、設定されたすべての入力の状態を調べることができます。</p>
 <p>すべてのアクションの登録が終わったら、プロジェクト設定ウィンドウを閉じます。</p>
 <h3 id="デッドゾーンについて">デッドゾーンについて</h3>
@@ -147,11 +177,11 @@
 <h1 id="基本的な入力の取得方法">基本的な入力の取得方法</h1>
 <p>プロジェクトにアクションマップが登録されたので、実際に入力を処理するサンプルを記載します。</p>
 <h2 id="インプットメソッドで入力を処理する">インプットメソッドで入力を処理する</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">_input</span>(_event):
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">_input</span>(_event):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> _event<span style="color:#f92672">.</span><span style="color:#a6e22e">is_action_just_pressed</span>(<span style="color:#e6db74">&#34;Jump&#34;</span>):
 </span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;ジャンプボタンが押された&#34;</span>)
 </span></span></code></pre></div><h2 id="プロセスメソッドで入力を処理する">プロセスメソッドで入力を処理する</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">_proccess</span>(_delta):
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">_proccess</span>(_delta):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">Input</span><span style="color:#f92672">.</span><span style="color:#a6e22e">is_action_just_pressed</span>(<span style="color:#e6db74">&#34;Jump&#34;</span>):
 </span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;ジャンプボタンが押された&#34;</span>)
 </span></span></code></pre></div><h3 id="inputeventの種類">InputEventの種類</h3>
@@ -240,8 +270,9 @@
 	
 	
 
-  </main>
+</main>
 
+  </main>
   <footer class="footer w-100">
     <div class=" mt-5 d-flex flex-column align-content-stretch">
 	<div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 container mx-auto footer-description  align-content-stretch">
@@ -286,6 +317,5 @@
 	</div>
 </div>
   </footer>
-
 </body>
 </html>

@@ -1,3 +1,31 @@
+:root {
+	--header-padding: 100px;
+	--primary-text: #933;
+	--primary-link: #36e;
+	--accent-green: #ca9;
+	--accent-blue: #ccf;
+	--base-bg: #DDE5D3;
+}
+
+.page-content {
+	padding-top: var(--header-padding);
+}
+
+/* Accessibility: Focus styles */
+a:focus,
+button:focus,
+.btn:focus {
+	outline: 2px solid #0066cc;
+	outline-offset: 2px;
+}
+
+a:focus-visible,
+button:focus-visible,
+.btn:focus-visible {
+	outline: 3px solid #0066cc;
+	outline-offset: 3px;
+}
+
 body{
 	font-family: "Montserrat", 'Segoe UI', Tahoma, Geneva, Verdana, "Noto Color Emoji", sans-serif;
 	/* padding-bottom: 400px; */
@@ -34,7 +62,7 @@ p.vertical-text{
 }
 
 .base-background-color{
-	background-color: #DDE5D3;
+	background-color: var(--base-bg);
 }
 
 /* Color of the links BEFORE scroll */

@@ -1,20 +1,45 @@
 <!DOCTYPE html>
-<html lang="ja-jp" dir="ltr">
+<html lang="ja-JP" dir="ltr">
 <head>
   <meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-
-<meta property="og:type" content="article">
+<meta name="viewport" content="width=device-width"><meta name="description" content="Godot Engineの組み込みスクリプト言語であるGDScriptの基本的な使い方について記載します。
+基本的な記述方法 extends Node var int_sanple = 0 var text_sample = &#34;文字列&#34; var int_sample2 :int = 1 func …">
+<link rel="canonical" href="https://godot-japan.com/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/"><meta property="og:type" content="article"><meta property="og:url" content="https://godot-japan.com/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC/">
 <meta property="og:title" content="GDScriptの基本">
-<meta property="og:description" content="">
+<meta property="og:description" content="Godot Engineの組み込みスクリプト言語であるGDScriptの基本的な使い方について記載します。
+基本的な記述方法 extends Node var int_sanple = 0 var text_sample = &#34;文字列&#34; var int_sample2 :int = 1 func …">
 <meta property="og:site_name" content="Godot Japan">
-
-<meta property="og:image" content="https://godot-japan.com/img/TwitterCard.png">
-
-
-
-<title>GDScriptの基本 | Godot Japan</title>
-
+<meta property="og:image" content="https://godot-japan.com/img/TwitterCard.png"><meta property="article:modified_time" content="2022-12-26T11:59:10&#43;09:00"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GDScriptの基本">
+<meta name="twitter:description" content="Godot Engineの組み込みスクリプト言語であるGDScriptの基本的な使い方について記載します。
+基本的な記述方法 extends Node var int_sanple = 0 var text_sample = &#34;文字列&#34; var int_sample2 :int = 1 func …">
+<meta name="twitter:image" content="https://godot-japan.com/img/TwitterCard.png"><title>GDScriptの基本 | Godot Japan</title><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "GDScriptの基本",
+  "description": "Godot Engineの組み込みスクリプト言語であるGDScriptの基本的な使い方について記載します。\n基本的な記述方法 extends Node var int_sanple = 0 var text_sample = \u0026#34;文字列\u0026#34; var int_sample2 :int = 1 func …",
+  "image": "https:\/\/godot-japan.com\/img\/TwitterCard.png",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "2022-12-26T11:59:10\u002b09:00",
+  "author": {
+    "@type": "Organization",
+    "name": "Godot Japan"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Godot Japan",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https:\/\/godot-japan.com\/img/logo_godot_japan.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https:\/\/godot-japan.com\/reference\/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6\/gdscript%E3%81%AE%E5%9F%BA%E6%9C%AC\/"
+  },
+  "inLanguage": "ja-JP"}
+</script>
       <link rel="stylesheet" href="/css/main.min.31b9689d1dee9dee8eebdec0725b3be10c75a72fe10d890488a2c4dc7ffc7018.css" integrity="sha256-MblonR3une6O697Acls74Qx1py/hDYkEiKLE3H/8cBg=" crossorigin="anonymous">
 
 
@@ -50,7 +75,6 @@
 
 </head>
 <body class="base-background-color">
-
   <header class="sticky-top m-0">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-sm m-0 p-0">
   <div class="container-fluid">
@@ -86,9 +110,9 @@
   
 
   </header>
-  
-  <main style="padding-top:100px;">
-	
+  <main>
+    
+<main class="page-content">
 	<div class="container rounded-3 px-lg-3 mb-3">
 		<div class="col col-lg-10 mx-auto bg-light rounded-3 p-3">
 			
@@ -103,8 +127,8 @@
 					<p class="h5 col fw-bold">
 						<span class="text-secondary fw-bolder">By : </span>
 						
-						
 						<span class="news-author">Saitos</span>
+						
 					</p>
 				</div>
 				
@@ -115,7 +139,7 @@
 			<div class="post-content my-3 p-3 rounded-3 bg-light">
 				<p>Godot Engineの組み込みスクリプト言語である<code>GDScript</code>の基本的な使い方について記載します。</p>
 <h1 id="基本的な記述方法">基本的な記述方法</h1>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">extends</span> <span style="color:#a6e22e">Node</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">extends</span> <span style="color:#a6e22e">Node</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> int_sanple <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> text_sample <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;文字列&#34;</span>
@@ -126,20 +150,20 @@
 </span></span></code></pre></div><p>GDSCriptは、<strong>大まかに３種類の要素で読み書き</strong>することができます。<br>
 上記のサンプルを１行ずつ解説します。</p>
 <h2 id="クラスの拡張">クラスの拡張</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">extends</span> <span style="color:#a6e22e">Node</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">extends</span> <span style="color:#a6e22e">Node</span>
 </span></span></code></pre></div><p><code>extends Node</code>は<code>Node</code>という<strong>クラスの拡張</strong>という意味です。<br>
 <code>Node</code>クラスが持つ機能をそのままに、新しいクラスを作ることになります。</p>
 <h2 id="変数">変数</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> int_sample <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> int_sample <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> text_sample <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;文字列&#34;</span>
 </span></span></code></pre></div><p>GDScriptは静的型付けの機能を持っています。<br>
 多くの言語は型を明示的に指定する必要がありますが、GDScriptは自動的に型を割り付けます。</p>
 <p>これによりユーザーは型をあまり意識せずにプログラムを書くことができます。</p>
 <h3 id="明示的な型付け">明示的な型付け</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> int_sample2 :<span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> int_sample2 :<span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
 </span></span></code></pre></div><p>型を意識したい場合もありますので、上記のように明示的に型を指定することもできます。</p>
 <h2 id="関数">関数</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">_ready</span>():
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">_ready</span>():
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">pass</span>
 </span></span></code></pre></div><p>GDScriptの関数は<code>func</code>にスペースを空けて関数名を記述します。<br>
 多くの言語のように<code>{ }</code>でブロックを作るのではなく、<code>:</code>のあとの<strong>インデント</strong>でブロックを作る構文になります。</p>
@@ -173,8 +197,9 @@
 	
 	
 
-  </main>
+</main>
 
+  </main>
   <footer class="footer w-100">
     <div class=" mt-5 d-flex flex-column align-content-stretch">
 	<div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 container mx-auto footer-description  align-content-stretch">
@@ -219,6 +244,5 @@
 	</div>
 </div>
   </footer>
-
 </body>
 </html>

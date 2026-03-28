@@ -1,20 +1,51 @@
 <!DOCTYPE html>
-<html lang="ja-jp" dir="ltr">
+<html lang="ja-JP" dir="ltr">
 <head>
   <meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-
-<meta property="og:type" content="article">
+<meta name="viewport" content="width=device-width"><meta name="description" content="数値の基本 数値の型は、主にint型とfloat型になります。
+単純に言えば、intは整数で、floatは小数点のある数字（実数）です。
+int型の場合、64bitの数値として、-9223372036854775807 〜 9223372036854775807までの数値を扱う事ができます。
+float型の場合、エンジ …">
+<link rel="canonical" href="https://godot-japan.com/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"><meta property="og:type" content="article"><meta property="og:url" content="https://godot-japan.com/reference/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/">
 <meta property="og:title" content="数値について">
-<meta property="og:description" content="">
+<meta property="og:description" content="数値の基本 数値の型は、主にint型とfloat型になります。
+単純に言えば、intは整数で、floatは小数点のある数字（実数）です。
+int型の場合、64bitの数値として、-9223372036854775807 〜 9223372036854775807までの数値を扱う事ができます。
+float型の場合、エンジ …">
 <meta property="og:site_name" content="Godot Japan">
-
-<meta property="og:image" content="https://godot-japan.com/img/TwitterCard.png">
-
-
-
-<title>数値について | Godot Japan</title>
-
+<meta property="og:image" content="https://godot-japan.com/img/TwitterCard.png"><meta property="article:modified_time" content="2022-12-26T11:59:10&#43;09:00"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="数値について">
+<meta name="twitter:description" content="数値の基本 数値の型は、主にint型とfloat型になります。
+単純に言えば、intは整数で、floatは小数点のある数字（実数）です。
+int型の場合、64bitの数値として、-9223372036854775807 〜 9223372036854775807までの数値を扱う事ができます。
+float型の場合、エンジ …">
+<meta name="twitter:image" content="https://godot-japan.com/img/TwitterCard.png"><title>数値について | Godot Japan</title><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "数値について",
+  "description": "数値の基本 数値の型は、主にint型とfloat型になります。\n単純に言えば、intは整数で、floatは小数点のある数字（実数）です。\nint型の場合、64bitの数値として、-9223372036854775807 〜 9223372036854775807までの数値を扱う事ができます。\nfloat型の場合、エンジ …",
+  "image": "https:\/\/godot-japan.com\/img\/TwitterCard.png",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "2022-12-26T11:59:10\u002b09:00",
+  "author": {
+    "@type": "Organization",
+    "name": "Godot Japan"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Godot Japan",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https:\/\/godot-japan.com\/img/logo_godot_japan.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https:\/\/godot-japan.com\/reference\/gdscript%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6\/%E6%95%B0%E5%80%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6\/"
+  },
+  "inLanguage": "ja-JP"}
+</script>
       <link rel="stylesheet" href="/css/main.min.31b9689d1dee9dee8eebdec0725b3be10c75a72fe10d890488a2c4dc7ffc7018.css" integrity="sha256-MblonR3une6O697Acls74Qx1py/hDYkEiKLE3H/8cBg=" crossorigin="anonymous">
 
 
@@ -50,7 +81,6 @@
 
 </head>
 <body class="base-background-color">
-
   <header class="sticky-top m-0">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-sm m-0 p-0">
   <div class="container-fluid">
@@ -86,9 +116,9 @@
   
 
   </header>
-  
-  <main style="padding-top:100px;">
-	
+  <main>
+    
+<main class="page-content">
 	<div class="container rounded-3 px-lg-3 mb-3">
 		<div class="col col-lg-10 mx-auto bg-light rounded-3 p-3">
 			
@@ -103,8 +133,8 @@
 					<p class="h5 col fw-bold">
 						<span class="text-secondary fw-bolder">By : </span>
 						
-						
 						<span class="news-author">Saitos</span>
+						
 					</p>
 				</div>
 				
@@ -122,13 +152,13 @@
 <h2 id="数値の作成方法">数値の作成方法</h2>
 <p>数値を作成するには数値リテラルを使用します。</p>
 <h3 id="整数の作成">整数の作成</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value0 :<span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value0 :<span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value1 :<span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># 静的型付け</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value2 <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
 </span></span></code></pre></div><h3 id="実数の作成">実数の作成</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value0 :<span style="color:#66d9ef">float</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.0</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value0 :<span style="color:#66d9ef">float</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.0</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value1 :<span style="color:#66d9ef">float</span> <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1.0</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># 静的型付け</span>
@@ -177,7 +207,7 @@
       </tr>
       <tr>
           <td><code>float(String)</code></td>
-          <td>有効な<code>String</code>型を<code>float</code>型に変換します。このメソッドは<code>float</code>文字列（<code>&quot;0.72&quot;</code>など）や指数表記文字列を受け入れるため、<code>1e3</code>の場合は<code>1000.0</code>になります。（<code>1e3 = 1×10の3乗 = 1000</code>）<br/>それまで解析した結果を返して処理を終了するため、<code>1e3a2</code>の場合は<code>1000.0</code>となり、後半の<code>a2</code>は無効となります。</td>
+          <td>有効な<code>String</code>型を<code>float</code>型に変換します。このメソッドは<code>float</code>文字列（<code>&quot;0.72&quot;</code>など）や指数表記文字列を受け入れるため、<code>1e3</code>の場合は<code>1000.0</code>になります。（<code>1e3 = 1×10の3乗 = 1000</code>）<!-- raw HTML omitted -->それまで解析した結果を返して処理を終了するため、<code>1e3a2</code>の場合は<code>1000.0</code>となり、後半の<code>a2</code>は無効となります。</td>
       </tr>
   </tbody>
 </table>
@@ -193,7 +223,7 @@
 <h1 id="数値の計算">数値の計算</h1>
 <p>数値は演算子を使って計算することができます。</p>
 <h2 id="算術演算子">算術演算子</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#75715e"># 加算（足し算）</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#75715e"># 加算（足し算）</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value1:<span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">2</span> <span style="color:#75715e"># value = 5</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># 減算（引き算）</span>
@@ -208,7 +238,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># 剰余（余り）</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value2:<span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#75715e"># value = 1</span>
 </span></span></code></pre></div><h2 id="複合代入演算子">複合代入演算子</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value:<span style="color:#66d9ef">float</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.0</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> value:<span style="color:#66d9ef">float</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.0</span>
 </span></span><span style="display:flex;"><span>value <span style="color:#f92672">+=</span> <span style="color:#ae81ff">2.0</span> <span style="color:#75715e"># =5.0 加算</span>
 </span></span><span style="display:flex;"><span>value <span style="color:#f92672">-=</span> <span style="color:#ae81ff">2.0</span> <span style="color:#75715e"># =1.0 減算</span>
 </span></span><span style="display:flex;"><span>value <span style="color:#f92672">*=</span> <span style="color:#ae81ff">2.0</span> <span style="color:#75715e"># =6.0 乗算</span>
@@ -246,8 +276,9 @@
 	
 	
 
-  </main>
+</main>
 
+  </main>
   <footer class="footer w-100">
     <div class=" mt-5 d-flex flex-column align-content-stretch">
 	<div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 container mx-auto footer-description  align-content-stretch">
@@ -292,6 +323,5 @@
 	</div>
 </div>
   </footer>
-
 </body>
 </html>

@@ -2,26 +2,26 @@
 <html lang="ja-JP" dir="ltr">
 <head>
   <meta charset="utf-8">
-<meta name="viewport" content="width=device-width"><meta name="description" content="ゲームパッドとアクションの登録 入力機能についてで解説している通り、Godot Engineではアクションに対して複数の入力を登録することができます。
+<meta name="viewport" content="width=device-width"><meta name="description" content="ゲームパッドとアクションの登録 入力機能について で解説している通り、Godot Engineではアクションに対して複数の入力を登録することができます。
 これにより、コードからはキーボードとゲームパッドの操作を、どちらも同じアクションで参照することができます。
-このページでは、ゲームパッドに関連する操作やコードを解説して …">
+このページでは、ゲームパッドに関連する操作やコードを解説し …">
 <link rel="canonical" href="https://godot-japan.com/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"><meta property="og:type" content="article"><meta property="og:url" content="https://godot-japan.com/reference/%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E5%85%A5%E5%8A%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/">
 <meta property="og:title" content="ゲームパッド入力について">
-<meta property="og:description" content="ゲームパッドとアクションの登録 入力機能についてで解説している通り、Godot Engineではアクションに対して複数の入力を登録することができます。
+<meta property="og:description" content="ゲームパッドとアクションの登録 入力機能について で解説している通り、Godot Engineではアクションに対して複数の入力を登録することができます。
 これにより、コードからはキーボードとゲームパッドの操作を、どちらも同じアクションで参照することができます。
-このページでは、ゲームパッドに関連する操作やコードを解説して …">
+このページでは、ゲームパッドに関連する操作やコードを解説し …">
 <meta property="og:site_name" content="Godot Japan">
 <meta property="og:image" content="https://godot-japan.com/img/TwitterCard.png"><meta property="article:published_time" content="2022-12-20T14:12:47&#43;09:00"><meta property="article:modified_time" content="2023-01-14T13:38:08&#43;09:00"><meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ゲームパッド入力について">
-<meta name="twitter:description" content="ゲームパッドとアクションの登録 入力機能についてで解説している通り、Godot Engineではアクションに対して複数の入力を登録することができます。
+<meta name="twitter:description" content="ゲームパッドとアクションの登録 入力機能について で解説している通り、Godot Engineではアクションに対して複数の入力を登録することができます。
 これにより、コードからはキーボードとゲームパッドの操作を、どちらも同じアクションで参照することができます。
-このページでは、ゲームパッドに関連する操作やコードを解説して …">
+このページでは、ゲームパッドに関連する操作やコードを解説し …">
 <meta name="twitter:image" content="https://godot-japan.com/img/TwitterCard.png"><title>ゲームパッド入力について | Godot Japan</title><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "ゲームパッド入力について",
-  "description": "ゲームパッドとアクションの登録 入力機能についてで解説している通り、Godot Engineではアクションに対して複数の入力を登録することができます。\nこれにより、コードからはキーボードとゲームパッドの操作を、どちらも同じアクションで参照することができます。\nこのページでは、ゲームパッドに関連する操作やコードを解説して …",
+  "description": "ゲームパッドとアクションの登録 入力機能について で解説している通り、Godot Engineではアクションに対して複数の入力を登録することができます。\nこれにより、コードからはキーボードとゲームパッドの操作を、どちらも同じアクションで参照することができます。\nこのページでは、ゲームパッドに関連する操作やコードを解説し …",
   "image": "https:\/\/godot-japan.com\/img\/TwitterCard.png",
   "datePublished": "2022-12-20T14:12:47\u002b09:00",
   "dateModified": "2023-01-14T13:38:08\u002b09:00",
@@ -91,6 +91,22 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
+          <style>
+            .gjgj-nav-link {
+              background: linear-gradient(90deg, #ff7e5f, #feb47b);
+              color:#333 !important;
+              font-weight:500;
+            }
+            .gjgj-nav-link:hover {
+              background: linear-gradient(90deg, #ff7e5f, #feb47b);
+              color: #000 !important;
+              font-weight: 600;
+              transform: translateY(-1px);
+            }
+          </style>
+          <a class="nav-link gjgj-nav-link" aria-current="page" href="/game-jam">Godot Japan Game Jam 2026</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" aria-current="page" href="/about">Godot Japanについて</a>
         </li>
         <li class="nav-item">
@@ -141,7 +157,8 @@
 				
 			<div class="post-content my-3 p-3 rounded-3 bg-light">
 				<h1 id="ゲームパッドとアクションの登録">ゲームパッドとアクションの登録</h1>
-<p><a href="/reference/%E5%85%A5%E5%8A%9B%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E9%96%A2%E9%80%A3/%E5%85%A5%E5%8A%9B%E6%A9%9F%E8%83%BD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">入力機能について</a>で解説している通り、Godot Engineではアクションに対して複数の入力を登録することができます。<br>
+<p><a href="/reference/%e5%85%a5%e5%8a%9b%e3%83%87%e3%83%90%e3%82%a4%e3%82%b9%e9%96%a2%e9%80%a3/%e5%85%a5%e5%8a%9b%e6%a9%9f%e8%83%bd%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6">入力機能について</a>
+で解説している通り、Godot Engineではアクションに対して複数の入力を登録することができます。<br>
 これにより、コードからはキーボードとゲームパッドの操作を、どちらも同じアクションで参照することができます。</p>
 <p>このページでは、ゲームパッドに関連する操作やコードを解説していきます。</p>
 <h1 id="ゲームパッドの状態取得">ゲームパッドの状態取得</h1>
@@ -149,7 +166,8 @@
 <p>ゲームパッドがシステムに認識されているかどうかを判別します。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#a6e22e">is_joy_known</span>(<span style="color:#ae81ff">0</span>):
 </span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;デバイス0のゲームパッドが正常に認識されています。&#34;</span>)
-</span></span></code></pre></div><p>システムが認識している状態であれば、<a href="https://docs.godotengine.org/ja/stable/classes/class_%40globalscope.html#enum-globalscope-joysticklist">グローバルスコープのJoystickList</a>に定義されたゲームパッドの入力の値を正常に取得できます。</p>
+</span></span></code></pre></div><p>システムが認識している状態であれば、<a href="https://docs.godotengine.org/ja/stable/classes/class_%40globalscope.html#enum-globalscope-joysticklist" target="_blank" rel="noopener noreferrer">グローバルスコープのJoystickList<span class="external-link-icon" aria-label="外部リンク"></span></a>
+に定義されたゲームパッドの入力の値を正常に取得できます。</p>
 <h2 id="切断接続の状態を取得する">切断・接続の状態を取得する</h2>
 <p>ゲームパッドの接続状態が変わったことを通知するシグナルがあります。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">_ready</span>():
@@ -170,7 +188,8 @@
 <p>通常は<code>is_action_pressed()</code>などを使用して<strong>アクションでの入力判定</strong>を行うことがほとんどですが、ゲームパッドのボタン入力を個別に取得したい場合は以下のように取得できます。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#a6e22e">Input</span><span style="color:#f92672">.</span><span style="color:#a6e22e">is_joy_button_pressed</span>(<span style="color:#ae81ff">0</span>, JOY_DS_A):
 </span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Nintendo規格のAボタンに値するボタンが押されている&#34;</span>)
-</span></span></code></pre></div><p><a href="https://docs.godotengine.org/ja/stable/classes/class_%40globalscope.html#enum-globalscope-joysticklist">グローバルスコープのJoystickList</a>に定義されたゲームパッドの入力の値を第2引数に指定します。</p>
+</span></span></code></pre></div><p><a href="https://docs.godotengine.org/ja/stable/classes/class_%40globalscope.html#enum-globalscope-joysticklist" target="_blank" rel="noopener noreferrer">グローバルスコープのJoystickList<span class="external-link-icon" aria-label="外部リンク"></span></a>
+に定義されたゲームパッドの入力の値を第2引数に指定します。</p>
 <h2 id="ジャイロスコープセンサーの取得">ジャイロスコープセンサーの取得</h2>
 <aside class="msg">
     <span class="msg-symbol">!</span>

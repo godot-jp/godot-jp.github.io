@@ -87,6 +87,16 @@
 	background-color: rgba(0, 102, 204, 0.1);
 }
 
+/* 外部リンクアイコン */
+.post-content a .external-link-icon::after {
+	content: "↗";
+	font-size: 0.8em;
+	margin-left: 0.2em;
+	opacity: 0.6;
+	vertical-align: super;
+	line-height: 0;
+}
+
 .post-content blockquote {
   border-left: 2px solid #666;
   margin-left: 0;

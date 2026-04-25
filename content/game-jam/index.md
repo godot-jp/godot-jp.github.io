@@ -27,6 +27,19 @@ Illustration by [GINJA Project](https://github.com/SirakabaBiome/G_in_JA)
 
 ---
 
+## テーマ
+
+![テーマ](image.png)
+
+
+---
+
+## 登録フォーム
+
+{{< iframe src="https://docs.google.com/forms/d/e/1FAIpQLScCxb2a8Cqrl3mkuwbfgObr_3ATSW9yfwkVE31Aj3B3LpbKoA/viewform?embedded=true" title="Godot Japan Game Jam" width="100%" height="1200px" >}}
+
+---
+
 ## 選考について
 
 2026年開催におきましては**Godot Japanコミュニティの運営メンバー**が選考し優秀賞を決定します。  

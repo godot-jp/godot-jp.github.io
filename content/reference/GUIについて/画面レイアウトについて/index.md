@@ -94,7 +94,7 @@ draft: false
 `FlowContainer`は、コンテンツの大きさに応じて自動的に並べ、`GridContainer`のように詰めて表示します。
 親のコンテナである`FlowContainer`の幅に応じて、収まりきらないコンテンツは次の行または列にカラム落ちします。
 
-{{<tweet user="Hendrik_Brucker" id="1483586477913260033">}}
+{{<x user="Hendrik_Brucker" id="1483586477913260033">}}
 
 ### コンテンツ同士のマージンを空ける
 

@@ -51,7 +51,7 @@ Illustration by [GINJA Project](https://github.com/SirakabaBiome/G_in_JA)
 - 敵の間を切るのがすき。EXTRAまで夢中で全クリしました。
 
 
-## 佳作：
+## 佳作： Over the 1
 
 ![Over the 1](gjgj2026-overtheone.png)
 
@@ -61,8 +61,14 @@ Illustration by [GINJA Project](https://github.com/SirakabaBiome/G_in_JA)
 
 #### 評価コメント
 - 雰囲気と操作のクオリティ高い。グレイズ楽しい。
-- スネークゲーと呼ばれるジャンルで、かなり面白かった。自機もせっかくなら丸で合ってほしかった気持ち。
+- スネークゲーと呼ばれるジャンルで、かなり面白かった。自機もせっかくなら丸であってほしかった気持ち。
 - シンプルに球体での操作が楽しい。
+
+
+{{<comment>}}
+各賞品は参加登録時の受賞者様のメールアドレスにお送りいたします。
+6月1日に発送予定ですが、数日かかる可能性もありますのでご了承ください。
+{{</comment>}}
 
 ---
 

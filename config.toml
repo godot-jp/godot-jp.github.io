@@ -1,10 +1,10 @@
 baseURL = 'https://godot-japan.com/'
-locale = 'ja-jp'
+languageCode = 'ja-jp'
 defaultContentLanguage = 'ja'
 title = 'Godot Japan'
 theme = 'GodotJapan2024'
 enableGitInfo = true
-ignoreLogs = ['error-remote-getjson', 'warning-goldmark-raw-html']
+ignoreLogs = ['error-remote-getjson']
 
 [params]
 defaultNoImage = "/images/m_e_other_501.png"
@@ -17,6 +17,8 @@ resampleFilter = "Lanczos"
 anchor = "Smart"
 
 [caches]
+  [caches.getjson]
+    maxAge = "1h"
   [caches.getresource]
     maxAge = "1h"
 
@@ -50,8 +52,8 @@ anchor = "Smart"
 
 [languages]
   [languages.ja]
-    locale = "ja-JP"
-    label = "日本語"
+    languageCode = "ja-JP"
+    languageName = "日本語"
     weight = 1
     title = "Godot Japan"
     [languages.ja.params]

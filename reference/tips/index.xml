@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tips on Godot Japan</title>
-    <link>https://godot-japan.com/reference/tips/</link>
-    <description>Recent content in Tips on Godot Japan</description>
-    <generator>Hugo</generator>
-    <language>ja-JP</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://godot-japan.com/reference/tips/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+	<channel>
+		<title>Tips on Godot Japan</title>
+		<link>https://godot-japan.com/reference/tips/</link>
+		<description>Recent content in Tips on Godot Japan</description>
+		<generator>Hugo</generator>
+		<language>ja-JP</language>
+		
+		
+		
+		
+			<lastBuildDate></lastBuildDate>
+		
+			<atom:link href="https://godot-japan.com/reference/tips/index.xml" rel="self" type="application/rss+xml" />
+	</channel>
 </rss>

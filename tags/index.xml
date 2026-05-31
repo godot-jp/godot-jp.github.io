@@ -1,75 +1,80 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on Godot Japan</title>
-    <link>https://godot-japan.com/tags/</link>
-    <description>Recent content in Tags on Godot Japan</description>
-    <generator>Hugo</generator>
-    <language>ja-JP</language>
-    <lastBuildDate>Sat, 28 Mar 2026 19:34:19 +0900</lastBuildDate>
-    <atom:link href="https://godot-japan.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Event</title>
-      <link>https://godot-japan.com/tags/event/</link>
-      <pubDate>Sun, 22 Mar 2026 17:51:46 +0900</pubDate>
-      <guid>https://godot-japan.com/tags/event/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Report</title>
-      <link>https://godot-japan.com/tags/report/</link>
-      <pubDate>Sun, 22 Mar 2026 17:51:46 +0900</pubDate>
-      <guid>https://godot-japan.com/tags/report/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>TOKYO INDIE GAMES SUMMIT</title>
-      <link>https://godot-japan.com/tags/tokyo-indie-games-summit/</link>
-      <pubDate>Sun, 22 Mar 2026 17:51:46 +0900</pubDate>
-      <guid>https://godot-japan.com/tags/tokyo-indie-games-summit/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Meetup-Tokyo</title>
-      <link>https://godot-japan.com/tags/meetup-tokyo/</link>
-      <pubDate>Fri, 13 Feb 2026 17:51:46 +0900</pubDate>
-      <guid>https://godot-japan.com/tags/meetup-tokyo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Information</title>
-      <link>https://godot-japan.com/tags/information/</link>
-      <pubDate>Mon, 30 Sep 2024 23:19:02 +0900</pubDate>
-      <guid>https://godot-japan.com/tags/information/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Official-Log</title>
-      <link>https://godot-japan.com/tags/official-log/</link>
-      <pubDate>Mon, 30 Sep 2024 23:19:02 +0900</pubDate>
-      <guid>https://godot-japan.com/tags/official-log/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blue</title>
-      <link>https://godot-japan.com/tags/blue/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>https://godot-japan.com/tags/blue/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Green</title>
-      <link>https://godot-japan.com/tags/green/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>https://godot-japan.com/tags/green/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Red</title>
-      <link>https://godot-japan.com/tags/red/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>https://godot-japan.com/tags/red/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>Tags on Godot Japan</title>
+		<link>https://godot-japan.com/tags/</link>
+		<description>Recent content in Tags on Godot Japan</description>
+		<generator>Hugo</generator>
+		<language>ja-JP</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 28 Mar 2026 19:34:19 +0900</lastBuildDate>
+		
+			<atom:link href="https://godot-japan.com/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Event</title>
+				<link>https://godot-japan.com/tags/event/</link>
+				<pubDate>Sun, 22 Mar 2026 17:51:46 +0900</pubDate>
+				<guid>https://godot-japan.com/tags/event/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Report</title>
+				<link>https://godot-japan.com/tags/report/</link>
+				<pubDate>Sun, 22 Mar 2026 17:51:46 +0900</pubDate>
+				<guid>https://godot-japan.com/tags/report/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>TOKYO INDIE GAMES SUMMIT</title>
+				<link>https://godot-japan.com/tags/tokyo-indie-games-summit/</link>
+				<pubDate>Sun, 22 Mar 2026 17:51:46 +0900</pubDate>
+				<guid>https://godot-japan.com/tags/tokyo-indie-games-summit/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Meetup-Tokyo</title>
+				<link>https://godot-japan.com/tags/meetup-tokyo/</link>
+				<pubDate>Fri, 13 Feb 2026 17:51:46 +0900</pubDate>
+				<guid>https://godot-japan.com/tags/meetup-tokyo/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Information</title>
+				<link>https://godot-japan.com/tags/information/</link>
+				<pubDate>Mon, 30 Sep 2024 23:19:02 +0900</pubDate>
+				<guid>https://godot-japan.com/tags/information/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Official-Log</title>
+				<link>https://godot-japan.com/tags/official-log/</link>
+				<pubDate>Mon, 30 Sep 2024 23:19:02 +0900</pubDate>
+				<guid>https://godot-japan.com/tags/official-log/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Blue</title>
+				<link>https://godot-japan.com/tags/blue/</link>
+				<pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+				<guid>https://godot-japan.com/tags/blue/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Green</title>
+				<link>https://godot-japan.com/tags/green/</link>
+				<pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+				<guid>https://godot-japan.com/tags/green/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Red</title>
+				<link>https://godot-japan.com/tags/red/</link>
+				<pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+				<guid>https://godot-japan.com/tags/red/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

@@ -1,6 +1,10 @@
 {{- $url := (.Get 0) -}}
 {{/* resources.GetRemote のエラーハンドリング */}}
-{{- with resources.GetRemote $url -}}
+{{- with try (resources.GetRemote $url) -}}
+{{- with .Err -}}
+    {{- warnf "blog-card: %s" . -}}
+    <a href="{{- $url -}}" target="_blank" rel="noopener noreferrer">{{- $url -}}</a>
+{{- else with .Value -}}
     {{- $result := . -}}
         {{- $title := "" -}}
         {{- $description := "" -}}
@@ -33,9 +37,17 @@
         {{- $thumbnail_url := "" -}}
         {{- if $image -}}
             {{/* サムネイル取得のエラーハンドリング */}}
-            {{- with resources.GetRemote $image -}}
-                {{- $thumbnail := . -}}
-                {{- $thumbnail_url = ($thumbnail.Fit (printf "400x400 center q75 webp")).Permalink -}}
+            {{- with try (resources.GetRemote $image) -}}
+                {{- with .Err -}}
+                    {{- warnf "blog-card thumbnail: %s" . -}}
+                {{- else with .Value -}}
+                    {{- $thumbnail_url = (.Fit (printf "400x400 center q75 webp")).Permalink -}}
+                {{- end -}}
+            {{- end -}}
+            {{- if and (eq $thumbnail_url "") $.Site.Params.defaultNoImage -}}
+                {{- with resources.Get $.Site.Params.defaultNoImage -}}
+                    {{- $thumbnail_url = (.Fit (printf "400x400 center q75 webp")).Permalink -}}
+                {{- end -}}
             {{- end -}}
         {{- else -}}
             {{- $thumbnail := resources.Get $.Site.Params.defaultNoImage -}}
@@ -59,4 +71,5 @@
             </div>
         </div>
         </a>
+{{- end -}}
 {{- end -}}
